@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samin Golf-tuloskortit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #f3f4f6; }
+    </style>
+</head>
+<body class="text-gray-800 font-sans p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- Header Section -->
+        <div class="bg-gradient-to-r from-green-800 to-green-900 rounded-t-xl p-6 text-white shadow-lg flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl md:text-3xl font-bold tracking-tight">Golf Dashboard</h1>
+                <p class="text-green-200 text-sm mt-1">Sami Sikilän tuloshistoria ja tilastot</p>
+            </div>
+            <div class="text-right">
+                <div class="text-sm text-green-200 uppercase tracking-wider font-semibold">Kierrokset</div>
+                <div class="text-3xl font-bold">1</div>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="grid grid-cols-2 gap-4 mb-6 mt-4">
+            <div class="bg-white rounded-xl p-5 shadow flex items-center justify-between border border-gray-100">
+                <div>
+                    <p class="text-sm text-gray-500 font-medium uppercase tracking-wide">Keskiarvo</p>
+                    <p class="text-3xl font-bold text-gray-900 mt-1">84.0</p>
+                </div>
+                <div class="p-3 bg-blue-50 rounded-full text-blue-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl p-5 shadow flex items-center justify-between border border-gray-100">
+                <div>
+                    <p class="text-sm text-gray-500 font-medium uppercase tracking-wide">Paras tulos</p>
+                    <p class="text-3xl font-bold text-gray-900 mt-1">84</p>
+                </div>
+                <div class="p-3 bg-yellow-50 rounded-full text-yellow-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- History Table -->
+        <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-100">
+            <div class="px-6 py-4 border-b border-gray-200 bg-gray-50">
+                <h2 class="text-lg font-bold text-gray-800">Tuloshistoria</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white">
+                    <thead class="bg-gray-100 text-gray-600 uppercase text-xs font-semibold tracking-wider">
+                        <tr>
+                            <th class="py-3 px-4 text-left">Päivä</th>
+                            <th class="py-3 px-4 text-left">Kenttä</th>
+                            <th class="py-3 px-4 text-center">Tulos</th>
+                            <th class="py-3 px-4 text-center hidden md:table-cell">Etu / Taka</th>
+                            <th class="py-3 px-4 text-center">Par/Birdie</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        
+    <tr class="border-b border-gray-200 hover:bg-gray-50">
+        <td class="py-3 px-4 text-left whitespace-nowrap">
+            <div class="font-medium text-gray-900">2026-04-19</div>
+        </td>
+        <td class="py-3 px-4 text-left">
+            <div class="font-medium text-gray-800">Archipelagia Golf Club</div>
+            <div class="text-xs text-gray-500">Par 71</div>
+        </td>
+        <td class="py-3 px-4 text-center">
+            <div class="font-bold text-gray-900 text-lg">84</div>
+            <div class="text-xs text-gray-500">(+13)</div>
+        </td>
+        <td class="py-3 px-4 text-center text-gray-600 hidden md:table-cell">46 / 38</td>
+        <td class="py-3 px-4 text-center">
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800 mr-1">P: 3</span>
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 text-red-800">B: 2</span>
+        </td>
+    </tr>
+    
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        
+        <div class="text-center mt-8 text-sm text-gray-400">
+            Päivitetty automaattisesti tekoälyllä • 19.04.2026 20:15
+        </div>
+
+    </div>
+
+</body>
+</html>
