@@ -2,7 +2,7 @@ import os
 import glob
 from datetime import datetime
 
-directory = "/data/.openclaw/workspace/ai-website"
+directory = os.path.dirname(os.path.abspath(__file__))
 os.chdir(directory)
 
 # Get all main newsletters
