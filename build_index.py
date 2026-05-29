@@ -110,6 +110,8 @@ for item in main_items:
         display_title = "Viikon tärkeimmät AI-uutiset"
     elif "Copilot katsaus" in display_title:
         display_title = "Microsoft Copilot - Käyttötapaukset"
+    elif "Vibe coding" in display_title:
+        display_title = "Vibe Coding -uutiset"
         
     html_content += f"""                    <li>
                         <a href="{item['file']}">{display_title}</a>
