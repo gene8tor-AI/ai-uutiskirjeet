@@ -6,7 +6,12 @@ directory = os.path.dirname(os.path.abspath(__file__))
 os.chdir(directory)
 
 # Get all main newsletters
-main_files = glob.glob("*_uutiset_*.html") + glob.glob("executive_ai_brief_*.html") + glob.glob("viikon_ai_uutiset_*.html") + glob.glob("copilot_katsaus_*.html")
+main_files = sorted(set(
+    glob.glob("*_uutiset_*.html")
+    + glob.glob("executive_ai_brief_*.html")
+    + glob.glob("viikon_ai_uutiset_*.html")
+    + glob.glob("copilot_katsaus_*.html")
+))
 main_items = []
 for f in main_files:
     if "hot_news" in f: continue
