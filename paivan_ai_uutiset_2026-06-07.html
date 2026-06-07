@@ -2,182 +2,42 @@
 <html lang="fi">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Päivän tärkeimmät AI-uutiset - 7.6.2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Päivän AI-uutiset — 7.6.2026</title>
+  <meta name="description" content="Tuore suomalainen AI-uutiskirje viimeisen 24 tunnin verifioiduista uutisista.">
   <style>
-    :root{--bg:#f4f4f0;--paper:#fff;--ink:#172033;--muted:#647084;--line:#e7e3dc;--blue:#2563c7;--green:#16803c;--amber:#b45309;--violet:#6d3fc2}
-    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.68}.wrapper{max-width:760px;margin:34px auto;background:var(--paper);border-radius:8px;overflow:hidden;box-shadow:0 10px 38px #00000018}.header{background:linear-gradient(135deg,#17385f,#0d1b2a);padding:44px 38px 34px;text-align:center}.label,.date,.section-label,.article-meta,.tag,.footer{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.label{font-size:11px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:#8cc7f2}.header h1{margin:12px 0 8px;color:white;font-size:32px;line-height:1.18}.date{font-size:13px;color:#b8d2e9;letter-spacing:.5px}.intro{padding:28px 38px 22px;background:#fbfaf7;border-bottom:1px solid var(--line)}.intro p{margin:0;color:#3f4652;font-size:16px;font-style:italic}.section-label{padding:30px 38px 0;font-size:12px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#406d96}.subhead{padding:18px 38px 0;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:15px;color:#0d1b2a}.article{padding:19px 38px 24px;border-bottom:1px solid #efede8}.article-meta{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#8891a0;margin-bottom:7px}.article h2{font-size:20px;line-height:1.3;margin:0 0 10px}.article h2 a{color:inherit;text-decoration:none}.article p{margin:0 0 10px;color:#303846;font-size:15px}.article .source{font-size:13px;margin-top:8px}.article a{color:var(--blue);font-weight:700}.tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:9px}.tag-uutinen{background:#e8f0fb;color:var(--blue)}.tag-teknologia{background:#f1e9ff;color:var(--violet)}.tag-tutkimus{background:#eaf6ee;color:var(--green)}.tag-bisnes{background:#fff1db;color:var(--amber)}.tag-x{background:#111827;color:white}.note{margin:14px 38px 0;color:var(--muted);font-size:15px}.divider{height:3px;background:linear-gradient(90deg,#0d1b2a,#7db8e8,#0d1b2a);opacity:.14}.footer{background:#0d1b2a;color:#89a3bd;text-align:center;padding:26px 38px;font-size:12px;line-height:1.8}.footer strong{color:#bdd7ef}@media(max-width:640px){.wrapper{margin:0;border-radius:0}.header,.intro,.article,.footer{padding-left:22px;padding-right:22px}.section-label,.subhead{padding-left:22px;padding-right:22px}.note{margin-left:22px;margin-right:22px}.header h1{font-size:27px}}
+    :root { --bg:#0b1020; --card:#121a31; --text:#eef3ff; --muted:#aeb9d4; --accent:#7dd3fc; --accent2:#c084fc; --line:rgba(255,255,255,.12); }
+    * { box-sizing:border-box; } body { margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,Arial,sans-serif; background:radial-gradient(circle at top left,#1d2b55 0,#0b1020 38%,#070a13 100%); color:var(--text); line-height:1.6; }
+    .wrap { max-width:920px; margin:0 auto; padding:40px 20px 60px; }
+    .hero { padding:34px; border:1px solid var(--line); border-radius:28px; background:linear-gradient(135deg,rgba(125,211,252,.16),rgba(192,132,252,.12)); box-shadow:0 24px 80px rgba(0,0,0,.35); }
+    .kicker { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.82rem; }
+    h1 { margin:.25rem 0 .4rem; font-size:clamp(2rem,5vw,3.6rem); line-height:1.05; }
+    .signal { font-size:1.1rem; color:#dbe7ff; margin:16px 0 0; }
+    section { margin-top:30px; } h2 { font-size:1.35rem; margin:0 0 14px; }
+    .grid { display:grid; gap:16px; } .card { background:rgba(18,26,49,.82); border:1px solid var(--line); border-radius:22px; padding:22px; backdrop-filter:blur(10px); }
+    .card h3 { margin:0 0 8px; font-size:1.18rem; } .meta { color:var(--muted); font-size:.9rem; margin:.4rem 0 .8rem; }
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    .why { border-left:3px solid var(--accent2); padding-left:12px; color:#e7ddff; margin-top:10px; }
+    ul { padding-left:1.2rem; } li { margin:.65rem 0; }
+    footer { margin-top:36px; color:var(--muted); font-size:.92rem; border-top:1px solid var(--line); padding-top:20px; }
   </style>
 </head>
-<body>
-  <main class="wrapper">
-    <header class="header">
-      <div class="label">Päivittäinen katsaus</div>
-      <h1>Päivän tärkeimmät AI-uutiset</h1>
-      <div class="date">Päiväkatsaus: 7. kesäkuuta 2026</div>
-    </header>
-    <div class="intro">
-      <p>Tämän päivän AI-virta painottuu agenttien kustannuksiin ja luotettavuuteen, mallien erikoistumiseen, kuluttaja- ja yritysagenttien leviämiseen sekä siihen, miten teleoperaattorit rakentavat AI:lle uutta verkkoinfrastruktuuria.</p>
-    </div>
-
-    <div class="section-label">🚀 Suuret uutiset</div>
-    <article class="article">
-      <div class="tag tag-uutinen">Uutinen</div>
-      <div class="article-meta">Reuters / AI Daily Brief</div>
-      <h2><a href="https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/">ChatGPTin sovellus nousi miljardin kuukausikäyttäjän mittaluokkaan</a></h2>
-      <p>Sensor Towerin arvioihin perustuvan Reutersin jutun mukaan ChatGPT-sovellus on ylittänyt miljardin kuukausittaisen aktiivikäyttäjän rajan ennätysvauhdilla. Mittakaava tekee OpenAI:sta kuluttaja-AI:n selkeän jakelukanavajohtajan, vaikka kilpailijat kasvavat nopeasti omilla alueillaan.</p>
-      <p class="source"><a href="https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/">Lue alkuperäinen artikkeli</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-uutinen">Uutinen</div>
-      <div class="article-meta">Meta / Reuters</div>
-      <h2><a href="https://about.fb.com/news/2026/06/meta-business-agent/">Meta vie yritysagentin WhatsAppin 200 miljoonan yrityksen kanavaan</a></h2>
-      <p>Meta esitteli Business Agentin, joka automatisoi esimerkiksi ajanvarauksia, myyntiä ja asiakaspalvelua WhatsAppissa toimiville pienyrityksille. Uutisen merkitys on jakelussa: agentti ei lähde vain suuryritysten järjestelmistä, vaan suoraan niistä keskustelukanavista, joissa pienet yritykset jo palvelevat asiakkaita.</p>
-      <p class="source"><a href="https://about.fb.com/news/2026/06/meta-business-agent/">Lue alkuperäinen artikkeli</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-teknologia">Teknologia</div>
-      <div class="article-meta">Cloudflare / Cybersecurity News</div>
-      <h2><a href="https://radar.cloudflare.com/traffic#bot-vs-human">Botit ohittivat ihmiset verkkoliikenteessä</a></h2>
-      <p>Cloudflaren liikennedatan mukaan botit ja agentit muodostavat nyt enemmistön sen läpi kulkevasta verkkoliikenteestä. AI-scraperit ja web-agentit muuttavat verkkotaloutta nopeasti: sisällöntuottajien jakelumallit, mainosmarkkina ja tietoturva joutuvat samaan aikaan paineeseen.</p>
-      <p class="source"><a href="https://radar.cloudflare.com/traffic#bot-vs-human">Avaa Cloudflare Radar</a></p>
-    </article>
-
-    <div class="divider"></div>
-    <div class="section-label">🤖 Mallit &amp; tuotteet</div>
-    <article class="article">
-      <div class="tag tag-teknologia">Teknologia</div>
-      <div class="article-meta">Google / AI News</div>
-      <h2><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/">Gemma 4 QAT nostaa kvantisoinnin käytännön kilpailutekijäksi</a></h2>
-      <p>Google toi Gemma 4 -malliperheeseen kvantisointitietoisesti koulutettuja versioita, joiden tavoite on pienempi muistinkulutus ilman suurta laatuhäviötä. Paikallisen ja reunalaskennan kannalta tämä on tärkeä kehityssuunta: mallin laatu ei yksin riitä, jos sitä ei saa ajettua järkevällä muistilla ja kustannuksella.</p>
-      <p class="source"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/">Lue alkuperäinen artikkeli</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-teknologia">Teknologia</div>
-      <div class="article-meta">Perplexity / VentureBeat</div>
-      <h2><a href="https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine">Perplexity jakaa agenttilaskentaa paikallisen laitteen ja pilven välillä</a></h2>
-      <p>Perplexity esitteli mallin, jossa agenttitehtävä jaetaan alitehtäviin ja reititetään automaattisesti paikalliselle laitteelle tai pilveen. Tämä on käytännöllinen vastaus samaan ongelmaan, josta koko ala puhuu: kustannus, latenssi, yksityisyys ja älykkyys pitää ratkaista arkkitehtuurissa, ei vain mallivalinnassa.</p>
-      <p class="source"><a href="https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine">Lue alkuperäinen artikkeli</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-teknologia">Teknologia</div>
-      <div class="article-meta">AI Daily Brief / Factory AI</div>
-      <h2><a href="https://x.com/FactoryAI/status/2061862733126275549">Factory Router tekee mallireitityksestä tuotteen</a></h2>
-      <p>Factory lanseerasi Router-tuotteen, jonka tarkoitus on valita sopiva malli jokaiseen ohjelmistokehitystehtävään ja leikata kustannuksia ilman, että agenttien laatu romahtaa. Tämä vahvistaa trendiä, jossa kallein frontier-malli ei ole enää oletus, vaan yksi työkalu reitityskerrokseen.</p>
-      <p class="source"><a href="https://x.com/FactoryAI/status/2061862733126275549">Lue alkuperäinen postaus</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-teknologia">Teknologia</div>
-      <div class="article-meta">Inc. / Notion RSS</div>
-      <h2><a href="https://www.inc.com/kevin-haynes/ai-is-back-on-mcdonalds-drive-thru-menu-will-it-work-this-time/91357265">McDonald's testaa uudelleen AI-vetoista drive-thru-tilaamista</a></h2>
-      <p>McDonald'sin Google-teknologiaan nojaava Archy-järjestelmä palauttaa AI-tilaukset pikaruokaketjun kokeilulistalle. Tapaus on hyvä muistutus siitä, että arjen AI-tuotteissa ratkaisevaa ei ole pelkkä demo, vaan virheiden sieto, operatiivinen integraatio ja asiakkaan luottamus.</p>
-      <p class="source"><a href="https://www.inc.com/kevin-haynes/ai-is-back-on-mcdonalds-drive-thru-menu-will-it-work-this-time/91357265">Lue alkuperäinen artikkeli</a></p>
-    </article>
-
-    <div class="divider"></div>
-    <div class="section-label">🧠 Tutkimus &amp; teknologia</div>
-    <article class="article">
-      <div class="tag tag-tutkimus">Tutkimus</div>
-      <div class="article-meta">Anthropic / AI News</div>
-      <h2><a href="https://www.anthropic.com/research">Claudea testataan kemian NMR-analyysissa erikoisohjelmistoja vastaan</a></h2>
-      <p>AI Newsin mukaan Anthropic nosti esiin tuloksia, joissa Claude Opus 4.7 pystyy tietyissä NMR-spektroskopian tehtävissä vastaamaan tai ylittämään erikoistuneiden ohjelmistojen tason. Jos tulokset kestävät laajemman arvioinnin, ne vahvistavat kuvaa suurista kielimalleista tutkimusavustajina, eivät vain tekstityökaluina.</p>
-      <p class="source"><a href="https://www.anthropic.com/research">Avaa Anthropic Research</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-tutkimus">Tutkimus</div>
-      <div class="article-meta">AI News / Stanford Law</div>
-      <h2><a href="https://law.stanford.edu/publications/law-professors-prefer-ai-over-peer-answers/">Lakiprofessorit suosivat sokkotestissä AI-vastauksia kollegoiden vastauksiin nähden</a></h2>
-      <p>Stanfordiin linkittyvä tutkimus vertasi sopimusoikeuden professorien ja LLM-järjestelmän vastauksia sokkoarvioinnissa. Tulokset eivät tarkoita, että oikeudellista päätöksentekoa pitäisi automatisoida, mutta ne näyttävät, miksi rajattu, hyvin pohjustettu RAG-tyyppinen työ voi olla vahva tukikerros asiantuntija-aloilla.</p>
-      <p class="source"><a href="https://law.stanford.edu/publications/law-professors-prefer-ai-over-peer-answers/">Lue alkuperäinen julkaisu</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-tutkimus">Tutkimus</div>
-      <div class="article-meta">AP News / Notion RSS</div>
-      <h2><a href="https://apnews.com/article/anthropic-artificial-intelligence-ai-938c99158e5953601cf3322f1cec12af">Anthropic ehdottaa koordinoitua pysäytysmekanismia AI-riskien kasvaessa</a></h2>
-      <p>AP:n mukaan Anthropic haluaa, että johtavat AI-yhtiöt sopivat tavasta hidastaa tai pysäyttää erittäin kehittyneiden järjestelmien kehitystä, jos riskitaso nousee. Uutinen on merkittävä, koska se yrittää siirtää turvallisuuspuhetta yksittäisistä mallikorteista yhteiseen toimintamalliin.</p>
-      <p class="source"><a href="https://apnews.com/article/anthropic-artificial-intelligence-ai-938c99158e5953601cf3322f1cec12af">Lue alkuperäinen artikkeli</a></p>
-    </article>
-
-    <div class="divider"></div>
-    <div class="section-label">💰 Liiketoiminta &amp; rahoitus</div>
-    <article class="article">
-      <div class="tag tag-bisnes">Bisnes</div>
-      <div class="article-meta">Business Insider / Bloomberg / AI Daily Brief</div>
-      <h2><a href="https://www.businessinsider.com/sam-altman-openai-top-token-spender-ai-costs-issue-2026-6">Token-kustannuksista tuli yritys-AI:n näkyvä pullonkaula</a></h2>
-      <p>AI Daily Briefin pääteema oli yritysten token-tehokkuus: agenttien käyttöönotto kasvattaa kulutusta, ja kustannukset ovat nousseet johdon keskusteluun nopeasti. Seuraava kilpailu ei ole vain parhaasta mallista, vaan parhaasta arkkitehtuurista: kontekstin laatu, reititys, muistaminen ja mittarointi ratkaisevat.</p>
-      <p class="source"><a href="https://www.businessinsider.com/sam-altman-openai-top-token-spender-ai-costs-issue-2026-6">Lue alkuperäinen artikkeli</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-bisnes">Bisnes</div>
-      <div class="article-meta">Ramp / Notion RSS</div>
-      <h2><a href="https://ramp.com/leading-indicators/top-saas-vendors-on-ramp-june-2026">DeepSeek nousi Rampin trendikkäimpien ohjelmistotoimittajien kärkeen</a></h2>
-      <p>Rampin kesäkuun ohjelmistotoimittajalista nosti DeepSeekin ykköseksi, mikä kertoo yritysten halusta löytää halvempia AI-vaihtoehtoja. Signaali on sekä tekninen että kaupallinen: kustannuspaine voi ohjata myös yhdysvaltalaisia yrityksiä käyttämään palveluita, joiden data- ja sääntelykysymykset ovat monimutkaisempia.</p>
-      <p class="source"><a href="https://ramp.com/leading-indicators/top-saas-vendors-on-ramp-june-2026">Lue alkuperäinen julkaisu</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-bisnes">Bisnes</div>
-      <div class="article-meta">Politico / Notion RSS</div>
-      <h2><a href="https://www.politico.com/news/2026/06/05/ai-companies-white-house-profit-sharing-00952167">Valkoinen talo pohtii AI-yhtiöiden voitonjakomalleja</a></h2>
-      <p>Politicon mukaan presidentti Trumpin hallinto aikoo tavata AI-yhtiöitä keskustellakseen mahdollisista voitonjakomalleista. Vaikka ajatus on varhaisessa vaiheessa, se kertoo poliittisen keskustelun siirtymisestä AI:n riskeistä myös siihen, kuka hyötyy infrastruktuurin ja mallien taloudellisesta arvosta.</p>
-      <p class="source"><a href="https://www.politico.com/news/2026/06/05/ai-companies-white-house-profit-sharing-00952167">Lue alkuperäinen artikkeli</a></p>
-    </article>
-
-    <div class="divider"></div>
-    <div class="section-label">📡 Telco AI</div>
-    <h3 class="subhead">Europe</h3>
-    <p class="note">Ei merkittäviä uusia Telco AI -uutisia tältä alueelta viime päiviltä.</p>
-    <h3 class="subhead">USA</h3>
-    <article class="article">
-      <div class="tag tag-teknologia">Telco AI</div>
-      <div class="article-meta">Telco Magazine / Web-haku</div>
-      <h2><a href="https://telcomagazine.com/news/t-mobile-uses-ai-to-tackle-event-network-surges">T-Mobile käyttää AI-ennustamista suurten tapahtumien verkkoruuhkiin</a></h2>
-      <p>T-Mobile hyödyntää Self-Organising Network -teknologiaa, AI-pohjaista ennustamista ja automaatiota suurten tapahtumien kapasiteettipiikkien hallintaan. Operaattorille tämä on suora esimerkki AI:n arvosta verkko-operaatioissa: vähemmän reaktiivista palonsammutusta ja enemmän ennakoivaa optimointia.</p>
-      <p class="source"><a href="https://telcomagazine.com/news/t-mobile-uses-ai-to-tackle-event-network-surges">Lue alkuperäinen artikkeli</a></p>
-    </article>
-    <h3 class="subhead">Asia</h3>
-    <article class="article">
-      <div class="tag tag-teknologia">Telco AI</div>
-      <div class="article-meta">Korea JoongAng Daily / Notion RSS</div>
-      <h2><a href="https://koreajoongangdaily.joins.com/news/2026-06-07/business/industry/Paju-AI-data-center-at-heart-of-LG-Us-33-billion-order-push/2609744">LG U+ rakentaa Paju AI -datakeskusta 3,3 miljardin dollarin tilauskasvun tueksi</a></h2>
-      <p>LG U+ rakentaa Paju AI Data Centeriä generatiivisen AI:n laskentatarpeisiin, hybridi-jäähdytyksellä ja vahvalla sähkönsyötöllä. Aasialaisille teleoperaattoreille uutinen korostaa siirtymää yhteyksien myynnistä AI-infrastruktuurin ja laskentakapasiteetin orkestrointiin.</p>
-      <p class="source"><a href="https://koreajoongangdaily.joins.com/news/2026-06-07/business/industry/Paju-AI-data-center-at-heart-of-LG-Us-33-billion-order-push/2609744">Lue alkuperäinen artikkeli</a></p>
-    </article>
-
-    <div class="divider"></div>
-    <div class="section-label">𝕏 X-signaalit</div>
-    <article class="article">
-      <div class="tag tag-x">X-signaali</div>
-      <div class="article-meta">@AnthropicAI / 5.6.2026</div>
-      <h2><a href="https://x.com/AnthropicAI/status/2062979607448682731">Anthropic nostaa Clauden kemian NMR-analyysin esimerkiksi</a></h2>
-      <p>Postauksessa nostetaan esiin Claude Opus 4.7:n kykyä ratkaista molekyylirakenteen analyysitehtäviä NMR-aineistosta. Tätä kannattaa käsitellä signaalina erikoisalojen AI-työkalujen kehityksestä, ei vielä yleisenä todisteena siitä, että malli korvaisi laboratorio-ohjelmistot laajasti.</p>
-      <p class="source"><a href="https://x.com/AnthropicAI/status/2062979607448682731">Avaa alkuperäinen X-postaus</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-x">X-signaali</div>
-      <div class="article-meta">@marcopapa99 / 5.6.2026</div>
-      <h2><a href="https://x.com/marcopapa99/status/2062849579377475716">Agentit, muistirakenne ja AI-politiikka niputetaan samaan tilannekuvaan</a></h2>
-      <p>Postauksessa koottu tilannekuva yhdistää agenttikehityksen, mallien muistirakenteet, NVIDIA:n agenttimallit ja Yhdysvaltain AI-politiikan. Hyödyllisin signaali on kokonaiskuva: tekniset julkaisut ja sääntelykeskustelu liikkuvat nyt samassa rytmissä.</p>
-      <p class="source"><a href="https://x.com/marcopapa99/status/2062849579377475716">Avaa alkuperäinen X-postaus</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-x">X-signaali</div>
-      <div class="article-meta">@AiToolsRecap / 6.6.2026</div>
-      <h2><a href="https://x.com/AiToolsRecap/status/2063064541240643682">Microsoftin omat MAI-mallit ja Claude-huhut nousivat AI-työkalukeskusteluun</a></h2>
-      <p>X-haun mukaan postaus kokoaa signaaleja Microsoftin sisäisestä mallipinosta, Anthropic-julkaisuodotuksista ja NVIDIA:n kannettaviin ulottuvasta CUDA-on-ARM-kehityksestä. Tämä on ennen kaikkea markkinasignaali siitä, että suuret alustat haluavat omat erikoistuneet mallipinonsa.</p>
-      <p class="source"><a href="https://x.com/AiToolsRecap/status/2063064541240643682">Avaa alkuperäinen X-postaus</a></p>
-    </article>
-    <article class="article">
-      <div class="tag tag-x">X-signaali</div>
-      <div class="article-meta">@Daily5MinNews / 5.6.2026</div>
-      <h2><a href="https://x.com/Daily5MinNews/status/2062869753660596280">Katsaus linkittää robotiikan, lääketieteen ja AI-infran kehitystä</a></h2>
-      <p>Postauksessa nostetaan esiin väitteitä muun muassa xAI:n fyysisen maailman mallista, lääketieteellisestä kuvantamisesta ja NVIDIA:n sirukapasiteetista. Koska kyse on koontipostauksesta, se toimii seurattavana signaalina, mutta yksittäiset väitteet pitää varmistaa alkuperäislähteistä ennen johtopäätöksiä.</p>
-      <p class="source"><a href="https://x.com/Daily5MinNews/status/2062869753660596280">Avaa alkuperäinen X-postaus</a></p>
-    </article>
-
-    <footer class="footer">
-      <p><strong>Päivän tärkeimmät AI-uutiset</strong><br>Koottu lähteistä: AI Daily Brief, AI News, Notion RSS, web-haku ja X-haku 7.6.2026<br>Julkaisupäivä: 7.6.2026</p>
-      <p>Luotu automaattisesti tekoälyllä. X-postaukset ovat signaaleja, eivät automaattisesti varmennettuja faktoja.</p>
-    </footer>
-  </main>
-</body>
-</html>
+<body><main class="wrap">
+  <div class="hero">
+    <div class="kicker">Päivän AI-uutiset • 7.6.2026</div>
+    <h1>Turvaa, sääntelyä ja AI-infraa</h1>
+    <p class="signal"><strong>Tämän päivän signaali:</strong> AI-kehityksen painopiste ei ole vain uusissa malleissa — nyt ratkaistaan, miten agentit suojataan, kuka omistaa AI:n arvonnousun ja minne laskentainfra rakennetaan.</p>
+  </div>
+  <section><h2>🔥 Tärkeimmät</h2><div class="grid">
+    <article class="card"><h3>1. OpenAI toi ChatGPT:hen Lockdown Mode -tilan</h3><div class="meta">Julkaistu 6.6.2026 20:32 UTC</div><p>TechCrunch raportoi, että Lockdown Mode rajoittaa mm. live-verkkoselausta, kuvien hakua, deep research -toimintoa ja agenttitilaa, jotta prompt injection -hyökkäysten aiheuttamaa datavuotoriskiä voidaan pienentää. OpenAI korostaa, ettei tila poista riskiä kokonaan ja että se on suunnattu arkaluonteista dataa käsitteleville käyttäjille ja organisaatioille.</p><p class="why"><strong>Miksi sillä on väliä:</strong> prompt injection on agentti- ja työtilakäytön keskeinen riski; rajoitustilat voivat muuttua enterprise-AI:n perusominaisuudeksi.</p><p><a href="https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/">Lähde</a></p></article>
+    <article class="card"><h3>2. Yhdysvaltain hallinto pohtii omistusosuutta OpenAI:ssa</h3><div class="meta">Julkaistu 6.6.2026 16:17 UTC</div><p>TechCrunchin mukaan Trumpin hallinto on keskustellut malleista, joissa amerikkalaiset voisivat hyötyä tekoäly-yhtiöiden arvonnoususta; CNBC:n mukaan keskusteluissa on ollut myös mahdollinen omistusosuus OpenAI:ssa ja OpenAI:n ehdottama Public Wealth Fund.</p><p class="why"><strong>Miksi sillä on väliä:</strong> keskustelu siirtää AI-politiikkaa pelkästä sääntelystä kohti omistusta, verotusta ja kansalaisten osuutta AI-tuotoista.</p><p><a href="https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/">Lähde</a></p></article>
+  </div></section>
+  <section><h2>⚡ Nopeat nostot</h2><div class="card"><ul>
+    <li><strong>Sriram Krishnan jättää Valkoisen talon AI-neuvonantajan roolin:</strong> Krishnan sanoo siirtyvänsä rakentamaan uusia instituutioita, jotka jatkavat energian, datakeskusten ja AI:n hyötyjen kaltaisten kysymysten parissa; TechCrunchin mukaan hänellä voi yhä olla vaikutus Trumpin AI-politiikkaan hallinnon ulkopuolelta. <a href="https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/">Lähde</a></li>
+    <li><strong>NVIDIA vie RTX Sparkia Korean PC bang -pelikulttuuriin:</strong> NVIDIA kertoo tuovansa RTX Spark -alustaa paikallisen AI:n, luovan työn ja pelaamisen ympäristöihin yhdessä KRAFTONin, NC:n ja T1:n kanssa. Viesti on selvä: henkilökohtaiset AI-agentit halutaan lähemmäs kuluttajalaitteita, ei vain pilveen. <a href="https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/">Lähde</a></li>
+    <li><strong>Indiana-datakeskuskiista muistuttaa AI-infran paikallisista jännitteistä:</strong> The Verge raportoi Shelbyvillen pormestarin kommentista datakeskusta vastustaville asukkaille. Tapaus on pieni mutta kuvaava: AI-buumin sähkö-, vesi- ja maankäyttövaikutukset muuttuvat yhä useammin paikallispolitiikaksi. <a href="https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center">Lähde</a></li>
+  </ul></div></section>
+  <section><h2>🧰 Rakentajille</h2><div class="card"><p><strong>Hugging Face -rakentajaraportti: monta pientä mallia samassa agenttitaloudessa:</strong> Build Small Hackathon -postaus kuvaa Thousand Token Wood v2:n: neljä alle 32B-parametrin mallia pyörittää agenttien taloutta, jossa muistia tiivistetään bucket-yhteenvedoiksi promptien paisumisen estämiseksi.</p><p class="why"><strong>Rakentajan takeaway:</strong> pienillä malleilla voi tehdä kiinnostavia agenttijärjestelmiä, kun muisti, totuusrajat ja testattavat säännöt suunnitellaan eksplisiittisesti.</p><p><a href="https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2">Lähde</a></p></div></section>
+  <section><h2>🧭 Mitä seurata seuraavaksi</h2><div class="card"><ul><li>Tuleeko Lockdown Mode -tyyppisistä suojatiloista oletus enterprise-chatboteissa?</li><li>Muuttuuko Yhdysvaltain AI-politiikka valtion omistusosuuksien ja kansalaisrahastojen suuntaan?</li><li>Kuinka paikalliset datakeskuskiistat vaikuttavat AI-laskennan laajentamiseen?</li></ul></div></section>
+  <footer>Koottu vain lähteistä, joiden julkaisu- tai päivitysaika oli verifioitavasti viimeisen 24 tunnin sisällä suhteessa ajohetkeen 7.6.2026 klo 12:00 EEST. Ei sijoitusneuvontaa.</footer>
+</main></body></html>
