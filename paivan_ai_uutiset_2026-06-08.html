@@ -1,240 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Päivän tärkeimmät AI-uutiset – 8. kesäkuuta 2026</title>
- <style>
- * { box-sizing: border-box; margin: 0; padding: 0; }
- body { font-family: 'Georgia', 'Times New Roman', serif; background-color: #f4f4f0; color: #1a1a1a; line-height: 1.7; }
- .wrapper { max-width: 680px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.10); }
- .header { background: linear-gradient(135deg, #1b3a5c 0%, #0d1b2a 100%); padding: 48px 40px 36px; text-align: center; }
- .header .label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #7db8e8; margin-bottom: 12px; }
- .header h1 { font-size: 30px; font-weight: 700; color: #ffffff; line-height: 1.25; margin-bottom: 10px; }
- .header .date { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #9dbdd8; letter-spacing: 1px; }
- .intro { padding: 28px 40px 20px; border-bottom: 1px solid #e8e8e3; background: #fafaf8; }
- .intro p { font-size: 15px; color: #444; font-style: italic; }
- .section-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #7db8e8; padding: 28px 40px 0; }
- .article { padding: 20px 40px 24px; border-bottom: 1px solid #eeede8; }
- .article:last-of-type { border-bottom: none; }
- .article-meta { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: #999; margin-bottom: 7px; }
- .article h2 { font-size: 19px; font-weight: 700; color: #0d1b2a; margin-bottom: 10px; line-height: 1.3; }
- .article p { font-size: 15px; color: #333; line-height: 1.75; }
- .tag { display: inline-block; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 3px 9px; border-radius: 20px; margin-bottom: 10px; }
- .tag-uutinen { background: #e8f0fb; color: #2563c7; }
- .tag-tutkimus { background: #eaf6ee; color: #1a7c3e; }
- .tag-bisnes { background: #fef3e2; color: #b45309; }
- .tag-teknologia { background: #f3e8ff; color: #7c3aed; }
- .highlight-box { margin: 0 40px 24px; padding: 20px 24px; background: #f0f6ff; border-left: 4px solid #2563c7; border-radius: 4px; }
- .highlight-box p { font-size: 14px; color: #1e3a6b; line-height: 1.7; }
- .section-divider { height: 3px; background: linear-gradient(90deg, #0d1b2a, #7db8e8, #0d1b2a); margin: 4px 0; opacity: 0.15; }
- .footer { background: #0d1b2a; padding: 28px 40px; text-align: center; }
- .footer p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; color: #7a94ae; line-height: 1.8; }
- .footer strong { color: #9dbdd8; }
- </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Päivän AI-uutiset — 8.6.2026</title>
+  <meta name="description" content="Tuore AI-uutiskirje viimeisen 24 tunnin ajalta.">
+  <style>
+    :root { color-scheme: light dark; --bg:#0b1020; --card:#121a33; --text:#eef3ff; --muted:#a9b5d6; --accent:#76e4f7; --accent2:#a78bfa; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: radial-gradient(circle at top left, #23346c 0, transparent 36%), var(--bg); color:var(--text); line-height:1.6; }
+    main { max-width: 860px; margin: 0 auto; padding: 48px 20px 64px; }
+    .hero { padding: 36px 28px; border:1px solid rgba(255,255,255,.12); border-radius:28px; background:linear-gradient(135deg, rgba(118,228,247,.16), rgba(167,139,250,.13)); box-shadow:0 24px 80px rgba(0,0,0,.32); }
+    h1 { margin:0 0 12px; font-size: clamp(2rem, 5vw, 4rem); line-height:1.02; letter-spacing:-.05em; }
+    .lead { font-size:1.12rem; color:var(--muted); margin:0; }
+    .signal { margin-top:18px; padding:14px 16px; border-radius:18px; background:rgba(255,255,255,.08); }
+    .card { margin-top:18px; padding:24px; border:1px solid rgba(255,255,255,.11); border-radius:24px; background:rgba(18,26,51,.78); backdrop-filter: blur(10px); }
+    .kicker { margin:0 0 8px; color:var(--accent); font-weight:800; text-transform:uppercase; letter-spacing:.08em; font-size:.8rem; }
+    h2 { margin:0 0 10px; line-height:1.2; font-size:1.35rem; }
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    .sources { margin-bottom:0; font-weight:700; }
+    .watch { margin-top:22px; padding:24px; border-radius:24px; background:rgba(118,228,247,.1); }
+    footer { margin-top:32px; color:var(--muted); font-size:.92rem; }
+  </style>
 </head>
-<body>
- <div class="wrapper">
- <div class="header">
- <div class="label">Päivittäinen katsaus</div>
- <h1>Päivän tärkeimmät AI-uutiset</h1>
- <div class="date">Päiväkatsaus: 8. kesäkuuta 2026</div>
- </div>
- <div class="intro">
- <p>Tämän päivän AI-katsauksessa korostuvat kolme rinnakkaista muutosta: muistilla ja agenteilla varustetut kuluttaja- ja työkalutuotteet kypsyvät, avoimet mallit painavat kustannuksia alas, ja infrastruktuurin pullonkaulat siirtyvät yhä selvemmin siruihin, muistiin ja telco-verkon reunaan.</p>
- </div>
-
- <div class="section-label">🚀 Suuret uutiset</div>
- <div class="article">
- <div class="tag tag-uutinen">Uutinen</div>
- <div class="article-meta">OpenAI</div>
- <h2><a href="https://openai.com/index/chatgpt-memory-dreaming/" target="_blank" style="color: inherit; text-decoration: none;">OpenAI uudisti ChatGPT:n muistin Dreaming-arkkitehtuurilla</a></h2>
- <p>OpenAI kertoo Dreaming-muistin päivittävän käyttäjäkontekstia taustalla aiempaa dynaamisemmin ja tehokkaammin. Yhtiön mukaan tehtävissä, jotka vaativat faktamuistin käyttöä, onnistuminen nousi <strong>82,8 prosenttiin</strong>, kun vuoden 2024 muistijärjestelmän taso oli 41,5 prosenttia. Merkitys on käytännöllinen: ChatGPT liikkuu lähemmäs pitkäkestoista, käyttäjän tilanteen muistavaa agenttia.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://openai.com/index/chatgpt-memory-dreaming/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-uutinen">Uutinen</div>
- <div class="article-meta">Anthropic Institute</div>
- <h2><a href="https://www.anthropic.com/institute/recursive-self-improvement" target="_blank" style="color: inherit; text-decoration: none;">Anthropic varoittaa AI:n itseään kiihdyttävästä kehityksestä</a></h2>
- <p>Anthropic julkaisi laajan analyysin rekursiivisesta itseparannuksesta ja siitä, miten Claudea käytetään jo AI-kehityksen nopeuttamiseen. Yhtiö kuvaa kolme mahdollista kehityspolkua ja korostaa, että yhteiskunnalliset rakenteet eivät välttämättä ehdi teknologian vauhtiin. Tämä tekee aiheesta yhtä aikaa teknisen, poliittisen ja hallinnollisen kysymyksen.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.anthropic.com/institute/recursive-self-improvement" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-bisnes">Politiikka</div>
- <div class="article-meta">Reuters / NOTUS</div>
- <h2><a href="https://www.fidelity.com/news/article/default/202606042005RTRSNEWSCOMBINED_KBN3S7009-OUSBS_1" target="_blank" style="color: inherit; text-decoration: none;">Yhdysvalloissa pohditaan valtion omistusosuuksia AI-yhtiöissä</a></h2>
- <p>Reutersin referoiman NOTUS-raportin mukaan Yhdysvaltain viranomaiset ovat käyneet alustavia keskusteluja mahdollisista valtion osuuksista suurissa AI-yhtiöissä. Ajatus siirtäisi AI-politiikan pelkästä sääntelystä kohti omistajuutta ja kansallista hyötyjakoa. Se on vielä varhainen signaali, mutta kertoo, miten strategisena omaisuutena frontier-AI:ta nyt käsitellään.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.fidelity.com/news/article/default/202606042005RTRSNEWSCOMBINED_KBN3S7009-OUSBS_1" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">Infrastruktuuri</div>
- <div class="article-meta">The Japan Times / Reuters</div>
- <h2><a href="https://www.japantimes.co.jp/business/2026/06/04/companies/tsmc-chips-supply/" target="_blank" style="color: inherit; text-decoration: none;">TSMC varoittaa AI-sirukysynnän pitävän tarjonnan tiukkana vuosia</a></h2>
- <p>TSMC:n johto arvioi, että AI:n vauhdittama sirukysyntä ylittää tarjonnan vielä pitkään. Kapasiteettia lisätään myös Arizonassa, mutta uudet tehtaat eivät ratkaise pullonkaulaa nopeasti. AI-markkinan kasvu riippuu siksi entistä enemmän fyysisestä tuotantokyvystä, ei vain mallien algoritmisesta kehityksestä.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.japantimes.co.jp/business/2026/06/04/companies/tsmc-chips-supply/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="section-divider"></div>
- <div class="section-label">🤖 Mallit & tuotteet</div>
- <div class="article">
- <div class="tag tag-teknologia">Malli</div>
- <div class="article-meta">Google</div>
- <h2><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/" target="_blank" style="color: inherit; text-decoration: none;">Gemma 4 12B tuo multimodaalisen avoimen mallin tavallisille työasemille</a></h2>
- <p>Google julkaisi Gemma 4 12B:n yhtenäisenä, encoder-vapaana multimodaalisena mallina, joka käsittelee tekstiä, kuvia, ääntä ja videota. Julkaisu on suunniteltu ajettavaksi myös rajallisemmalla laitteistolla, mikä vahvistaa paikallisen AI:n käytännön houkuttelevuutta. Avoimen mallin saatavuus Hugging Facessa ja Kagglella nopeuttaa kehittäjäkokeiluja.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">Malli</div>
- <div class="article-meta">Google DeepMind / llama.cpp</div>
- <h2><a href="https://x.com/osanseviero/status/2063676865441665426" target="_blank" style="color: inherit; text-decoration: none;">Gemma 4 QAT ja MTP etenevät paikalliseen inference-työkaluketjuun</a></h2>
- <p>X:ssä Google DeepMindin Omar Sanseviero nosti esiin, että Gemma 4:n QAT- ja MTP-optimointeja on tuotu llama.cpp-ekosysteemiin. Postaus on signaali siitä, että avoimen malliperheen arvo syntyy nopeasti myös yhteisön ajonaikaisista optimoinneista. Paikallinen inference hyötyy erityisesti muistinsäästöstä, spekulatiivisesta dekoodauksesta ja helposta käyttöönotosta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/osanseviero/status/2063676865441665426" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">Kuva-AI</div>
- <div class="article-meta">Ideogram</div>
- <h2><a href="https://ideogram.ai/blog/ideogram-4.0/" target="_blank" style="color: inherit; text-decoration: none;">Ideogram 4.0 julkaistiin avoimina painoina suunnittelukäyttöön</a></h2>
- <p>Ideogram julkaisi 4.0-mallinsa <strong>9,3 miljardin parametrin</strong> avoinpainoisena tekstistä kuvaksi -mallina. Julkaisu painottaa erityisesti typografiaa, layout-hallintaa ja korkearesoluutioista design-käyttöä, joissa kuvamallit ovat usein kompastelleet. Avoimet painot lisäävät kilpailua kuvageneraattoreiden kehittäjä- ja yritysmarkkinassa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://ideogram.ai/blog/ideogram-4.0/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">Infrastruktuuri</div>
- <div class="article-meta">NVIDIA / SK hynix</div>
- <h2><a href="https://x.com/NVIDIAAIInfra/status/2063761362396778613" target="_blank" style="color: inherit; text-decoration: none;">NVIDIA ja SK hynix syventävät AI-muistin yhteistyötä</a></h2>
- <p>NVIDIA AI Infrastructure kertoi X:ssä monivuotisesta yhteistyöstä SK hynixin kanssa seuraavan sukupolven muistiteknologioissa. Postaus on tärkeä signaali, koska HBM ja muu muistialijärjestelmä ovat jo nyt AI-laskennan keskeisimpiä pullonkauloja. Kumppanuus kytkee AI-tehtaiden, reunalaitteiden ja puolijohdevalmistuksen kehityksen tiiviimmin samaan pinoon.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/NVIDIAAIInfra/status/2063761362396778613" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="section-divider"></div>
- <div class="section-label">🧠 Tutkimus & teknologia</div>
- <div class="article">
- <div class="tag tag-tutkimus">Agentit</div>
- <div class="article-meta">Latent Space / AI News</div>
- <h2><a href="https://www.latent.space/p/ainews-not-much-happened-today-6b8" target="_blank" style="color: inherit; text-decoration: none;">Agenttien arviointi siirtyy kohti pitkiä, taloudellisesti merkittäviä tehtäviä</a></h2>
- <p>AI News nostaa esiin useita uusia agenttien arviointikehyksiä, kuten Agents Last Exam ja SWE-Marathon, joissa mitataan pitkäkestoista, tuotantotyötä muistuttavaa suorituskykyä. Vaikeimmissa tehtävissä täysi läpäisyaste jää raportoidusti hyvin matalaksi, mikä muistuttaa agenttien luotettavuusvajeesta. Mittaristot alkavat siirtyä pois demotehtävistä kohti todellisia työnkulkuja.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-not-much-happened-today-6b8" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-tutkimus">Turvallisuus</div>
- <div class="article-meta">AI News / Princeton</div>
- <h2><a href="https://www.latent.space/p/ainews-not-much-happened-today-6b8" target="_blank" style="color: inherit; text-decoration: none;">Frontier-mallien luotettavuus ei parane yhtä nopeasti kuin kyvykkyys</a></h2>
- <p>AI News referoi Princetonin päivitettyä AI-agenttien luotettavuuspaperia, jossa uusien frontier-mallien ei nähdä ratkaisevan johdonmukaisuuden ongelmaa. Tämä on tärkeä vastapaino mallijulkaisujen suorituskykypuheelle: tuotannossa merkitsee, toimiiko agentti oikein toistuvasti, ei vain parhaassa demossa. Yrityskäytössä luotettavuus alkaa olla käyttöönoton suurin rajoite.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-not-much-happened-today-6b8" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-tutkimus">Tutkimus</div>
- <div class="article-meta">Scientific American</div>
- <h2><a href="https://www.scientificamerican.com/article/can-ai-detect-smuggled-sea-cucumbers/" target="_blank" style="color: inherit; text-decoration: none;">AI tunnistaa salakuljetettuja uhanalaisia merieläimiä matkatavaroista</a></h2>
- <p>Scientific Americanin mukaan uudessa tutkimuksessa AI-työkalu tunnisti matkatavarakuvista merihevosia, hain eviä ja merikurkkuja. Vaikka käyttötapaus on kapea, se näyttää, miten konenäköä voidaan käyttää luonnonsuojelun ja rajavalvonnan konkreettisissa ongelmissa. Arvo syntyy siitä, että järjestelmä auttaa seulomaan kuvia, joita ihmisillä ei ole realistista tarkistaa yksi kerrallaan.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.scientificamerican.com/article/can-ai-detect-smuggled-sea-cucumbers/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-tutkimus">Tutkimus</div>
- <div class="article-meta">Space Daily</div>
- <h2><a href="https://www.spacedaily.com/reports/AI_is_making_new_discoveries_in_science_and_the_speed_is_surprising_researchers_999.html" target="_blank" style="color: inherit; text-decoration: none;">Kapea-alaiset AI-järjestelmät muuttavat tieteen arkista löytötyötä</a></h2>
- <p>Space Daily korostaa vähemmän näyttäviä mutta tieteellisesti arvokkaita AI-käyttöjä: palaneiden roomalaisten kääröjen lukemista, galaksien seulontaa ja harvinaisten havaintojen etsimistä suurista aineistoista. Näissä sovelluksissa AI ei ole yleiskeskustelija vaan kapea, väsymätön analyysimoottori. Se voi nopeuttaa tiedettä juuri siellä, missä pullonkaula on datan läpikäynti.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.spacedaily.com/reports/AI_is_making_new_discoveries_in_science_and_the_speed_is_surprising_researchers_999.html" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="section-divider"></div>
- <div class="section-label">💰 Liiketoiminta & rahoitus</div>
- <div class="article">
- <div class="tag tag-bisnes">Bisnes</div>
- <div class="article-meta">TechCrunch</div>
- <h2><a href="https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/" target="_blank" style="color: inherit; text-decoration: none;">Airbnbin Brian Chesky suunnittelee omaa AI-labia</a></h2>
- <p>TechCrunchin mukaan Airbnbin Brian Chesky suunnittelee uutta AI-labia, joka keskittyisi erityisesti vuorovaikutukseen ja designiin. Tämä poikkeaa puhtaasta foundation model -kilpailusta ja viittaa siihen, että seuraava arvokerros voi olla käyttöliittymässä ja kokemuksessa. Jos labista syntyy tuote, se voi haastaa tekstipohjaisen chatbot-mallin kuluttajapalveluissa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-bisnes">Markkina</div>
- <div class="article-meta">SCMP</div>
- <h2><a href="https://www.scmp.com/tech/article/3356138/deepseek-v4-forces-rivals-slash-prices-rattling-chinas-cloud-providers" target="_blank" style="color: inherit; text-decoration: none;">DeepSeekin halpa AI kiihdyttää hintasotaa Kiinassa</a></h2>
- <p>SCMP:n mukaan DeepSeekin hinnoittelu painaa Kiinan AI- ja pilvimarkkinaa uuteen hintakilpailuun. Halvat ja kyvykkäät mallit muuttavat ostajien neuvotteluasemaa, koska samaa suorituskykyä voidaan hakea avoimemmista ja edullisemmista vaihtoehdoista. Tämä heijastuu myös globaaliin mallitalouteen: hinnasta tulee strateginen ase.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.scmp.com/tech/article/3356138/deepseek-v4-forces-rivals-slash-prices-rattling-chinas-cloud-providers" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-bisnes">Työelämä</div>
- <div class="article-meta">PYMNTS</div>
- <h2><a href="https://www.pymnts.com/artificial-intelligence-2/2026/bank-workers-feel-unmoored-as-ceos-talk-ai-related-cuts/" target="_blank" style="color: inherit; text-decoration: none;">Pankkien AI-leikkauspuhe lisää työntekijöiden epävarmuutta</a></h2>
- <p>PYMNTS kertoo pankkialan työntekijöiden epävarmuudesta, kun toimitusjohtajat puhuvat AI:n mahdollistamista henkilöstövähennyksistä. Uutinen ei ole vain työmarkkinasignaali, vaan kertoo myös siitä, missä AI:n tuottavuushyötyjä odotetaan ensimmäisenä realisoitavan. Finanssisektorilla kustannuspaine ja sääntely tekevät käyttöönotosta erityisen tarkkaan seurattavaa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.pymnts.com/artificial-intelligence-2/2026/bank-workers-feel-unmoored-as-ceos-talk-ai-related-cuts/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="section-divider"></div>
- <div class="section-label">📡 Telco AI</div>
- <div class="article"><div class="article-meta">Europe</div><h2>Europe</h2></div>
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">Ericsson / Mistral AI</div>
- <h2><a href="https://www.telecomtv.com/content/ai/ericsson-targets-telco-automation-with-mistral-ai-tie-up-54900/" target="_blank" style="color: inherit; text-decoration: none;">Ericsson ja Mistral AI tähtäävät telco-kohtaisiin agentteihin Euroopassa</a></h2>
- <p>Ericssonin ja Mistral AI:n yhteistyö kohdistuu teleoperaattoreiden konkreettisiin työnkulkuihin, kuten verkko-ohjelmistojen modernisointiin, 6G-kehitykseen ja monimutkaisten verkko-organisaatioiden agentteihin. Euroopan kannalta kiinnostavaa on myös suvereniteettikulma: telco-AI:ta rakennetaan paikallisten toimijoiden ja verkko-osaamisen päälle.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.telecomtv.com/content/ai/ericsson-targets-telco-automation-with-mistral-ai-tie-up-54900/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article"><div class="article-meta">USA</div><h2>USA</h2></div>
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">T-Mobile</div>
- <h2><a href="https://telcomagazine.com/news/t-mobile-uses-ai-to-tackle-event-network-surges" target="_blank" style="color: inherit; text-decoration: none;">T-Mobile käyttää AI:ta suurten tapahtumien verkkoruuhkien hallintaan</a></h2>
- <p>T-Mobile hyödyntää AI-pohjaista ennustamista ja automaatiota suurten tapahtumien verkkokuormituksen hallinnassa. Telco-näkökulmasta tämä on käytännönläheinen esimerkki siitä, miten AI siirtyy markkinointipuheesta kapasiteetin, ruuhkien ja asiakaskokemuksen operatiiviseen ohjaukseen.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://telcomagazine.com/news/t-mobile-uses-ai-to-tackle-event-network-surges" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article"><div class="article-meta">Asia</div><h2>Asia</h2></div>
- <div class="article">
- <div class="tag tag-bisnes">Bisnes</div>
- <div class="article-meta">Indosat</div>
- <h2><a href="https://www.dealstreetasia.com/stories/indosat-fundraising-484576" target="_blank" style="color: inherit; text-decoration: none;">Indosat harkitsee jopa 1,5 miljardin dollarin rahoitusta AI- ja digitaaliseen infraan</a></h2>
- <p>Notion-lähteen mukaan Indonesian Indosat käy pitkälle edenneitä keskusteluja jopa <strong>1,5 miljardin dollarin</strong> uudesta pääomasta AI- ja digitaalisen infrastruktuurin vauhdittamiseksi. Asia-signaalina tämä on merkittävä, koska operaattorit eivät rakenna enää vain yhteyksiä vaan AI-kapasiteetin alueellista perustaa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.dealstreetasia.com/stories/indosat-fundraising-484576" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">SoftBank</div>
- <h2><a href="https://www.softbank.jp/en/corp/news/press/sbkk/2026/20260312_02" target="_blank" style="color: inherit; text-decoration: none;">SoftBank rakentaa multi-agenttialustaa televerkon autonomiseen operointiin</a></h2>
- <p>SoftBank on aloittanut suuren telecom-mallinsa ja multi-agenttialustan verifioinnin tukiasemien integraatio- ja operointitehtävissä. Vaikka julkaisu ei ole tältä aamulta, se täydentää Aasian Telco AI -kuvaa: operaattorit vievät agentteja yhä syvemmälle verkon autonomiseen hallintaan.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.softbank.jp/en/corp/news/press/sbkk/2026/20260312_02" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="section-divider"></div>
- <div class="section-label">𝕏 X-signaalit</div>
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">Arnaud Bertrand (@RnaudBertrand)</div>
- <h2><a href="https://x.com/RnaudBertrand/status/2063788573678288897" target="_blank" style="color: inherit; text-decoration: none;">Kiinan avoimet mallit OpenRouter-käytön kärkeen</a></h2>
- <p>Postauksessa nostetaan esiin OpenRouter-käyttödataa, jonka mukaan Kimi-, MiniMax- ja DeepSeek-mallien käyttö on noussut vahvasti. Tämä on signaali, ei yksinään vahvistettu markkinatotuus, mutta se tukee laajempaa havaintoa hinnan, avoimuuden ja itsehostauksen merkityksen kasvusta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/RnaudBertrand/status/2063788573678288897" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">NVIDIA AI Infrastructure (@NVIDIAAIInfra)</div>
- <h2><a href="https://x.com/NVIDIAAIInfra/status/2063761362396778613" target="_blank" style="color: inherit; text-decoration: none;">NVIDIA ja SK hynix syventävät AI-muistikumppanuutta</a></h2>
- <p>Postauksessa kerrotaan monivuotisesta teknologiakumppanuudesta seuraavan sukupolven muistien ja AI-alustojen ympärillä. Signaali on tärkeä, koska muistialijärjestelmä ratkaisee yhä useammin, kuinka nopeasti ja kustannustehokkaasti AI-infra skaalautuu.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/NVIDIAAIInfra/status/2063761362396778613" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">Omar Sanseviero (@osanseviero)</div>
- <h2><a href="https://x.com/osanseviero/status/2063676865441665426" target="_blank" style="color: inherit; text-decoration: none;">Gemma 4 -optimoinnit etenevät llama.cpp:hen</a></h2>
- <p>Google DeepMindin kehittäjän postaus kertoo Gemma 4:n QAT- ja MTP-optimointien etenemisestä paikallisen ajon työkaluihin. Tämä on kehittäjäekosysteemin signaali siitä, että avoimen mallin arvo kasvaa nopeasti, kun runtime-tuki kypsyy.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/osanseviero/status/2063676865441665426" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">0xMarioNawfal (@RoundtableSpace)</div>
- <h2><a href="https://x.com/RoundtableSpace/status/2063482331747455480" target="_blank" style="color: inherit; text-decoration: none;">Gemma 4 12B:n paikallinen ajo saa huomiota kuluttajalaitteilla</a></h2>
- <p>Postaus korostaa Gemma 4 12B:n käytännön nopeutta ja ajettavuutta kevyemmällä GPU-laitteistolla. Väitteet kannattaa käsitellä käyttökokemussignaalina, mutta teema on tärkeä: paikalliset mallit alkavat olla riittäviä yhä useampaan arjen työnkulkuun.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/RoundtableSpace/status/2063482331747455480" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">Polymarket Money (@PolymarketMoney)</div>
- <h2><a href="https://x.com/PolymarketMoney/status/2063673154774372696" target="_blank" style="color: inherit; text-decoration: none;">Vedonlyöntimarkkina hinnoittelee Anthropic-IPO:n todennäköiseksi</a></h2>
- <p>Postauksessa nostetaan esiin prediction market -odotuksia Anthropic-IPO:sta vuoden 2026 aikana. Tämä ei ole faktavarmennus listautumisesta, mutta se kertoo, miten sijoittajat ja AI-seuraajat hinnoittelevat frontier-labien rahoitus- ja exit-polkuja.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/PolymarketMoney/status/2063673154774372696" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
-
- <div class="footer">
- <p>
- <strong>Päivän tärkeimmät AI-uutiset</strong><br />
- Koottu uutiskirjeistä: AI News, AI Daily Brief, Ninja AI Tools, RSS-syötteet, Telco AI -lähteet sekä X-signaalit 8.6.2026<br />
- Julkaisupäivä: 8.6.2026
- </p>
- <p style="margin-top:12px; font-size:11px; color:#4a6578;">Luotu automaattisesti tekoälyllä</p>
- </div>
- </div>
-</body>
-</html>
+<body><main>
+  <header class="hero"><h1>Päivän AI-uutiset</h1><p class="lead">8.6.2026 · Tuoreet AI-uutiset viimeisen 24 tunnin ajalta.</p><div class="signal"><strong>Päivän signaali:</strong> AI siirtyy kohti tuotantoinfraa ja agenttisia työnkulkuja — mutta samalla turvarajat, saatavuus ja datan laatu korostuvat.</div></header>
+  <section class="card"><p class="kicker">🔥 Top Stories</p><h2>NVIDIA kiihdyttää AI factory -rakennetta UK:ssa ja Koreassa</h2><p>NVIDIA kertoi sekä Britannian suvereenin AI-infran etenemisestä että uusista AI factory -hankkeista LG Groupin kanssa. Sama teema toistuu: mallit, robotit ja datakeskukset siirtyvät yhä selvemmin teolliseksi infrastruktuuriksi.</p><p><strong>Miksi sillä on väliä:</strong> Yritysten AI-kilpailu ei ole enää vain mallien julkaisua — se on laskentakapasiteetin, simulaation ja käyttöönoton toimitusketju.</p><p class="sources"><a href="https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/">NVIDIA UK</a> · <a href="https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/">NVIDIA + LG</a></p></section>
+<section class="card"><p class="kicker">🔥 Top Stories</p><h2>OpenAI:n ChatGPT ottaa kahta suuntaa: “super app” ja tiukempi Lockdown Mode</h2><p>TechCrunch raportoi OpenAI:n valmistelevan ChatGPT:stä agentteja ja koodityökaluja kokoavaa “super app” -kokemusta. The Decoderin mukaan uusi Lockdown Mode puolestaan katkaisee webin, Deep Researchin ja Agent Moden suojaksi prompt injection -vuodoilta.</p><p><strong>Miksi sillä on väliä:</strong> Kuluttaja- ja yritys-AI:n seuraava vaihe näyttää olevan yhtä aikaa toiminnallisempi ja lukittavampi: enemmän agentteja, mutta selkeämmät turvarajat.</p><p class="sources"><a href="https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/">TechCrunch</a> · <a href="https://the-decoder.com/chatgpts-new-lockdown-mode-lets-you-disable-web-access-and-more-to-protect-sensitive-data-from-prompt-injection/">The Decoder</a></p></section>
+<section class="card"><p class="kicker">⚡ Quick Hits</p><h2>Notion palautti Anthropic-mallien käytön häiriön jälkeen</h2><p>Notion kertoi poistaneensa väliaikaisesti käytöstä Anthropic Opus 4.7- ja 4.8-mallit kasvaneiden virheiden vuoksi, ja palautti pääsyn myöhemmin.</p><p><strong>Miksi sillä on väliä:</strong> AI-sovellukset ovat yhä riippuvaisempia mallitoimittajien saatavuudesta — fallbackit ja status-viestintä ovat tuotantokriittisiä.</p><p class="sources"><a href="https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/">TechCrunch</a></p></section>
+<section class="card"><p class="kicker">⚡ Quick Hits</p><h2>Microsoftin MAI-Transcribe-1.5 lupaa nopeampaa pitkä-äänen litterointia</h2><p>MarkTechPostin mukaan Microsoft AI:n uusi puheesta tekstiksi -malli kattaa 43 kieltä, tukee domain-kohtaista avainsanapainotusta ja on suunnattu tuotantokäyttöön.</p><p><strong>Miksi sillä on väliä:</strong> Puhe-AI:n kilpailu siirtyy pelkästä WER-luvusta kohti pitkien tallenteiden nopeutta, monikielisyyttä ja käytännön integraatioita.</p><p class="sources"><a href="https://www.marktechpost.com/2026/06/08/microsoft-ai-introduces-mai-transcribe-1-5-2-4-wer-on-artificial-analysis-best-in-class-fleurs-accuracy-and-up-to-5x-faster-long-audio-transcription/">MarkTechPost</a></p></section>
+<section class="card"><p class="kicker">🧰 Builders’ Corner</p><h2>Google tuo agentic RAG -haun Gemini Enterprise Agent Platformiin</h2><p>MarkTechPost raportoi Googlen Cross-Corpus Retrieval -ominaisuudesta: agenttinen RAG työnkulku suunnittelee, uudelleenkirjoittaa ja hakee useasta korpuksesta, jotta monivaiheiset yrityskysymykset saavat riittävän kontekstin.</p><p><strong>Miksi sillä on väliä:</strong> Enterprise-haku muuttuu staattisesta “kysy ja nouda” -mallista agenttimaiseksi selvitystyöksi, mikä voi parantaa faktuaalisuutta monimutkaisissa sisäisissä kyselyissä.</p><p class="sources"><a href="https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/">MarkTechPost</a></p></section>
+<section class="card"><p class="kicker">🧰 Builders’ Corner</p><h2>Perplexityn “Search as Code” antaa agentin kirjoittaa hakupolkunsa itse</h2><p>Perplexityn uusi arkkitehtuuri antaa mallin rakentaa Pythonilla omia haku-, suodatus- ja deduplikointirutiineja kiinteän hakurajapinnan sijaan. Yhtiö väittää sen parantavan tarkkuutta ja leikkaavan token-kuluja jopa 85 %.</p><p><strong>Miksi sillä on väliä:</strong> Agenttien työkalukutsuissa nähdään siirtymä valmiista API-vastauksista kohti dynaamisia, sandboxattuja tutkimusputkia.</p><p class="sources"><a href="https://the-decoder.com/perplexitys-search-as-code-lets-ai-models-write-their-own-search-pipelines-instead-of-calling-fixed-apis/">The Decoder</a></p></section>
+<section class="card"><p class="kicker">🧠 Research / Models</p><h2>Tutkimus selittää, miksi pienet kielimallit missaavat harvinaisia taitoja</h2><p>The Decoderin referoiman Anthropic/Stanford ym. tutkimuksen mukaan pienet mallit voivat unohtaa harvinaiset tehtävät, kun yleiset tehtävät ylikirjoittavat opittua. Ratkaisuksi ehdotetaan kohdetehtävien näkyvyyden kasvattamista datassa — ei aina vain mallin skaalaamista.</p><p><strong>Miksi sillä on väliä:</strong> Datasekoitus ja tehtäväfrekvenssi voivat olla halvempi optimointivipu kuin parametrimäärän kasvattaminen.</p><p class="sources"><a href="https://the-decoder.com/researchers-pinpoint-why-larger-language-models-pick-up-skills-that-small-ones-miss/">The Decoder</a></p></section>
+  <section class="watch"><h2>🧭 Mitä seurata seuraavaksi</h2><ul><li>Agenttien “turvatilat” voivat muuttua perusominaisuudeksi yritys-AI:ssa.</li><li>AI factory -hankkeet kertovat, missä seuraava kapasiteettiaalto syntyy.</li><li>Hakua käyttävät agentit siirtyvät kohti ohjelmoitavia tutkimusputkia.</li></ul></section>
+  <footer>Koottu lähteistä, joiden julkaisu-/päivitysaika oli todennettavasti viimeisen 24 tunnin sisällä. · Julkaistu GitHub Pagesiin.</footer>
+</main></body></html>
