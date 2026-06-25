@@ -100,7 +100,9 @@ html_content = """<!DOCTYPE html>
 
 for item in main_items:
     display_title = item["title"]
-    if "Paivan ai" in display_title:
+    if "Paivan ai cybersecurity" in display_title:
+        display_title = "Päivän tärkeimmät AI-kyberturvallisuusuutiset"
+    elif "Paivan ai" in display_title:
         display_title = "Päivän tärkeimmät AI-uutiset"
     elif "Telco ai" in display_title:
         display_title = "Telco-sektorin AI-uutiset"
