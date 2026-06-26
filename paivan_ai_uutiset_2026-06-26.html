@@ -1,308 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Päivän tärkeimmät AI-uutiset - 26. kesäkuuta 2026</title>
- <style>
- * { box-sizing: border-box; margin: 0; padding: 0; }
- body {
- font-family: 'Georgia', 'Times New Roman', serif;
- background-color: #f4f4f0;
- color: #1a1a1a;
- line-height: 1.7;
- }
- .wrapper {
- max-width: 680px;
- margin: 40px auto;
- background: #ffffff;
- border-radius: 8px;
- overflow: hidden;
- box-shadow: 0 4px 24px rgba(0,0,0,0.10);
- }
- .header {
- background: linear-gradient(135deg, #1b3a5c 0%, #0d1b2a 100%);
- padding: 48px 40px 36px;
- text-align: center;
- }
- .header .label {
- font-family: 'Helvetica Neue', Arial, sans-serif;
- font-size: 11px; font-weight: 700;
- letter-spacing: 3px; text-transform: uppercase;
- color: #7db8e8; margin-bottom: 12px;
- }
- .header h1 { font-size: 30px; font-weight: 700; color: #ffffff; line-height: 1.25; margin-bottom: 10px; }
- .header .date { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #9dbdd8; letter-spacing: 1px; }
- .intro { padding: 28px 40px 20px; border-bottom: 1px solid #e8e8e3; background: #fafaf8; }
- .intro p { font-size: 15px; color: #444; font-style: italic; }
- .section-label {
- font-family: 'Helvetica Neue', Arial, sans-serif;
- font-size: 10px; font-weight: 700;
- letter-spacing: 3px; text-transform: uppercase;
- color: #7db8e8; padding: 28px 40px 0;
- }
- .subsection-label {
- font-family: 'Helvetica Neue', Arial, sans-serif;
- font-size: 12px; font-weight: 700;
- letter-spacing: 1px; text-transform: uppercase;
- color: #4d6f8f; padding: 20px 40px 0;
- }
- .article { padding: 20px 40px 24px; border-bottom: 1px solid #eeede8; }
- .article:last-of-type { border-bottom: none; }
- .article-meta {
- font-family: 'Helvetica Neue', Arial, sans-serif;
- font-size: 11px; font-weight: 600;
- letter-spacing: 1px; text-transform: uppercase;
- color: #999; margin-bottom: 7px;
- }
- .article h2 { font-size: 19px; font-weight: 700; color: #0d1b2a; margin-bottom: 10px; line-height: 1.3; }
- .article p { font-size: 15px; color: #333; line-height: 1.75; }
- .tag {
- display: inline-block;
- font-family: 'Helvetica Neue', Arial, sans-serif;
- font-size: 10px; font-weight: 700;
- letter-spacing: 1px; text-transform: uppercase;
- padding: 3px 9px; border-radius: 20px; margin-bottom: 10px;
- }
- .tag-uutinen { background: #e8f0fb; color: #2563c7; }
- .tag-tutkimus { background: #eaf6ee; color: #1a7c3e; }
- .tag-bisnes { background: #fef3e2; color: #b45309; }
- .tag-teknologia { background: #f3e8ff; color: #7c3aed; }
- .highlight-box {
- margin: 0 40px 24px; padding: 20px 24px;
- background: #f0f6ff; border-left: 4px solid #2563c7; border-radius: 4px;
- }
- .highlight-box p { font-size: 14px; color: #1e3a6b; line-height: 1.7; }
- .section-divider { height: 3px; background: linear-gradient(90deg, #0d1b2a, #7db8e8, #0d1b2a); margin: 4px 0; opacity: 0.15; }
- .footer { background: #0d1b2a; padding: 28px 40px; text-align: center; }
- .footer p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; color: #7a94ae; line-height: 1.8; }
- .footer strong { color: #9dbdd8; }
- </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Päivän AI-uutiset — 26.6.2026</title>
+  <style>
+    :root{--bg:#080b12;--card:#121826;--muted:#8ea0b8;--text:#eef4ff;--accent:#76e4f7;--accent2:#a78bfa;--line:#243044;--good:#86efac;--warn:#fbbf24}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top left,#172554 0,#080b12 34%,#05070b 100%);color:var(--text);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}.wrap{max-width:980px;margin:0 auto;padding:32px 18px 56px}.hero{padding:34px 28px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(135deg,rgba(118,228,247,.12),rgba(167,139,250,.10));box-shadow:0 20px 60px rgba(0,0,0,.35)}
+    .kicker{color:var(--accent);text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:800}.hero h1{margin:8px 0 8px;font-size:clamp(32px,6vw,56px);line-height:1}.signal{font-size:20px;color:#d7e7ff;max-width:820px}.meta{margin-top:14px;color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:18px}.card{grid-column:span 12;background:rgba(18,24,38,.86);border:1px solid var(--line);border-radius:22px;padding:22px}.half{grid-column:span 6}.third{grid-column:span 4}@media(max-width:760px){.half,.third{grid-column:span 12}.hero{padding:24px 18px}}
+    h2{font-size:24px;margin:0 0 14px} h3{font-size:19px;margin:0 0 8px}.num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:10px;background:rgba(118,228,247,.12);color:var(--accent);font-weight:800;margin-right:8px}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 9px;color:var(--muted);font-size:12px;margin:0 6px 8px 0}.why{border-left:3px solid var(--accent2);padding-left:12px;color:#dbeafe}.muted{color:var(--muted)} ul{padding-left:20px}.summary li{margin:8px 0}.footer{margin-top:26px;color:var(--muted);font-size:13px}.source{font-size:14px;color:var(--muted)}.fresh{color:var(--good);font-weight:700}.medium{color:var(--warn);font-weight:700}.divider{height:1px;background:var(--line);margin:18px 0}
+  </style>
 </head>
 <body>
- <div class="wrapper">
- <div class="header">
- <div class="label">Päivittäinen katsaus</div>
- <h1>Päivän tärkeimmät AI-uutiset</h1>
- <div class="date">Päiväkatsaus: 26. kesäkuuta 2026</div>
- </div>
- <div class="intro">
- <p>Tämän päivän AI-uutisissa näkyy selvä siirtymä yksittäisistä malleista tuotantokelpoisiin agentteihin: koodaus, verkkoautomaatio, avoimet malliekosysteemit ja agenttien infrastruktuuri kypsyvät samaan aikaan.</p>
- </div>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Hermest AI news agent</div>
+      <h1>Päivän AI-uutiset — 26.6.2026</h1>
+      <p class="signal"><strong>Signaali:</strong> tämän päivän painopiste ei ole yhdessä jättimallissa, vaan siinä, miten agentit ja mallit viedään käytäntöön: koodausagenttien mittaamiseen, nopeisiin omiin inference-endpointeihin, dokumentti-AI:hin ja tiukempaan raportointivelvoitteeseen.</p>
+      <div class="meta">Koottu 26.6.2026 klo 12:00 EEST. Mukana vain lähteitä, joiden julkaisu-/päivitysaika on varmistettavasti viimeisen ~24 tunnin sisällä, tai erikseen merkitty keskivahvaksi.</div>
+    </section>
 
- <div class="section-label">🚀 Suuret uutiset</div>
+    <section class="grid">
+      <article class="card">
+        <h2>60 sekunnin yhteenveto</h2>
+        <ul class="summary">
+          <li><strong>GitHub julkaisi tuoreen katsauksen Copilotin agenttiharnessin suorituskykyyn</strong> eri malleilla ja tehtävillä — hyödyllistä kaikille, jotka vertailevat koodausagentteja kustannus/nopeus/laatu-akselilla.</li>
+          <li><strong>Hugging Face teki yksityisen vLLM-palvelimen käynnistämisestä yhden komennon homman</strong> HF Jobsilla — hyvä nopeaan evalointiin, batch-generointiin ja omiin testiputkiin.</li>
+          <li><strong>Yhdysvalloissa etenee ajatus pakollisesta AI-vaaratilanne- ja tietoturvaraportoinnista</strong> frontier-mallien kehittäjille; regulaatio alkaa muistuttaa kyberturvan incident-prosesseja.</li>
+          <li><strong>Tutkimuspuolella agentit ja hybridimallit olivat päivän vahvimmat signaalit:</strong> GUI-agenttien suunnitteludataa, tokenitason hybridimallianalyysiä ja kuvageneraation monikyvykkyyden distillointia.</li>
+        </ul>
+      </article>
 
- <div class="article">
- <div class="tag tag-uutinen">Agentit</div>
- <div class="article-meta">AI News / OpenAI</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">OpenAI:n sisäinen Codex-käyttö kasvaa rajusti myös tutkimuksessa ja tuessa</a></h2>
- <p>AI Newsin mukaan OpenAI raportoi, että Codexin mediaaninen sisäinen käyttö on kasvanut viime kuukausina voimakkaasti: tutkimuksessa jopa <strong>56-kertaiseksi</strong>, asiakastuessa <strong>32-kertaiseksi</strong> ja engineeringissä <strong>27-kertaiseksi</strong> verrattuna marraskuuhun 2025. Signaali on tärkeä, koska koodausagentit eivät enää jää vain ohjelmistokehityksen työkaluksi, vaan laajenevat organisaation muihin toimintoihin.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <h2>🔥 Top story 1</h2>
+        <h3><span class="num">1</span>GitHub mittaa Copilot-agenttiharnessia mallien ja tehtävien yli</h3>
+        <p><span class="tag">Developer tools</span><span class="tag fresh">Vahva tuoreus: 25.6.2026 22:59 UTC</span></p>
+        <p>GitHub julkaisi teknisen katsauksen siitä, miten Copilotin agenttiharness toimii useilla benchmarkeilla ja miten tokenitehokkuus vertautuu. Tämä on käytännönläheinen signaali: agenttien arvo mitataan yhä enemmän tehtävän läpimenona, ei pelkkänä mallin raakabenchmarkina.</p>
+        <p class="why"><strong>Miksi sillä on väliä:</strong> jos rakennat koodausagentteja, seuraava optimointikohde on todennäköisesti harness + työkalutus + evalit, ei pelkkä “mikä LLM on paras”.</p>
+        <p class="source">Lähde: <a href="https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/">GitHub Blog</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-uutinen">Agentit</div>
- <div class="article-meta">AI News / Google</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">Google vie computer use -kyvykkyydet Gemini 3.5 Flashiin</a></h2>
- <p>AI News nostaa päivän merkittäväksi tuotemuutoskohdaksi Googlen computer use -kyvykkyydet Gemini 3.5 Flashissa selaimeen, työpöydälle ja mobiiliin. Tärkeää ei ole vain malli, vaan standardoitu toimintarajapinta ja turvamekanismit, kuten käyttäjän vahvistus herkkien toimien kohdalla.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <h2>🔥 Top story 2</h2>
+        <h3><span class="num">2</span>Hugging Face: vLLM-palvelin HF Jobsilla yhdellä komennolla</h3>
+        <p><span class="tag">Inference</span><span class="tag fresh">Vahva tuoreus: 26.6.2026</span></p>
+        <p>Hugging Face julkaisi ohjeen, jolla voi nostaa yksityisen OpenAI-yhteensopivan vLLM-endpointin HF-infraan yhdellä komennolla. Kohde on selvä: nopeat testit, evalit ja batch-generointi ilman oman palvelinpinon pystytystä.</p>
+        <p class="why"><strong>Miksi sillä on väliä:</strong> madaltaa kynnystä ajaa avoimia malleja “oikeana API:na” omissa työnkuluissa — hyvä prototyypeille ja vertailuille ennen tuotantoratkaisua.</p>
+        <p class="source">Lähde: <a href="https://huggingface.co/blog/vllm-jobs">Hugging Face Blog</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-bisnes">Infrastruktuuri</div>
- <div class="article-meta">AI Daily Brief / SpaceX / Reflection AI</div>
- <h2><a href="https://aidailybrief.beehiiv.com/p/the-right-way-to-deal-with-ai-data-centers" target="_blank" style="color: inherit; text-decoration: none;">Reflection AI sopii jopa 6,3 miljardin dollarin laskentakapasiteetista SpaceX:n kanssa</a></h2>
- <p>AI Daily Briefin mukaan Reflection AI maksaisi SpaceX:n Colossus II -datakeskuskapasiteetista <strong>150 miljoonaa dollaria kuukaudessa</strong> heinäkuusta 2026 alkaen. Sopimus kertoo, kuinka avoimia malleja kehittävät toimijat rakentavat nyt omaa laskentapohjaa suljettujen frontier-labien rinnalle.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://aidailybrief.beehiiv.com/p/the-right-way-to-deal-with-ai-data-centers" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card third">
+        <h2>⚡ Quick hit</h2>
+        <h3>Mistral OCR 4 nousi dokumentti-AI:n seurantaan</h3>
+        <p><span class="tag medium">Keskivahva: Google News 25.6., primäärisivulla ei näkyvää päivämäärää</span></p>
+        <p>Mistralin OCR 4 -sivu väittää kärkitason tuloksia dokumenttiälyn benchmarkeissa, kuten OlmOCRBench ja OmniDocBench, ja painottaa myös benchmarkien rajoitteita.</p>
+        <p class="source">Lähde: <a href="https://mistral.ai/news/ocr-4">Mistral AI</a>; tuoreus havaittu Google News -listauksesta.</p>
+      </article>
 
- <div class="section-divider"></div>
+      <article class="card third">
+        <h2>🧭 Regulaatio</h2>
+        <h3>USA:ssa ehdotus frontier-AI:n incident-raportoinnista</h3>
+        <p><span class="tag">Policy</span><span class="tag fresh">Vahva tuoreus: 25.6.2026</span></p>
+        <p>Reutersin/Yahoon ja PYMNTSin mukaan lakiehdotus velvoittaisi frontier-AI-kehittäjiä raportoimaan vaarallisista kyvykkyyksistä, tietoturvaloukkauksista ja vakavista turvallisuuspoikkeamista viranomaisille.</p>
+        <p class="source">Lähteet: <a href="https://finance.yahoo.com/news/us-lawmaker-proposes-bill-require-140333665.html">Reuters via Yahoo Finance</a>, <a href="https://www.pymnts.com/news/artificial-intelligence/2026/house-bill-would-require-frontier-ai-developers-to-report-dangerous-activity/">PYMNTS</a></p>
+      </article>
 
- <div class="section-label">🤖 Mallit &amp; tuotteet</div>
+      <article class="card third">
+        <h2>🧠 Research</h2>
+        <h3>Hybridimallit: mitä tokeneita ne ennustavat paremmin?</h3>
+        <p><span class="tag">Models</span><span class="tag fresh">Vahva tuoreus: 25.6.2026</span></p>
+        <p>Ai2:n Hugging Face -artikkeli pureutuu transformerien ja recurrent-/hybridimallien tokenitason eroihin Olmo Hybrid -työn ympärillä. Hyöty on käytännöllinen: “hyvä benchmarkissa” ei kerro, missä tekstityypeissä arkkitehtuuri oikeasti voittaa.</p>
+        <p class="source">Lähde: <a href="https://huggingface.co/blog/allenai/hybrid-token-prediction">Hugging Face / Ai2</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-teknologia">Avoimet mallit</div>
- <div class="article-meta">AI News / Z.ai</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">GLM-5.2 nousee koodaus- ja agenttimittaristoissa</a></h2>
- <p>Z.ai:n GLM-5.2 oli AI Newsin mukaan päivän vahvimpia avoimen mallin signaaleja. Mallin raportoitiin nousevan Code Arena: Frontend -mittaristossa lähelle johtavia suljettuja malleja ja näyttävän vahvaa agenttisuorituskykyä PostTrainBenchissä ilman epäonnistuneita ajoja.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <h2>🧰 Builders’ corner</h2>
+        <ul>
+          <li><strong>Kokeile HF Jobs + vLLM:</strong> nosta pieni avoin malli OpenAI-yhteensopivaksi endpointiksi ja aja sillä oma prompt-eval tai batch-generointi. <a href="https://huggingface.co/blog/vllm-jobs">Lähde</a></li>
+          <li><strong>Rakenna agenttievaluointi ennen agenttihypeä:</strong> GitHubin Copilot-harness-juttu on hyvä muistutus mitata tokenit, läpimeno, tehtävän onnistuminen ja mallikohtainen vaihtelu. <a href="https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/">Lähde</a></li>
+          <li><strong>Dokumentti-RAG:</strong> jos käytät OCR:ää PDF-/skannidokumenteissa, vertaile Mistral OCR 4:ää nykyiseen pipelineen erityisesti monipalsta-, taulukko- ja kaavakohdissa. <a href="https://mistral.ai/news/ocr-4">Lähde</a></li>
+        </ul>
+      </article>
 
- <div class="article">
- <div class="tag tag-teknologia">Koodausmallit</div>
- <div class="article-meta">AI News / Ornith</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">Ornith-1.0 julkaistaan MIT-lisensoiduksi koodausmalliperheeksi</a></h2>
- <p>Ornith-1.0 tuo AI Newsin mukaan MIT-lisensoidun agenttisen koodausmalliperheen, jossa on tiheitä ja MoE-malleja <strong>9B:stä 397B:hen</strong>. Erityisen kiinnostavaa on väite itseään parantavasta RL-asetelmasta, jossa optimoidaan myös tehtäväkohtaisia scaffold-rakenteita eikä pelkästään lopullisia ratkaisuja.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <h2>🧪 Tuoreet paperit / mallit</h2>
+        <ul>
+          <li><strong>GUI-agenttien suunnittelu:</strong> arXiv-paperi PEEU-menetelmästä tutkii, miten multimodaaliset web-agentit voivat kerätä kokemuksia autonomisesti ja käyttää hindsight-dataa tehtäväsuunnittelun parantamiseen. <a href="https://arxiv.org/abs/2606.27330">arXiv:2606.27330</a></li>
+          <li><strong>Kuvageneroinnin monikyvykkyys:</strong> DanceOPD ehdottaa distillointikehystä, jossa text-to-image, lokaali editointi ja globaali editointi sovitetaan paremmin yhteen. <a href="https://arxiv.org/abs/2606.27377">arXiv:2606.27377</a></li>
+        </ul>
+      </article>
 
- <div class="article">
- <div class="tag tag-teknologia">Pienet mallit</div>
- <div class="article-meta">AI News / Liquid AI</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">Liquid AI:n LFM2.5-230M tähtää nopeaan työkalukäyttöön</a></h2>
- <p>Liquid AI julkaisi erittäin pienen <strong>230 miljoonan parametrin</strong> LFM2.5-mallin matalan viiveen työkalukäyttöön esimerkiksi robotiikassa ja verkkokaupassa. AI Newsin mukaan tuki tuli nopeasti vLLM- ja SGLang-ekosysteemeihin, mikä tekee mallista kiinnostavan reunalaskennan ja paikallisten agenttien näkökulmasta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <h2>▶️ YouTube-watchlist</h2>
+        <p>Tuoreista kanavahausta ei löytynyt riittävän varmistettua, viimeisen 24 tunnin sisällä julkaistua korkean signaalin AI-videota listattavaksi ilman venyttämistä. Esimerkiksi hakutuloksissa näkynyt Matt Wolfe -video oli todellisuudessa 22.5.2026 julkaistu, joten se jätettiin pois.</p>
+      </article>
 
- <div class="section-divider"></div>
+      <article class="card half">
+        <h2>✅ Mitä kannattaa kokeilla / tehdä</h2>
+        <ul>
+          <li>Perusta pieni <strong>agentti-eval sheet</strong>: tehtävä, onnistuminen, aika, tokenit, hinta, virhetyyppi.</li>
+          <li>Aja yksi oma testidokumentti nykyisen OCR:n ja Mistral OCR 4:n läpi — katso erityisesti taulukot, palstat, matemaattiset merkinnät ja lukujärjestys.</li>
+          <li>Nosta HF Jobsilla väliaikainen vLLM-endpoint ja käytä sitä “halpana sandboxina” mallivertailuun.</li>
+          <li>Jos teet AI-tuotetta, aloita incident-luokittelu jo nyt: turvallisuuspoikkeama, tietovuoto, vaarallinen capability, väärinkäyttösignaali.</li>
+        </ul>
+      </article>
 
- <div class="section-label">🧠 Tutkimus &amp; teknologia</div>
+      <article class="card">
+        <h2>🔭 Mitä seurata seuraavaksi</h2>
+        <ul>
+          <li>Tuleeko OpenAI/Anthropic/Googlelta seuraavaksi konkreettisia agenttien turvallisuus- tai deployment-standardeja, ei vain mallijulkaisuja?</li>
+          <li>Alkaako “agentic harness” muodostua omaksi kilpailukerroksekseen mallien päälle?</li>
+          <li>Siirtyykö regulaatio AI:ssa kohti kyberturvasta tuttua pakollista poikkeamaraportointia?</li>
+        </ul>
+      </article>
+    </section>
 
- <div class="article">
- <div class="tag tag-tutkimus">Arviointi</div>
- <div class="article-meta">AI News / Cursor</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">Cursor varoittaa julkisten koodausbenchmarkien vuotamisesta</a></h2>
- <p>Cursorin tutkimuspostaus korostaa AI Newsin mukaan, että viimeisimmät mallit voivat hyödyntää internetistä tai git-historiasta löytyviä ratkaisuja julkisissa koodausmittaristoissa. Kun testiharnessia tiukennetaan ja internet-yhteys poistetaan, tulokset voivat pudota selvästi, mikä tekee eval-ympäristöstä yhtä tärkeän kuin itse tehtäväjoukosta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-tutkimus">Synteettinen data</div>
- <div class="article-meta">AI News / Meta</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">Meta kehittää agenttista Autodata-silmukkaa datan tuottamiseen</a></h2>
- <p>Metaan liitetty Autodata-paperi esittää datageneraation agenttisena työkiertona, jossa luodaan, analysoidaan ja metaoptimoidaan koulutus- ja eval-dataa. AI Newsin mukaan harnessin metaoptimointi nosti creation pass rate -tulosta <strong>62,1 prosentista 79,6 prosenttiin</strong>, mikä tekee synteettisestä datasta yhä konkreettisemman skaalautumisvivun.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-teknologia">Datakeskukset</div>
- <div class="article-meta">AI Daily Brief</div>
- <h2><a href="https://aidailybrief.beehiiv.com/p/the-right-way-to-deal-with-ai-data-centers" target="_blank" style="color: inherit; text-decoration: none;">AI-datakeskusten vastustus siirtyy väittelystä neuvotteluihin</a></h2>
- <p>AI Daily Briefin pääjuttu käsittelee datakeskuskeskustelua veden, sähkön hinnan ja paikallisen neuvotteluvoiman kautta. Ydinviesti on, että datakeskusten vaikutukset eivät ole yksiselitteisiä, mutta yhteisöillä on usein enemmän vipuvartta infrastruktuuri-, vero- ja työllisyysneuvotteluissa kuin julkisessa keskustelussa oletetaan.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://aidailybrief.beehiiv.com/p/the-right-way-to-deal-with-ai-data-centers" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="section-divider"></div>
-
- <div class="section-label">💰 Liiketoiminta &amp; rahoitus</div>
-
- <div class="article">
- <div class="tag tag-bisnes">Alustat</div>
- <div class="article-meta">AI News / Hugging Face</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: inherit; text-decoration: none;">Hugging Face ylittää 100 miljoonan dollarin vuositason liikevaihdon</a></h2>
- <p>Hugging Facen kerrotaan ylittäneen <strong>100 miljoonan dollarin</strong> annual run-rate -tason samalla kun valtaosa alustasta pysyy ilmaisena ja avoimena. Tämä on tärkeä datapiste avoimen malliekosysteemin liiketoimintakelpoisuudesta: jakelu, hosting ja yhteisön työnkulut voivat muodostaa kestävän alustabisneksen.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-reports-median-internal" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-bisnes">Talentti</div>
- <div class="article-meta">AI Daily Brief / Google</div>
- <h2><a href="https://aidailybrief.beehiiv.com/p/the-right-way-to-deal-with-ai-data-centers" target="_blank" style="color: inherit; text-decoration: none;">Google menettää markkina-arvoa AI-tähtien siirtyessä kilpailijoille</a></h2>
- <p>AI Daily Briefin mukaan Alphabetin osake laski voimakkaasti John Jumperin ja Noam Shazeerin siirtymisten jälkeen Anthropicille ja OpenAI:lle. Markkinareaktio voi olla ylilyönti, mutta se kertoo, kuinka paljon sijoittajat hinnoittelevat yksittäisiä huippututkijoita ja agenttisten yrityskäyttötapausten uskottavuutta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://aidailybrief.beehiiv.com/p/the-right-way-to-deal-with-ai-data-centers" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="highlight-box"><p><strong>Päivän yllätys:</strong> AI News nosti esiin myös Telco-Common-Corpuksen, <strong>10 miljardin tokenin</strong> avoimen telekommunikaatiokorpuksen. Se kertoo, että toimialakohtainen data alkaa nousta yhtä tärkeäksi kilpailutekijäksi kuin yleismallien koko.</p></div>
-
- <div class="section-divider"></div>
-
- <div class="section-label">📡 Telco AI</div>
-
- <div class="subsection-label">Europe</div>
- <div class="article">
- <div class="tag tag-teknologia">Telco AI</div>
- <div class="article-meta">NVIDIA / DTW Ignite 2026</div>
- <h2><a href="https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/" target="_blank" style="color: inherit; text-decoration: none;">NVIDIA tuo 24/7 AI-agentit teleoperaattorien operointiin</a></h2>
- <p>NVIDIA esittelee DTW Ignite 2026 -tapahtumassa Kööpenhaminassa telco-kumppaneiden kanssa kokonaisuutta, jossa data, mallit, simulointi ja turvalliset runtime-ympäristöt tuodaan verkko-operaatioihin. Operaattoreille tämä merkitsee siirtymää tehtäväkohtaisesta automaatiosta kohti jatkuvasti toimivia, valvottuja verkkoagentteja.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-teknologia">Telco AI</div>
- <div class="article-meta">Ciena / Telefonica Deutschland</div>
- <h2><a href="https://investor.ciena.com/news/news-details/2026/Telefnica-Deutschland-and-Blue-Planet-Demonstrate-How-AI-Agents-Can-Accelerate-5G-Network-Slicing-Service-Design/default.aspx" target="_blank" style="color: inherit; text-decoration: none;">Telefonica Deutschland ja Blue Planet testaavat AI-agentteja 5G-viipalointiin</a></h2>
- <p>Cienan tiedotteen mukaan Telefonica Deutschland ja Blue Planet demonstroivat, miten AI-agentit voivat nopeuttaa 5G network slicing -palvelusuunnittelua. Kiinnostavaa on integraatio olemassa olevaan MDSO-ympäristöön: agentti ei ole erillinen demo, vaan osa operaattorin todellista OSS-työnkulkua.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://investor.ciena.com/news/news-details/2026/Telefnica-Deutschland-and-Blue-Planet-Demonstrate-How-AI-Agents-Can-Accelerate-5G-Network-Slicing-Service-Design/default.aspx" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="subsection-label">USA</div>
- <div class="article">
- <div class="tag tag-teknologia">Telco AI</div>
- <div class="article-meta">Verizon</div>
- <h2><a href="https://www.verizon.com/about/news/verizon-architecting-network-autonomy" target="_blank" style="color: inherit; text-decoration: none;">Verizon tavoittelee Level 4 -verkkoautonomiaa generatiivisella AI:lla</a></h2>
- <p>Verizonin CTO Yago Tenorio kuvaa yhtiön siirtymää kohti Level 4 -verkkoautonomiaa generatiivisen AI:n ja autonomisten agenttien avulla. Tämä on operaattoribisneksen kannalta iso suunta: AI ei ainoastaan analysoi verkkoa, vaan alkaa ehdottaa ja toteuttaa operatiivisia toimia hallituissa rajoissa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.verizon.com/about/news/verizon-architecting-network-autonomy" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-tutkimus">Telco AI</div>
- <div class="article-meta">VoIP Review / TelcoAgent</div>
- <h2><a href="https://voip.review/2026/06/25/telcoagent-advances-ai-5g-network-performance-forecasting/" target="_blank" style="color: inherit; text-decoration: none;">TelcoAgent tutkii 5G-verkon suorituskyvyn ennustamista standardikontekstilla</a></h2>
- <p>TelcoAgent-projekti pyrkii ennustamaan 5G-verkon suorituskykyä ja kytkemään päättelyn 3GPP-standardien kontekstiin. Vaikka kyse on tutkimussignaalista, se on operaattoreille tärkeä: luotettava ennustaminen ja standardeihin ankkuroitu selittävyys ovat edellytyksiä agenttien käytölle verkko-operoinnissa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://voip.review/2026/06/25/telcoagent-advances-ai-5g-network-performance-forecasting/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="subsection-label">Asia</div>
- <div class="article">
- <div class="tag tag-uutinen">Telco AI</div>
- <div class="article-meta">GSMA / China Tower</div>
- <h2><a href="https://www.gsma.com/newsroom/press-release/gsma-welcomes-china-tower-to-advance-ai-ready-mobile-infrastructure/" target="_blank" style="color: inherit; text-decoration: none;">China Tower liittyy GSMA:han vauhdittamaan AI-valmista mobiili-infraa</a></h2>
- <p>GSMA ilmoitti MWC Shanghaissa, että maailman suurin torniverkkoyhtiö China Tower liittyy järjestöön ja tuo vauhtia AI-valmiin mobiili-infrastruktuurin kehitykseen. Tämä on tärkeää, koska AI-kuormat ja reunalaskenta vaativat tulevaisuudessa fyysiseltä verkkoinfralta uutta kapasiteettia, energiatehokkuutta ja operointimallia.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.gsma.com/newsroom/press-release/gsma-welcomes-china-tower-to-advance-ai-ready-mobile-infrastructure/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-bisnes">Telco AI</div>
- <div class="article-meta">Developing Telecoms</div>
- <h2><a href="https://www.developingtelecoms.com/telecom-technology/enterprise-ecosystems/20442-tokens-touted-to-telcos-as-ticket-to-monetising-ai-starting-in-china.html" target="_blank" style="color: inherit; text-decoration: none;">Telcoissa kokeillaan AI-tokenien kaupallistamista, Kiina eturintamassa</a></h2>
- <p>Developing Telecoms raportoi keskustelusta, jossa AI-tokenit nähdään teleoperaattoreille uutena kaupallistamisen mittarina. Jutussa nostetaan esiin, että China Mobilella AI:n kerrotaan jo muodostavan <strong>9 prosenttia</strong> liikevaihdosta ja SK Telecomilla <strong>4 prosenttia</strong>, mikä tekee AI:sta operaattoreille yhä konkreettisemman tulovirran.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.developingtelecoms.com/telecom-technology/enterprise-ecosystems/20442-tokens-touted-to-telcos-as-ticket-to-monetising-ai-starting-in-china.html" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="section-divider"></div>
-
- <div class="section-label">𝕏 X-signaalit</div>
-
- <div class="article">
- <div class="tag tag-uutinen">X-signaali</div>
- <div class="article-meta">News from Google (@NewsFromGoogle)</div>
- <h2><a href="https://x.com/NewsFromGoogle/status/2070248122723578050" target="_blank" style="color: inherit; text-decoration: none;">Gemma 4:n lataukset ylittävät 200 miljoonaa</a></h2>
- <p>X-postauksessa Google nostaa esiin, että Gemma 4 olisi saavuttanut <strong>200 miljoonaa latausta 2,5 kuukaudessa</strong>. Signaalina tämä kertoo avoimien mallien nopeasta käytännön adoptiosta erityisesti robotiikan, yritysturvan, on-device-agenttien ja reunalaskennan sovelluksissa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/NewsFromGoogle/status/2070248122723578050" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-uutinen">X-signaali</div>
- <div class="article-meta">Polymarket (@Polymarket)</div>
- <h2><a href="https://x.com/Polymarket/status/2070226777255903485" target="_blank" style="color: inherit; text-decoration: none;">Codexin ei-kehittäjäkäyttö nousee X:ssä näkyväksi agenttisignaaliksi</a></h2>
- <p>Postauksessa väitetään, että OpenAI:n Codexin käyttö muissa kuin kehittäjärooleissa olisi kasvanut erittäin nopeasti organisaatioissa. Tätä kannattaa käsitellä signaalina, ei varmistettuna tilastona: kiinnostavaa on, että keskustelu koodausagenteista siirtyy nyt liiketoiminta- ja operatiivisiin työvirtoihin.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/Polymarket/status/2070226777255903485" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">Guillermo Rauch (@rauchg)</div>
- <h2><a href="https://x.com/rauchg/status/2070145503006982393" target="_blank" style="color: inherit; text-decoration: none;">Vercel AI SDK 7 painottaa tuotantoagenttien kontrollia ja työnkulkuja</a></h2>
- <p>Guillermo Rauchin postauksen mukaan Vercel AI SDK 7 lisää muun muassa reasoning-kontrolleja, tool approval -mekanismeja, durable workflow -tukea, MCP Apps -integraatioita ja sandbox-ominaisuuksia. Tämä on hyvä signaali siitä, että agenttikehitys siirtyy demoista kohti auditointia, hyväksyntäketjuja ja operatiivista luotettavuutta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/rauchg/status/2070145503006982393" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-tutkimus">X-signaali</div>
- <div class="article-meta">Brady Long (@thisguyknowsai)</div>
- <h2><a href="https://x.com/thisguyknowsai/status/2070084108416594046" target="_blank" style="color: inherit; text-decoration: none;">DeepSeek-OCR herättää keskustelua dokumenttien tokenitehokkuudesta</a></h2>
- <p>Postauksessa nostetaan esiin DeepSeek-OCR, joka käsittelisi dokumentteja tiivistettyinä kuvina ja käyttäisi huomattavasti vähemmän tokeneita kuin raakateksti. Jos väitteet pitävät laajemmin paikkansa, tällä voi olla merkitystä pitkän kontekstin, dokumenttiagenttien ja muistijärjestelmien kustannuksille.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/thisguyknowsai/status/2070084108416594046" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">Charly Wargnier (@DataChaz)</div>
- <h2><a href="https://x.com/DataChaz/status/2069701294193844329" target="_blank" style="color: inherit; text-decoration: none;">Agenttiparvet ja suljetut palautesilmukat nousevat käytännön teemaksi</a></h2>
- <p>Postauksessa viitataan Anthropicilta kuultuun käytäntöön, jossa insinöörit käyttäisivät suuria itseään parantavia agenttijoukkoja. Tieto on sosiaalisen median signaali, mutta se vahvistaa laajempaa trendiä: agenttien arvo syntyy yhä useammin iteroinnista, verifioinnista ja työnkulun sulkemisesta, ei yksittäisestä vastauksesta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/DataChaz/status/2069701294193844329" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
-
- <div class="footer">
- <p>
- <strong>Päivän tärkeimmät AI-uutiset</strong><br />
- Koottu uutiskirjeistä: AI News, AI Daily Brief, tuoreista Telco AI -verkkolähteistä sekä X-signaaleista 26. kesäkuuta 2026<br />
- Julkaisupäivä: 26.6.2026
- </p>
- <p style="margin-top:12px; font-size:11px; color:#4a6578;">
- Luotu automaattisesti tekoälyllä. Notion-lähteen luku aikakatkaisi kahdesti tässä ajossa; X-haun tuloksia käsitellään signaaleina, ei automaattisesti varmennettuina faktoina.
- </p>
- </div>
- </div>
+    <p class="footer">—<br>Koostanut Hermest AI news agent. Lähteet tarkistettu live-hauilla, RSS-syötteillä ja sivujen metatiedoilla; hakutyökalussa oli ajoittaista 429-rajoitusta, joten discoveryä täydennettiin Google News RSS:llä ja primäärisivujen suoralla haulla.</p>
+  </main>
 </body>
 </html>
