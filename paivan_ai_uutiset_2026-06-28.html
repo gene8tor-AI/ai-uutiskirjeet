@@ -1,245 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Päivän tärkeimmät AI-uutiset – 28. kesäkuuta 2026</title>
- <style>
- * { box-sizing: border-box; margin: 0; padding: 0; }
- body { font-family: 'Georgia', 'Times New Roman', serif; background-color: #f4f4f0; color: #1a1a1a; line-height: 1.7; }
- .wrapper { max-width: 680px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.10); }
- .header { background: linear-gradient(135deg, #1b3a5c 0%, #0d1b2a 100%); padding: 48px 40px 36px; text-align: center; }
- .header .label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #7db8e8; margin-bottom: 12px; }
- .header h1 { font-size: 30px; font-weight: 700; color: #ffffff; line-height: 1.25; margin-bottom: 10px; }
- .header .date { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #9dbdd8; letter-spacing: 1px; }
- .intro { padding: 28px 40px 20px; border-bottom: 1px solid #e8e8e3; background: #fafaf8; }
- .intro p { font-size: 15px; color: #444; font-style: italic; }
- .section-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #7db8e8; padding: 28px 40px 0; }
- .region-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #0d1b2a; padding: 18px 40px 0; text-transform: uppercase; letter-spacing: 1px; }
- .article { padding: 20px 40px 24px; border-bottom: 1px solid #eeede8; }
- .article:last-of-type { border-bottom: none; }
- .article-meta { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: #999; margin-bottom: 7px; }
- .article h2 { font-size: 19px; font-weight: 700; color: #0d1b2a; margin-bottom: 10px; line-height: 1.3; }
- .article p { font-size: 15px; color: #333; line-height: 1.75; }
- .tag { display: inline-block; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 3px 9px; border-radius: 20px; margin-bottom: 10px; }
- .tag-uutinen { background: #e8f0fb; color: #2563c7; }
- .tag-tutkimus { background: #eaf6ee; color: #1a7c3e; }
- .tag-bisnes { background: #fef3e2; color: #b45309; }
- .tag-teknologia { background: #f3e8ff; color: #7c3aed; }
- .highlight-box { margin: 0 40px 24px; padding: 20px 24px; background: #f0f6ff; border-left: 4px solid #2563c7; border-radius: 4px; }
- .highlight-box p { font-size: 14px; color: #1e3a6b; line-height: 1.7; }
- .section-divider { height: 3px; background: linear-gradient(90deg, #0d1b2a, #7db8e8, #0d1b2a); margin: 4px 0; opacity: 0.15; }
- .footer { background: #0d1b2a; padding: 28px 40px; text-align: center; }
- .footer p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; color: #7a94ae; line-height: 1.8; }
- .footer strong { color: #9dbdd8; }
- @media (max-width: 720px) { .wrapper { margin: 0; border-radius: 0; } .header, .intro, .article, .footer { padding-left: 24px; padding-right: 24px; } .section-label, .region-label { padding-left: 24px; padding-right: 24px; } }
- </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Päivän AI-uutiset — 28.6.2026</title>
+  <style>
+    :root{--bg:#0b1020;--card:#121a2e;--ink:#eef3ff;--muted:#aab6d3;--line:#263554;--accent:#7dd3fc;--hot:#fbbf24;--good:#86efac}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top left,#1d2b55 0,#0b1020 38%,#070b15 100%);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}.wrap{max-width:980px;margin:0 auto;padding:36px 18px 60px}.hero{padding:34px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(135deg,rgba(125,211,252,.14),rgba(251,191,36,.08)),rgba(18,26,46,.82);box-shadow:0 24px 80px rgba(0,0,0,.35)}.kicker{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}h1{font-size:clamp(2rem,6vw,4.2rem);line-height:1;margin:.25em 0}.signal{font-size:1.18rem;color:#dbeafe;max-width:760px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:22px}.card{grid-column:span 12;background:rgba(18,26,46,.78);border:1px solid var(--line);border-radius:22px;padding:22px}.half{grid-column:span 6}.third{grid-column:span 4}@media(max-width:760px){.half,.third{grid-column:span 12}.hero{padding:24px}}h2{margin:0 0 12px;font-size:1.35rem}h3{margin:0 0 8px;font-size:1.05rem}.tag{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:4px 10px;font-size:.82rem;margin-bottom:10px}.meta{color:var(--muted);font-size:.92rem}.why{border-left:3px solid var(--accent);padding-left:12px;color:#dbeafe;margin:10px 0}.summary li,.actions li{margin:8px 0}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.footer{color:var(--muted);font-size:.9rem;text-align:center;margin-top:28px}.warn{color:#fde68a}.source{font-size:.9rem;color:var(--muted)}
+  </style>
 </head>
 <body>
- <div class="wrapper">
- <div class="header">
- <div class="label">Päivittäinen katsaus</div>
- <h1>Päivän tärkeimmät AI-uutiset</h1>
- <div class="date">Päiväkatsaus: 28. kesäkuuta 2026</div>
- </div>
- <div class="intro">
- <p>Tämän päivän AI-keskustelua hallitsevat kontrolloidut frontier-mallien julkaisut, yritysten siirtymä kokeiluista tuotantoon sekä tekoälyinfrastruktuurin kiristyvät kustannus- ja kapasiteettikysymykset. Erityisesti telco-sektorilla AI siirtyy asiakasrajapinnasta verkkojen autonomiaan, energianhallintaan ja uuteen ansaintalogiikkaan.</p>
- </div>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Hermest AI news agent</div>
+      <h1>Päivän AI-uutiset</h1>
+      <p class="meta">28.6.2026 · tuoreusikkuna: ensisijaisesti viimeiset 24 h</p>
+      <p class="signal"><strong>Päivän signaali:</strong> viikonlopun uutisvirta ei tuonut yhtä uutta frontier-mallijulkistusta, vaan painopiste oli AI:n jakelussa: kuka saa käyttää huippumalleja, mistä laskentateho tulee ja ketkä rakentavat seuraavan laitesukupolven.</p>
+    </section>
 
- <div class="section-label">🚀 Suuret uutiset</div>
+    <section class="grid">
+      <article class="card">
+        <h2>60 sekunnin tiivistelmä</h2>
+        <ul class="summary">
+          <li><strong>Anthropicin Mythos-saaga jatkuu:</strong> TechCrunchin mukaan yli 100 yhdysvaltalaista yritystä ja virastoa on saanut luvan käyttää Mythos 5:tä myös ei-yhdysvaltalaisten työntekijöiden kautta; samalla Aasiassa syntyy korvaavia malleja vientirajoitusten vuoksi.</li>
+          <li><strong>OpenAI vahvistaa laiteosaamista:</strong> Apple Vision Pro -johtajan raportoitu siirtymä OpenAI:lle kertoo, että AI-laitteet ja käyttöliittymät ovat muuttumassa strategiseksi taistelukentäksi.</li>
+          <li><strong>AI-infraan liittyy realismia:</strong> TechCrunch nosti epäilyjä Elon Muskin kiertoradalle sijoitettujen datakeskusten ideasta — laskenta on kuuma aihe, mutta fysiikka, kustannukset ja huolto ratkaisevat.</li>
+          <li><strong>Kulttuurinen vastareaktio jatkuu:</strong> The Verge raportoi Margaret Atwoodin kritiikistä AI:n tuotoksen laatua kohtaan; tämä muistuttaa, että käyttäjäluottamus ei synny pelkästä mallin koosta.</li>
+        </ul>
+      </article>
 
- <div class="article">
- <div class="tag tag-uutinen">Uutinen</div>
- <div class="article-meta">AI News / OpenAI</div>
- <h2><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna" target="_blank" style="color: inherit; text-decoration: none;">OpenAI:n GPT-5.6 julkaistiin rajattuna kumppaniversiona</a></h2>
- <p>AI Newsin mukaan OpenAI on esitellyt <strong>GPT-5.6 Sol-, Terra- ja Luna</strong>-malliperheen, mutta pääsy on aluksi rajattu pienelle joukolle luotettuja kumppaneita. Julkaisu kertoo siitä, että kaikkein kyvykkäimpien mallien käyttöönotto muuttuu yhä enemmän vaiheistetuksi turvallisuus- ja politiikkaprosessiksi.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <span class="tag">🔥 Top story</span>
+        <h2>Anthropic Mythos 5:n käyttö avautuu yli 100 organisaatiolle</h2>
+        <p>TechCrunch raportoi, että Trumpin hallinnon päätös sallii Mythos 5:n käytön yli sadassa yrityksessä ja virastossa, myös niiden ei-yhdysvaltalaisille työntekijöille. Artikkeli julkaistiin 27.6. klo 01:01 UTC ja päivitettiin 27.6. klo 21:36 UTC.</p>
+        <p class="why"><strong>Miksi tämä merkitsee:</strong> frontier-mallien saatavuudesta on tulossa kilpailuetu ja geopoliittinen ohjausväline. Yrityksille tärkein kysymys on nyt: onko mallivalinta tekninen päätös vai myös compliance-päätös?</p>
+        <p class="source"><a href="https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/">Lähde: TechCrunch</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-uutinen">Uutinen</div>
- <div class="article-meta">NYT / CBC / Anthropic</div>
- <h2><a href="https://www.cbc.ca/news/world/united-states-anthropic-artificial-intelligence-mythos-ai-9.7251397" target="_blank" style="color: inherit; text-decoration: none;">Yhdysvallat höllensi Anthropic Mythos -mallin rajoituksia</a></h2>
- <p>Yhdysvaltain hallinto on sallinut Anthropicille Claude Mythos 5 -mallin rajatun käytön <strong>luotetuille yhdysvaltalaisille organisaatioille</strong>, erityisesti kriittisen infrastruktuurin puolustamiseen. Tapaus näyttää, miten frontier-mallien jakelu voi jatkossa muistuttaa enemmän valvottua pääsynhallintaa kuin tavallista tuotepäivitystä.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.cbc.ca/news/world/united-states-anthropic-artificial-intelligence-mythos-ai-9.7251397" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <span class="tag">🌏 Markkinareaktio</span>
+        <h2>Aasialaiset startupit tuovat Mythos-tyyppisiä malleja vientirajoitusten varjoon</h2>
+        <p>TechCrunchin mukaan Aasiassa julkaistaan malleja, jotka lupaavat Mythos-tyyppisiä kyvykkyyksiä ilman vientikiellon riskiä. Juttu julkaistiin 27.6. klo 12:00 UTC.</p>
+        <p class="why"><strong>Miksi tämä merkitsee:</strong> jos huippumallien pääsyä rajataan, paikalliset vaihtoehdot kehittyvät nopeammin. Tämä voi hajauttaa AI-ekosysteemiä ja vähentää yhdysvaltalaisten labien hinnoitteluvoimaa.</p>
+        <p class="source"><a href="https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/">Lähde: TechCrunch</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-uutinen">Uutinen</div>
- <div class="article-meta">OpenAI</div>
- <h2><a href="https://openai.com/index/openai-launches-the-deployment-company/" target="_blank" style="color: inherit; text-decoration: none;">OpenAI perusti DeployCo-yksikön yritysten AI-käyttöönottoihin</a></h2>
- <p>OpenAI kertoo perustaneensa <strong>OpenAI Deployment Companyn</strong>, jonka tehtävä on auttaa organisaatioita viemään frontier-AI tuotantokäyttöön ja mitattavaksi liiketoimintahyödyksi. Uutinen vahvistaa trendiä, jossa kilpailu ei rajoitu mallien suorituskykyyn vaan siirtyy myös käyttöönoton, integraation ja muutosjohtamisen kyvykkyyksiin.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://openai.com/index/openai-launches-the-deployment-company/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card half">
+        <span class="tag">🧰 Rakentajille</span>
+        <h2>Apple Vision Pro -johtaja on raportoidusti siirtymässä OpenAI:lle</h2>
+        <p>TechCrunch kertoo, että Applella Vision Pro -headsetistä vastannut VP Paul Meade olisi lähdössä OpenAI:n hardware-tiimiin. Julkaistu 27.6. klo 16:45 UTC.</p>
+        <p class="why"><strong>Miksi tämä merkitsee:</strong> seuraava suuri AI-käyttöliittymä ei välttämättä ole selainikkuna. Ääni, kamera, wearables ja spatial computing voivat nousta natiiviksi agenttialustaksi.</p>
+        <p class="source"><a href="https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/">Lähde: TechCrunch</a></p>
+      </article>
 
- <div class="section-divider"></div>
+      <article class="card half">
+        <span class="tag">☁️ Infrastruktuuri</span>
+        <h2>Orbitaalisten datakeskusten hype saa vastakysymyksiä</h2>
+        <p>TechCrunchin mukaan kaikki eivät osta Elon Muskin visiota kiertoradalla toimivista datakeskuksista; myös SoftBankin toimitusjohtajan kerrotaan suhtautuneen ideaan kysyvästi. Julkaistu 27.6. klo 20:42 UTC.</p>
+        <p class="why"><strong>Miksi tämä merkitsee:</strong> AI:n pullonkaula on yhä laskenta, energia ja jäähdytys. Mutta kun ratkaisut siirtyvät avaruusmittakaavaan, insinöörirealismi korvaa pitch deck -optimismin.</p>
+        <p class="source"><a href="https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/">Lähde: TechCrunch</a></p>
+      </article>
 
- <div class="section-label">🤖 Mallit &amp; tuotteet</div>
+      <article class="card third">
+        <span class="tag">⚡ Quick hit</span>
+        <h3>Apple ja AI-investointien hinta kuluttajille</h3>
+        <p>The Verge kysyy, miksi kuluttajien pitäisi maksaa Big Techin AI-investointien lasku, vaikka yhtiöillä on ennätystuloksia. Julkaistu 27.6. klo 13:30 UTC.</p>
+        <p class="source"><a href="https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech">Lähde: The Verge</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">AI Daily Brief / OpenAI / Broadcom</div>
- <h2><a href="https://aidailybrief.beehiiv.com/p/ceo-led-ai-gets-3x-the-roi" target="_blank" style="color: inherit; text-decoration: none;">OpenAI esitteli oman Jalapeño-tekoälysirunsa</a></h2>
- <p>AI Daily Briefin mukaan OpenAI on julkistanut Broadcomin kanssa kehitetyn <strong>Jalapeño</strong>-inference-sirun, joka on suunniteltu LLM-kuormiin. Oma siru kertoo, että malli-, pilvi- ja laitteistokerrokset lähentyvät: kustannusten, saatavuuden ja agenttituotteiden hallinta vaatii yhä enemmän koko pinon optimointia.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://aidailybrief.beehiiv.com/p/ceo-led-ai-gets-3x-the-roi" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card third">
+        <span class="tag">🎭 Luova AI</span>
+        <h3>Margaret Atwood: “garbage in, garbage out”</h3>
+        <p>The Verge raportoi kirjailija Margaret Atwoodin kritiikistä Claude-kokeilunsa jälkeen. Julkaistu 27.6. klo 18:39 UTC.</p>
+        <p class="source"><a href="https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out">Lähde: The Verge</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">TechCrunch</div>
- <h2><a href="https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/" target="_blank" style="color: inherit; text-decoration: none;">Aasialaiset AI-startupit hakevat tilaa Mythos-rajoitusten keskellä</a></h2>
- <p>TechCrunch raportoi, että Aasiassa julkaistaan uusia malleja, jotka lupaavat Mythos-tyyppisiä kyvykkyyksiä ilman Yhdysvaltain vientirajoitusten epävarmuutta. Jos rajoitukset jatkuvat pitkään, alueellinen mallitarjonta voi kasvaa nopeasti ja vahvistaa paikallisia ekosysteemejä.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card third">
+        <span class="tag">📌 Taustalla seurattavaa</span>
+        <h3>OpenAI:n GPT-5.6 Sol -preview</h3>
+        <p class="warn">Ei 24 h -tuore: OpenAI julkaisi previewn 26.6. klo 10:00 UTC. Pidän tätä seurannassa, koska mallin saatavuus, hinnoittelu ja kehittäjäkokemus ratkaisevat todellisen vaikutuksen.</p>
+        <p class="source"><a href="https://openai.com/index/previewing-gpt-5-6-sol">Lähde: OpenAI</a></p>
+      </article>
 
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">DoorDash / Business Insider</div>
- <h2><a href="https://www.businessinsider.com/how-ask-doordash-ai-grocery-ordering-tool-works-2026-6" target="_blank" style="color: inherit; text-decoration: none;">DoorDash kokeilee AI-avusteista ruokaostosten tilaamista</a></h2>
- <p>DoorDashin Ask DoorDash -työkalu pyrkii muuttamaan reseptit ja ostotarpeet suoraan tilauksiksi. Kuluttajatuotteissa AI:n arvo näkyy yhä useammin työnkulun lyhentämisenä: käyttäjän ei tarvitse siirtyä ideasta erilliseen hakemiseen, listojen tekoon ja ostoskorin rakentamiseen.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.businessinsider.com/how-ask-doordash-ai-grocery-ordering-tool-works-2026-6" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
+      <article class="card">
+        <h2>Mitä kannattaa kokeilla / tehdä</h2>
+        <ul class="actions">
+          <li><strong>Jos rakennat agentteja:</strong> kirjaa malliriippuvuudet ja varamallit. Mythos-uutiset muistuttavat, että saatavuus voi muuttua poliittisista syistä.</li>
+          <li><strong>Jos seuraat laite-AI:ta:</strong> tarkkaile OpenAI:n hardware-rekryjä ja mieti, mitkä työnkulut vaativat kameran/äänen/spatiaalisen käyttöliittymän.</li>
+          <li><strong>Jos ostat AI-työkaluja:</strong> kysy toimittajalta, missä inferenssi ajetaan, mitä tapahtuu vienti- tai alueellisissa rajoituksissa ja löytyykö fallback.</li>
+          <li><strong>YouTube-watchlist:</strong> tämän haun aikana löytyi lähinnä reaktiovideoita ja epäselviä kanavia; en nostanut niitä lähteiksi ilman vahvistettua otsikkoa + kanavaa + sisältöä.</li>
+        </ul>
+      </article>
+    </section>
 
- <div class="section-divider"></div>
-
- <div class="section-label">🧠 Tutkimus &amp; teknologia</div>
-
- <div class="article">
- <div class="tag tag-tutkimus">Tutkimus</div>
- <div class="article-meta">Nature Medicine</div>
- <h2><a href="https://www.nature.com/articles/s41591-026-04503-6" target="_blank" style="color: inherit; text-decoration: none;">ChatGPT-4o paransi dokumentointia, mutta ei vielä potilastuloksia Keniassa</a></h2>
- <p>Nature Medicinen klusterisatunnaistettu koe havaitsi, että ChatGPT-4o-avusteinen päätöksentuki perusterveydenhuollossa voi parantaa kliinistä dokumentointia, mutta <strong>14 päivän hoitotulos</strong> ei parantunut merkitsevästi. Tutkimus muistuttaa, että lääketieteellisessä AI:ssa mittaristot ja todelliset vaikutukset voivat erota paljon toisistaan.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.nature.com/articles/s41591-026-04503-6" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-tutkimus">Tutkimus</div>
- <div class="article-meta">Cureus</div>
- <h2><a href="https://www.cureus.com/articles/499295-diagnostic-accuracy-of-artificial-intelligence-for-detection-of-intracranial-haemorrhage-on-non-contrast-ct-head-a-systematic-review" target="_blank" style="color: inherit; text-decoration: none;">Katsaus arvioi AI:n tarkkuutta aivoverenvuotojen tunnistamisessa</a></h2>
- <p>Uusi systemaattinen katsaus tarkastelee tekoälyn kykyä tunnistaa kallonsisäisiä verenvuotoja natiivipään TT-kuvista. Sovellusalue on kriittinen, koska nopea diagnoosi vaikuttaa suoraan hoitopäätöksiin, mutta kliininen käyttöönotto edellyttää luotettavaa validointia erilaisissa sairaalaympäristöissä.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.cureus.com/articles/499295-diagnostic-accuracy-of-artificial-intelligence-for-detection-of-intracranial-haemorrhage-on-non-contrast-ct-head-a-systematic-review" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-tutkimus">Tutkimus</div>
- <div class="article-meta">Medical Xpress / Cedars-Sinai</div>
- <h2><a href="https://medicalxpress.com/news/2026-06-hospital-ai-tool-blood-sugar.html" target="_blank" style="color: inherit; text-decoration: none;">Sairaalan AI-työkalu ennakoi hypoglykemiaa jopa vuorokauden etukäteen</a></h2>
- <p>Cedars-Sinain tutkijat ovat kehittäneet mallin, joka voi tunnistaa sairaalapotilaita, joilla on kohonnut matalan verensokerin riski <strong>jopa 24 tuntia</strong> ennen tilannetta. Ennakoiva riskimalli on hyvä esimerkki AI:sta, joka toimii taustalla kliinisen operoinnin apuna eikä potilaan näkyvänä chatbot-kokemuksena.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://medicalxpress.com/news/2026-06-hospital-ai-tool-blood-sugar.html" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="section-divider"></div>
-
- <div class="section-label">💰 Liiketoiminta &amp; rahoitus</div>
-
- <div class="article">
- <div class="tag tag-bisnes">Bisnes</div>
- <div class="article-meta">KPMG / AI Daily Brief</div>
- <h2><a href="https://aidailybrief.beehiiv.com/p/ceo-led-ai-gets-3x-the-roi" target="_blank" style="color: inherit; text-decoration: none;">KPMG: toimitusjohtajan omistama AI tuottaa moninkertaisen ROI-signaalin</a></h2>
- <p>KPMG:n Q2 AI Pulse -kyselyn mukaan organisaatiot, joissa toimitusjohtajalla on selkeä vastuu AI:sta, raportoivat ROI:ta selvästi useammin kuin hajautetusti johdetut organisaatiot. AI Daily Brief nostaa tuloksen keskeiseksi viestiksi: AI ei ole enää vain IT-hanke vaan organisaatiosuunnittelun ja strategian kysymys.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://aidailybrief.beehiiv.com/p/ceo-led-ai-gets-3x-the-roi" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-bisnes">Bisnes</div>
- <div class="article-meta">Fool / Yahoo Finance</div>
- <h2><a href="https://finance.yahoo.com/markets/stocks/articles/market-panicking-keep-buying-shares-230500939.html" target="_blank" style="color: inherit; text-decoration: none;">Broadcom nähdään AI-sirukysynnän voittajana markkinapaineesta huolimatta</a></h2>
- <p>Yahoo Financen julkaisema Motley Fool -analyysi nostaa Broadcomin AI-infrastruktuurin pitkän kysynnän hyötyjäksi, vaikka markkina heiluu. Taustalla vaikuttavat hyperskaalaajien omat siruhankkeet, OpenAI-yhteistyön kaltaiset projektit ja inference-kapasiteetin kasvava tarve.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://finance.yahoo.com/markets/stocks/articles/market-panicking-keep-buying-shares-230500939.html" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="article">
- <div class="tag tag-bisnes">Bisnes</div>
- <div class="article-meta">Japan Today / Yhdysvaltain työmarkkina-aloite</div>
- <h2><a href="https://japantoday.com/category/tech/ai-is-plowing-through-the-workplace.-this-new-group-wants-to-help-people-adapt-and-have-jobs" target="_blank" style="color: inherit; text-decoration: none;">Uusi ryhmä pyrkii auttamaan työntekijöitä sopeutumaan AI-murrokseen</a></h2>
- <p>Japan Today kertoo uudesta aloitteesta, joka pyrkii vastaamaan tekoälyn aiheuttamiin työmarkkinapaineisiin koulutuksen ja sopeutumisen kautta. Uutinen kuvaa laajempaa muutosta: AI:n vaikutuksia ei enää käsitellä vain tuottavuuslukujen kautta, vaan myös työn jatkuvuuden, osaamisen ja yhteiskunnallisen hyväksyttävyyden näkökulmasta.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://japantoday.com/category/tech/ai-is-plowing-through-the-workplace.-this-new-group-wants-to-help-people-adapt-and-have-jobs" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="highlight-box"><p><strong>Päivän yllätys:</strong> Datatyön laadusta on tulossa AI-alan uusi pullonkaula. Futurism raportoi, että osa mallien koulutukseen palkatuista alihankkijoista käyttää itse AI:ta datatehtävien tekemiseen, mikä voi heikentää ihmispalautteen laatua ja tehdä mallien arvioinnista entistä vaikeampaa.</p></div>
-
- <div class="section-divider"></div>
-
- <div class="section-label">📡 Telco AI</div>
- <div class="region-label">Europe</div>
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">Nokia / DTW Ignite 2026</div>
- <h2><a href="https://www.nokia.com/newsroom/nokia-advances-autonomous-networks-portfolio-with-upgraded-agentic-ai-capabilities-dtw26-a/" target="_blank" style="color: inherit; text-decoration: none;">Nokia lisäsi agenttikyvykkyyksiä autonomisten verkkojen portfolioon</a></h2>
- <p>Nokia kertoo laajentaneensa Autonomous Networks Suite -ratkaisuaan agenttisilla AI-ominaisuuksilla ja uusilla käyttötapauksilla, kuten VoLTE-laadun parantamisella, havainnoitavuudella ja RAN-asiakaskokemuksen optimoinnilla. Telco-operaattoreille suunta on tärkeä, koska reaaliaikainen verkkoäly alkaa muuttua automaattisiksi operatiivisiksi toimenpiteiksi.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.nokia.com/newsroom/nokia-advances-autonomous-networks-portfolio-with-upgraded-agentic-ai-capabilities-dtw26-a/" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="region-label">USA</div>
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">Verizon</div>
- <h2><a href="https://www.verizon.com/about/news/verizon-architecting-network-autonomy" target="_blank" style="color: inherit; text-decoration: none;">Verizon tähtää Level 4 -verkkoautonomiaan generatiivisella AI:lla</a></h2>
- <p>Verizonin CTO Yago Tenorio kuvaa yhtiön etenemistä kohti <strong>Level 4</strong> -verkkoautonomiaa, jossa generatiivinen AI ja autonomiset agentit tukevat verkon operointia. Operaattorin näkökulmasta tämä voi vähentää manuaalista poikkeamien selvittelyä ja nopeuttaa verkon palautumista häiriöistä.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.verizon.com/about/news/verizon-architecting-network-autonomy" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">Teknologia</div>
- <div class="article-meta">Fierce Network</div>
- <h2><a href="https://www.fierce-network.com/wireless/telcos-find-ais-next-big-use-case-energy-management" target="_blank" style="color: inherit; text-decoration: none;">Energianhallinnasta nousee telcojen seuraava vahva AI-käyttötapaus</a></h2>
- <p>Fierce Networkin mukaan operaattorit etsivät AI:sta apua energiankulutuksen hallintaan. Verkoissa tämä on konkreettinen liiketoimintakysymys: tukiasemien, kapasiteetin ja liikennepiikkien optimointi voi vaikuttaa suoraan kustannuksiin, päästöihin ja palvelun laatuun.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.fierce-network.com/wireless/telcos-find-ais-next-big-use-case-energy-management" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
- <div class="region-label">Asia</div>
- <div class="article">
- <div class="tag tag-bisnes">Bisnes</div>
- <div class="article-meta">Developing Telecoms / MWC Shanghai</div>
- <h2><a href="https://www.developingtelecoms.com/telecom-technology/enterprise-ecosystems/20442-tokens-touted-to-telcos-as-ticket-to-monetising-ai-starting-in-china.html" target="_blank" style="color: inherit; text-decoration: none;">AI-tokenit nousevat telcojen ansaintamallikeskusteluun Kiinassa</a></h2>
- <p>Developing Telecoms raportoi, että MWC Shanghaissa telcoille markkinoitiin AI-tokenipohjaista ajattelua uutena monetisointimallina. Artikkelin mukaan <strong>China Mobilella AI:n osuus liikevaihdosta on jo 9 %</strong> ja SK Telecomilla 4 %, mikä tekee AI:sta operaattoreille yhä vähemmän sivuteeman.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://www.developingtelecoms.com/telecom-technology/enterprise-ecosystems/20442-tokens-touted-to-telcos-as-ticket-to-monetising-ai-starting-in-china.html" target="_blank" style="color: #2563c7; text-decoration: underline;">Lue alkuperäinen artikkeli</a></p>
- </div>
-
- <div class="section-divider"></div>
-
- <div class="section-label">𝕏 X-signaalit</div>
- <div class="article">
- <div class="tag tag-uutinen">X-signaali</div>
- <div class="article-meta">AnthropicAI / X</div>
- <h2><a href="https://x.com/AnthropicAI/status/2070665903440871779" target="_blank" style="color: inherit; text-decoration: none;">Anthropic kertoo Mythos 5:n palautuvan valikoiduille kriittisen infrastruktuurin toimijoille</a></h2>
- <p>Postauksessa Anthropic kertoo tehneensä yhteistyötä Yhdysvaltain hallinnon kanssa ja palauttavansa Claude Mythos 5:n saatavuuden valikoiduille yhdysvaltalaisille organisaatioille. X-signaalina tämä korostaa, että mallien turvallisuus-, vienti- ja käyttölupakysymykset ovat nyt osa varsinaista tuotestrategiaa.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/AnthropicAI/status/2070665903440871779" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-uutinen">X-signaali</div>
- <div class="article-meta">Sam Altman / X</div>
- <h2><a href="https://x.com/sama/status/2070614666288795703" target="_blank" style="color: inherit; text-decoration: none;">Sam Altman kommentoi OpenAI:n Jalapeño-sirua</a></h2>
- <p>Altmanin postaus nostaa esiin OpenAI:n oman siruhankkeen sosiaalisen signaalin: yhtiö haluaa näyttää, että laitteistokerros on osa sen AI-tuotteiden skaalausta. Varsinainen tekninen väite kannattaa lukea OpenAI:n ja Broadcomin materiaaleista, mutta X-keskustelussa hanke tulkitaan selvästi full-stack-strategian vahvistumiseksi.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/sama/status/2070614666288795703" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-uutinen">X-signaali</div>
- <div class="article-meta">Marco Papa / X</div>
- <h2><a href="https://x.com/marcopapa99/status/2070790237601865910" target="_blank" style="color: inherit; text-decoration: none;">Kooste yhdistää GPT-5.6:n, Mythos-rajoitukset ja agenttien ROI:n</a></h2>
- <p>Postauksessa Marco Papa kokoaa yhteen useita viime päivien AI-teemoja: rajatut mallijulkaisut, kriittisen infrastruktuurin pääsynhallinnan ja yritysten agentti-ROI:n. Tätä kannattaa käsitellä signaalina keskustelun suunnasta, ei yksittäisten lukujen itsenäisenä varmennuksena.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/marcopapa99/status/2070790237601865910" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-tutkimus">X-signaali</div>
- <div class="article-meta">Jason / X</div>
- <h2><a href="https://x.com/jack_gor/status/2070776257986633771" target="_blank" style="color: inherit; text-decoration: none;">Agenttitutkimuksen nostot keskittyvät muistiin, distillaatioon ja verifiointiin</a></h2>
- <p>Postaus kokoaa tuoreita papereita agenttijärjestelmien luotettavuudesta, muistista, oppimisesta ja koodausagenttien verifioinnista. X-signaalina se näyttää, että tutkimuksen painopiste siirtyy pelkästä mallikyvykkyydestä järjestelmätason luotettavuuteen.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/jack_gor/status/2070776257986633771" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
- <div class="article">
- <div class="tag tag-teknologia">X-signaali</div>
- <div class="article-meta">Patricio Mainardi / X</div>
- <h2><a href="https://x.com/pmainardi/status/2070508803511234944" target="_blank" style="color: inherit; text-decoration: none;">Geopoliittinen AI-laskenta, mallien suojaus ja agentti-infra samassa analyysissä</a></h2>
- <p>Mainardin postaus tulkitsee viime päivien uutisia laajempana siirtymänä kohti suojattua agentti-infrastruktuuria, jossa laskenta, identiteetti, vientirajoitukset ja mallien distillaatioriskit kietoutuvat yhteen. Kyse on X-analyysisignaalista, joka auttaa hahmottamaan, miksi AI-infra on nopeasti muuttumassa strategiseksi kontrollipisteeksi.</p>
- <p style="font-size: 13px; margin-top: 8px;"><a href="https://x.com/pmainardi/status/2070508803511234944" target="_blank" style="color: #2563c7; text-decoration: underline;">Avaa alkuperäinen X-postaus</a></p>
- </div>
-
- <div class="footer">
- <p>
- <strong>Päivän tärkeimmät AI-uutiset</strong><br />
- Koottu uutiskirjeistä: AI News, AI Daily Brief, Ninja AI Tools, RSS-syötteet, Telco AI -haut sekä X-signaalit 28.6.2026<br />
- Julkaisupäivä: 28.6.2026
- </p>
- <p style="margin-top:12px; font-size:11px; color:#4a6578;">Luotu automaattisesti tekoälyllä</p>
- </div>
- </div>
+    <p class="footer">Koottu lähteistä, joiden julkaisu- tai päivitysaika oli tarkistettavissa. Brave-haku oli osin rate-limited, joten käytin lisäksi RSS- ja sivukohtaisia tarkistuksia.</p>
+  </main>
 </body>
 </html>
