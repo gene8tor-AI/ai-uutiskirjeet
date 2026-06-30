@@ -11,6 +11,7 @@ main_files = sorted(set(
     + glob.glob("executive_ai_brief_*.html")
     + glob.glob("viikon_ai_uutiset_*.html")
     + glob.glob("copilot_katsaus_*.html")
+    + glob.glob("copilot_studio_katsaus_*.html")
 ))
 main_items = []
 for f in main_files:
@@ -112,6 +113,8 @@ for item in main_items:
         display_title = "Viikon tärkeimmät AI-uutiset"
     elif "Copilot katsaus" in display_title:
         display_title = "Microsoft Copilot - Käyttötapaukset"
+    elif "Copilot studio katsaus" in display_title:
+        display_title = "Copilot Studio - Käyttötapaukset"
     elif "Vibe coding" in display_title:
         display_title = "Vibe Coding -uutiset"
         

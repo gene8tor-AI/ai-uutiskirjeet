@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Copilot Studio - Käyttötapaukset</title>
+ <style>
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ body {
+ font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+ background-color: #f3f2f1;
+ color: #201f1e;
+ line-height: 1.6;
+ }
+ .wrapper {
+ max-width: 700px;
+ margin: 40px auto;
+ background: #ffffff;
+ border-radius: 8px;
+ overflow: hidden;
+ box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+ border-top: 6px solid #0078d4;
+ }
+ .header {
+ background: #ffffff;
+ padding: 40px 40px 25px 40px;
+ text-align: center;
+ border-bottom: 1px solid #edebe9;
+ }
+ .header .label {
+ font-size: 12px; font-weight: 600;
+ letter-spacing: 2px; text-transform: uppercase;
+ color: #0078d4; margin-bottom: 10px;
+ }
+ .header h1 { font-size: 28px; font-weight: 700; color: #201f1e; line-height: 1.2; margin-bottom: 8px; }
+ .header .date { font-size: 13px; color: #605e5c; }
+ .intro { padding: 30px 40px 10px; }
+ .intro p { font-size: 16px; color: #323130; font-style: italic; text-align: center; }
+ .section-label {
+ font-size: 14px; font-weight: 700;
+ letter-spacing: 1.5px; text-transform: uppercase;
+ color: #0078d4; padding: 30px 40px 10px;
+ border-bottom: 2px solid #f3f2f1;
+ margin-bottom: 15px;
+ }
+ .article { padding: 0 40px 25px 40px; }
+ .article-item { background: #faf9f8; padding: 20px; border-radius: 6px; margin-bottom: 20px; border-left: 4px solid #0078d4; }
+ .article-meta { font-size: 12px; font-weight: 600; text-transform: uppercase; color: #605e5c; margin-bottom: 5px; }
+ .article-item h2 { font-size: 18px; font-weight: 700; color: #201f1e; margin-bottom: 10px; line-height: 1.3; }
+ .article-item p { font-size: 15px; color: #323130; line-height: 1.6; margin-bottom: 10px; }
+ .article-item strong { color: #0078d4; }
+ .footer { background: #edebe9; padding: 30px 40px; text-align: center; }
+ .footer p { font-size: 12px; color: #605e5c; line-height: 1.8; }
+ @media (max-width: 760px) {
+   .wrapper { margin: 0; border-radius: 0; }
+   .header, .intro, .article, .footer { padding-left: 24px; padding-right: 24px; }
+   .section-label { padding-left: 24px; padding-right: 24px; }
+ }
+ </style>
+</head>
+<body>
+ <div class="wrapper">
+ <div class="header">
+ <div class="label">Agentit &amp; Automaatio</div>
+ <h1>Copilot Studio - Käyttötapaukset</h1>
+ <div class="date">Viikko 27 / 2026 • Koostettu: 30.6.2026</div>
+ </div>
+
+ <div class="intro">
+ <p>Copilot Studio -käyttötapaukset ovat siirtymässä yksinkertaisista chatboteista kohti tuotantovalmiita agentteja, jotka hakevat tietoa hyväksytyistä lähteistä, suorittavat toimintoja taustajärjestelmissä ja tukevat sekä asiakkaita että sisäisiä tiimejä.</p>
+ </div>
+
+ <div class="section-label">Asiakaspalvelu &amp; kontaktikeskus</div>
+ <div class="article">
+    <div class="article-item">
+    <div class="article-meta">NEXI GROUP / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/nexi-revolutionizes-customer-support" target="_blank" style="color: #201f1e; text-decoration: none;">Nexi automatisoi korttipalveluiden asiakastukea turvallisella agentilla</a></h2>
+    <p>Nexi Group käyttää Copilot Studio -agenttia verkkosivullaan kortinhaltijoiden itsepalveluun, kuten kortin sulkemiseen, uudelleenlähetykseen ja tapahtumatietojen tarkistamiseen. Ratkaisu yhdistää Copilot Studion, Azure AI Searchin, Azure Functionsit ja Genesys Cloud -eskaloinnin, ja se käsittelee yli <strong>3 000 asiakaskohtaamista päivässä</strong> 70 prosentin tyytyväisyystasolla.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/nexi-revolutionizes-customer-support" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+
+    <div class="article-item">
+    <div class="article-meta">MOBILEZONE / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/mobilezone-modernizes-service-delivery" target="_blank" style="color: #201f1e; text-decoration: none;">mobilezonen Mia-agentti toimii digitaalisena myynti- ja palveluetulinjana</a></h2>
+    <p>Sveitsiläinen mobilezone rakensi Copilot Studiolla asiakasagentti Mian, joka neuvoo laite- ja liittymävalinnoissa, hakee reaaliaikaisia tarjouksia Dynamics 365 Commercesta ja vastaa neljällä kielellä. Mia hoitaa noin <strong>1 250 aktiivista keskustelua kuukaudessa</strong> ja vähentää ulkoisen kontaktikeskuksen kuormaa.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/mobilezone-modernizes-service-delivery" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+
+    <div class="article-item">
+    <div class="article-meta">RABOBANK / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/rabobank-conversational-banking" target="_blank" style="color: #201f1e; text-decoration: none;">Rabobank rakentaa keskustelevaa pankkipalvelua chat- ja voice-agenteilla</a></h2>
+    <p>Rabobank siirsi asiakaspalvelun bottejaan Copilot Studioon ja rakensi kolme agenttia: yhden voice-kanavaan ja kaksi tekstipohjaiseen asiakaspalveluun. Ratkaisu tunnistaa intentin, ohjaa puhelut oikeille asiantuntijoille ja hoitaa tekstikanavissa kokonaisia prosesseja, kuten luottokortin sulkemisen, samalla kun pankki hallitsee compliance-vaatimuksia ja Genesys Cloud -integraatiota.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/rabobank-conversational-banking" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+
+    <div class="article-item">
+    <div class="article-meta">CITY OF MONTRÉAL / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/city-montreal-citizen-engagement" target="_blank" style="color: #201f1e; text-decoration: none;">Montréal parantaa kansalaispalvelua yli 40 000 sivun tietopohjalla</a></h2>
+    <p>Montréal käyttää Copilot Studio -agenttia auttamaan asukkaita löytämään tietoa julkisista palveluista, veroista, luvista, tapahtumista ja kunnossapidosta. Agentti hyödyntää kaupungin verkkosisältöä, postinumero- ja kaupunginosatunnistusta sekä taustajärjestelmiä, ja yli <strong>85 prosenttia keskusteluista</strong> hoituu generatiivisilla vastauksilla.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/city-montreal-citizen-engagement" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+ </div>
+
+ <div class="section-label">Sisäiset prosessit &amp; työnkulut</div>
+ <div class="article">
+    <div class="article-item">
+    <div class="article-meta">GRUPO BIMBO / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/grupo-bimbo-global-audit" target="_blank" style="color: #201f1e; text-decoration: none;">Grupo Bimbo standardoi globaalin auditoinnin kahdella agentilla</a></h2>
+    <p>Grupo Bimbo rakensi Copilot Studiolla Comatrix- ja Audit Assist -agentit tukemaan yli sadan auditorin globaalia työtä. Agentit hakevat hyväksytyt menetelmät, pohjat ja ohjeet SharePointista, minkä ansiosta auditoinnin suunnitteluvaihe nopeutui noin <strong>20 prosenttia</strong> ja riskikontrollimatriisin valmistelu lyheni kahdesta päivästä alle puoleen päivään.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/grupo-bimbo-global-audit" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+
+    <div class="article-item">
+    <div class="article-meta">MOBILEZONE / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/mobilezone-modernizes-service-delivery" target="_blank" style="color: #201f1e; text-decoration: none;">Supporto-agentti muuttaa IT-tuen keskustelusta valmiiksi Jira-ticketiksi</a></h2>
+    <p>mobilezonen sisäinen Supporto-agentti toimii Teamsissa ja Microsoft 365:ssä, kerää ongelman kontekstin, erottaa incidentit palvelupyynnöistä ja luo rakenteisia Jira-tikettejä liitteineen. Agentti hoitaa noin <strong>350 työntekijäkeskustelua kuukaudessa</strong>, ja mobilezone raportoi incident-ratkaisun odotusajan puolittuneen.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/mobilezone-modernizes-service-delivery" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+
+    <div class="article-item">
+    <div class="article-meta">SINGAPORE CIVIL DEFENCE FORCE / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/scdf-implements-digital-solutions" target="_blank" style="color: #201f1e; text-decoration: none;">SCDF vie agentit ja low-code-sovellukset operatiiviseen etulinjaan</a></h2>
+    <p>Singapore Civil Defence Force rakensi NEXA-agentin Copilot Studiolla tukemaan 6 000 virkamiestä ohjeiden, toimintamallien ja koulutussisällön löytämisessä. Osana Digital Factory -mallia SCDF lyhensi sovelluskehityksen tyypillisen 2-3 vuoden syklin 1-3 kuukauteen, ja ratkaisujen arvo on kuvattu noin <strong>20 miljoonaksi dollariksi</strong> alle 50 000 dollarin kehityskustannuksilla.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/scdf-implements-digital-solutions" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+ </div>
+
+ <div class="section-label">Integraatiot &amp; liiketoimintasovellukset</div>
+ <div class="article">
+    <div class="article-item">
+    <div class="article-meta">T-MOBILE / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/tmobile-empowers-customer-service" target="_blank" style="color: #201f1e; text-decoration: none;">T-Mobilen PromoGenius tuo Copilot Studio -agentin myymälän iPadiin</a></h2>
+    <p>T-Mobile rakensi Power Apps -sovelluksen, johon on upotettu Copilot Studio -agentti asiakaspalvelijoiden ja myymälähenkilöstön tueksi. Agentti hakee teknisiä tietoja yli 20 laitevalmistajan sivustoilta, vertailee tuotteita luonnollisella kielellä ja muutti arviolta 9-12 kuukauden pro dev -projektin muutamassa viikossa julkaistuksi ensimmäiseksi versioksi.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/tmobile-empowers-customer-service" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+
+    <div class="article-item">
+    <div class="article-meta">SIGNETIC / MICROSOFT LEARN</div>
+    <h2><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/signetic-transforms-healthcare" target="_blank" style="color: #201f1e; text-decoration: none;">Signetic yhdistää Copilot Studio -agentit terveydenhuollon työnkulkuun</a></h2>
+    <p>Signetic käyttää Copilot Studio -agentteja Power Platform -pohjaisessa terveydenhuollon sovelluskokonaisuudessa, joka kattaa ajanvarauksen, käyntidokumentoinnin, laskutuksen ja korvauskäsittelyn. Agentit on upotettu model-driven-sovelluksiin, Dataverse toimii päädatavarastona ja automaatiota täydentävät Azure-palvelut, Power Automate sekä sähköpostista käynnistyvät prior authorization -työnkulut.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/signetic-transforms-healthcare" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+ </div>
+
+ <div class="section-label">Hallinta, tietoturva &amp; käyttöönotto</div>
+ <div class="article">
+    <div class="article-item">
+    <div class="article-meta">LÄPILEIKKAUS CASEISTA</div>
+    <h2><a href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/adoption-case-studies" target="_blank" style="color: #201f1e; text-decoration: none;">Tuotantokelpoinen agentti tarvitsee enemmän kuin hyvän keskustelun</a></h2>
+    <p>Useat case-esimerkit korostavat samaa kaavaa: agentti tarvitsee kuratoidun tietopohjan, selkeät integraatiot, analytiikan ja kontrolloidun eskaloinnin ihmiseen. Nexi laajensi telemetriaa Azure Monitorin, Application Insightsin ja Power BI:n avulla, Rabobank rajasi generatiivisen AI:n käyttöä compliance-syistä, ja Montréal paransi ensin sivustonsa indeksoitavuutta, jotta Copilot Studio voi antaa luotettavia vastauksia.</p>
+    <p style="font-size: 13px; margin-top: 10px;"><a href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/adoption-case-studies" target="_blank" style="color: #0078d4; text-decoration: underline;">Lue lähdeartikkeli</a></p>
+    </div>
+ </div>
+
+ <div class="footer">
+ <p>
+ <strong>Copilot Studio - Käyttötapaukset</strong><br />
+ Koottu verkkolähteistä ja asiantuntijasyötteistä<br />
+ Jakelu: Sisäinen käyttö
+ </p>
+ <p style="margin-top:10px; font-size:11px;">
+ Luotu automaattisesti tekoälyllä
+ </p>
+ </div>
+ </div>
+</body>
+</html>
