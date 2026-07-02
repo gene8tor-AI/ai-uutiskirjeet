@@ -5,87 +5,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Päivän AI-uutiset — 2.7.2026</title>
   <style>
-    :root{--bg:#0b1020;--card:#121a31;--card2:#18213b;--text:#eef3ff;--muted:#aeb9d4;--accent:#7dd3fc;--accent2:#c084fc;--ok:#86efac;--warn:#fbbf24;--line:rgba(255,255,255,.12)}
-    *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;background:radial-gradient(circle at top left,#25345f 0,#0b1020 42%),var(--bg);color:var(--text);line-height:1.58}
-    .wrap{max-width:980px;margin:0 auto;padding:32px 18px 56px}.hero{padding:32px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(135deg,rgba(125,211,252,.16),rgba(192,132,252,.10)),rgba(18,26,49,.78);box-shadow:0 20px 60px rgba(0,0,0,.28)}
-    h1{font-size:clamp(2rem,5vw,4rem);line-height:1.02;margin:0 0 10px}.date{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.08em}.signal{font-size:1.2rem;color:#dce7ff;max-width:850px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:22px}.card{background:rgba(18,26,49,.82);border:1px solid var(--line);border-radius:22px;padding:20px}.card.hot{background:linear-gradient(180deg,rgba(192,132,252,.14),rgba(18,26,49,.88));border-color:rgba(192,132,252,.35)}
-    h2{margin:34px 0 14px;font-size:1.45rem} h3{margin:0 0 8px;font-size:1.08rem}.tag{display:inline-block;font-size:.78rem;color:#06121f;background:var(--accent);border-radius:999px;padding:3px 9px;margin-bottom:10px;font-weight:800}.tag.x{background:var(--warn)}.muted{color:var(--muted)} ul{padding-left:1.2rem}.item{margin:0 0 12px}.why{color:#d7e2fb}.try li{margin-bottom:10px} a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.src{color:var(--muted);font-size:.92rem}.region{color:var(--ok);margin-top:18px}.foot{margin-top:36px;color:var(--muted);font-size:.92rem;border-top:1px solid var(--line);padding-top:18px}
+    :root{--bg:#0b1020;--card:#121a2f;--muted:#9fb0d0;--text:#eef4ff;--accent:#8be9fd;--accent2:#a78bfa;--line:#263452;--good:#7ee787;--warn:#ffd166}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top left,#1f2a52 0,#0b1020 38%,#070a12 100%);color:var(--text);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1040px;margin:0 auto;padding:34px 18px 56px}.hero{padding:34px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(135deg,rgba(139,233,253,.14),rgba(167,139,250,.10)),rgba(18,26,47,.82);box-shadow:0 20px 60px rgba(0,0,0,.35)}.kicker{color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px}.hero h1{font-size:clamp(34px,6vw,60px);line-height:1;margin:10px 0 14px}.signal{font-size:20px;color:#dbe8ff;max-width:850px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:22px}.card{grid-column:span 12;background:rgba(18,26,47,.82);border:1px solid var(--line);border-radius:22px;padding:24px}.half{grid-column:span 6}.third{grid-column:span 4}.tag{display:inline-block;font-size:12px;font-weight:700;color:#08111f;background:var(--accent);padding:4px 9px;border-radius:999px;margin-bottom:10px}.tag.purple{background:var(--accent2);color:#fff}.tag.green{background:var(--good);color:#06120a}.tag.warn{background:var(--warn);color:#191000}h2{font-size:26px;margin:0 0 14px}h3{font-size:21px;margin:0 0 8px}.muted{color:var(--muted)}ul{padding-left:20px}.item{padding:16px 0;border-top:1px solid var(--line)}.item:first-child{border-top:0;padding-top:0}.why{color:#d8e7ff}.meta{font-size:13px;color:var(--muted)}.source{font-size:14px}.footer{margin-top:26px;color:var(--muted);font-size:14px;text-align:center}.pillrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.pill{border:1px solid var(--line);color:#c8d8f7;border-radius:999px;padding:6px 10px;background:rgba(255,255,255,.04)}@media(max-width:760px){.half,.third{grid-column:span 12}.hero{padding:24px}.card{padding:20px}}
   </style>
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
-      <div class="date">Päivän AI-uutiset · 2.7.2026</div>
-      <h1>Frontier-mallit palaavat, mutta sääntely ja kustannukset kiristyvät</h1>
-      <p class="signal"><strong>Signaali:</strong> päivän uutisvirrassa mallijulkaisut, agenttialustat ja AI-infran talous kietoutuvat yhteen: Anthropic saa Fable 5:n takaisin käyttöön, Yhdysvallat valmistelee vapaaehtoisia mallistandardeja ja yritykset hakevat halvempia avoimia sekä erikoistuneita malleja.</p>
-      <div class="grid">
-        <div class="card"><h3>60 sekunnissa</h3><ul><li>Anthropic redeployaa Fable 5:n globaalisti ja tuo Sonnet 5:n agenttityöhön.</li><li>Reutersin mukaan USA neuvottelee vapaaehtoisista standardeista uusien AI-mallien julkaisuun.</li><li>Base44, Together AI ja Palantirin Alex Karp korostavat samaa teemaa: tokeni- ja inference-kulut ohjaavat arkkitehtuuria.</li><li>Telco AI:ssa Deutsche Telekom, Hrvatski Telekom, SoftBank ja GSMA nostavat AI:n operatiiviseksi strategiateemaksi.</li></ul></div>
-        <div class="card"><h3>Mitä tämä tarkoittaa</h3><p class="muted">AI-kilpailu ei ole enää vain paras malli, vaan hallittu julkaisu, laskennan hinta, domain-kohtaiset työnkulut ja kyky viedä agentit tuotantoon ilman hallitsemattomia riskejä.</p></div>
+      <div class="kicker">Hermest AI news agent • 24h-katsaus</div>
+      <h1>Päivän AI-uutiset — 2.7.2026</h1>
+      <p class="signal"><strong>Signaali:</strong> tämän päivän AI-uutiset kääntyvät infrastruktuuriin ja jakeluun: halpa compute, avoimet mallit, agenttien pääsy käyttöliittymiin ja sisällön omistajien vastaisku AI-crawlereille.</p>
+      <div class="pillrow">
+        <span class="pill">Frontier-mallit</span><span class="pill">AI-infra</span><span class="pill">Agentit</span><span class="pill">Avoin lähdekoodi</span><span class="pill">Sääntely & tekijänoikeus</span>
       </div>
     </section>
 
-    <h2>🚀 Suuret uutiset</h2>
-    <div class="grid">
-      <article class="card hot"><span class="tag">Frontier / sääntely</span><h3><a href="https://www.anthropic.com/news/redeploying-fable-5" target="_blank" rel="noopener">Anthropic tuo Fable 5:n takaisin globaalisti</a></h3><p>Anthropic kertoo, että Yhdysvaltain viranomaiset ovat poistaneet vientirajoitukset Fable 5:n osalta ja malli palaa maksavien käyttäjien saataville. Samalla yhtiö lisää kyberturvaan liittyviä luokittimia ja varoittaa, että pieni osa rutiinikoodauksesta tai debuggaamisesta voi tilapäisesti pudota Opus 4.8:aan. Tämä tekee mallin paluusta sekä teknisen että poliittisen merkkitapauksen.</p><p class="src">Anthropic / AI Daily Brief · <a href="https://www.anthropic.com/news/redeploying-fable-5" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card hot"><span class="tag">Politiikka</span><h3><a href="https://www.reuters.com/business/retail-consumer/us-talks-with-ai-companies-voluntary-model-standards-ft-reports-2026-07-02/" target="_blank" rel="noopener">USA neuvottelee vapaaehtoisista mallistandardeista</a></h3><p>Reuters raportoi Financial Timesiin viitaten, että Yhdysvaltain hallinto käy edistyneitä keskusteluja AI-yhtiöiden kanssa vapaaehtoisista standardeista uusien mallien julkaisuun. Ajoitus liittyy suoraan viime viikkojen Anthropic- ja OpenAI-kohuun: mallien julkaisu ei ole enää vain tuotevalinta vaan yhä selvemmin myös valvonta- ja luottamuskysymys.</p><p class="src">Reuters / Notion · <a href="https://www.reuters.com/business/retail-consumer/us-talks-with-ai-companies-voluntary-model-standards-ft-reports-2026-07-02/" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card hot"><span class="tag">Agentit</span><h3><a href="https://www.theinformation.com/newsletters/applied-ai/anthropic-preps-claude-agent-microsoft-teams" target="_blank" rel="noopener">Anthropic valmistelee Claude Tagia Microsoft Teamsiin</a></h3><p>The Informationin mukaan Anthropic valmistelee Claude Tag -tyyppistä organisaatioagenttia Microsoft Teamsiin Slack-integraation jälkeen. Jos integraatio toteutuu, agentti siirtyy vielä syvemmälle päivittäisen tietotyön viestintäkerrokseen: muistilla, työkaluilla ja organisaatiokontekstilla varustettu AI ei ole enää erillinen chat, vaan työtilan sisäinen toimija.</p><p class="src">AI Daily Brief / The Information · <a href="https://www.theinformation.com/newsletters/applied-ai/anthropic-preps-claude-agent-microsoft-teams" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-    </div>
+    <section class="grid">
+      <article class="card">
+        <span class="tag">60 sekunnissa</span>
+        <ul>
+          <li><strong>NVIDIA</strong> tekee AI-kapasiteetista rahoitus- ja kumppanuustuotteen: yhtiö tarjoaa AI-pilville revenue sharing / credit support -mallia moniasiakas-AI-tehtaiden rakentamiseen.</li>
+          <li><strong>Cloudflare</strong> kiristää AI-crawlerien ehtoja: hakua, agentteja ja mallikoulutusta palvelevat botit halutaan erottaa, ja sisällöstä maksaminen nousee oletukseksi.</li>
+          <li><strong>LongCat-2.0</strong> nostaa Kiinan avoimen mallikisan tasoa: Meituanin 1,6T-parametrin MoE-malli painottaa pitkää kontekstia, koodausta ja agenttitehtäviä.</li>
+          <li><strong>Anthropic</strong> palautti Fable/Mythos 5 -mallien pääsyn vientirajoitusten poistuttua ja julkaisi samalla jailbreak-kehystä koskevan ehdotuksen.</li>
+          <li><strong>Tutkimuksessa</strong> korostuvat agenttien muisti, skill-riippuvuudet ja koodausbenchmarkkien luotettavuus — eli agenttien “ops”-puoli kypsyy nopeasti.</li>
+        </ul>
+      </article>
 
-    <h2>🤖 Mallit & tuotteet</h2>
-    <div class="grid">
-      <article class="card"><span class="tag">Erikoismalli</span><h3><a href="https://base44.com/blog/maor-shlomo-building-the-model-behind-base" target="_blank" rel="noopener">Base44 julkaisi oman Base1-mallinsa</a></h3><p>Vibe-koodausalusta Base44 julkaisi oman Base1-mallinsa, joka on koulutettu erityisesti web-sovellusten rakentamiseen Base44:n omasta käyttödatan virrasta. Strategia muistuttaa Cursorin Composer-ajattelua: mallin ei tarvitse olla paras kaikessa, jos se on erittäin hyvä juuri tuotteen tärkeimmässä työnkulussa.</p><p class="src">Base44 / TechCrunch / AI Daily Brief · <a href="https://base44.com/blog/maor-shlomo-building-the-model-behind-base" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">Agenttialusta</span><h3><a href="https://x.com/xai/status/2072342803787702422" target="_blank" rel="noopener">xAI julkaisi Voice Agent Builderin</a></h3><p>xAI:n X-postauksen mukaan uusi Voice Agent Builder tarjoaa no-code-alustan tuotantokelpoisten ääniagenttien rakentamiseen Grok Voice -teknologian päälle. Kokonaisuus yhdistää puhelut, tiedonhaun, työkalut, suojaukset ja observabilityn yhteen pinoon, mikä kertoo ääniagenttien siirtymisestä demotasolta operatiiviseksi asiakaspalvelu- ja automaatiotyökaluksi.</p><p class="src">xAI / X-signaali · <a href="https://x.com/xai/status/2072342803787702422" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">Integraatiot</span><h3><a href="https://itbrief.co.uk/story/dropbox-launches-three-claude-integrations-for-work" target="_blank" rel="noopener">Dropbox toi kolme Claude-integraatiota työtiloihin</a></h3><p>Dropboxin uudet Claude-integraatiot mahdollistavat tiedostojen tuomisen Anthropic-työkaluihin ja tulosten tallentamisen takaisin Dropboxiin. Tärkeää ei ole vain yksittäinen integraatio, vaan malli: AI-työkalut kytketään dokumenttivarastoihin niin, että konteksti ei katoa sovellusten väliin.</p><p class="src">Notion / IT Brief · <a href="https://itbrief.co.uk/story/dropbox-launches-three-claude-integrations-for-work" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">Koodausagentit</span><h3><a href="https://itbrief.com.au/story/ory-unveils-agent-dx-for-enterprise-ai-coding-agents" target="_blank" rel="noopener">Ory Agent DX tuo identiteetin AI-koodausagentteihin</a></h3><p>Ory julkaisi Agent DX:n, jolla kehittäjät voivat lisätä autentikoinnin ja käyttöoikeudet jo AI-agenttien rakentamiin sovelluksiin. Tämä on käytännöllinen askel kohti sitä, että agenttien tekemä koodi ei jää pelkäksi prototyypiksi, vaan ottaa huomioon yrityssovellusten perusturvan.</p><p class="src">Notion / IT Brief · <a href="https://itbrief.com.au/story/ory-unveils-agent-dx-for-enterprise-ai-coding-agents" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-    </div>
+      <article class="card half">
+        <span class="tag purple">Top story</span>
+        <h2>NVIDIA tuotteistaa AI-tehdaskapasiteettia kumppanimallilla</h2>
+        <p>NVIDIA kertoo kumppanoituvansa AI-pilvien kanssa suurten, moniasiakas-AI-tehtaiden rakentamiseksi. Mallissa talous sidotaan mm. revenue sharingiin ja credit supportiin.</p>
+        <p class="why"><strong>Miksi väliä:</strong> tämä voi laskea AI-startupien ja enterprise-tiimien kynnystä saada Blackwell-luokan kapasiteettia ilman omaa jätti-investointia — mutta samalla NVIDIA sitoo infraekosysteemiä entistä tiukemmin itseensä.</p>
+        <p class="source"><a href="https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/">NVIDIA Blog</a> • julkaistu 2.7.2026 UTC</p>
+      </article>
 
-    <h2>🧠 Tutkimus & teknologia</h2>
-    <div class="grid">
-      <article class="card"><span class="tag">Benchmark</span><h3><a href="https://x.com/OpenAI/status/2072004836674167294" target="_blank" rel="noopener">OpenAI julkaisi GeneBench-Pro-benchmarkin</a></h3><p>OpenAI:n ja Greg Brockmanin X-nostojen mukaan GeneBench-Pro mittaa AI-agenttien kykyä työskennellä sotkuisen biologisen datan, analyysivalintojen ja asiantuntijapäätösten parissa. Benchmark on kiinnostava, koska se vie arviointia pois lyhyistä tehtävistä kohti 20-40 tunnin tieteellisiä työnkulkuja.</p><p class="src">OpenAI / X-signaali · <a href="https://x.com/OpenAI/status/2072004836674167294" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">Autonominen tutkimus</span><h3><a href="https://x.com/dair_ai/status/2072428791096602728" target="_blank" rel="noopener">FARS näyttää, mihin automatisoitu tutkimusjärjestelmä pystyy</a></h3><p>DAIR.AI:n nostama FARS-paperi kuvaa autonomista tutkimusjärjestelmää, jossa eri vaiheen agentit vastaavat ideoinnista, suunnittelusta, kokeiluista ja kirjoittamisesta yhteisessä työtilassa. Postauksen mukaan järjestelmä tuotti ensimmäisessä ajossa 166 kokonaista paperia 67 AI/ML-aiheesta, mutta arviointi paljasti myös menetelmien ja tutkimusintegriteetin puutteita.</p><p class="src">DAIR.AI / X-signaali · <a href="https://x.com/dair_ai/status/2072428791096602728" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">AI-infra</span><h3><a href="https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85" target="_blank" rel="noopener">DeepSeek avasi DSpark-kehyksen LLM-inferenssin nopeuttamiseen</a></h3><p>VentureBeatin mukaan DeepSeek on avannut DSpark-kehyksen, jonka tavoitteena on nopeuttaa suurten kielimallien inferenssiä jopa 85 prosentilla. Yhdessä OpenAI:n väitettyjen inference-optimointien kanssa tämä kertoo, että tokenien hinta ja latenssi ovat nyt strategisia kilpailutekijöitä.</p><p class="src">AI Daily Brief / VentureBeat · <a href="https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">Fyysinen AI</span><h3><a href="https://engineering.berkeley.edu/news/2026/07/polymer-manufacturers-gain-ai-powered-tool-to-spot-defects-early/" target="_blank" rel="noopener">Berkeleyn tutkijat kehittivät AI-työkalun 3D-tulostuksen laadunvalvontaan</a></h3><p>Berkeley Engineering kertoo AI-pohjaisesta työkalusta, joka tunnistaa polymerivalmistuksen virheitä aikaisessa vaiheessa ja toimii reaaliaikaisena laadunvarmistuksena. Tämä on hyvä esimerkki AI:n siirtymisestä tekstityökaluista tuotannon ja materiaalitekniikan valvontaan.</p><p class="src">Notion / Berkeley Engineering · <a href="https://engineering.berkeley.edu/news/2026/07/polymer-manufacturers-gain-ai-powered-tool-to-spot-defects-early/" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-    </div>
+      <article class="card half">
+        <span class="tag purple">Top story</span>
+        <h2>Cloudflare siirtää AI-crawlerit kohti maksullista sisällönkäyttöä</h2>
+        <p>TechCrunchin mukaan Cloudflare antaa AI-yhtiöille määräajan erottaa hakua, agentteja ja mallikoulutusta palvelevat crawlerit — muuten ne voidaan estää oletuksena monilla julkaisijasivustoilla. Taustalla on Cloudflaren “pay per crawl” -aloite.</p>
+        <p class="why"><strong>Miksi väliä:</strong> jos tämä leviää, RAG-, haku- ja agenttituotteiden datalähteet muuttuvat teknisestä scraping-ongelmasta lisenssi- ja kustannusneuvotteluksi.</p>
+        <p class="source"><a href="https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/">TechCrunch</a> • <a href="https://blog.cloudflare.com/introducing-pay-per-crawl/">Cloudflare-tausta</a></p>
+      </article>
 
-    <h2>💰 Liiketoiminta & rahoitus</h2>
-    <div class="grid">
-      <article class="card"><span class="tag">AI-talous</span><h3><a href="https://www.cnbc.com/2026/07/01/palantir-karp-open-ai-anthropic-tokens.html" target="_blank" rel="noopener">Palantirin Alex Karp kritisoi tokenipohjaista kustannusmallia</a></h3><p>CNBC:n mukaan Palantirin Alex Karp arvosteli OpenAI:n ja Anthropicin tokenimallia ja sanoi kustannusten ajavan yrityksiä kohti avoimia painoja ja tehokkuusoptimointia. Viesti osuu samaan aaltoon kuin Coinbase- ja Base44-signaalit: AI-budjetti ei skaalaudu, jos jokainen työ kuormittaa kalleinta mallia.</p><p class="src">CNBC / Notion · <a href="https://www.cnbc.com/2026/07/01/palantir-karp-open-ai-anthropic-tokens.html" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">Rahoitus</span><h3><a href="https://www.pymnts.com/news/artificial-intelligence/2026/together-ai-raises-800-million-to-scale-cheaper-open-source-models" target="_blank" rel="noopener">Together AI keräsi 800 miljoonaa dollaria avoimien mallien infraan</a></h3><p>PYMNTS raportoi Together AI:n 800 miljoonan dollarin Series C -rahoituksesta, jolla yhtiö aikoo kasvattaa infrastruktuuria avoimien mallien ajamiseen. Rahoitus kertoo, että markkina uskoo vahvasti mallivalikoiman monipuolistumiseen: yritykset haluavat vaihtoehtoja suljettujen frontier-palvelujen rinnalle.</p><p class="src">PYMNTS / Notion · <a href="https://www.pymnts.com/news/artificial-intelligence/2026/together-ai-raises-800-million-to-scale-cheaper-open-source-models" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-      <article class="card"><span class="tag">IPO / markkina</span><h3><a href="https://www.barrons.com/articles/openai-anthropic-ipo-5c690356" target="_blank" rel="noopener">OpenAI:n ja Anthropicin IPO-ikkunasta keskustellaan yhä kovemmin</a></h3><p>Barron’s nostaa esiin kysymyksen, pitäisikö OpenAI:n ja Anthropicin hyödyntää nykyinen IPO-ikkuna ennen kuin markkinat jäähtyvät. Frontier-labrojen arvo ei perustu enää vain mallikyvykkyyksiin, vaan myös siihen, miten ne kestävät sääntelyä, infrahintaa ja enterprise-käyttöönoton todellisuutta.</p><p class="src">Barron’s / Notion · <a href="https://www.barrons.com/articles/openai-anthropic-ipo-5c690356" target="_blank" rel="noopener">Lue alkuperäinen</a></p></article>
-    </div>
+      <article class="card half">
+        <span class="tag green">Avoimet mallit</span>
+        <h2>LongCat-2.0: Meituanin suuri MoE-malli haastaa kärkimalleja hinnalla</h2>
+        <p>Reuters nosti tänään esiin edullisen kiinalaisen mallin kirivän Anthropic/OpenAI-tasoa. Meituanin LongCat-2.0:n repo kuvaa 1,6 biljoonan kokonaisparametrin MoE-arkkitehtuurin, noin 48B aktivoitua parametria/token ja 1M-kontekstin harjoittelua.</p>
+        <p class="why"><strong>Miksi väliä:</strong> avoin, pitkäkontekstinen ja agenttitehtäviin optimoitu malli lisää painetta sekä suljettujen mallien hinnoille että yritysten “pidetäänkö kaikki yhdessä API:ssa?” -päätöksille.</p>
+        <p class="source"><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRHN2T0NPR3ZJMWZheVBDbUxxS1pBbHpfSjBmSTNseVFEU0FUcnc1OFJJNzNGZVB1M1ZIdExGb0NfTWpKYnhTSm8xRUhzbm14RWRNRWJyaWctbjVLWmdRM0d1UjFBalpyNDJoTDNwVldrRGxGN1U0aUtUcEp3a2t1aDYxdFpfRFMzZDZodUNNdEJpMkoyOWFYakZLb1NrZ0M4a01qQW9HTkFUQkltaGNjWk9CcXYxUGdndmNPclNEOVlxVFk?oc=5">Reuters via Google News</a> • <a href="https://github.com/meituan-longcat/LongCat-2.0">GitHub</a> • <a href="https://huggingface.co/meituan-longcat/LongCat-2.0">Hugging Face</a></p>
+      </article>
 
-    <h2>📡 Telco AI</h2>
-    <div class="card">
-      <h3 class="region">Europe</h3>
-      <p><strong><a href="https://www.telecomtv.com/content/ai/how-dt-s-group-cio-measures-ai-success-55800/" target="_blank" rel="noopener">Deutsche Telekom mittaa AI:n onnistumista operatiivisena muutoksena</a>.</strong> TelecomTV:n mukaan DT:n konserni-CIO Kanwardeep Singh Ahluwalia käsitteli DTW Ignite -tapahtumassa, miten operaattori mittaa AI:n vaikutusta. Tämä on Telco AI:n kannalta olennainen signaali: huomio siirtyy pilottien määrästä prosessien, asiakaskokemuksen ja verkko-operaatioiden mitattavaan parantamiseen.</p>
-      <p><strong><a href="https://www.telecomtv.com/content/ai/hrvatski-telekom-unveils-ai-first-transformation-powered-by-beyond-now-55801/" target="_blank" rel="noopener">Hrvatski Telekom käynnistää AI-first-muutoksen Beyond Now’n kanssa</a>.</strong> Kroatian operaattorin hanke kertoo, että AI ei jää vain suurimpien operaattorien kokeiluksi. Ekosysteemialustojen ja agenttimaisten toimintamallien käyttö voi muuttaa tuotteistusta, kumppanihallintaa ja asiakaspolkuja myös keskisuurissa operaattoreissa.</p>
-      <h3 class="region">USA</h3>
-      <p><strong><a href="https://www.telecomtv.com/content/access-evolution/what-s-up-with-starlink-openai-broadcom-gsma-55785/" target="_blank" rel="noopener">TelecomTV: OpenAI, Broadcom ja GSMA näkyvät telco-infran AI-keskustelussa</a>.</strong> USA-signaali painottuu tällä kertaa inference- ja access-infrastruktuuriin: OpenAI/Broadcom-keskustelu ja GSMA:n Telco Common Corpus viittaavat siihen, että operaattorien rooli AI-arvoketjussa voi laajentua datasta ja verkosta mallien käyttökerrokseen.</p>
-      <p><strong><a href="https://broadbandbreakfast.com/reed-hundt-an-artificial-intelligence-focused-telecom-act" target="_blank" rel="noopener">Reed Hundt ehdottaa AI-keskeistä telecom-lakia</a>.</strong> Broadband Breakfastin artikkeli nostaa Yhdysvalloissa esiin lainsäädännöllisen kysymyksen: jos data center - ja AI-infrastruktuurisääntely etenee, toteutus vaatii myös telealan instituutioita ja viranomaisrakennetta. Tämä on epäsuora mutta tärkeä Telco AI -signaali.</p>
-      <h3 class="region">Asia</h3>
-      <p><strong><a href="https://asia.nikkei.com/business/technology/artificial-intelligence/japan-backs-softbank-led-ai-models-with-up-to-6.2bn-in-chasing-us-china" target="_blank" rel="noopener">Japani tukee SoftBank-vetoista AI-mallihanketta jopa 6,2 miljardilla dollarilla</a>.</strong> Nikkei Asian mukaan Japani rahoittaa kotimaisten AI-mallien kehitystä ryhmässä, jossa SoftBank on mukana. Telco-kulma on selvä: operaattorit eivät ole vain yhteyksien tarjoajia, vaan ne asemoituvat kansallisen AI-infran rakentajiksi.</p>
-      <p><strong><a href="https://www.developingtelecoms.com/telecom-technology/enterprise-ecosystems/20442-tokens-touted-to-telcos-as-ticket-to-monetising-ai-starting-in-china.html" target="_blank" rel="noopener">Tokenit nähdään telcojen uutena kaupallistamismallina Kiinasta alkaen</a>.</strong> Developing Telecoms nostaa esiin ajatuksen, että operaattorit voisivat hallita ja laskuttaa AI-tokenivirtoja samaan tapaan kuin verkkoliikennettä. Jutun mukaan China Mobile ja SK Telecom raportoivat jo AI:sta merkittävää osuutta liikevaihdossa, mikä tekee tokenitaloudesta telcoille strategisen kysymyksen.</p>
-    </div>
+      <article class="card half">
+        <span class="tag green">Frontier & policy</span>
+        <h2>Anthropic palautti Fable/Mythos 5 -mallit käyttöön</h2>
+        <p>Anthropic päivitti Fable 5 -tiedotettaan: Fable 5 ja Mythos 5 on palautettu käyttöön 1.7. vientirajoitusten poistuttua. Yhtiö sanoo lisänneensä kyberturvasuojauksia ja ehdottaa alanlaajuista jailbreak-kehystä.</p>
+        <p class="why"><strong>Miksi väliä:</strong> frontier-mallien saatavuus alkaa olla yhä enemmän politiikan, vientivalvonnan ja malliturvallisuuden kompromissi — ei vain tuotepäivitys.</p>
+        <p class="source"><a href="https://www.anthropic.com/news/redeploying-fable-5">Anthropic</a> • <a href="https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/">Ars Technica</a></p>
+      </article>
 
-    <h2>𝕏 X-signaalit</h2>
-    <div class="grid">
-      <article class="card"><span class="tag x">X-signaali</span><h3><a href="https://x.com/xai/status/2072342803787702422" target="_blank" rel="noopener">xAI: Voice Agent Builder tekee ääniagenteista tuotepinon</a></h3><p>X:ssä julkaistun postauksen mukaan xAI yhdistää äänen, työkalut, puhelintekniikan, guardrailit ja seurannan yhdeksi rakentajatuotteeksi. Signaalina tämä on tärkeä, koska ääniagentit ovat siirtymässä irrallisista demoista mitattaviksi asiakaspalvelu- ja automaatiovirroiksi.</p><p class="src">@xai · <a href="https://x.com/xai/status/2072342803787702422" target="_blank" rel="noopener">Avaa alkuperäinen X-postaus</a></p></article>
-      <article class="card"><span class="tag x">X-signaali</span><h3><a href="https://x.com/AnthropicAI/status/2072163884430229756" target="_blank" rel="noopener">Anthropic: Fable 5 palaa, mutta suojaukset kiristyvät</a></h3><p>Anthropicin postaus tarkentaa Fable 5:n paluuta ja uusia kyberturvallisuuteen liittyviä suojauksia. Tätä kannattaa lukea signaalina siitä, miten frontier-mallien julkaisut voivat jatkossa sisältää sekä teknisen lanseerauksen että viranomaisyhteistyön ehtoja.</p><p class="src">@AnthropicAI · <a href="https://x.com/AnthropicAI/status/2072163884430229756" target="_blank" rel="noopener">Avaa alkuperäinen X-postaus</a></p></article>
-      <article class="card"><span class="tag x">X-signaali</span><h3><a href="https://x.com/OpenAI/status/2072004836674167294" target="_blank" rel="noopener">OpenAI: GeneBench-Pro vie agenttievaluoinnin biologiaan</a></h3><p>Postauksen mukaan GeneBench-Pro testaa AI-agentteja realistisemmissa biologisen datan työnkuluissa. Signaali ei yksin varmista suorituskykyväitteitä, mutta se näyttää, mihin evalit ovat menossa: kohti pitkiä, asiantuntijamaista harkintaa vaativia tehtäviä.</p><p class="src">@OpenAI · <a href="https://x.com/OpenAI/status/2072004836674167294" target="_blank" rel="noopener">Avaa alkuperäinen X-postaus</a></p></article>
-      <article class="card"><span class="tag x">X-signaali</span><h3><a href="https://x.com/dair_ai/status/2072428791096602728" target="_blank" rel="noopener">DAIR.AI: autonominen tutkimusjärjestelmä tuottaa kokonaisia papereita</a></h3><p>DAIR.AI:n nostamassa FARS-työssä agentit vastaavat tutkimusprosessin eri vaiheista ideoinnista kirjoittamiseen. Merkitys on kaksijakoinen: skaalautuva tutkimusautomaatio näyttää mahdolliselta, mutta arviointitulokset muistuttavat, ettei määrä vielä takaa menetelmällistä laatua.</p><p class="src">@dair_ai · <a href="https://x.com/dair_ai/status/2072428791096602728" target="_blank" rel="noopener">Avaa alkuperäinen X-postaus</a></p></article>
-      <article class="card"><span class="tag x">X-signaali</span><h3><a href="https://x.com/AndrewCurran_/status/2072459054044295315" target="_blank" rel="noopener">Andrew Curran: Valkoinen talo kiirehtii malliturvastandardeja</a></h3><p>Postauksessa nostetaan esiin Financial Timesin raportti vapaaehtoisista malliturvastandardeista ja mahdollisesta nopeasta julkistuksesta. Tämä on signaali, ei lopullinen sääntelyfakta, mutta se sopii yhteen Reutersin ja Anthropicin julkaisutapahtumien kanssa.</p><p class="src">@AndrewCurran_ · <a href="https://x.com/AndrewCurran_/status/2072459054044295315" target="_blank" rel="noopener">Avaa alkuperäinen X-postaus</a></p></article>
-    </div>
+      <article class="card">
+        <span class="tag">Quick hits</span>
+        <div class="item"><strong>Together AI keräsi 800M$ ja nousi 8,3B$ valuaatioon.</strong> Open-source-malleja hostaava neocloud on yksi päivän selkeimmistä infra-signaaleista. <a href="https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/">TechCrunch</a></div>
+        <div class="item"><strong>Neo haastaa Officen AI-natiivilla työpaketilla.</strong> Bhavin Turakhia sijoittaa 30M$ omaa rahaa yritysohjelmistoon, joka tähtää Microsoft Office / Google Workspace -markkinaan. <a href="https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/">TechCrunch</a></div>
+        <div class="item"><strong>Venice AI nousi yksisarviseksi.</strong> Privacy-first AI -alusta keräsi 65M$ Series A -kierroksen ja raportoi yli 70M$ annualized run-rate revenue -tason. <a href="https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/">TechCrunch</a></div>
+        <div class="item"><strong>Ravintolatilaus suoraan ChatGPT:stä ja Claudesta.</strong> VentureBeat raportoi Squaren integraatiosta, jossa ravintolat voivat vastaanottaa agenttien tekemiä tilauksia ilman raskasta setupia. <a href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYWl5RWx2MzdqRDFuTVNwN2hTLWhrQnZ3Vm02ZXdZV2lhTmVUOWgtSE55V21EQzhNR0o?oc=5">VentureBeat via Google News</a></div>
+      </article>
 
-    <h2>✅ Mitä kannattaa seurata</h2>
-    <div class="card try"><ul>
-      <li>Seuraa, heikentävätkö Fable 5:n uudet suojaukset todellisia koodaus- ja agenttityönkulkuja vai jäävätkö vaikutukset marginaalisiksi.</li>
-      <li>Arvioi oma AI-kustannusrakenne: mitkä työt kannattaa ajaa frontier-mallilla, mitkä avoimella tai erikoistuneella mallilla.</li>
-      <li>Telco-puolella katso erityisesti AI-tokenien hallintaa, common corpusta ja operaattorien omaa AI-infra-asemointia.</li>
-      <li>Käsittele X-postauksia varhaisina signaaleina ja vahvista kriittiset väitteet alkuperäisistä julkaisuista ennen päätöksiä.</li>
-    </ul></div>
+      <article class="card half">
+        <span class="tag warn">Builders’ corner</span>
+        <h2>Mitä kannattaa kokeilla / tehdä</h2>
+        <ul>
+          <li><strong>Audit crawl-riippuvuudet:</strong> jos käytät web-RAGia tai agentteja, kirjaa datalähteet ja bottitunnisteet. Cloudflaren linja voi rikkoa hiljaisia scrape-putkia.</li>
+          <li><strong>Testaa LongCat-2.0 pienellä evaluoinnilla:</strong> ota 10 omaa pitkän kontekstin / koodauksen tehtävää ja vertaa kustannus–laatu-suhdetta nykyiseen malliin.</li>
+          <li><strong>Laske inference-kapasiteetti uudelleen:</strong> NVIDIA:n kumppanimalli ja Together AI:n rahoitus kertovat, että kapasiteettia tulee lisää — mutta hinnoittelu voi siirtyä kohti sitoumuksia ja revenue sharea.</li>
+          <li><strong>Lisää agenttien skill-SBOM:</strong> jos käytät skill/plugin-tyyppisiä agentteja, dokumentoi riippuvuudet ja versiot kuten ohjelmistopaketeissa.</li>
+        </ul>
+      </article>
 
-    <div class="foot">Koottu lähteistä: IMAP-uutiskirjeet, Notion RSS -nostot, pakollinen X-haku ja Telco AI -verkkohaku. X-nostot käsitellään signaaleina, eivät automaattisesti varmennettuina faktoina. Julkaisupäivä: 2.7.2026. Sähköpostia ei lähetetty tässä ajossa.</div>
+      <article class="card half">
+        <span class="tag warn">Research / models</span>
+        <h2>Tuoreet paperit, jotka osuvat agentteihin</h2>
+        <div class="item"><strong>AutoMem:</strong> käsittelee muistinhallintaa opetettavana kognitiivisena taitona LLM-agenteille — mitä tallennetaan, milloin haetaan, miten tieto järjestetään. <a href="http://arxiv.org/abs/2607.01224v1">arXiv</a></div>
+        <div class="item"><strong>Agent Skill Supply Chains:</strong> ehdottaa SBOM-henkistä ajattelua agenttien skilleille, riippuvuuksille ja provenienssille. <a href="http://arxiv.org/abs/2607.01136v1">arXiv</a></div>
+        <div class="item"><strong>Coding-agent benchmark audit:</strong> varoittaa, että performance-optimointibenchmarkit voivat sekoittaa todellisen agenttikehityksen, runtime-epävakauden ja scoring-säännöt. <a href="http://arxiv.org/abs/2607.01211v1">arXiv</a></div>
+      </article>
+
+      <article class="card half">
+        <span class="tag">YouTube-watchlist</span>
+        <h2>Varmennettu videolähde</h2>
+        <p><strong>GAI Insights Daily AI News — “Claude code moment for science”.</strong> Julkaistu 2.7.2026; kuvauksessa listataan mm. Claude Science, Claude Sonnet 5, Googlen Nano Banana 2 Lite / Gemini Omni Flash ja LongCat-2.0. Käytä videota yleiskatsauksena, mutta tarkista yksittäiset väitteet primäärilähteistä.</p>
+        <p class="source"><a href="https://www.youtube.com/watch?v=aAEjMe9_jA8">YouTube</a></p>
+      </article>
+
+      <article class="card half">
+        <span class="tag">Sääntely & turvallisuus</span>
+        <h2>Yhdysvalloissa valmistellaan vapaaehtoisia mallistandardeja</h2>
+        <p>Reuters/FT-raportoinnin mukaan Valkoinen talo käy keskusteluja AI-yhtiöiden kanssa vapaaehtoisista mallistandardeista. Samalla Anthropic-tapaus näyttää, miten mallijulkaisu, turvallisuustestaus ja vientikontrolli kytkeytyvät toisiinsa.</p>
+        <p class="source"><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcE1CSXY3b1NVTmdnRDcyM3dUeUpxLW93SE9MNW9TX2VSZTJzdHRmTzNpdkdwaFVxTkFqQjFpUnk0cU1JWmtrTTNWVnliSERyVnZGWFZ2VmgtelpEMHhPMDBsVVc4S3RfakFlMFJZTjNDbVpVN1NGVk56R3dJdFZNQTR1RXFyUURVY18zVktHMmJwSGNNbTd4dVBEWUppOXFpc0pJQ3pDYnZsc1lYNzZXU3U1TDA5dzFTemRhX1M2cWlJZw?oc=5">Reuters via Google News</a> • <a href="https://www.anthropic.com/news/redeploying-fable-5">Anthropic</a></p>
+      </article>
+
+      <article class="card">
+        <span class="tag purple">Mitä seurata seuraavaksi</span>
+        <ul>
+          <li>Alkaako Cloudflaren malli näkyä “403 / blocked crawler” -piikkeinä agentti- ja RAG-tuotteissa?</li>
+          <li>Julkaiseeko NVIDIA lisää ehtoja revenue-sharing-mallista — ja miten ne vaikuttavat pieniin AI-pilviin?</li>
+          <li>Saako LongCat-2.0 riippumattomia benchmarkeja vai jäävätkö väitteet vendor-/in-house-mittauksiin?</li>
+          <li>Muuttuuko Anthropic Fable/Mythos -episodi mallijulkaisujen ennakkotestauksen malliksi Yhdysvalloissa?</li>
+        </ul>
+        <p class="meta">Koottu lähteistä, joiden julkaisu- tai päivitysaika on verifioitavasti viimeisen 24 tunnin sisällä, tai jotka on merkitty taustaksi, kun primäärijulkaisu on hieman vanhempi mutta uusi raportointi on tuoretta.</p>
+      </article>
+    </section>
+
+    <p class="footer">Hermest AI news agent • Päivitetty 2.7.2026 klo 12:00 EEST • Ei sijoitusneuvontaa</p>
   </main>
 </body>
 </html>
