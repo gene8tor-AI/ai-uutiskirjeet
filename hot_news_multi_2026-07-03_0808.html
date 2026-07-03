@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Hot News Alert</title>
+ <style>
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ body {
+ font-family: 'Georgia', 'Times New Roman', serif;
+ background-color: #f4f4f0;
+ color: #1a1a1a;
+ line-height: 1.7;
+ }
+ .wrapper {
+ max-width: 680px;
+ margin: 40px auto;
+ background: #ffffff;
+ border-radius: 8px;
+ overflow: hidden;
+ box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+ }
+ .header {
+ background: linear-gradient(135deg, #7c1a1a 0%, #3d0000 100%);
+ padding: 48px 40px 36px;
+ text-align: center;
+ }
+ .header .label {
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ font-size: 11px; font-weight: 700;
+ letter-spacing: 3px; text-transform: uppercase;
+ color: #ffb3b3; margin-bottom: 12px;
+ }
+ .header h1 { font-size: 30px; font-weight: 700; color: #ffffff; line-height: 1.25; margin-bottom: 10px; }
+ .header .date { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #ffcccc; letter-spacing: 1px; }
+ .article { padding: 40px; }
+ .article-meta {
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ font-size: 11px; font-weight: 600;
+ letter-spacing: 1px; text-transform: uppercase;
+ color: #999; margin-bottom: 7px;
+ }
+ .article h2 { font-size: 22px; font-weight: 700; color: #0d1b2a; margin-bottom: 15px; line-height: 1.3; }
+ .article p { font-size: 16px; color: #333; line-height: 1.75; margin-bottom: 15px; }
+ .tag {
+ display: inline-block;
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ font-size: 10px; font-weight: 700;
+ letter-spacing: 1px; text-transform: uppercase;
+ padding: 3px 9px; border-radius: 20px; margin-bottom: 10px;
+ background: #fef2f2; color: #dc2626; border: 1px solid #fecaca;
+ }
+ .references {
+ border-top: 1px solid #eee;
+ margin-top: 28px;
+ padding-top: 20px;
+ }
+ .references ul { padding-left: 20px; margin: 0; }
+ .references li { margin-bottom: 8px; font-size: 14px; color: #333; }
+ .references a { color: #dc2626; text-decoration: underline; }
+ .footer { background: #1a1a1a; padding: 28px 40px; text-align: center; }
+ .footer p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; color: #7a94ae; line-height: 1.8; }
+ </style>
+</head>
+<body>
+ <div class="wrapper">
+ <div class="header">
+ <div class="label">Uutisnosto</div>
+ <h1><a href="https://www.anthropic.com/news/claude-sonnet-5" target="_blank" style="color: #ffffff; text-decoration: none;">Claude Sonnet 5 tuo agenttikyvykkyyttä halvempaan hintaluokkaan</a></h1>
+ <div class="date">3.7.2026</div>
+ </div>
+
+ <div class="article">
+ <div class="tag">Teknologia</div>
+ <div class="article-meta">Anthropic / TechCrunch / VentureBeat / Constellation Research</div>
+ <p>Anthropic on julkaissut Claude Sonnet 5:n, jota yhtiö kuvaa tähän mennessä agenttisimmaksi Sonnet-mallikseen. Mallin keskeinen lupaus on, että se pystyy suunnittelemaan, käyttämään työkaluja kuten selaimia ja terminaaleja sekä viemään monivaiheisia tehtäviä loppuun tasolla, joka vielä hiljattain vaati suurempia ja kalliimpia Opus-luokan malleja.</p>
+ <p>Julkaisun kaupallinen signaali on selvä: Anthropic yrittää tuoda lähes flagship-tason agenttisen suorituskyvyn selvästi alempaan kustannustasoon. Claude Sonnet 5 on saatavilla kaikissa Claude-suunnitelmissa ja se on Free- ja Pro-käyttäjien oletusmalli; API:ssa aloitushinta on <strong>2 dollaria / miljoona input-tokenia</strong> ja <strong>10 dollaria / miljoona output-tokenia</strong> elokuun 2026 loppuun asti, minkä jälkeen hinta nousee tasolle <strong>3 / 15 dollaria</strong>.</p>
+ <p>TechCrunch ja VentureBeat tulkitsevat julkaisua osana laajempaa markkinamuutosta: kilpailu ei ole enää vain siitä, mikä malli on vahvin, vaan siitä, kuka pystyy ajamaan agenttisia työnkulkuja riittävän luotettavasti ja kustannustehokkaasti. VentureBeat nostaa esiin, että Sonnet 5 kaventaa eroa Opus 4.8:aan useissa arvioinneissa, mutta samalla yritysasiakkaiden kannattaa huomioida Anthropicilta tullut tokenizer-muutos, joka voi kasvattaa tokenimäärää joissain kuormissa.</p>
+ <p>Turvallisuuspuolella Anthropic sanoo Sonnet 5:n olevan Sonnet 4.6:ta parempi muun muassa haitallisten pyyntöjen torjunnassa, prompt injection -yritysten vastustamisessa sekä hallusinaation ja mielistelyn vähentämisessä. Samalla yhtiö kertoo ottaneensa käyttöön reaaliaikaiset kyberturvarajoitukset oletuksena, vaikka Sonnet 5:n vaaralliset kyberkyvykkyydet jäävät sen mukaan selvästi Opus- ja Mythos-luokan mallien alle.</p>
+
+ <div class="references">
+ <div class="article-meta">Referenssit</div>
+ <ul>
+  <li><a href="https://www.anthropic.com/news/claude-sonnet-5" target="_blank">Anthropic — Introducing Claude Sonnet 5</a></li>
+  <li><a href="https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/" target="_blank">TechCrunch — Anthropic launches Claude Sonnet 5 as a cheaper way to run agents</a></li>
+  <li><a href="https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo" target="_blank">VentureBeat — Anthropic launches Claude Sonnet 5 at a steep discount to its top model</a></li>
+  <li><a href="https://www.constellationr.com/insights/news/anthropic-launches-claude-sonnet-5" target="_blank">Constellation Research — Anthropic launches Claude Sonnet 5</a></li>
+ </ul>
+ </div>
+ </div>
+
+ <div class="footer">
+ <p>Luotu automaattisesti tekoälyllä</p>
+ </div>
+ </div>
+</body>
+</html>

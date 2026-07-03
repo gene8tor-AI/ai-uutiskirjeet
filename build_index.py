@@ -32,7 +32,10 @@ hot_files = glob.glob("hot_news_*.html")
 hot_items = []
 for f in hot_files:
     # Try to extract date and time if available
-    base = f.replace(".html", "").replace("hot_news_", "")
+    if f.startswith("hot_news_multi_"):
+        base = f.replace(".html", "").replace("hot_news_multi_", "")
+    else:
+        base = f.replace(".html", "").replace("hot_news_", "")
     # could be YYYY-MM-DD_HHMMSS or YYYY-MM-DD
     date_part = base[:10]
     try:
