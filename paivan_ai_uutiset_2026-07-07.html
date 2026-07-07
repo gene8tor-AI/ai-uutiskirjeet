@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Päivän AI-uutiset – 7.7.2026</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#0b1020; --card:#121a33; --text:#eef3ff; --muted:#aeb9d6; --accent:#7dd3fc; --accent2:#c084fc; --line:rgba(255,255,255,.12); }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Arial,sans-serif; background:radial-gradient(circle at top left,#1e3a8a 0,#0b1020 38%,#070a13 100%); color:var(--text); line-height:1.55; }
+    main { max-width:920px; margin:0 auto; padding:42px 18px 64px; }
+    .hero { padding:30px; border:1px solid var(--line); border-radius:28px; background:linear-gradient(135deg,rgba(125,211,252,.14),rgba(192,132,252,.10)); box-shadow:0 20px 80px rgba(0,0,0,.35); }
+    h1 { margin:0 0 8px; font-size:clamp(2rem,5vw,3.5rem); line-height:1.05; letter-spacing:-.04em; }
+    .date { color:var(--accent); font-weight:700; text-transform:uppercase; letter-spacing:.08em; font-size:.85rem; }
+    .signal { font-size:1.15rem; color:#e7ecff; max-width:760px; }
+    section { margin-top:26px; padding:24px; background:rgba(18,26,51,.76); border:1px solid var(--line); border-radius:24px; }
+    h2 { margin:0 0 14px; font-size:1.35rem; }
+    h3 { margin:20px 0 6px; font-size:1.08rem; }
+    ul { padding-left:1.2rem; } li { margin:.55rem 0; }
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    .tag { display:inline-block; margin:.15rem .25rem .15rem 0; padding:.22rem .55rem; border:1px solid var(--line); border-radius:999px; color:var(--muted); font-size:.82rem; }
+    .muted { color:var(--muted); }
+    .topitem { border-top:1px solid var(--line); padding-top:16px; }
+    .topitem:first-of-type { border-top:0; padding-top:0; }
+    footer { margin-top:24px; color:var(--muted); font-size:.9rem; text-align:center; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <div class="date">7. heinäkuuta 2026 · 24 h AI-brief</div>
+    <h1>Päivän AI-uutiset</h1>
+    <p class="signal"><strong>Signaali:</strong> Tämän päivän AI-liike siirtyi puhtaista chatbot-julkaisuista kohti tuotantoa: avoin robotiikka, agenttien infra, kustannuspaine, tietoturva ja sääntely nousivat etualalle.</p>
+    <span class="tag">robotiikka</span><span class="tag">agentit</span><span class="tag">LLM-infra</span><span class="tag">sääntely</span><span class="tag">tietoturva</span>
+  </div>
+
+  <section>
+    <h2>⚡ 60 sekunnin tiivistelmä</h2>
+    <ul>
+      <li><strong>NVIDIA + Hugging Face vievät avoimen robotiikan eteenpäin:</strong> LeRobot saa NVIDIA Isaac GR00T 1.7 -mallin, Isaac Teleop -työnkulkuja ja myöhemmin Cosmos 3 -integraation.</li>
+      <li><strong>LeRobot v0.6.0 on builder-päivitys:</strong> world model -politiikat, kasvava VLA-mallieläintarha, reward-mallit, nopeammat datasetit ja uusi evaluointi/deploy-CLI.</li>
+      <li><strong>Agenttien tuotantokerros kuumenee:</strong> Vercel kertoo 6 miljoonasta deploysta päivässä, joista puolet agenttien käynnistämiä, ja yli biljoonasta tokenista päivässä AI Gatewayn läpi.</li>
+      <li><strong>AI-turva konkretisoituu:</strong> TechCrunchin mukaan “AI-run ransomware” ei ollut täysin autonominen, mutta tekninen suoritus siirtyi jo agentille.</li>
+      <li><strong>Sääntely kiristyy:</strong> Illinoisissa uutisoitiin ensimmäisenä Yhdysvalloissa laista, joka vaatii kolmannen osapuolen turvallisuusauditointeja suurilta AI-toimijoilta.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🔥 Top storyt</h2>
+    <div class="topitem">
+      <h3>1. NVIDIA ja Hugging Face avaavat robotiikan kehityspinoa</h3>
+      <p>NVIDIA kertoo tuovansa Isaac GR00T 1.7:n ja Isaac Teleop -kehikon Hugging Facen LeRobot-kirjastoon; Cosmos 3 -integraatio on suunnitteilla. Tämä tekee robottien VLA-malleista, datasta ja simulaatiotyönkuluista helpommin kokeiltavia avoimessa ekosysteemissä.</p>
+      <p><strong>Miksi sillä on väliä:</strong> fyysisen AI:n pullonkaula ei ole vain malli, vaan data, simulaatio, teleoperointi ja evaluointi. Yhteinen avoin pino voi nopeuttaa robotiikan “Hugging Face -hetkeä”. <a href="https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/">NVIDIA</a> · <a href="https://huggingface.co/blog/lerobot-release-v060">Hugging Face</a></p>
+    </div>
+    <div class="topitem">
+      <h3>2. LeRobot v0.6.0 tekee robotiikkamalleista helpommin mitattavia ja ajettavia</h3>
+      <p>Hugging Facen julkaisu listaa uusia world model -politiikkoja, VLA-malleja kuten GR00T N1.7 ja MolmoAct2, reward-malleja, jopa 2× nopeampaa datan latausta, benchmark-CLI:n sekä <code>lerobot-rollout</code>-deploy-työkalun.</p>
+      <p><strong>Miksi sillä on väliä:</strong> jos rakennat robottiagentteja, päivitys siirtää fokusta “demo toimii kerran” -tasolta kohti toistettavaa evaluointia ja käyttöönottoa. <a href="https://huggingface.co/blog/lerobot-release-v060">Hugging Face</a></p>
+    </div>
+    <div class="topitem">
+      <h3>3. Agenttien infra eriytyy malleista</h3>
+      <p>Vercelin toimitusjohtaja Guillermo Rauch kuvasi TechCrunchille, miten tuotannossa optimointi siirtyy hinta–suorituskykyyn ja agenttien ajokerrokseen. Vercelin mukaan sen alustalla on 6 miljoonaa deployta päivässä, puolet coding-agenttien käynnistäminä.</p>
+      <p><strong>Miksi sillä on väliä:</strong> mallit vaihtuvat nopeasti, mutta agenttien reititys, deploy, observability ja kustannushallinta voivat muodostua pysyvämmäksi kilpailueduksi. <a href="https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/">TechCrunch</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🧰 Builders’ corner</h2>
+    <ul>
+      <li><strong>LLM-koulutuksen resilienssi:</strong> NVIDIA julkaisi teknisen jutun Nonuniform Tensor Parallelismista, jolla suuret koulutusajot voivat sopeutua hetkelliseen GPU-poistumaan ja ylläpitää goodputia. <a href="https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism">NVIDIA Technical Blog</a></li>
+      <li><strong>Hugging Face → SageMaker yhdellä klikkauksella:</strong> AWS:n tuore RSS-uutinen kertoo integraatiosta, jolla Hugging Face -malleja voi viedä SageMaker Studioon helpommin; pääsivu ei ollut tässä ajossa suoraan luettavissa, joten käsittele yksityiskohtia varauksella. <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQmpYUnJQdnRfd3VhRnJkcWZuQUx6b0s4ZjE0blpYYVY0bDNDT0toQ1NkMUhaMU9uS1VTcWZuTHRjSnN4UzBkZWdNaFNuZ3RBc29fSGk5a0hpeHAwNUtKYVlPdTEwVHBST3lYNWtWbVZ4TzAzaXJIbU1MclhKZTA0dTJFY2Y1Z3VKbGxJd2hxa0gwVU1Lb0FfcU9tXzdUaHg2WTZnM0JLWUNVdw?oc=5">Google News / AWS RSS</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🧠 Tutkimus ja mallit</h2>
+    <ul>
+      <li><strong>LLM-as-a-Verifier:</strong> uusi arXiv-paperi kehystää verifioinnin omaksi skaalausakselikseen LLM-kehityksessä — ei vain pretraining, post-training tai test-time compute. <a href="http://arxiv.org/abs/2607.05391v1">arXiv</a></li>
+      <li><strong>Weak-to-Strong Generalization via Direct On-Policy Distillation:</strong> paperi yrittää vähentää RLVR-post-trainingin kustannusta siirtämällä heikomman mallin on-policy-oppeja vahvemmalle mallille. <a href="http://arxiv.org/abs/2607.05394v1">arXiv</a></li>
+      <li><strong>Calibration-Free VLA:</strong> robotiikkapaperi tavoittelee kamera-asetelmista vähemmän riippuvaa vision-language-action-mallia. <a href="http://arxiv.org/abs/2607.05396v1">arXiv</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🛡️ Turva ja sääntely</h2>
+    <ul>
+      <li><strong>“AI-run ransomware” vaati yhä ihmisen:</strong> TechCrunchin jatkojuttu täsmentää, että agentti hoiti teknisen hyökkäysketjun, mutta ihminen valitsi uhrin, infran ja tunnukset. <a href="https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/">TechCrunch</a></li>
+      <li><strong>Illinoisin AI-auditointilaki:</strong> useat paikallislähteet uutisoivat kuvernööri J.B. Pritzkerin allekirjoittaneen lain, joka vaatii kolmannen osapuolen turvallisuusauditointeja suurilta AI-yhtiöiltä. <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPMXJ3cl83RjJRMHc3LXozMktRY3RCNEZFYTFPdnl6RWtHcFhWTTF0T29xWF9QWkk2M3F?oc=5">Google News / WTTW</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🎥 YouTube-watchlist</h2>
+    <p>Tässä ajossa en löytänyt luotettavasti verifioituja, viimeisen 24 tunnin sisällä julkaistuja korkean signaalin videoita seurattavista AI-kanavista. En sisällytä videoväitteitä ilman tarkistettua päivämäärää ja sisältöä.</p>
+  </section>
+
+  <section>
+    <h2>✅ Mitä kannattaa kokeilla / tehdä</h2>
+    <ul>
+      <li>Jos robotiikka kiinnostaa: kokeile LeRobot v0.6.0:n evaluointi- ja <code>lerobot-rollout</code>-työnkulkuja pienellä simulaatio- tai dataset-kokeella.</li>
+      <li>Jos ajat LLM-tuotantoa: tarkista, pystytkö vaihtamaan mallia reitityskerroksessa ilman sovellusmuutoksia; agenttialustat näyttävät menevän tähän suuntaan.</li>
+      <li>Jos teet agentteja: lisää lokitus ja hyväksyntäportit kriittisiin vaiheisiin — ransomware-tapaus osoittaa, että agentin tekninen kyvykkyys riittää jo vahinkoihin.</li>
+      <li>Jos seuraat sääntelyä: lisää AI-audit trail ja malliriskien dokumentointi roadmapille ennen kuin auditointivaatimukset leviävät.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🔭 Mitä seurata seuraavaksi</h2>
+    <ul>
+      <li>Tuoko avoin robotiikkapino samanlaisen kokeiluvauhdin fyysiseen AI:hin kuin avoimet LLM:t toivat tekstimalleihin?</li>
+      <li>Alkaako agentti-infra — gatewayt, deployt, observability, sandboxit — olla arvokkaampi erottautumistekijä kuin yksittäinen mallivalinta?</li>
+      <li>Laajenevatko AI-auditointilait osavaltioista ja toimialoista yleiseksi enterprise-vaatimukseksi?</li>
+    </ul>
+  </section>
+
+  <footer>
+    Koostettu lähteistä, joiden julkaisu- tai päivitysaika oli tarkistettavasti noin viimeisen 24 tunnin sisällä. Search backend oli osin rate-limitissä; käytetty fallbackina RSS-feedejä ja suoria sivuhakuja.
+  </footer>
+</main>
+</body>
+</html>
