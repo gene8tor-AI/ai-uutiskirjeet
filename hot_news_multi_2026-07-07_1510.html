@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Hot News Alert</title>
+ <style>
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ body {
+ font-family: 'Georgia', 'Times New Roman', serif;
+ background-color: #f4f4f0;
+ color: #1a1a1a;
+ line-height: 1.7;
+ }
+ .wrapper {
+ max-width: 680px;
+ margin: 40px auto;
+ background: #ffffff;
+ border-radius: 8px;
+ overflow: hidden;
+ box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+ }
+ .header {
+ background: linear-gradient(135deg, #7c1a1a 0%, #3d0000 100%);
+ padding: 48px 40px 36px;
+ text-align: center;
+ }
+ .header .label {
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ font-size: 11px; font-weight: 700;
+ letter-spacing: 3px; text-transform: uppercase;
+ color: #ffb3b3; margin-bottom: 12px;
+ }
+ .header h1 { font-size: 30px; font-weight: 700; color: #ffffff; line-height: 1.25; margin-bottom: 10px; }
+ .header .date { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #ffcccc; letter-spacing: 1px; }
+ .article { padding: 40px; }
+ .article-meta {
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ font-size: 11px; font-weight: 600;
+ letter-spacing: 1px; text-transform: uppercase;
+ color: #999; margin-bottom: 7px;
+ }
+ .article h2 { font-size: 22px; font-weight: 700; color: #0d1b2a; margin-bottom: 15px; line-height: 1.3; }
+ .article p { font-size: 16px; color: #333; line-height: 1.75; margin-bottom: 15px; }
+ .tag {
+ display: inline-block;
+ font-family: 'Helvetica Neue', Arial, sans-serif;
+ font-size: 10px; font-weight: 700;
+ letter-spacing: 1px; text-transform: uppercase;
+ padding: 3px 9px; border-radius: 20px; margin-bottom: 10px;
+ background: #fef2f2; color: #dc2626; border: 1px solid #fecaca;
+ }
+ .references {
+ border-top: 1px solid #eee;
+ margin-top: 28px;
+ padding-top: 20px;
+ }
+ .references ul { padding-left: 20px; margin: 0; }
+ .references li { margin-bottom: 8px; font-size: 14px; color: #333; }
+ .references a { color: #dc2626; text-decoration: underline; }
+ .footer { background: #1a1a1a; padding: 28px 40px; text-align: center; }
+ .footer p { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; color: #7a94ae; line-height: 1.8; }
+ </style>
+</head>
+<body>
+ <div class="wrapper">
+ <div class="header">
+ <div class="label">Uutisnosto</div>
+ <h1><a href="https://huggingface.co/tencent/Hy3" target="_blank" style="color: #ffffff; text-decoration: none;">Tencent Hy3: 295B avoimen lähteen MoE-malli haastaa suuremmat agenttikäytössä</a></h1>
+ <div class="date">7.7.2026</div>
+ </div>
+
+ <div class="article">
+ <div class="tag">Teknologia</div>
+ <div class="article-meta">Tencent Hy Team / Winbuzzer / Simon Willison</div>
+ <p>Tencent Hy Team julkaisi 6. heinäkuuta <strong>Hy3:n</strong>, virallisen version Hunyuan-suuren kielimallinsa. Kyseessä on <strong>295 miljardin parametrin Mixture-of-Experts</strong> -malli (<strong>21B aktiivista</strong> parametria), joka on lisenssoitu <strong>Apache 2.0</strong>:lla eli käytettävissä ilmaiseksi myös kaupallisesti. Julkaisu rakentuu huhtikuussa tulleen Hy3 Preview'n pohjalle, ja Tencentin mukaan malli päihittää samankokoiset mallit ja kilpailee 2–5-kertaista parametrimäärää käyttävien avoimen lähteen lippulaivojen (esim. GLM-5.1, DeepSeek V4 Pro, Qwen 3.7 Max) kanssa.</p>
+ <p>Mallin painopiste on <strong>agenttisuorituskyvyssä</strong>: 256K konteksti-ikkuna, työkalukutsujen luotettavuus ja koodaus. Tencent raportoi sokkotestin 270 asiantuntijalla tuottaneen pisteet <strong>2,67/4</strong> (vs GLM-5.1: <strong>2,51/4</strong>), erityisesti frontend-kehityksessä, datan- ja tallennuksen hallinnassa sekä CI/CD-tehtävissä. Sisäisissä arvioinneissa hallusinaatioaste laski <strong>12,5 %:sta 5,4 %:iin</strong> ja monivaiheisten vuorovaikutusten ongelmaristi 17,4 %:sta 7,9 %:iin. Winbuzzer ja Simon Willison nostavat esiin erityisesti tehokkuusnarratiivin: kyse ei ole markkinoiden suurimmasta mallista, vaan siitä, paljonko älykkyyttä saadaan kutakin aktiivista parametria ja tokenia kohden.</p>
+ <p>Käytännön merkitys on ajoitettu ikkuna: Hy3 on saatavilla <strong>ilmaisena OpenRouterissa 21. heinäkuuta 2026 asti</strong> (sekä muun muassa Hermes-, Kilo- ja Cline-alustoilla), ja Tencent listaa jakelukanaviin myös OpenClawin. Tencent Cloudin hinnoittelu on <strong>1 juan / M input-</strong> ja <strong>4 juan / M output-tokenia</strong>. OpenClaw mainitaan itse asiassa mallin kohdeympäristöjen joukossa — ja sama malli (openrouter/tencent/hy3:free) on tällä hetkellä tämän botin oletusmalli, joten ilmaisen ikkunan aikana sen voi kokeilla suoraan ilman kustannusta.</p>
+
+ <div class="references">
+ <div class="article-meta">Referenssit</div>
+ <ul>
+  <li><a href="https://huggingface.co/tencent/Hy3" target="_blank">Tencent Hy Team — tencent/Hy3 (virallinen mallikortti, Apache 2.0)</a></li>
+  <li><a href="https://winbuzzer.com/2026/07/06/tencent-releases-hy3-a-smaller-model-approaching-larger-flagship-performance-xcxwbn/" target="_blank">Winbuzzer — Tencent Releases Hy3, a Smaller Model Approaching Larger Flagship Performance</a></li>
+  <li><a href="https://simonwillison.net/2026/Jul/6/hy3/" target="_blank">Simon Willison — tencent/Hy3</a></li>
+  <li><a href="https://openrouter.ai/tencent/hy3:free" target="_blank">OpenRouter — tencent/hy3:free (ilmainen 21.7.2026 asti)</a></li>
+ </ul>
+ </div>
+ </div>
+
+ <div class="footer">
+ <p>Luotu automaattisesti tekoälyllä</p>
+ </div>
+ </div>
+</body>
+</html>
