@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Päivän AI-uutiset – 13.7.2026</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#0b1020; --card:#121a32; --text:#eef3ff; --muted:#aeb9d4; --accent:#72f1b8; --accent2:#8ab4ff; --line:#25304f; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif; background:linear-gradient(135deg,#08101f,#151b35 55%,#10251d); color:var(--text); line-height:1.55; }
+    .wrap { max-width:920px; margin:0 auto; padding:36px 18px 56px; }
+    .hero { border:1px solid var(--line); background:rgba(18,26,50,.86); border-radius:28px; padding:30px; box-shadow:0 24px 80px rgba(0,0,0,.35); }
+    h1 { font-size:clamp(2rem,5vw,3.7rem); line-height:1.02; margin:0 0 12px; letter-spacing:-.05em; }
+    .meta { color:var(--muted); font-size:.98rem; }
+    .signal { margin-top:18px; padding:16px 18px; background:rgba(114,241,184,.09); border-left:4px solid var(--accent); border-radius:14px; font-size:1.08rem; }
+    section { margin-top:24px; padding:24px; border:1px solid var(--line); background:rgba(18,26,50,.72); border-radius:22px; }
+    h2 { margin:0 0 14px; font-size:1.35rem; letter-spacing:-.02em; }
+    h3 { margin:18px 0 6px; font-size:1.08rem; }
+    ul { padding-left:1.2rem; } li { margin:.5rem 0; }
+    a { color:var(--accent2); text-decoration:none; } a:hover { text-decoration:underline; }
+    .tag { display:inline-block; font-size:.78rem; color:#05120d; background:var(--accent); padding:3px 9px; border-radius:999px; font-weight:700; margin-right:6px; }
+    .muted { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; }
+    .mini { border:1px solid var(--line); border-radius:16px; padding:14px; background:rgba(255,255,255,.035); }
+    footer { margin-top:26px; color:var(--muted); font-size:.9rem; text-align:center; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="hero">
+      <h1>Päivän AI-uutiset</h1>
+      <div class="meta">13.7.2026 · koostettu noin klo 12:00 EEST · lähteet tarkistettu 24 h -ikkunalla, ellei toisin merkitty</div>
+      <p class="signal"><strong>Signaali:</strong> Hiljainen viikonlopun jälkeinen uutispäivä, mutta käytännön suunta on selvä: agentit siirtyvät pidempiin taustatehtäviin ja robotiikan mallit yrittävät pärjätä yhä niukemmalla sensoridatalla.</p>
+    </article>
+
+    <section>
+      <h2>⚡ 60 sekunnin yhteenveto</h2>
+      <ul>
+        <li><strong>Mistral julkaisi Robostral Navigaten:</strong> 8B-robotiikkamalli navigoi yhden RGB-kameran ja luonnollisen kielen ohjeiden varassa; Mistral kertoo tulokseksi 76,6 % R2R-CE:ssä. <a href="https://mistral.ai/news/robostral-navigate">Lähde</a></li>
+        <li><strong>Gemini-agenttien taustasuoritus nousi esiin:</strong> raportoidun päivityksen mukaan pitkät agenttitehtävät voivat jatkua ilman hauraita avoimia yhteyksiä. <a href="https://ppc.land/google-lets-gemini-agents-run-background-tasks-without-breaking-connections/">Lähde</a></li>
+        <li><strong>AI-inferenssin hinta on edelleen päivän teema:</strong> VentureBeat raportoi DeepSeekin 75 % hinnanleikkauksista, mutta muistuttaa, että volyymi- ja latenssiongelma ei katoa pelkällä yksikköhinnan laskulla. <a href="https://venturebeat.com/ai/deepseek-cut-prices-75-the-100x-problem-remains/">Lähde</a></li>
+        <li><strong>Video-/seurantalistalla:</strong> Matt Wolfe julkaisi lyhyen videon avoimesta “Linux of AI” -teemasta, Matthew Berman Codex-aiheisen shortsin ja Two Minute Papers Minecraft/AI-videon. <a href="https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g">Matt Wolfe RSS</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🔥 Top stories</h2>
+      <h3>1. Mistral: Robostral Navigate tuo single-camera-navigoinnin avoimempaan robotiikkapinoon</h3>
+      <p><span class="tag">Robotiikka</span><span class="tag">Mallit</span> Mistralin sivu kuvaa 8B-mallin, joka käyttää yhtä RGB-kameraa, ei syvyysantureita, LiDARia tai useita kameroita. Lupaus on käytännöllinen: halvemmat robottialustat voisivat hyödyntää kielellä ohjattavaa navigointia ilman raskasta sensoripakettia.</p>
+      <p><strong>Miksi sillä on väliä:</strong> jos tämä toimii myös simulaation ulkopuolella, se madaltaa kynnystä rakentaa varasto-, koti- ja tutkimusrobotteja tavallisemmalla kameraraudalla. <a href="https://mistral.ai/news/robostral-navigate">Mistral</a></p>
+
+      <h3>2. Gemini-agenttien pitkät taustatehtävät: pieni UX-muutos, iso agenttisuunta</h3>
+      <p><span class="tag">Agentit</span><span class="tag">Devtools</span> PPC Landin mukaan Googlen Gemini-agenttipäivitys lisää taustasuoritusta sekä remote MCP -linkkeihin, custom function call -kutsuihin ja credential refresh -virtoihin liittyviä parannuksia.</p>
+      <p><strong>Miksi sillä on väliä:</strong> agentit ovat hyödyllisiä vasta, kun ne voivat tehdä monivaiheisia töitä ilman että käyttäjän selain-/yhteyssessio on heikoin lenkki. <a href="https://ppc.land/google-lets-gemini-agents-run-background-tasks-without-breaking-connections/">PPC Land</a></p>
+    </section>
+
+    <section>
+      <h2>🧰 Builders’ corner</h2>
+      <div class="grid">
+        <div class="mini"><strong>Kokeile agenttien “pitkä työ” -testiä:</strong> anna agentille tehtävä, joka kestää yli 15 minuuttia ja sisältää API-kutsuja, tiedostomuutoksia ja kirjautumisen uusimisen. Kirjaa, missä kohtaa sessio katkeaa.</div>
+        <div class="mini"><strong>Robotiikka:</strong> jos seuraat embodied AI:tä, vertaa Robostralin vaatimuksia nykyiseen kamera+LiDAR-pinoosi. Yhden kameran malli voi olla hyvä benchmark myös simulaatiossa.</div>
+        <div class="mini"><strong>Kustannukset:</strong> älä optimoi vain token-hintaa. Mittaa myös läpimenoaika, retryt, cache-hitit ja työkalukutsujen määrä per valmis tehtävä.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🧠 Tutkimus / mallit — taustalla seurattavaa</h2>
+      <p class="muted">Alla olevat paperit eivät ole 24 h -ikkunan sisällä ensijulkaisun perusteella, mutta nousivat tuoreissa hakusignaaleissa ja ovat relevantteja agenttien riskien sekä suunnittelun kannalta.</p>
+      <ul>
+        <li><strong>TrustX Agent Risk Classification Framework:</strong> agenttisten järjestelmien sisäiseen riskitasotteluun tarkoitettu viitekehys. <a href="http://arxiv.org/abs/2607.09586v1">arXiv</a></li>
+        <li><strong>GATS: Graph-Augmented Tree Search:</strong> agenttisuunnittelun tehokkuutta haetaan graafilla täydennetyllä puuhaulla ja kerrostetuilla maailmamalleilla. <a href="http://arxiv.org/abs/2607.08894v1">arXiv</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>▶️ YouTube-watchlist</h2>
+      <ul>
+        <li><strong>Matt Wolfe:</strong> “This Tech CEO Is Building the ‘Linux of AI’” — lyhyt, tuore signaali avoimen AI-infran narratiivista. <a href="https://www.youtube.com/shorts/lIi2FjPgjkg">YouTube</a></li>
+        <li><strong>Matthew Berman:</strong> “Codex is GONE” — tuore shortsi koodausagentti-/Codex-keskusteluun. <a href="https://www.youtube.com/shorts/mlc9JSTQoxc">YouTube</a></li>
+        <li><strong>Two Minute Papers:</strong> “Minecraft Was Missing One Brilliant Idea” — ei välttämättä uutinen, mutta relevantti luovan simulaatio-/pelitekoälyn seurannassa. <a href="https://www.youtube.com/watch?v=Ae9q7KsRbuI">YouTube</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🧭 Mitä kannattaa kokeilla / tehdä</h2>
+      <ul>
+        <li>Rakenna yksi “taustalla ajettava agenttityö” omaan workflow’hun: esim. repo-auditointi + issue-ehdotukset + PR-luonnos.</li>
+        <li>Lisää kustannusmittari: €/valmis tehtävä, ei vain €/1M tokenia.</li>
+        <li>Jos robotiikka kiinnostaa, tallenna Robostral Navigate vertailulistaan ja odota riippumattomia sim-to-real-testituloksia ennen johtopäätöksiä.</li>
+      </ul>
+    </section>
+
+    <footer>Koostettu automaattisesti Hermest AI news agentilla. Hakupäivä: 13.7.2026. Google News RSS:n ja lähdesivujen aikaleimoja käytettiin tuoreuden tarkistukseen; osa toimituksellisista sivuista esti sisällön automaattisen haun.</footer>
+  </main>
+</body>
+</html>
