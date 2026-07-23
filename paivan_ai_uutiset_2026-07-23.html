@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Päivän AI-uutiset — 23.7.2026</title>
+  <style>
+    :root{--bg:#0b1020;--card:#111936;--ink:#edf3ff;--muted:#a9b7d0;--line:#26345f;--accent:#8ee6ff;--hot:#ffb86b;--ok:#9df0c7}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top left,#1d2a55 0,#0b1020 42%,#070a12 100%);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;line-height:1.6}
+    main{max-width:920px;margin:auto;padding:32px 18px 64px}.hero{padding:34px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(135deg,rgba(142,230,255,.14),rgba(255,184,107,.08));box-shadow:0 20px 60px rgba(0,0,0,.28)}
+    h1{font-size:clamp(2rem,5vw,4rem);line-height:1.02;margin:0 0 12px} h2{margin-top:34px;border-top:1px solid var(--line);padding-top:24px} h3{margin-bottom:6px}.date{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.08em}.signal{font-size:1.2rem;color:#dce8ff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:18px}.card{background:rgba(17,25,54,.78);border:1px solid var(--line);border-radius:20px;padding:18px}.tag{display:inline-block;color:#06101c;background:var(--accent);border-radius:999px;padding:2px 10px;font-size:.82rem;font-weight:800}.tag.hot{background:var(--hot)}.tag.ok{background:var(--ok)}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline} ul{padding-left:1.2rem}.muted{color:var(--muted)} .source{font-size:.92rem;color:var(--muted)} .footer{margin-top:42px;color:var(--muted);font-size:.9rem}
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="date">23.7.2026 · 24 h AI-briefing</div>
+    <h1>Päivän AI-uutiset</h1>
+    <p class="signal"><strong>Signaali:</strong> päivän punainen lanka on tuotantoon vieminen: agentit, infra, 4-bittinen generointi ja sääntelyraha siirtävät AI:ta demoista kohti hallittuja järjestelmiä.</p>
+    <p class="muted">Koottu lähteistä, joiden julkaisu- tai päivitysaika oli todennettavissa viimeisen 24 tunnin sisällä (EEST 23.7.2026 klo 12:00), paitsi erikseen taustaksi merkityt kohdat.</p>
+  </section>
+
+  <h2>60 sekunnin tiivistelmä</h2>
+  <div class="grid">
+    <div class="card"><span class="tag hot">Top</span><h3>OpenAI Presence vie agentit yritysprosesseihin</h3><p>OpenAI esitteli Presence-alustan ääni- ja chat-agenteille; OpenAI kertoo käyttävänsä sitä itse suuren osan tukipyynnöistä käsittelyyn.</p></div>
+    <div class="card"><span class="tag hot">Infra</span><h3>NVIDIA DGX GB300 käyttöön Naval Postgraduate Schoolissa</h3><p>NVIDIA kertoo uuden AI-superkoneen tukevan opetusta ja tutkimusta muun muassa sääennusteissa, kyberturvassa ja katastrofivalmiudessa.</p></div>
+    <div class="card"><span class="tag ok">Builder</span><h3>Hugging Face + Nunchaku: 4-bittinen Diffusers-polku</h3><p>Uusi integraatio tähtää siihen, että raskaat diffusion-mallit mahtuvat paremmin kuluttaja-GPU:ille pienemmällä VRAM-kulutuksella.</p></div>
+  </div>
+
+  <h2>🔥 Top stories</h2>
+  <section class="card">
+    <h3>1. OpenAI esitteli Presence-agenttialustan yrityksille</h3>
+    <p>OpenAI RSS:n mukaan Presence on yritysten voice/chat-agenttialusta asiakas- ja sisäisiin työnkulkuihin. SiliconANGLEn tuoreen jutun mukaan OpenAI käyttää sitä omassa tukitoiminnassaan ja se käsittelee noin 75 % inbound-tukipyynnöistä.</p>
+    <p><strong>Miksi merkkaa:</strong> jos väite tuotantokäytöstä pitää mittakaavassa, Presence näyttää agenttien seuraavan tärkeän rajan: ei vain “älykäs botti”, vaan guardraileilla, simulaatiotestauksella ja integraatioilla hallittu operointikerros.</p>
+    <p class="source">Lähteet: <a href="https://openai.com/index/introducing-openai-presence">OpenAI</a>; <a href="https://siliconangle.com/2026/07/22/openai-introduces-presence-help-enterprises-build-ai-agents/">SiliconANGLE</a></p>
+  </section>
+
+  <section class="card">
+    <h3>2. OpenAI, DOE ja kansalliset laboratoriot: frontier-AI tieteen vauhdittajana</h3>
+    <p>OpenAI julkaisi sitoumuksen “American science” -työhön yhdessä Yhdysvaltain energiaministeriön ja kansallisten laboratorioiden kanssa; rinnalla se ilmoitti Project Camellia -infrasta Georgiassa.</p>
+    <p><strong>Miksi merkkaa:</strong> frontier-mallit kytkeytyvät yhä suoremmin superlaskentaan, kansalliseen tiedepolitiikkaan ja energiainfraan. Tämä on sekä tuottavuus- että kapasiteettitarina.</p>
+    <p class="source">Lähteet: <a href="https://openai.com/index/advancing-the-next-era-of-national-science">OpenAI science</a>; <a href="https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community">OpenAI infrastructure</a></p>
+  </section>
+
+  <section class="card">
+    <h3>3. NVIDIA toi DGX GB300 -järjestelmän Naval Postgraduate Schoolille</h3>
+    <p>NVIDIA kertoo Jensen Huangin ottaneen Montereyssä käyttöön DGX GB300 -AI-superkoneen, joka antaa yliopiston opiskelijoille ja tutkijoille paikallista kapasiteettia mallien koulutukseen ja inferenssiin.</p>
+    <p><strong>Miksi merkkaa:</strong> AI-infra ei ole enää vain hyperscalerien asia; puolustus, yliopistot ja tutkimuslaitokset rakentavat omia “AI factory” -kyvykkyyksiä.</p>
+    <p class="source">Lähde: <a href="https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/">NVIDIA Blog</a></p>
+  </section>
+
+  <h2>⚡ Quick hits</h2>
+  <ul>
+    <li><strong>AMD–Anthropic-chip/infra-diili:</strong> Google Newsin WSJ/Yahoo-koosteiden mukaan AMD myisi Anthropicille kymmenien miljardien dollareiden AI-palvelimia ja sijoittaisi jopa 5 mrd. dollaria. Tämä on vahva signaali siitä, että frontier-labit hajauttavat GPU/kiihdytinriippuvuutta. <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0JyTjctQkJmSjRQbWFnczFFNW5GV0M1dzNiNjZEWDJFemFFeElQdnlCcWRPRWZEMlFIWS00YmxxeXpfdHNYb2ktbXhNV1h4c05oZ1BpQ3VvbWU4YURPYU82TDJpdm04Y3pvYjEtN3U2RlpOdHdfUW5rZTBQZFFZNWJKazFwempZX0pBSklVR19TdzA0MVE?oc=5">Google News / WSJ</a></li>
+    <li><strong>Anthropic rahoittaa AI-sääntelyä tukevaa ryhmää:</strong> Reutersin mukaan Anthropic lahjoittaa 20 miljoonaa dollaria yhdysvaltalaiselle AI-regulaatiota tukevalle poliittiselle ryhmälle. <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxQYjVuYzdvaWlCQnplaW5rS3FwcFNjOHpQT3plWjNtVkp5cXQ5eTlTcl9naTZ6WWpwR1FWdlROYTBhR0pRRHZXNzZiT0dDcTkzMmFaampfZzdEeWtEZVJ4SG8tbU5aQ0hrQmU5ZmJqcUh5bVNqM3ViX3Z6N2lUTHRnc2ZnVjNHcEFwblpQRUVnQ2pGTzl6SktMR2FtMURUeUY2ek5oa2IyVkJlR0V5RkZwSTZra1U4WlNGOUtFd2RFNWdheHR3Y0E?oc=5">Google News / Reuters</a></li>
+    <li><strong>OpenAI + mediaorganisaatiot:</strong> OpenAI julkaisi esimerkkejä siitä, miten uutisorganisaatiot käyttävät AI:ta raportoinnin, yleisön kasvun ja liiketoiminnan tukena. <a href="https://openai.com/index/how-news-organizations-are-using-ai">OpenAI</a></li>
+  </ul>
+
+  <h2>🧰 Builders’ corner</h2>
+  <section class="card">
+    <h3>Hugging Face: Nunchaku 4-bit Diffusion Inference Diffusersiin</h3>
+    <p>Hugging Face julkaisi Nunchaku Lite -integraation Diffusersiin. Jutun ydin: 4-bittinen quantization voi laskea diffusion-mallien muistitarvetta ja parantaa käytettävyyttä kuluttaja-GPU:illa.</p>
+    <p><strong>Kokeile:</strong> jos ajat kuvagenerointia paikallisesti, testaa Nunchaku-polku erillisessä ympäristössä ja vertaa VRAM/latenssi/laatu nykyiseen BF16-ajoon.</p>
+    <p class="source">Lähde: <a href="https://huggingface.co/blog/nunchaku-diffusers">Hugging Face Blog</a></p>
+  </section>
+
+  <h2>🧠 Research / models</h2>
+  <ul>
+    <li><strong>Qwen-Audio-3.0-TTS nousi uudelleen esiin:</strong> GIGAZINE raportoi 23.7. Qwenin TTS-mallista, joka tukee 16 kieltä, tyyliohjausta ja noin 300 ms Flash-latenssia; varsinainen julkaisu on 20.7., joten tämä on taustalla seurattavaa eikä puhtaasti uusi julkaisu. <a href="https://gigazine.net/gsc_news/en/20260723-qwen-audio-3-tts/">GIGAZINE</a>; <a href="https://tongyilab.substack.com/p/qwen-audio-30-tts-more-multilingual">Tongyi Lab</a></li>
+    <li><strong>ArXiv: “Notes to Self” tutkii kokemuksellisia abstraktioita LLM:ille:</strong> tuore paperi kysyy, voivatko mallit hyötyä omista ratkaisujäljistään tiivistetyistä strategioista ja varoituksista. <a href="http://arxiv.org/abs/2607.20372v1">arXiv</a></li>
+    <li><strong>ArXiv: VLM:t ovat herkkiä kuva/kysymys-järjestykselle:</strong> paperi raportoi, että vision-language-mallien tulos muuttuu semanttisesti irrelevantista modaliteettijärjestyksestä. <a href="http://arxiv.org/abs/2607.20351v1">arXiv</a></li>
+  </ul>
+
+  <h2>▶️ YouTube-watchlist</h2>
+  <section class="card">
+    <h3>AI Explained: Hugging Face -incident ilman suurinta hypeä</h3>
+    <p>AI Explained julkaisi 22.7. videon OpenAI/Hugging Face -arviointi-incidentistä. Käytä tätä kontekstina, ei ainoana faktalähteenä: alkuperäinen OpenAI/HF-tiedote on 21.7. ja siten tämän 24 h -ikkunan ulkopuolella.</p>
+    <p class="source">Lähde: <a href="https://www.youtube.com/watch?v=wzY2fV4Mp3U">YouTube / AI Explained</a>; taustaksi <a href="https://openai.com/index/hugging-face-model-evaluation-security-incident">OpenAI</a></p>
+  </section>
+
+  <h2>🧭 Mitä kannattaa kokeilla / tehdä</h2>
+  <ul>
+    <li>Jos rakennat agentteja: tee oma “Presence-checklist” — guardrailit, simulaatiotestit, integraatio-oikeudet, rollback, lokitus.</li>
+    <li>Jos pyörität generatiivista kuvaa/videoa: benchmarkkaa Nunchaku/Diffusers pienellä testisetillä ennen mallipäivityksiä.</li>
+    <li>Jos seuraat infraa: pidä silmällä AMD–Anthropic-diilin vahvistuksia ja sitä, näkyykö MI/Instinct-kapasiteetti käytännön mallipalveluissa.</li>
+    <li>Jos seuraat sääntelyä: Anthropic-rahoitus kertoo, että AI-politiikan “ground game” kiihtyy ennen vaaleja.</li>
+  </ul>
+
+  <h2>🔎 Mitä seurata seuraavaksi</h2>
+  <ul>
+    <li>Saako OpenAI Presence julkisen API/SDK-polun vai pysyykö se enterprise-vetoisena?</li>
+    <li>Tuleeko AMD–Anthropic-sopimuksesta virallinen tekninen tiekartta, vai jääkö se rahoitus/infrastruktuuriuutiseksi?</li>
+    <li>Yleistyvätkö 4-bittiset diffusion-ajot niin, että paikallinen multimodaalinen tuotanto muuttuu aidosti halvemmaksi?</li>
+  </ul>
+
+  <p class="footer">Koottu automaattisesti Hermest AI news agentilla. Lähteet tarkistettu RSS-, Google News RSS-, arXiv- ja sivufetcheillä; OpenAI-artikkeleista osa oli suoraan sivuna estetty, joten käytetty OpenAI RSS:n otsikkoa, aikaa ja kuvausta.</p>
+</main>
+</body>
+</html>
