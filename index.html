@@ -10,6 +10,9 @@
         .header { background: #0d1b2a; color: white; padding: 30px 20px; border-radius: 8px 8px 0 0; margin: -20px -20px 20px -20px; text-align: center; }
         h1 { margin: 0; font-size: 28px; letter-spacing: 1px; }
         .header p { margin: 10px 0 0 0; color: #7db8e8; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; font-weight: bold; }
+        .section-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px 0 28px; }
+        .section-nav a { display: inline-block; padding: 9px 13px; border: 1px solid #b8d5e8; border-radius: 20px; color: #0d4e7a; background: #f4fafc; font-size: 13px; }
+        .section-nav a:hover { background: #e2f1f9; }
         .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
         @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; } }
         ul { list-style-type: none; padding: 0; }
@@ -32,10 +35,14 @@
             <h1>Tekoälykatsaukset & Uutisnostot</h1>
             <p>Automatisoitu uutisvirta</p>
         </div>
-        
+        <nav class="section-nav" aria-label="Siirry osioon">
+            <a href="#katsaukset">Säännölliset katsaukset</a>
+            <a href="#youtube-videot">YouTube videot</a>
+            <a href="#hot-news">Hot News</a>
+        </nav>
         <div class="content-grid">
             <div class="main-column">
-                <h2 style="margin-bottom: 20px; color: #444; border-bottom: 2px solid #eee; padding-bottom: 10px;">Säännölliset katsaukset</h2>
+                <h2 id="katsaukset" style="margin-bottom: 20px; color: #444; border-bottom: 2px solid #eee; padding-bottom: 10px;">Säännölliset katsaukset</h2>
                 <ul>
                     <li>
                         <a href="executive_ai_brief_2026-08-17.html">Johdon tiivistelmä (Executive Brief)</a>
@@ -566,7 +573,7 @@
                         <span class="date">05.04.2026</span>
                     </li>
                 </ul>
-                <h2 style="margin: 34px 0 20px; color: #444; border-bottom: 2px solid #eee; padding-bottom: 10px;">▶ YouTube videot</h2>
+                <h2 id="youtube-videot" style="margin: 34px 0 20px; color: #444; border-bottom: 2px solid #eee; padding-bottom: 10px;">▶ YouTube videot</h2>
                 <ul class="youtube-list">
                     <li>
                         <a href="youtube_lenkkilista_2026-08-17_2028.html">AI-työkalut ja AI-uutiset</a>
@@ -575,7 +582,7 @@
                 </ul>
             </div>
             <div class="sidebar-column">
-                <h2 style="margin-bottom: 20px; color: #dc2626; border-bottom: 2px solid #fecaca; padding-bottom: 10px;">🔥 Hot News -nostot</h2>
+                <h2 id="hot-news" style="margin-bottom: 20px; color: #dc2626; border-bottom: 2px solid #fecaca; padding-bottom: 10px;">🔥 Hot News -nostot</h2>
                 <ul class="hot-news-list">
                     <li>
                         <span class="tag">HOT NEWS</span>
