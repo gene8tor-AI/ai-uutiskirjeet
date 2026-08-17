@@ -61,6 +61,28 @@ for f in hot_files:
 
 hot_items.sort(key=lambda x: x["sort_key"], reverse=True)
 
+# Get YouTube walking playlists (youtube_lenkkilista_YYYY-MM-DD_HHMM.html)
+playlist_files = glob.glob("youtube_lenkkilista_*.html")
+playlist_items = []
+for f in playlist_files:
+    base = f.replace(".html", "").replace("youtube_lenkkilista_", "")
+    try:
+        dt = datetime.strptime(base[:10], "%Y-%m-%d")
+        title = "YouTube-videolista"
+        try:
+            with open(f, "r", encoding="utf-8") as html_file:
+                import re
+                match = re.search(r"<h1>(.*?)</h1>", html_file.read(), re.DOTALL)
+                if match:
+                    title = re.sub(r"<[^>]+>", "", match.group(1)).strip()
+        except Exception:
+            pass
+        playlist_items.append({"file": f, "date": dt, "title": title, "sort_key": os.path.getmtime(f)})
+    except ValueError:
+        pass
+
+playlist_items.sort(key=lambda x: x["sort_key"], reverse=True)
+
 html_content = """<!DOCTYPE html>
 <html lang="fi">
 <head>
@@ -123,6 +145,20 @@ for item in main_items:
         
     html_content += f"""                    <li>
                         <a href="{item['file']}">{display_title}</a>
+                        <span class="date">{item['date'].strftime('%d.%m.%Y')}</span>
+                    </li>\n"""
+
+html_content += """                </ul>
+                <h2 style="margin: 34px 0 20px; color: #444; border-bottom: 2px solid #eee; padding-bottom: 10px;">▶ YouTube videot</h2>
+                <ul class="youtube-list">
+"""
+
+if not playlist_items:
+    html_content += "                    <li><p style='color: #666; font-size: 14px; margin: 0;'>Ei vielä video-listoja.</p></li>\n"
+else:
+    for item in playlist_items:
+        html_content += f"""                    <li>
+                        <a href="{item['file']}">{item['title']}</a>
                         <span class="date">{item['date'].strftime('%d.%m.%Y')}</span>
                     </li>\n"""
 
