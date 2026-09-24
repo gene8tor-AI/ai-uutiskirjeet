@@ -8,6 +8,7 @@ os.chdir(directory)
 # Get all main newsletters
 main_files = sorted(set(
     glob.glob("*_uutiset_*.html")
+    + glob.glob("ai_morning_brief_*.html")
     + glob.glob("executive_ai_brief_*.html")
     + glob.glob("viikon_ai_uutiset_*.html")
     + glob.glob("copilot_katsaus_*.html")
@@ -149,6 +150,8 @@ for item in main_items:
         display_title = "Copilot Studio - Käyttötapaukset"
     elif "Vibe coding" in display_title:
         display_title = "Vibe Coding -uutiset"
+    elif "Ai morning brief" in display_title:
+        display_title = "AI Morning Brief"
         
     html_content += f"""                    <li>
                         <a href="{item['file']}">{display_title}</a>
