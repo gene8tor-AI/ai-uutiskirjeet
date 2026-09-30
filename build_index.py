@@ -11,6 +11,7 @@ main_files = sorted(set(
     + glob.glob("ai_morning_brief_*.html")
     + glob.glob("executive_ai_brief_*.html")
     + glob.glob("viikon_ai_uutiset_*.html")
+    + glob.glob("viikon_ai_uutiskuva_*.html")
     + glob.glob("copilot_katsaus_*.html")
     + glob.glob("copilot_studio_katsaus_*.html")
 ))
@@ -142,6 +143,8 @@ for item in main_items:
         display_title = "Telco-sektorin AI-uutiset"
     elif "Executive ai" in display_title:
         display_title = "Johdon tiivistelmä (Executive Brief)"
+    elif "Viikon ai uutiskuva" in display_title:
+        display_title = "Viikon AI-uutiskuva"
     elif "Viikon ai" in display_title:
         display_title = "Viikon tärkeimmät AI-uutiset"
     elif "Copilot katsaus" in display_title:
