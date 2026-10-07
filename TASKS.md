@@ -1,7 +1,7 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
 ## TASK-006 — Julkaise Viikon AI-uutiskuva 2026-10-07
-- Status: IN PROGRESS
+- Status: PARTIAL
 - Implements: SPEC-3.3, SPEC-7.1, SPEC-7.2, SPEC-7.3, SPEC-9.1, SPEC-10.1
 - Dependencies: alkuperäislähteen ja päiväyksen varmennus, kuvitus, Notion-metatieto, `build_index.py`, rajattu git-commit/push, Pages-URL:n HTTP 200 -tarkistus ja Gmail API -päiväraja.
 - Affected files/components: `viikon_ai_uutiskuva_2026-10-07.html`, `images/viikon-ai-uutiskuva-2026-10-07.png`, `index.html`, uutistietokanta Notionissa, GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`, GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`, Gmail API sender `/Users/samisikila/.openclaw/workspace/scripts/send_news_link_once.py`.
@@ -9,7 +9,7 @@
 - Acceptance criteria: yksi 30.9.–7.10.2026 julkaistu, alkuperäislähteellä varmennettu AI-uutinen; HTML, kuva ja indeksi läpäisevät rakenteellisen tarkistuksen, `build_index.py`- ja `git diff --check` -tarkistukset; rajattu commit on main-haarassa; julkinen HTML-URL palauttaa HTTP 200; Notion-tietue luetaan takaisin; Gmail API -lähettäjän SENT/SKIPPED/virhetila kirjataan.
 - Test expectations: alkuperäislähteen päivämäärä- ja sisältötarkistus, kuvavaatimus, HTML-lähdelinkki, index-build, diff-check, commit-sisältö, HTTP-status, Notion-paluuarvo ja lähettäjäkomennon tulos.
 - Implementation evidence: OpenAI:n alkuperäisjulkaisu `Atlassian and OpenAI expand partnership to turn enterprise knowledge into action` varmennettu 6.10.2026. Image 2 -kuvitus valmistui alkuperäisen ajon päätyttyä; kuvan silmämääräinen tarkistus vahvisti, ettei siinä ole tunnistettavia henkilöitä, logoja, kuvatekstiä tai vesileimaa. HTML-jäsennys varmisti yhden kuvatiedostoviittauksen ja yhden OpenAI-lähdelinkin; `build_index.py` ja `git diff --check` PASS.
-- Verification: IN PROGRESS — GitHub Pages -commit/push, julkisen URL:n HTTP 200, Notion-tietueen takaisinluku ja Gmail API -päivärajan tulos ovat vielä varmennettavana.
+- Verification: PARTIAL — commit `d34b388` on `main`-haarassa ja julkinen HTML palautti HTTP 200: `https://gene8tor-ai.github.io/ai-uutiskirjeet/viikon_ai_uutiskuva_2026-10-07.html`. Notion-tietue luotiin ja luettiin takaisin: `https://app.notion.com/p/07-10-2026-Viikon-AI-uutiskuva-3f2c533e271b81f5bac3e94019331cf9`. Ainoa sallittu Gmail API -lähetysyritys tehtiin vasta HTTP 200 -varmennuksen jälkeen, mutta se palautti `invalid_grant: Token has been expired or revoked`; päivän atominen lähetysvaraus on tehty, eikä muita reittejä tai uutta yritystä tehdä 7.10.2026.
 
 ## TASK-005 — Julkaise AI Morning Brief B 2026-10-07
 - Status: PARTIAL
