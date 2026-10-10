@@ -1,7 +1,7 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
 ## TASK-012 — Julkaise AI Morning Brief 2026-10-10
-- Status: IN PROGRESS
+- Status: DONE
 - Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
 - Dependencies: kahden viime päivän Gmail-/Notion-lukulähteet, ensisijaisten lähteiden tarkistus, Telco AI -aluehaku, X-signaalien haku, YouTube-kanavalistan metadatakeruu, `build_index.py`, rajattu git-commit/push ja julkisen Pages-URL:n HTTP 200 -tarkistus.
 - Affected files/components: `paivan_ai_uutiset_2026-10-10.html`, `index.html`, GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`, GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`.
@@ -9,6 +9,9 @@
 - Acceptance criteria: ensisijaisten tai uskottavien toimialalähteiden linkit jokaisessa uutisnostossa; läpinäkyvä rajoite, jos X- tai YouTube-tuloksia ei voi varmentaa; vain uusi HTML, `index.html` ja tämä tehtävämerkintä muutetaan; julkinen Pages-URL palauttaa HTTP 200.
 - Test expectations: lähde- ja tuoreustarkistus, HTML-rakenteen ja URL:ien tarkistus, `python3 build_index.py`, `git diff --check`, rajatun commitin tiedostolista sekä julkinen HTTP-status.
 - Impact: toteuttaa olemassa olevaa SPEC-3.1:tä; tarkistetut riippuvuudet SPEC-7.1, SPEC-9.1 ja SPEC-10.1; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
+- Implementation evidence: Gmail- ja Notion-lukulähteet luettiin; 11 yleis-/työkalu- ja 2 Telco AI -nostoa kuratoitiin 13 lähteestä. HTML-jäsennys varmisti 26 HTTPS-lähdelinkkiä sekä kaikki vaaditut osiot; `python3 build_index.py` ja `git diff --check` PASS. Rajattu julkaisucommit `4b695f8` sisältää vain `TASKS.md`, `paivan_ai_uutiset_2026-10-10.html` ja `index.html`, ja se on pushattu `main`-haaraan.
+- Verification: PASS — julkinen URL `https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-10.html` palautti HTTP 200 10.10.2026. Sähköpostia ei lähetetty eikä Notion-kirjoitusta tehty cron-payloadin mukaisesti.
+- Limitations: X-haku epäonnistui SSL-varmennevirheeseen `Missing Authority Key Identifier`; Matt Wolfe / Future Tools -metadatakeruu epäonnistui `yt-dlp`-komennossa virheeseen `CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate`. Rajoitteet näkyvät sivulla ilman keksittyjä nostoja. USA Telco AI -aliosioon ei löytynyt lähdekriteerit täyttävää tuoretta nostoa.
 
 ## TASK-011 — Julkaise Hot News: Deutsche Telekomin AI Investor Day 2026-10-10
 - Status: DONE
