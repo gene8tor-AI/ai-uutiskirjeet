@@ -1,7 +1,7 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
 ## TASK-011 — Julkaise Hot News: Deutsche Telekomin AI Investor Day 2026-10-10
-- Status: IN PROGRESS
+- Status: DONE
 - Implements: SPEC-3.5, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1
 - Dependencies: käyttäjän nimenomainen `Hot news` -pyyntö ja lähde `https://www.telecomtv.com/content/ai/deutsche-telekom-boosts-growth-efficiency-and-quality-through-the-use-of-ai-56389/`.
 - Affected files/components: `hot_news_2026-10-10_0931.html`, `index.html`, GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`, GitHub Pages, Gmail API sender ja Notion `todo` -tietokanta.
@@ -9,8 +9,8 @@
 - Acceptance criteria: lähteen faktat ja tavoitteet erotellaan; HTML sisältää alkuperäislinkin; index-build, HTML-jäsennys ja diff-check PASS; julkaistu URL HTTP 200; Gmail API- ja Notion-tulokset kirjataan.
 - Test expectations: lähde- ja URL-tarkistus, HTML-rakenteen tarkistus, `build_index.py`, `git diff --check`, commit/push, HTTP-status, Gmail API -tulos ja Notion-paluuarvo.
 - Impact: uusi SPEC-3.5; integraatiot SPEC-7.1 ja SPEC-7.2; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
-- Implementation evidence:
-- Verification: NOT TESTED
+- Implementation evidence: TelecomTV:n alkuperäinen artikkeli luettu 10.10.2026 (HTTP 200). HTML-jäsennys, `python3 build_index.py` ja `git diff --check` PASS. Commit `fc303ec` sisältää `hot_news_2026-10-10_0931.html`, `index.html`, `SPEC.md` ja `TASKS.md`; se on pushattu `main`-haaraan. Julkinen URL palautti HTTP 200. Gmail API -linkkiviesti lähetetty, message id `1a1248433ef980f5`. Notion `todo` -tietue luotu ja luettu takaisin: `https://app.notion.com/p/Deutsche-Telekom-tavoittelee-AI-lla-800-milj-euron-liikevaihtoa-3f5c533e271b81e88580e27cfa80579f`.
+- Verification: PASS — lähde-, HTML-, Pages-, Gmail API- ja Notion-hyväksymiskriteerit täyttyvät. Julkaisupäivän lähetysyritysten enimmäisraja on kolme; Hot News oli päivän ensimmäinen yritys.
 
 ## TASK-010 — Toimita käyttäjän pyytämä AI Morning Brief B -linkki 2026-10-09
 - Status: DONE
