@@ -1,5 +1,67 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
+## TASK-011 — Julkaise Hot News: Deutsche Telekomin AI Investor Day 2026-10-10
+- Status: IN PROGRESS
+- Implements: SPEC-3.5, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1
+- Dependencies: käyttäjän nimenomainen `Hot news` -pyyntö ja lähde `https://www.telecomtv.com/content/ai/deutsche-telekom-boosts-growth-efficiency-and-quality-through-the-use-of-ai-56389/`.
+- Affected files/components: `hot_news_2026-10-10_0931.html`, `index.html`, GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`, GitHub Pages, Gmail API sender ja Notion `todo` -tietokanta.
+- External resource preflight: owner Anna Korpi / `gene8tor-AI`; billing account ei käytössä; production environment GitHub Pages ja Gmail API lähettäjänä `anna8korpi@gmail.com`; data boundary on julkinen HTML, julkinen alkuperäislähde-URL, lyhyt suomenkielinen tiivistelmä sekä sähköpostissa vain julkinen URL, otsikko ja johdanto vastaanottajalle `Sami.sikila@teliacompany.com`. Notioniin tallennetaan otsikko, alkuperäis-URL, tiivistelmä ja tagit. Acceptance = HTML, Pages HTTP 200, Gmail API -viestitunniste ja luettu Notion-tietue. Rollback = revert julkaisukommit ja indeksimuutos; sähköpostia ei voi perua. Käyttäjä pyysi Hot News -julkaisun 10.10.2026. Ei käyttöoikeus-, nimike-, laskutus- tai Pages-asetusmuutoksia.
+- Acceptance criteria: lähteen faktat ja tavoitteet erotellaan; HTML sisältää alkuperäislinkin; index-build, HTML-jäsennys ja diff-check PASS; julkaistu URL HTTP 200; Gmail API- ja Notion-tulokset kirjataan.
+- Test expectations: lähde- ja URL-tarkistus, HTML-rakenteen tarkistus, `build_index.py`, `git diff --check`, commit/push, HTTP-status, Gmail API -tulos ja Notion-paluuarvo.
+- Impact: uusi SPEC-3.5; integraatiot SPEC-7.1 ja SPEC-7.2; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
+- Implementation evidence:
+- Verification: NOT TESTED
+
+## TASK-010 — Toimita käyttäjän pyytämä AI Morning Brief B -linkki 2026-10-09
+- Status: DONE
+- Implements: SPEC-3.1, SPEC-7.2, SPEC-10.1
+- Dependencies: TASK-005:n julkinen HTTP 200 -varmennus; 9.10. Telco-lähetysyrityksen dokumentoitu ennen-Gmailia tapahtunut OAuth `invalid_grant` -virhe; 9.10.2026 käyttäjäpyyntö.
+- Affected files/components: `scripts/send_news_link_once.py`, `paivan_ai_uutiset_2026-10-07_b.html`, Gmail API sender, `/Users/samisikila/.openclaw/state/news-email-daily-cap/2026-10-09.json`.
+- External resource preflight: owner Anna Korpi; billing account ei käytössä; production integration Gmail API lähettäjänä `anna8korpi@gmail.com`; data boundary on vain julkinen URL, otsikko ja lyhyt suomenkielinen johdanto vastaanottajalle `Sami.sikila@teliacompany.com`; acceptance = Gmail API palauttaa viestitunnisteen ja päivän lähetysvaraus säilyttää kaikki yritykset enintään kolmen rajan sisällä; recovery = jos Gmail API palauttaa virheen, yritys jää historiaan eikä vaihtoehtoista reittiä käytetä. Käyttäjä pyysi tämän nimenomaisen lähetyksen ja kolmen lähetyksen päivärajauksen 9.10.2026. Ei käyttöoikeus-, nimike-, laskutus- tai GitHub Pages -muutoksia.
+- Acceptance criteria: URL palauttaa HTTP 200; lähettäjä hyväksyy `_b`-tarkenteen; aiempi Telco-yritys säilyy lähetysvarauksen historiassa; enintään kolme yritystä hyväksytään päivässä; Gmail API -tulos kirjataan.
+- Test expectations: Python-syntaksi, URL-validaatio, HTTP 200, lähetysvarauksen sisältö ja Gmail API -vastaus.
+- Impact: SPEC-3.1, SPEC-7.2 ja SPEC-10.1; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
+- Implementation evidence: `scripts/send_news_link_once.py` päivitettiin hyväksymään yksittäinen pieni kirjainsuffiksi (`_b`) sekä säilyttämään enintään kolmen päivän lähetysyrityksen historia. `python3 -m py_compile scripts/send_news_link_once.py` PASS ja `_b`-URL-validaatio PASS. Julkinen URL palautti HTTP 200. Gmail API lähetti linkkiviestin 9.10.2026, message id `1a120484d6d0eaed`.
+- Verification: PASS — päivän lähetysvaraus sisältää aiemman Telco-yrityksen ja tämän onnistuneen `_b`-lähetyksen; lähetyksiä on 2/3.
+
+## TASK-009 — Julkaise Telco-sektorin AI-uutiset 2026-10-09
+- Status: PARTIAL
+- Implements: SPEC-3.4, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1
+- Dependencies: viimeisten seitsemän päivän Gmail- ja Notion-lukulähteet, telco-AI-kuraatio, `build_index.py`, rajattu git-commit/push, julkisen Pages-URL:n HTTP 200 -tarkistus ja Gmail API -päiväraja.
+- Affected files/components: `telco_ai_uutiset_2026-10-09.html`, `index.html`, GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`, GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`, Gmail API sender `/Users/samisikila/.openclaw/workspace/scripts/send_news_link_once.py`.
+- External resource preflight: owner Anna Korpi / `gene8tor-AI`; billing account ei käytössä; production environment GitHub Pages. Data boundary on julkinen suomenkielinen HTML, toimitukselliset tiivistelmät ja julkiset alkuperäislähde-URL:t. Gmail API -viesti sisältää vain julkisen URL:n, lyhyen otsikon ja suomenkielisen johdannon vastaanottajalle `Sami.sikila@teliacompany.com`. Rollback = revert julkaisucommit ja indeksimuutos. Ei käyttöoikeus-, nimi-, laskutus- tai Pages-asetusmuutoksia. Cron-payload valtuuttaa tämän rajatun julkaisun ja yhden Gmail API -lähetysyrityksen vasta HTTP 200 -varmennuksen jälkeen.
+- Acceptance criteria: HTML sisältää vain telco-AI-aiheiset ja alueittain ryhmitellyt suomenkieliset nostot julkisine lähdelinkkeineen; `build_index.py`, HTML-jäsennys ja `git diff --check` onnistuvat; rajattu commit on main-haarassa; julkinen HTML-URL palauttaa HTTP 200; Gmail API -lähettäjän tila kirjataan.
+- Test expectations: lähde- ja aiherajauksen tarkistus, HTML-rakenteen ja URL:ien tarkistus, index-build, diff-check, rajattu commit/push, HTTP-status ja lähettäjäkomennon tulos.
+- Impact: SPEC-3.4 lisää rajatun Telco-katsauksen; integraatiot SPEC-7.1 ja SPEC-7.2 sekä varmennus SPEC-9.1. Ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
+- Implementation evidence: Gmail- ja Notion-lukulähteet luettiin; kolme telco-AI-nostoa ryhmiteltiin US-, Euroopan- ja Aasian osioihin. HTML-jäsennys, `python3 build_index.py` ja `git diff --check` PASS. Rajattu commit `b9c264c` sisältää vain `telco_ai_uutiset_2026-10-09.html` ja `index.html`, ja se on pushattu `main`-haaraan.
+- Verification: PARTIAL — julkinen URL palautti HTTP 200: `https://gene8tor-ai.github.io/ai-uutiskirjeet/telco_ai_uutiset_2026-10-09.html` (2026-10-09, Europe/Helsinki). Gmail API -yritys palautti `invalid_grant: Token has been expired or revoked` ennen Gmailin lähetyskutsua; yritys säilyy päivän historiassa. 9.10.2026 käyttäjä muutti yhteisen rajan enintään kolmeen yritykseen päivässä, mutta Telco-lähetystä ei uusittu.
+
+## TASK-008 — Julkaise AI Morning Brief 2026-10-09
+- Status: DONE
+- Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
+- Dependencies: kahden viime päivän Gmail-/Notion-lukulähteet, ensisijaisten lähteiden tarkistus, Telco AI -aluehaku, X-hakutila, YouTube-linkkien varmennus, `build_index.py`, rajattu git-commit/push ja julkisen Pages-URL:n HTTP 200 -tarkistus.
+- Affected files/components: `paivan_ai_uutiset_2026-10-09.html`, `index.html`, GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`, GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`.
+- External resource preflight: owner Anna Korpi / `gene8tor-AI`; billing account ei käytössä; production environment GitHub Pages; data boundary vain julkinen suomenkielinen HTML, toimitukselliset tiivistelmät ja julkiset alkuperäislähde-URL:t. Rollback = revert julkaisucommit ja indeksimuutos. Ei käyttöoikeus-, nimi-, laskutus- tai Pages-asetusmuutoksia. Cron-payload valtuuttaa tämän rajatun julkaisun vain HTTP 200 -varmennuksella; sähköpostia ei lähetetä eikä Notion-kirjoitusta tehdä.
+- Acceptance criteria: HTML sisältää varmennetut AI-uutiset, AI-työkalut, Telco AI Europe/USA/Asia -alaosiot, X-signaalien tilan ja YouTube-osion; `build_index.py` ja `git diff --check` onnistuvat; commit sisältää vain uuden HTML:n ja `index.html`:n; main-haaran Pages-URL palauttaa HTTP 200.
+- Test expectations: lähteiden ensisijaisuus ja päiväys, HTML-osioiden ja URL:ien tarkistus, index-build, diff-check, commit-sisältö ja julkinen HTTP-vastaus.
+- Impact: ei SPEC-muutosta; toteuttaa olemassa olevaa SPEC-3.1:tä. Tarkistetut riippuvuudet: SPEC-7.1, SPEC-9.1 ja SPEC-10.1; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
+- Implementation evidence: 10 varmennettua uutis-/työkalu-/Telco-nostoa, 10 yksilöllistä alkuperäis- tai luotettavaa toimialalähde-URL:ia ja kaikki vaaditut osiot. HTML-jäsennys, `python3 build_index.py` ja `git diff --check` PASS. Rajattu commit `d12aa61` sisältää vain `paivan_ai_uutiset_2026-10-09.html` ja `index.html`, ja se on pushattu `main`-haaraan.
+- Verification: PASS — julkinen URL palautti HTTP 200 neljännellä tarkistuksella: `https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-09.html` (2026-10-09, Europe/Helsinki).
+- Limitations: X-haku epäonnistui SSL-varmennevirheeseen `Missing Authority Key Identifier`. Matt Wolfe / Future Tools -kanavan metadatakeruu epäonnistui `yt-dlp`-komennossa SSL-varmennevirheeseen `unable to get local issuer certificate`; molemmat rajoitteet näkyvät julkaistulla sivulla ilman keksittyjä nostoja. Sähköpostia ei lähetetty eikä Notion-kirjoitusta tehty cron-payloadin mukaisesti.
+
+## TASK-007 — Julkaise AI Morning Brief 2026-10-08
+- Status: DONE
+- Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
+- Dependencies: varmennetut Gmail-/Notion-lukulähteet, ensisijaisten lähteiden tarkistus, Telco AI -aluehaku, X-hakutila, YouTube-linkkien varmennus, `build_index.py`, rajattu git-commit/push ja julkisen Pages-URL:n HTTP 200 -tarkistus.
+- Affected files/components: `paivan_ai_uutiset_2026-10-08.html`, `index.html`, GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`, GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`.
+- External resource preflight: owner Anna Korpi / `gene8tor-AI`; billing account ei käytössä; production environment GitHub Pages; data boundary vain julkinen suomenkielinen HTML, toimitukselliset tiivistelmät ja julkiset alkuperäislähde-URL:t. Rollback = revert julkaisucommit ja indeksimuutos. Ei käyttöoikeus-, nimi-, laskutus- tai Pages-asetusmuutoksia. Cron-payload valtuuttaa tämän rajatun julkaisun vain HTTP 200 -varmennuksella; sähköpostia ei lähetetä eikä Notion-kirjoitusta tehdä.
+- Acceptance criteria: HTML sisältää varmennetut AI-uutiset, AI-työkalut, Telco AI Europe/USA/Asia -alaosiot, X-signaalien tilan ja YouTube-osion; `build_index.py` ja `git diff --check` onnistuvat; commit sisältää vain uuden HTML:n ja `index.html`:n; main-haaran Pages-URL palauttaa HTTP 200.
+- Test expectations: lähteiden ensisijaisuus ja päiväys, HTML-osioiden ja URL:ien tarkistus, index-build, diff-check, commit-sisältö ja julkinen HTTP-vastaus.
+- Impact: ei SPEC-muutosta; toteuttaa olemassa olevaa SPEC-3.1:tä. Tarkistetut riippuvuudet: SPEC-7.1, SPEC-9.1 ja SPEC-10.1; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
+- Implementation evidence: 12 varmennettua uutis-/työkalu-/Telco-nostoa, joissa on 26 lähdelinkkiä; Telco AI on ryhmitelty Europe/USA/Asia-alaosioihin. `python3 build_index.py`, HTML-jäsennys ja `git diff --check` PASS. Rajattu commit `56bbe37` sisältää vain `paivan_ai_uutiset_2026-10-08.html` ja `index.html`, ja se on pushattu `main`-haaraan.
+- Verification: PASS — julkinen URL palautti HTTP 200 viidennellä tarkistuksella: `https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-08.html` (2026-10-08, Europe/Helsinki). Sähköpostia ei lähetetty eikä Notion-kirjoitusta tehty cron-payloadin mukaisesti.
+- Limitations: X-haku epäonnistui SSL-varmennevirheeseen `Missing Authority Key Identifier`; YouTube-kanavien metadatakeruu ja siten Matt Wolfe -videon ajantasainen varmennus epäonnistuivat `yt-dlp`-komennossa SSL-varmennevirheeseen. Molemmat rajoitteet näkyvät julkaistulla sivulla ilman keksittyjä nostoja.
+
 ## TASK-006 — Julkaise Viikon AI-uutiskuva 2026-10-07
 - Status: PARTIAL
 - Implements: SPEC-3.3, SPEC-7.1, SPEC-7.2, SPEC-7.3, SPEC-9.1, SPEC-10.1
