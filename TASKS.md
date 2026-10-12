@@ -1,5 +1,16 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
+## TASK-013 — Julkaise AI Morning Brief 2026-10-12
+- Status: READY TO PUBLISH
+- Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
+- Dependencies: 10.–11.10.2026 Gmail-/Notion-lukulähteet, ensisijaisten lähteiden tarkistus, Telco AI -aluehaku, X-signaalihaku, YouTube-lenkkilistan metadatakeruu, `build_index.py`, rajattu git-commit/push ja julkisen Pages-URL:n HTTP 200 -tarkistus.
+- Affected files/components: `paivan_ai_uutiset_2026-10-12.html`, `index.html`, `TASKS.md`; GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`; GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`.
+- External resource preflight: governing requirements SPEC-3.1, SPEC-7.1, SPEC-9.1 and SPEC-10.1; owner Anna Korpi / `gene8tor-AI`; billing account ei käytössä; production environment GitHub Pages on repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`; data boundary on vain julkinen suomenkielinen HTML, toimitukselliset tiivistelmät ja julkiset alkuperäislähde-URL:t. Acceptance = HTML sisältää varmennetut uutiset, AI-työkalut, Telco AI Europe/USA/Asia -alaosiot, X-signaalien tilan ja YouTube-osion; `build_index.py`, HTML-jäsennys ja `git diff --check` onnistuvat; rajattu commit on `main`-haarassa; julkinen URL palauttaa HTTP 200. Rollback/recovery = revert uuden julkaisukommitin ja indeksimuutoksen; GitHub Pages- tai käyttöoikeusasetuksia ei muuteta. Cron-payload valtuuttaa rajatun julkaisun vain HTTP 200 -varmennuksella. Sähköpostia ei lähetetä eikä Notion-kirjoitusta tehdä.
+- Acceptance criteria: jokaisella nostolla on toimiva julkinen alkuperäis- tai uskottava toimialalähde; X- ja YouTube-rajoitteet esitetään läpinäkyvästi, jos haku ei tuota varmennettuja tuloksia; vain uusi HTML, `index.html` ja tämä tehtävämerkintä muutetaan; julkinen Pages-URL palauttaa HTTP 200.
+- Test expectations: lähde- ja tuoreustarkistus, HTML-rakenteen ja URL:ien tarkistus, `python3 build_index.py`, `git diff --check`, rajatun commitin tiedostolista sekä julkinen HTTP-status.
+- Impact: toteuttaa olemassa olevaa SPEC-3.1:tä; tarkistetut riippuvuudet SPEC-7.1, SPEC-9.1 ja SPEC-10.1; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
+- Pre-publication evidence: Gmail- ja Notion-lukulähteet luettiin 10.–11.10.2026; 10 varmennettua uutis-, työkalu- ja Telco AI -nostoa kuratoitiin. Kaikki 10 yksilöllistä lähde-URL:ia palauttivat HTTP 200 suorassa tarkistuksessa. HTML-jäsennys varmisti 20 linkkiä / 10 yksilöllistä URL:ia sekä kaikki vaaditut osiot; `python3 build_index.py` ja `git diff --check` PASS. X-haku ja YouTube-metadatakeruu epäonnistuivat SSL-varmennevirheeseen, ja rajoitteet näkyvät HTML:ssä.
+
 ## TASK-012 — Julkaise AI Morning Brief 2026-10-10
 - Status: DONE
 - Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
