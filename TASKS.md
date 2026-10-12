@@ -1,7 +1,7 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
 ## TASK-013 — Julkaise AI Morning Brief 2026-10-12
-- Status: READY TO PUBLISH
+- Status: DONE
 - Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
 - Dependencies: 10.–11.10.2026 Gmail-/Notion-lukulähteet, ensisijaisten lähteiden tarkistus, Telco AI -aluehaku, X-signaalihaku, YouTube-lenkkilistan metadatakeruu, `build_index.py`, rajattu git-commit/push ja julkisen Pages-URL:n HTTP 200 -tarkistus.
 - Affected files/components: `paivan_ai_uutiset_2026-10-12.html`, `index.html`, `TASKS.md`; GitHub repository `gene8tor-AI/ai-uutiskirjeet`, branch `main`; GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`.
@@ -10,6 +10,9 @@
 - Test expectations: lähde- ja tuoreustarkistus, HTML-rakenteen ja URL:ien tarkistus, `python3 build_index.py`, `git diff --check`, rajatun commitin tiedostolista sekä julkinen HTTP-status.
 - Impact: toteuttaa olemassa olevaa SPEC-3.1:tä; tarkistetut riippuvuudet SPEC-7.1, SPEC-9.1 ja SPEC-10.1; ei ARCHITECTURE.md- tai DECISIONS.md-vaikutusta.
 - Pre-publication evidence: Gmail- ja Notion-lukulähteet luettiin 10.–11.10.2026; 10 varmennettua uutis-, työkalu- ja Telco AI -nostoa kuratoitiin. Kaikki 10 yksilöllistä lähde-URL:ia palauttivat HTTP 200 suorassa tarkistuksessa. HTML-jäsennys varmisti 20 linkkiä / 10 yksilöllistä URL:ia sekä kaikki vaaditut osiot; `python3 build_index.py` ja `git diff --check` PASS. X-haku ja YouTube-metadatakeruu epäonnistuivat SSL-varmennevirheeseen, ja rajoitteet näkyvät HTML:ssä.
+- Publication evidence: rajattu commit `624e591` sisältää vain `TASKS.md`, `paivan_ai_uutiset_2026-10-12.html` ja `index.html`; se on pushattu `main`-haaraan. Julkinen URL palautti HTTP 200 kolmannella tarkistuskerralla 12.10.2026 (Europe/Helsinki).
+- Verification: PASS — lähde-, HTML-, index-build-, diff-, commit- ja GitHub Pages HTTP 200 -hyväksymiskriteerit täyttyvät. Sähköpostia ei lähetetty eikä Notion-kirjoitusta tehty cron-payloadin mukaisesti.
+- Limitations: X-haku epäonnistui SSL-varmennevirheeseen `Missing Authority Key Identifier`; YouTube-metadatakeruu epäonnistui virheeseen `CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate`. Sivulla on kummastakin läpinäkyvä rajoite ilman keksittyä sisältöä.
 
 ## TASK-012 — Julkaise AI Morning Brief 2026-10-10
 - Status: DONE
