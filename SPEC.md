@@ -80,7 +80,8 @@ Last reviewed: 2026-10-05
 
 ## SPEC-10 Constraints
 ### SPEC-10.1 Ajokohtaiset rajat
-- Päivän AI Morning Brief voi käyttää ainoastaan `send_news_link_once.py`-Gmail API -lähettäjää HTTP 200 -varmennuksen jälkeen; enintään kolme lähetysyritystä vastaanottajalle per Europe/Helsinki-kalenteripäivä. SMTP, smtplib ja muut suorat sähköpostireitit ovat kiellettyjä. Notion-kirjoitusta ei tehdä.
+- Kaikki automaattiset uutisjulkaisut voivat käyttää ainoastaan `send_news_link_once.py`-Gmail API -lähettäjää HTTP 200 -varmennuksen jälkeen; vastaanottajalle tehdään enintään yksi lähetysyritys per Europe/Helsinki-kalenteripäivä. SMTP, smtplib, email-skill ja muut suorat sähköpostireitit ovat kiellettyjä. Notion-kirjoitusta ei tehdä.
+- Poikkeus Viikon AI-uutiskuvalle (SPEC-3.3): ajon nimenomainen toimitusraja voi edellyttää SPEC-7.3:n mukaista suppeaa Notion-metatietoa. Kirjoitus sisältää vain otsikon, julkaisupäivän, alkuperäislähde-URL:n, Pages-URL:n ja lyhyen suomenkielisen kuvauksen, ja tietue luetaan takaisin varmennusta varten.
 - X- ja YouTube-väitteet esitetään vain varmennettuina tai rajoitteena.
 - AI-työkalukatsauksessa sähköposti lähetetään vain SPEC-7.2:n Gmail API -rajauksella, ei SMTP:llä tai muulla suoralla sähköpostireitillä.
 - Viikon AI-uutiskuva käyttää vain aiheetonta toimituskuvitusta: ei tunnistettavia henkilöitä, logoja, tekstielementtejä, kuvatekstiä eikä vesileimaa.
@@ -90,6 +91,7 @@ Last reviewed: 2026-10-05
 - Ei muutoksia GitHub Pages -asetuksiin, omistajuuteen, laskutukseen tai käyttöoikeuksiin.
 
 ## Change log
+- 2026-10-14 — SPEC-10.1: täsmennetty Viikon AI-uutiskuvan Notion-metatietopoikkeus ja yhteinen yhden Gmail API -yrityksen päiväkohtainen raja.
 - 2026-10-10 — SPEC-3.5: lisätty käyttäjän nimenomaisesti pyytämä Hot News -kulku, julkaisun/lähetyksen varmennukset ja kolmen Gmail API -yrityksen päivärajauksen käyttö.
 - 2026-10-09 — SPEC-3.1, SPEC-7.2, SPEC-10.1: hyväksytty yhden pienen kirjainsuffiksin käyttö saman päivän lisäkatsauksessa ja käyttäjä hyväksyi enintään kolme Gmail API -lähetysyritystä per Helsinki-päivä; yrityshistoria säilytetään atomisessa päivävarauksessa.
 - 2026-10-07 — SPEC-3.1, SPEC-7.2, SPEC-10.1: päivitetty ajokohtainen raja sallimaan useat päiväysalkuiset julkaisut samalla Helsinki-päivällä sekä rajaamaan linkkisähköposti yhteiseen Gmail API -lähettäjään ja yhteen yritykseen per päivä.
