@@ -1,5 +1,14 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
+## TASK-021 — Julkaise AI Morning Brief 2026-10-16
+- Status: DONE
+- Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1.
+- Scope: uusi `paivan_ai_uutiset_2026-10-16.html` ja sen indeksimerkintä. Sisältörajana ovat julkiset, varmennetut AI- ja työkalulähde-URL:t, Telco AI -alueosiot, X-signaalien läpinäkyvä tila ja YouTube-linkkiosio. Sähköpostia tai Notion-kirjoitusta ei tehdä.
+- External resource preflight: omistaja Anna Korpi / `gene8tor-AI`; tuotantoympäristö GitHub Pages, repository `gene8tor-AI/ai-uutiskirjeet`, haara `main`; laskutustiliä ei käytetä; tietoraja on julkinen suomenkielinen HTML, toimitukselliset tiivistelmät ja julkiset lähde-URL:t. Hyväksyntä: HTML-jäsennys, `build_index.py` ja `git diff --check` PASS; rajattu commit/push sekä julkisen URL:n HTTP 200. Palautus: revert uuden julkaisukommitin ja indeksimuutos; Pages-asetuksia, käyttöoikeuksia tai laskutusta ei muuteta. Cron-payload valtuuttaa rajatun julkaisun.
+- Limitations: X-haku epäonnistui TLS-varmennevirheeseen; Telco AI -alueille ei lisätä uutisaggregaattorilinkkejä ilman alkuperäislähdettä.
+- Evidence: 9 varmennettua uutis- ja työkalunostoa, 6 metatiedoiltaan varmennettua YouTube-videota, Telco AI -alueosiot ja näkyvä X-rajoite. HTML-jäsennys PASS (30 HTTPS-linkkiä), `build_index.py` ja `git diff --check` PASS. Julkaisucommit `8b0df4d` sisältää vain `paivan_ai_uutiset_2026-10-16.html` ja `index.html`.
+- Verification: PASS — julkinen URL palautti HTTP 200 16.10.2026 (Europe/Helsinki). Sähköpostia ei lähetetty eikä Notion-kirjoitusta tehty.
+
 ## TASK-018 — Julkaise Viikon AI-uutiskuva 2026-10-14
 - Status: DONE
 - Implements: SPEC-3.3, SPEC-7.1, SPEC-7.2, SPEC-7.3, SPEC-9.1, SPEC-10.1.
