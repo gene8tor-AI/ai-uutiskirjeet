@@ -1,5 +1,19 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
+## TASK-20261021-MORNING — AI Morning Brief 21.10.2026
+- Status: IN PROGRESS
+- Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1. Existing approved behavior; no specification change.
+- Scope: one combined Finnish HTML `paivan_ai_uutiset_2026-10-21.html`, index entry and this task record. Sources: recent inbox/RSS read-only, original web sources, X search, verified YouTube metadata. No email or Notion writes.
+- External resource preflight: repository `gene8tor-AI/ai-uutiskirjeet`, owner Anna Korpi / gene8tor-AI; production branch main; existing GitHub Pages `https://gene8tor-ai.github.io/ai-uutiskirjeet/`; exact target `https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-21.html`; no billing account/action, permissions or configuration changes. Only public editorial summaries and public URLs leave the machine, never raw inbox/RSS records or credentials. Cron eafe083d-2415-4764-946e-e7cadcfff1ac explicitly authorizes publication. Rollback: revert the bounded publication commit and regenerate index.
+- Source revision: origin/main fbadf92; isolated task branch cron/morning-2026-10-21. Existing primary worktree SPEC.md/TASKS.md modifications remain untouched.
+- Acceptance: verified/deduplicated AI news, tools <=6 days, Telco Europe/USA/Asia, X result or exact limitation, YouTube metadata or transparent limitation; Finnish summaries, original links, valid HTML; build_index.py and git diff --check PASS; reviewed bounded commit pushed to main; public HTTP 200 and matching page content before success report. Sources are HTTP-checked before publish; final Pages acceptance necessarily follows deployment.
+- Verification plan: source retrieval/date/content review; local HTTP 200 and HTML parse; index build and diff review; precise staged-file review; push fast-forward only; public HTTP 200/content check; final branch/remote/dirty-state check.
+- Impact: SPEC-3.1 -> SPEC-7.1/9.1/10.1; no architecture or durable decision changes.
+- Pre-publication evidence: PASS — source publication dates and claims reviewed against original content, 12 distinct story topics (3 news/research, 6 tools <=6 days, 3 Telco regions), 5 verified playable YouTube videos and 5 thumbnail HTTP 200s. All 13 unique source URLs returned HTTP 200; Nokia initially returned curl 403, recovered with normal browser user agent and independent web_fetch HTTP 200. HTML stack/anchors/HTTPS/target+rel/count/privacy checks PASS. Local HTTP 200 with exact SHA-256 body match PASS. build_index.py and git diff --check PASS; index delta is only one four-line entry. Reviewed publication scope: this task, the new HTML and index only.
+- Limitations: X search failed API error (403), permission-denied: available credits exhausted or monthly spending limit reached. No X items invented. YouTube yt-dlp TLS failure recovered via TLS-valid curl metadata extraction; latest Matt Wolfe video KGcuuhqmPhI (16.10.2026) summarized with summarize, factual candidate Krea 3 independently verified. Five substantive videos instead of seven; an unplayable clip and dedicated sponsored demo were excluded. Anthropic scanner original publication 8.10. excluded despite later update. Lumen press release verified in public Business Wire syndication plus vendor blog. No email or Notion writes.
+- Publication: ready for bounded commit/push; public HTTP 200 acceptance pending.
+
+
 ## TASK-021 — Julkaise AI Morning Brief 2026-10-16
 - Status: DONE
 - Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1.
