@@ -1,5 +1,6 @@
 import os
 import glob
+import re
 from datetime import datetime
 
 directory = os.path.dirname(os.path.abspath(__file__))
@@ -19,11 +20,13 @@ main_items = []
 for f in main_files:
     if "hot_news" in f: continue
     parts = f.replace(".html", "").split("_")
-    date_str = parts[-1]
-    title = " ".join(parts[:-1]).capitalize().replace("-", " ")
+    suffix = parts[-1] if re.fullmatch(r"[a-z]", parts[-1]) else ""
+    date_str = parts[-2] if suffix else parts[-1]
+    title_parts = parts[:-2] if suffix else parts[:-1]
+    title = " ".join(title_parts).capitalize().replace("-", " ")
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
-        main_items.append({"file": f, "date": dt, "title": title, "date_str": date_str})
+        main_items.append({"file": f, "date": dt, "title": title, "date_str": date_str, "suffix": suffix})
     except:
         pass
 
@@ -156,6 +159,9 @@ for item in main_items:
     elif "Ai morning brief" in display_title:
         display_title = "AI Morning Brief"
         
+    if item["suffix"]:
+        display_title += f" · {item['suffix'].upper()}"
+
     html_content += f"""                    <li>
                         <a href="{item['file']}">{display_title}</a>
                         <span class="date">{item['date'].strftime('%d.%m.%Y')}</span>

@@ -65,9 +65,9 @@ Last reviewed: 2026-10-05
 - Failure behavior: ei väitetä julkaisua onnistuneeksi ilman HTTP 200 -varmistusta.
 
 ### SPEC-7.2 Päivärajoitettu Gmail API -linkkilähetys
-- Purpose: toimittaa sovittuun vastaanottajaan enintään kolme lyhyttä plain-text-linkkiä per Europe/Helsinki-kalenteripäivä julkisen URL:n HTTP 200 -varmennuksen jälkeen.
+- Purpose: toimittaa sovittuun vastaanottajaan enintään yksi lyhyt plain-text-linkki per Europe/Helsinki-kalenteripäivä julkisen URL:n HTTP 200 -varmennuksen jälkeen.
 - Data exchanged: julkinen URL, lyhyt otsikko ja suomenkielinen johdanto; vastaanottaja `Sami.sikila@teliacompany.com`.
-- Failure behavior: lähettäjän atominen päivävaraus laskee kaikki Gmail API -lähetysyritykset. Enintään kolme yritystä on sallittu per päivä; SKIPPED tai virhe ei käynnistä vaihtoehtoista lähetystä. Jokainen yritys ja sen tulos säilytetään päivän lähetysvarauksen historiassa.
+- Failure behavior: lähettäjän atominen päivävaraus laskee kaikki Gmail API -lähetysyritykset. Enintään yksi yritys on sallittu per päivä; SKIPPED tai virhe ei käynnistä vaihtoehtoista lähetystä. Jokainen yritys ja sen tulos säilytetään päivän lähetysvarauksen historiassa.
 
 ### SPEC-7.3 Notion-uutismetatieto
 - Purpose: tallentaa julkaistun uutiskuvan lähde, julkaisu-URL ja toimituksellinen tiivistelmä sovittuun uutistietokantaan.
