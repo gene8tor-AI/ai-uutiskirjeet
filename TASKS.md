@@ -245,7 +245,7 @@
 
 
 ## TASK-MB-20261023 — AI Morning Brief 23.10.2026
-- Status: IN PROGRESS
+- Status: DONE
 - Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
 - Authority: scheduled cron eafe083d-2415-4764-946e-e7cadcfff1ac authorizes one combined Finnish HTML publication; no email, no Notion writes.
 - Resource: gene8tor-AI/ai-uutiskirjeet, main; https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-23.html. Owner Anna Korpi / gene8tor-AI; existing GitHub billing, no billing change or new paid resource; environment production GitHub Pages.
@@ -264,3 +264,7 @@
 - Publication pending: push bounded page/index and preflight/evidence commits to existing main, then verify exact public bytes and HTTP 200. No email or Notion write attempted.
 
 - Index isolation correction: build_index.py sorts Hot News using checkout file mtimes, which caused unrelated sidebar reordering in the isolated checkout. Restored the pre-existing sidebar byte-for-byte, retaining only the new Morning Brief index entry. No generator source changed. Publication content commit: `9fb86fe`; initial public page check returned 404 while Pages deploy was pending.
+
+- Verification: PASS — public URL `https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-23.html` returned HTTP 200 at 2026-10-23T06:14:11.797618+03:00; response body is byte-identical to committed HTML, SHA-256 `ab658e7188eb56e46931dfeb8ab62296964ee2a6dd3d13132c1b86a9ed9e373c`. Page content commit `9fb86fe`, bounded index correction / publication revision `9e1a5e7`, pushed to main. Final net index diff from baseline is exactly the one new four-line issue entry.
+- Closure: isolated source tree clean, remote main equals publication revision before evidence-only closure commit. HTML also archived under workspace ai-website and newsletters. Source workspace's pre-existing modified SPEC.md/TASKS.md and untracked 21/22 October pages preserved; generated 23 October workspace mirror is untracked in that stale checkout, but its identical content is committed and pushed from the isolated checkout. No unsaved/local-only publication content.
+- Delivery evidence: scheduler final report includes verified public URL first, story/tool/Telco/video/X counts, publication commit and source limitations. No email and no Notion writes. X/search/vendor failures are documented fallbacks allowed by SPEC-3.1, not invented results.
