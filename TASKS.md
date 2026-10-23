@@ -1,7 +1,7 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
 ## TASK-20261023-TELCO — Telco-sektorin AI-uutiset 23.10.2026
-- Status: IN_PROGRESS.
+- Status: DONE — publication and guarded delivery PASS.
 - Implements: SPEC-3.4, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1. Existing approved publication behavior; no product or infrastructure change.
 - Authority: cron ac84804b-8d3d-435b-8a03-8787de2ace86 explicitly authorizes publication and one guarded Gmail API invocation after HTTP 200. Job-specific delivery instructions take precedence over generic unattended preamble as expressly stated there.
 - Scope: telco_ai_uutiset_2026-10-23.html, generated index.html and this bounded task record. Isolated branch news/telco-2026-10-23, base origin/main 5c64e4b; primary worktree changes preserved, not deployed.
@@ -11,6 +11,10 @@
 - Dependencies: read-only Gmail/Notion, public source retrieval, Pages deployment, guarded Gmail API. No Notion writes; no architecture or DECISIONS change.
 - Source evidence: Gmail helper completed, 484352 characters reviewed/filtered with no directly relevant telco story; Notion read 100 recent entries and filtered dates 16–23.10.2026. RSS leads for Lumen, BT, Orange and SoftBank resolved to original announcements. Original Nokia 20.10., NVIDIA 21.10., Orange 21.10. metadata and Lumen Business Wire 20.10. verified. One search HTTP 429 and several overly narrow no-result searches recovered using original source URLs; not content failures.
 - Pre-publication verification: PASS — six nonduplicate Finnish stories across US/Europe/Asia (2/3/1), twelve HTTPS links to five primary/source pages, original dates 20–21.10.2026. Claims manually compared with retrieved sources, lab/trial/planned-deployment distinction explicit. HTML structure and canonical copy match PASS; self-closing meta validation harness corrected (no product change). build_index.py PASS; preserved existing Hot News order to exclude mtime-only worktree churn; index delta only four-line Telco entry. Source content SHA-256 9492b1d66bc3efde03d932b2faa9d0e12d64729ba5601d30a3e7ef9e575897ff.
+- Publication evidence: PASS — reviewed content commit db936a84516e9ecceb49405210ba0fd2f6d57aa3 pushed to origin/main and origin/news/telco-2026-10-23. Pages workflow 39905144209 completed success for that exact revision. Public https://gene8tor-ai.github.io/ai-uutiskirjeet/telco_ai_uutiset_2026-10-23.html returned HTTP 200 and byte-identical SHA-256 9492b1d66bc3efde03d932b2faa9d0e12d64729ba5601d30a3e7ef9e575897ff after one deployment-time 404.
+- Delivery evidence: PASS — only after verified public HTTP 200/content match, one send_news_link_once.py invocation returned SENT: Gmail API message id 1a167344c3c7f8e6. Daily-state readback confirms exactly one attempt, sent status, same URL and message ID. No retries, alternative route, SMTP or HTML email.
+- Closure: all task acceptance criteria PASS. Isolated publication worktree clean and aligned with origin/main before this evidence-only commit; canonical requested local HTML is byte-identical to published source. Existing primary-worktree SPEC.md/TASKS.md edits, older untracked newsletters and original branch divergence remain untouched. Canonical copy is intentionally untracked in that stale primary checkout; its exact content is committed and pushed in publication revision, not local-only work. No unrelated changes deployed. Evidence-only closure will be pushed to both task branch and main.
+
 
 ## TASK-20261021-B — Päivän tärkeimmät AI-uutiset, B-julkaisu
 - Status: DONE
