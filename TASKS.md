@@ -242,3 +242,16 @@
 - Publication PASS: content commit 661fc5572cf59ffdf238eb863730f25648694ee9 pushed fast-forward to main; it contains only paivan_ai_uutiset_2026-10-22.html and the four-line index entry. Separate preflight commit 167714f. Pages workflow 39715214956 completed success for exact content commit on 2026-10-22T03:09:16Z.
 - Final public acceptance PASS: https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-22.html returned HTTP 200 after initial expected deployment-time 404; response body byte-identical to committed source and both saved copies; SHA-256 7357d30dc9a8c56e2be4ca2980b92a49e904d74a14b6dab53b568bab44d91751. Required content, freshness, no invented X/video claims, HTML, local/public HTTP, build, diff, focused scope, push and live content criteria PASS with documented permitted source limitations.
 - Closure: task publication is on origin/main; this evidence-only update is pushed separately. No unpublished task implementation remains. Original checkout's pre-existing dirty SPEC.md/TASKS.md and Oct 21 drafts remain local and untouched; its Oct 22 HTML is an exact saved copy of the public artifact, not unpublished work. Private source/cache/run records stay outside the publication worktree. No email sent and no Notion writes.
+
+
+## TASK-MB-20261023 — AI Morning Brief 23.10.2026
+- Status: IN PROGRESS
+- Implements: SPEC-3.1, SPEC-7.1, SPEC-9.1, SPEC-10.1
+- Authority: scheduled cron eafe083d-2415-4764-946e-e7cadcfff1ac authorizes one combined Finnish HTML publication; no email, no Notion writes.
+- Resource: gene8tor-AI/ai-uutiskirjeet, main; https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-23.html. Owner Anna Korpi / gene8tor-AI; existing GitHub billing, no billing change or new paid resource; environment production GitHub Pages.
+- Data boundary: public-source summaries, public source URLs and public video metadata only. Inbox and Notion are read-only discovery sources; no personal messages, credentials or private metadata published.
+- Acceptance: primary-source fact/date verification, distinct news/tools/Telco Europe-USA-Asia/X/YouTube sections, transparent missing-source notes, one dated page, index build, HTML structural validation, diff check, bounded commit pushed to main, exact public content and HTTP 200 verified before success report.
+- Rollback: revert only this run's publication commit and rebuild index. No Pages settings/access/ownership changes.
+- Source control: isolated checkout /tmp/ai-morning-20261023 from origin/main 2905b89; pre-existing workspace changes remain untouched.
+- Assumption: YouTube topic AI, maximum age seven days, target seven diverse videos; fewer allowed when verification fails. AI-tools lookback six days, news two days, Telco up to seven days.
+- Preflight evidence: X search attempted, HTTP 403 permission-denied, team credits exhausted or monthly spending limit reached; do not invent signals.
