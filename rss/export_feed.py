@@ -256,7 +256,7 @@ def atomic_write(path, data):
             os.unlink(tmp)
 
 
-def export(sources, output, status_path, now=None, fetcher=fetch):
+def export(sources, output, status_path, now=None, fetcher=fetch, image_enricher=None):
     now = now or datetime.now(UTC)
     names = [s['name'] for s in sources]
     if not sources or len(set(names)) != len(names) or any(not n or not safe_url(s['url']) for n, s in zip(names, sources)):
@@ -280,6 +280,12 @@ def export(sources, output, status_path, now=None, fetcher=fetch):
     ok = any(s['status'] == 'ok' for _, s in results) and bool(selected)
     status = {'updated': now.isoformat(), 'status': 'ok' if ok else 'failed', 'items': len(selected), 'sources': [s for _, s in results]}
     if ok:
+        if image_enricher is not None:
+            try:
+                enriched, image_status = image_enricher(selected, previous)
+                selected, status['images'] = enriched, image_status
+            except Exception:
+                status['images'] = {'status': 'failed'}
         atomic_write(output, render(selected, now))
     atomic_write(status_path, (json.dumps(status, ensure_ascii=False, indent=2) + '\n').encode())
     return 0 if ok else 1
@@ -293,7 +299,8 @@ def main():
     args = p.parse_args()
     try:
         sources = json.loads(Path(args.sources).read_text())['sources']
-        return export(sources, args.output, args.status)
+        from preview_images import enrich_images
+        return export(sources, args.output, args.status, image_enricher=enrich_images)
     except Exception:
         # Configuration errors do not overwrite the last known-good XML.
         atomic_write(args.status, b'{"status":"failed","error":"configuration or output failure"}\n')
