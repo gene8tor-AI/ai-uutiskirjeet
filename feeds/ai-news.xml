@@ -5,8 +5,16 @@
     <link>https://gene8tor-ai.github.io/ai-uutiskirjeet/feeds/ai-news.xml</link>
     <description>Alkuperäisten julkisten RSS- ja Atom-lähteiden uutiset.</description>
     <language>fi</language>
-    <lastBuildDate>Sat, 24 Oct 2026 03:00:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 03:02:08 GMT</lastBuildDate>
     <atom:link href="https://gene8tor-ai.github.io/ai-uutiskirjeet/feeds/ai-news.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asheville drag queen says attack ad that falsely links her to Jamie Ager was made with AI - WLOS</title>
+      <link>https://news.google.com/rss/articles/CBMijwJBVV95cUxNRWtlZmVuaUJZaW4wZFMwMXJnbmF2ZGczb1VkaFRrS3BWREo1dE4tMk1xTlZ2YTNWNDY2VXRkbzdlYTF3SE51SEpKWnNxTVpHYVRkVGs1WmwxckZxaXVaRHkxTTNXY1BKOTA5TTc5aXFNb0F6cERoS091dE54V3RsTl9ndVE0N2dxYlJPVTZNeWp2UXZESi1LOHdpc0hHUjU2YUNDbVJUal83MHNjZkEwc0Y0Q0hPWXZQdUdZV19SQ3pIY3UxRU54RzNlVXRWUUwyMVBYY29iVHlVX2tTb3gyQjdrVzZfQ3hacmQxS3RvNzJ5QmhXcU1NaUV6emJXZUZnbHdsUlhrR1E1c20yb1Zr?oc=5</link>
+      <pubDate>Sat, 24 Oct 2026 02:56:42 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:5b3f6ace5c84541f62482cbd8e877d4364cba1047dc9e8a93b648c2d24cd6530</guid>
+      <description>Asheville drag queen says attack ad that falsely links her to Jamie Ager was made with AI WLOS</description>
+    </item>
     <item>
       <title>What Could Berkshire Hathaway (BRK.B) Gain From An Early AI Funding Round? - Yahoo Finance</title>
       <link>https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEw2bVhaMGVVc0FlS1RMOEtGWUNjVUMzZEZjeVhNNExOQUxqZThIOGZHNi1QTDVCaFc0OWpvQkF1OFprRWFKVUJTRnFyeS14MVZaZDVMdy1PYU00N01zd1diM3FVRXdaeElHamRwR09BM0NQVWFCVHBtdHk5d2l1aVFzVTlRWHZ1TG1YeEU2cFU0cXFNVzg2NHVB?oc=5</link>
@@ -94,14 +102,6 @@
       <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
       <guid isPermaLink="false">urn:sha256:f498831c1db554a4e18b600bbdfaa60d1bcc747ea07adf108094164019e1e58b</guid>
       <description>A Surprising New Rival Is Threatening CoreWeave (and It&amp;#x27;s Not Best Known as an AI Cloud Company) Yahoo Finance</description>
-    </item>
-    <item>
-      <title>Deciding with fake images: More candidates are using AI in political ads to get your vote - NBC News</title>
-      <link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNjBIcFl2cGhpemRSNzBYVlFWaGg0eGxycFYxcTVLa3FMeks3U0xVVVpheXlkcktrOTROUlJKUGh3TjV1cUlRTjVlRy1id2Z5azRMbGViUUJGMDBFSEMzaTlSSV9pdl9YTnZwek1lajRfdUpJNUhBUEtyVVV5cFFmYUFFQmJ0UWJFOVdOTEVHQmZRZTgzdVJyUnVHdDRnT1lyS05qMkdfUFptT0w4U1o4ZE9WVnN6NEk3?oc=5</link>
-      <pubDate>Fri, 23 Oct 2026 22:10:40 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:3022c68209d950f7848168f2ef9014f0d98f1058e2f3de561e1b1f9129ce5522</guid>
-      <description>Deciding with fake images: More candidates are using AI in political ads to get your vote NBC News</description>
     </item>
     <item>
       <title>Microsoft Adds Work IQ Retrieval Tool to Ground AI Agents in Enterprise Data - Visual Studio Magazine</title>

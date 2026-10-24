@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T03:00:12.649055+00:00",
+  "updated": "2026-10-24T03:02:08.303626+00:00",
   "status": "ok",
   "items": 60,
   "sources": [
@@ -31,17 +31,17 @@
     {
       "name": "Artificial Intelligence",
       "status": "ok",
-      "eligible": 96
+      "eligible": 98
     },
     {
       "name": "AI models",
       "status": "ok",
-      "eligible": 18
+      "eligible": 19
     },
     {
       "name": "Telco AI",
       "status": "ok",
-      "eligible": 39
+      "eligible": 38
     },
     {
       "name": "TELCO News-WEB",
