@@ -1,0 +1,16 @@
+name: Editorial checks
+on:
+  pull_request:
+    paths: ['editorial/**', 'docs/ai-arvoa.md', 'ai_arvoa_*.html', 'build_index.py', '.github/workflows/editorial-checks.yml']
+permissions:
+  contents: read
+jobs:
+  editorial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 2
+      - run: python3 -m unittest discover -s editorial -p 'test_*.py' -v
+      - run: git diff --check HEAD^ HEAD
