@@ -122,3 +122,9 @@ Last reviewed: 2026-10-05
 - Before publication compare whole archive semantically, including earlier MorningBrief/other issues. Repeated topic/claim needs material new evidence and explicit what-changed/prior coverage. Structured topic/fact ledger guards repetition, does not replace editorial judgment. Exact URL novelty alone insufficient.
 - Acceptance: tested input/duplicate/source-overlap guards; escaped accessible HTML and index entry; reviewed pushed source; one actual public trial HTTP200 matching merged bytes. Scheduling Tue/Thu11Helsinki only after trial PASS; report URL/novelty/sources/commit, never scheduler success as content proof.
 - Links TASK-ARVOA-001, docs/ai-arvoa.md. Existing source/hosting boundaries preserved. No confidential business data in publication or ledger.
+
+#### SPEC-3.8.1 Multi-item digest revision (approved24Oct2026, supersedes single-theme format)
+-3–5distinct fresh items each issue, each independently states new evidence, impact on work/people/leadership/processes, demonstrated/claimed/unknown benefit and evidence limits. Finish actionable synthesis; no padding to reach count. If fewer than3novel verified items, skip.
+- Each item is novelty-checked against all prior Pages articles and individual entries in every digest; legacy single-topic history retained. New topicIDs alone never make used evidence new. Do not split one source into multiple stories.
+- New writes use digest-v2 schema. Explicitly requested extra same-day trial uses edition b /ai_arvoa_YYYY-MM-DD_b.html; preserve previousHTML/JSON byte-identically. Normal scheduler skips any edition already published today. Title/cadence/source/privacy/noemail boundaries unchanged. Tests cover count, per-item freshness and duplicate history across both formats, repeat claims, distinct items and edition filenames.
+- TASK-ARVOA-002 / issue#8.

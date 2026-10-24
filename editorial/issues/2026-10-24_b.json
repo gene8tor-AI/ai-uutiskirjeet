@@ -1,0 +1,120 @@
+{
+  "format": "digest-v2",
+  "date": "2026-10-24",
+  "edition": "b",
+  "title": "Kolme nostoa: AI-osaaminen, agenttien kustannukset ja prosessien johtaminen",
+  "search_queries": [
+    "October2026 AI customer service deployment measured business results",
+    "October2026 AI IT operations agent orchestration cost deployment results",
+    "tekoäly työelämä tutkimus lokakuu2026 johtaminen hyöty (hakupalvelu429; uusintahakuTTLsuomeksi onnistui)",
+    "site.salesforce.com/news October2026 service customer",
+    "site.splunk.com202657%observability"
+  ],
+  "items": [
+    {
+      "title": "AI-koulutus lisää käyttöä — ajansäästöä se ei yksin takaa",
+      "topic_id": "cmr-20261002-training-frequency-not-time-savings",
+      "facts": [
+        "cmr-20261002-followup859-training-weak-savings-association"
+      ],
+      "novelty": {
+        "archive_reviewed": true,
+        "rationale": "2.10. julkaistu CMR Insights -analyysi erottaa859työntekijän jatkokyselyssä käytön yleistymisen ja koetun ajansäästön. Tämä ei ole aamun oppaan uudelleenkerronta.",
+        "related_archive": [
+          "paivan_ai_uutiset_2026-10-13.html",
+          "ai_arvoa_2026-10-24.html"
+        ],
+        "comparison": "Archive did not contain the original CMR URL/Protiviti study. Oct13 mentioned AI champions/role support, morning trial TTL allocation of manager time. The new item is the distinct859respondent finding on training/use versus savings; it does not repeat time-reinvestment guidance."
+      },
+      "sources": [
+        {
+          "id": "1",
+          "title": "CMR Insights: Why AI Training Is Driving Adoption but Not Sustainable Productivity",
+          "url": "https://cmr.berkeley.edu/2026/10/why-ai-training-is-driving-adoption-but-not-sustainable-productivity/",
+          "published": "2026-10-02",
+          "verified_on": "2026-10-24",
+          "role": "new_evidence"
+        }
+      ],
+      "source_ids": [
+        "1"
+      ],
+      "new": "California Management Review Insightsin 2.10. julkaisemassa analyysissä tarkastellaan 859 työntekijän jatkokyselyä. Kirjoittajien mukaan yrityksen tarjoama AI-koulutus liittyy säännöllisempään käyttöön, mutta koulutuksen tai käyttötiheyden yhteys koettuun ajansäästöön jää heikommaksi. Useimmat vastaajat arvioivat säästävänsä 0–3 tuntia viikossa. Kyse on eri aineistosta kuin aamun koeversiossa käsitelty esihenkilöopas.",
+      "impact": "Toimituksellinen tulkinta: esihenkilön ei kannata pitää kurssin suorittamista tai käyttöastetta yksin onnistumisena. Koulutus pitää liittää roolin todelliseen tehtävään ja sen vaikeuksiin. Työntekijän mahdollisuus kertoa korjaustyöstä ja epäonnistumisista auttaa erottamaan aidon helpotuksen siitä, että sama työ tehdään vain useamman välineen kautta.",
+      "benefit": "Analyysi auttaa kohdistamaan mittaamista: käytön lisäksi kannattaa seurata tehtävän valmistumista, laatua ja tarkistustyötä. Se ei anna tälle organisaatiolle valmista säästöprosenttia. Käytännön kokeilussa voidaan verrata samanlaisten tehtävien läpimenoa ennen koulutusta ja sen jälkeen sekä kysyä tekijöiltä, mikä työvaihe todella helpottui.",
+      "limits": "Tulokset perustuvat vastaajien arvioihin, eivät satunnaistettuun koulutuskokeeseen tai todennettuihin kustannussäästöihin. Havaitusta yhteydestä ei voi päätellä koulutuksen syyvaikutusta. Lähde on tutkimusryhmän kirjoittama Insights-analyysi, ei tässä varmennettu vertaisarvioitu vaikuttavuustutkimus."
+    },
+    {
+      "title": "Agentin hintaan pitää laskea myös sen valvonta",
+      "topic_id": "splunk-20261020-agent-observability-cost-survey",
+      "facts": [
+        "splunk-2026-survey2050-costcontrol55",
+        "splunk-2026-telemetry57-exceeds-infra"
+      ],
+      "novelty": {
+        "archive_reviewed": true,
+        "rationale": "Ciscon20.10.julkistama Splunk-kysely tuo uutta aineistoa agenttien laadun ja kustannusten hallinnan puutteista.",
+        "related_archive": [
+          "paivan_ai_uutiset_2026-10-23.html"
+        ],
+        "comparison": "No Splunk/State of Observability2026 report or sourceURL in archive. Oct23M365telemetry adoption article concerns tenant adoption reports, not2050respondent survey/agent monitoring economics."
+      },
+      "sources": [
+        {
+          "id": "2",
+          "title": "Cisco: Splunk State of Observability2026 — Avoiding the Hidden Costs of AI Agents",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/splunk-state-of-observability-2026-avoiding-the-hidden-costs-of-ai-agents.html",
+          "published": "2026-10-20",
+          "verified_on": "2026-10-24",
+          "role": "new_evidence"
+        }
+      ],
+      "source_ids": [
+        "2"
+      ],
+      "new": "Cisco julkaisi 20.10. Splunkin State of Observability 2026 -raportin. Oxford Economicsin kyselyyn vastasi 2 050 ITOps- ja engineering-ammattilaista kymmenestä maasta. Tiedotteen mukaan 55 prosenttia vastaajista kokee, ettei pysty hallitsemaan AI-kustannuksia. Lisäksi 57 prosenttia kertoo telemetrian kustannusten ylittäneen valvottavan infrastruktuurin kustannukset. Jälkimmäinen havainto koskee kyselyn telemetriaa, ei todistettua jokaisen agentin kustannussuhdetta.",
+      "impact": "Toimituksellinen tulkinta: IT Opsin, tietoturvan ja prosessinomistajan on sovittava yhteinen näkymä agentin tekemiseen. Pelkkä tekninen käytettävyys ei kerro, ratkesiko asiakkaan asia oikein. Tarvitaan tietoa onnistuneista lopputuloksista, korjausyrityksistä, ihmisen puuttumisesta ja siitä, mille prosessille kustannus kuuluu.",
+      "benefit": "Hyötymahdollisuus on ennustettavampi kokonaiskustannus, ei lähteellä todistettu säästö tässä organisaatiossa. Ennen skaalaamista kannattaa laskea yhden onnistuneen prosessisuorituksen kustannus: mallikäyttö, lokitus, integraatiot, valvonta ja ihmistyö. Samalla päätetään, mitä tietoa todella tarvitaan ongelman selvittämiseksi ja mikä vain kasvattaa tallennusta.",
+      "limits": "Kyse on teknologiatoimittajan julkaisemasta vastaajakyselystä, jonka aineisto kerättiin helmi–maaliskuussa 2026. Tuore raportin julkaisupäivä ei tarkoita reaaliaikaista mittausta. Kysely ei osoita, että tietyn valvontatuotteen ostaminen aiheuttaisi paremman tuoton, eikä yksittäisten vastaajien kustannuksia pidä yleistää kaikkiin yrityksiin."
+    },
+    {
+      "title": "Pitkäkestoinen agentti tarvitsee prosessiomistajan, ei vain tavoitteen",
+      "topic_id": "salesforce-20260928-long-horizon-runtime-pilot",
+      "facts": [
+        "salesforce-df2026-longhorizon-pilot-ga-november",
+        "salesforce-df2026-memory-durableexecution-steering"
+      ],
+      "novelty": {
+        "archive_reviewed": true,
+        "rationale": "Salesforcen Dreamforce2026-kooste kuvaa pitkän aikavälin agenttien pilotin, muistin, kestävän suoritusajan ja ohjauksen. Toteutus ja saatavuus ovat uusia arkistoon nähden.",
+        "related_archive": [
+          "paivan_ai_uutiset_2026-07-21.html",
+          "paivan_ai_uutiset_2026-10-21_b.html"
+        ],
+        "comparison": "Archive contains generic long-horizon model mentions but no Agentforce/Dreamforce/sourceURL. July21/OpenAIplanning and Oct21b other longcontext/model features do not report this Salesforce runtime pilot or GA target. New story is vendor-specific process execution/pilot evidence, not claim that long-horizon agency was invented now."
+      },
+      "sources": [
+        {
+          "id": "3",
+          "title": "Salesforce:21Things We Announced at Dreamforce2026 (julkaistu28.9.,päivitetty21.10.)",
+          "url": "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
+          "published": "2026-09-28",
+          "verified_on": "2026-10-24",
+          "role": "new_evidence"
+        }
+      ],
+      "source_ids": [
+        "3"
+      ],
+      "new": "Salesforcen 28.9. julkaistu, 21.10. päivitetty Dreamforce-kooste kuvaa long-horizon-agentteja, joiden tavoitteet voivat ulottua päivistä kuukausiin. Valmistajan mukaan suoritusympäristö tukee muistia, virheistä toipuvaa toteutusta ja keskustelussa tehtävää suunnanmuutosta. Lähde merkitsee ratkaisun pilotiksi ja yleisen saatavuuden tavoitteeksi marraskuun 2026. Pitkäkestoiset agentit eivät itsessään ole uusi ilmiö; tässä uusi nosto on kyseinen prosessitoteutus ja sen vaihe.",
+      "impact": "Toimituksellinen tulkinta: esimerkiksi myyntimahdollisuuden seurannassa tai monivaiheisessa palvelupyynnössä agentin pitäisi siirtää asiaa eteenpäin, ei vain ehdottaa seuraavaa viestiä. Prosessiomistaja määrittää tavoitteen, hyväksyntäpisteet, sallitut toimet ja tilanteet, joissa vastuu palautuu ihmiselle. Esihenkilön tehtäväksi jää myös ratkaista, kuka seuraa keskeneräisten asioiden jonoa.",
+      "benefit": "Mahdollinen hyöty on vähempi manuaalinen koordinointi ja harvempi kesken jäävä asia. Sen osoittamiseksi kannattaa mitata loppuun valmistuneita tapauksia, ihmisen käyttämiä minuutteja ja poikkeusten korjaustyötä. Pelkkä agentin ajettujen vaiheiden määrä ei todista liiketoimintahyötyä. Pienen kokeilun pitäisi myös osoittaa, että pysäytys ja jatkaminen toimivat käytännössä.",
+      "limits": "Lähde on valmistajan tuotekuvaus, ei riippumaton prosessien tuottavuustutkimus. Se ei anna tälle käyttötapaukselle varmennettua säästöä eikä takaa kaikkien toimintojen saatavuutta nykyisessä asiakasympäristössä. Pilottia tai marraskuun tavoitetta ei pidä kutsua jo toteutuneeksi yleiseksi käyttöönotoksi."
+    }
+  ],
+  "synthesis": [
+    "Valitkaa yksi rajattu työprosessi ja sopikaa ensin, miltä onnistunut lopputulos näyttää asiakkaan ja työntekijän kannalta. Sen jälkeen määritelkää työnjako, osaamistarve ja päätökset, joita AI ei tee yksin. Näiden nostojen yhteinen toimituksellinen johtopäätös on, että käyttöönotto, hallittavuus ja hyöty pitää todentaa erikseen: käyttöaste ei ole tulos eikä tekninen suoritus onnistunut asiakasasia.",
+    "Käytännön seuraava askel on yhdistää kokeilun mittaristoon kolme lukua: oikein loppuun valmistuneet tapaukset, ihmisen kokonaisaika ja kokonaiskustannus tapausta kohden. Kirjatkaa myös lähtötaso ja tärkeimmät laatupoikkeamat. Näin seuraava skaalauspäätös voidaan tehdä oman näytön perusteella sen sijaan, että eri lähteiden kyselyt tai tuotelupaukset lasketaan suoraan oman organisaation säästöiksi.",
+    "Sopikaa etukäteen myös raja, jonka ylittyessä kokeilu pysäytetään tai toimintatapaa muutetaan. Se voi liittyä laatuun, työn kuormittavuuteen tai kustannukseen. Kuulkaa kokeiluun osallistuvia työntekijöitä ennen laajentamista: heidän havaintonsa auttavat tunnistamaan, siirtyikö työ todella pois vai vain seuraavan ihmisen korjattavaksi."
+  ]
+}
