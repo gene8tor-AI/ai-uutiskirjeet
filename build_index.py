@@ -11,6 +11,7 @@ main_files = sorted(set(
     glob.glob("*_uutiset_*.html")
     + glob.glob("ai_morning_brief_*.html")
     + glob.glob("executive_ai_brief_*.html")
+    + glob.glob("ai_arvoa_*.html")
     + glob.glob("viikon_ai_uutiset_*.html")
     + glob.glob("viikon_ai_uutiskuva_*.html")
     + glob.glob("copilot_katsaus_*.html")
@@ -23,7 +24,7 @@ for f in main_files:
     suffix = parts[-1] if re.fullmatch(r"[a-z]", parts[-1]) else ""
     date_str = parts[-2] if suffix else parts[-1]
     title_parts = parts[:-2] if suffix else parts[:-1]
-    title = " ".join(title_parts).capitalize().replace("-", " ")
+    title = "AI:sta arvoa" if f.startswith("ai_arvoa_") else " ".join(title_parts).capitalize().replace("-", " ")
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
         main_items.append({"file": f, "date": dt, "title": title, "date_str": date_str, "suffix": suffix})

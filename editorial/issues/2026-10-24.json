@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-24",
+  "title": "AI vapauttaa aikaa — kuka päättää, mihin se käytetään?",
+  "topic_id": "ai-time-reinvestment-manager-accountability",
+  "facts": [
+    "ttl-20261019-reinvest-time-in-people-leadership",
+    "ttl-20261019-human-manager-retains-judgment",
+    "ttl-20261019-teijo-interviews41-not-productivity-trial"
+  ],
+  "search_queries": [
+    "Työterveyslaitos tekoäly työn kehittäminen johtaminen tuottavuus",
+    "generative AI at work customer support productivity NBER field study",
+    "AI productivity time savings reinvest management leadership field study limitations"
+  ],
+  "novelty": {
+    "archive_reviewed": true,
+    "rationale": "Työterveyslaitos julkaisi 19.10.2026 uuden esihenkilöoppaan. Sen ajankohtainen kysymys on, ohjataanko AI:lta vapautuva aika ihmisten johtamiseen vai täytetäänkö se uusilla tehtävillä. Tässä katsauksessa tarkastelemme päätöstä työn organisoinnin ja mitattavan hyödyn näkökulmasta.",
+    "related_archive": [
+      "hot_news_2026-05-01_2055.html",
+      "paivan_ai_uutiset_2026-10-13.html"
+    ],
+    "comparison": "284 dated public HTML articles inspected via full-text inventory and concept/source searches. May1 story concerned AI usage monitoring/performance metrics; Oct13 item concerned AI champions and manager support. Neither reported the Oct19 TTL guide, allocation of released manager time or its41-interview evidence. No TTL URL/NBER31161 match in archive. Older NBER evidence is explicitly background, not the news."
+  },
+  "sources": [
+    {
+      "id": "1",
+      "title": "Työterveyslaitos: Uusi opas auttaa esihenkilöitä hyödyntämään tekoälyä harkitusti",
+      "url": "https://www.ttl.fi/ajankohtaista/uutinen/uusi-opas-auttaa-esihenkiloita-hyodyntamaan-tekoalya-harkitusti",
+      "published": "2026-10-19",
+      "verified_on": "2026-10-24",
+      "role": "new_evidence"
+    },
+    {
+      "id": "2",
+      "title": "Brynjolfsson, Li ja Raymond: Generative AI at Work, NBER Working Paper 31161 (2023; sivulla marraskuun 2023 versio)",
+      "url": "https://www.nber.org/papers/w31161",
+      "published": "2023-11",
+      "verified_on": "2026-10-24",
+      "role": "background"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Uusi opas nostaa esiin johtamispäätöksen, ei vain työkalun",
+      "sources": [
+        "1"
+      ],
+      "paragraphs": [
+        "AI voi nopeuttaa viestin valmistelua, tilannekuvan kokoamista ja suunnittelua. Mutta työvaiheen nopeutuminen ei vielä kerro, paraneeko tiimin työ tai asiakaspalvelu. Ratkaiseva kysymys tulee vasta sen jälkeen: mitä vapautuneella ajalla tehdään? Jos samaan kalenteriin lisätään automaattisesti uusia tehtäviä, parempi johtaminen ei synny itsestään.",
+        "Työterveyslaitoksen 19. lokakuuta julkaisema Tekoäly esihenkilötyössä -oppaan esittely sanoittaa valinnan suoraan. Organisaation on ratkaistava, käytetäänkö vapautuva aika ihmisten johtamiseen vai täytetäänkö se uusilla tehtävillä ja tehokkuusvaatimuksilla. Kyse on asiantuntijaohjeesta, ei osoituksesta tietyn suuruisesta säästöstä."
+      ]
+    },
+    {
+      "heading": "Ihmisen vastuu ei siirry valmistelutyön mukana",
+      "sources": [
+        "1"
+      ],
+      "paragraphs": [
+        "Oppaan mukaan AI voi tukea tiedonkäsittelyä, valmistelua ja työntekijän kohtaamista. Tavoitteiden asettaminen, ihmisiä koskeva tilannekohtainen harkinta ja johtamisvastuu pysyvät esihenkilöllä. Siksi käyttöönoton onnistumista ei kannata arvioida vain sillä, kuinka monta esihenkilöä käyttää avustajaa tai kuinka paljon tekstiä sillä tuotetaan.",
+        "Toimituksellinen johtopäätös on tämä: ennen työkalun skaalaamista pitäisi sopia, mihin parempi valmistelu antaa mahdollisuuden. Se voi tarkoittaa useampia keskusteluja työn esteistä, laadukkaampaa palautetta tai aikaa perehdytykselle. Näiden toteutuminen vaatii kalenterista tilaa ja yhteisiä prioriteetteja, ei vain uuden käyttöohjeen.",
+        "Työntekijälle muutos näkyy myös siinä, voiko AI:n ehdotuksen kyseenalaistaa ilman että se tulkitaan muutosvastarinnaksi. Tiimin pitäisi tietää, milloin ehdotus on vasta luonnos ja milloin se ohjaa työtä. Tämä on toimituksellinen suositus: toimiva palautekanava voi tehdä näkyväksi virheitä ja tarpeetonta työtä, jotka pelkkä käyttötilasto piilottaa."
+      ]
+    },
+    {
+      "heading": "Mitä näyttö kertoo — ja mitä se ei kerro?",
+      "sources": [
+        "1",
+        "2"
+      ],
+      "paragraphs": [
+        "Oppaan taustalla olevan TEIJO-hankkeen aineistoon kuuluu 41 esihenkilöiden ja työntekijöiden haastattelua kolmessa ICT-alan organisaatiossa ja kahdessa kuntaorganisaatiossa sekä työpajoja ja havainnoivia haastatteluja. Tämä tekee ihmisten kokemuksista olennaisen osan tarkastelua. Aineistoa ei silti pidä tulkita kokeeksi, joka todistaisi tietyn tuottavuusvaikutuksen tai kaikille sopivan toimintamallin.",
+        "Vanhempana taustana NBERin vuoden 2023 Generative AI at Work -työpaperin sivulla kuvattu asiakastukitutkimus raportoi noin 14 prosentin keskimääräisen kasvun tunnissa ratkaistuissa asioissa. Hyödyt vaihtelivat kokemuksen mukaan. Tämä ei ole uusi uutinen, esihenkilötyön tulos eikä lupaus samanlaisesta hyödystä toisessa organisaatiossa. Se muistuttaa, että vaikutus riippuu tehtävästä, lähtötilanteesta ja käyttäjästä."
+      ]
+    },
+    {
+      "heading": "Muuta koko työketjua, älä vain yhtä dokumenttia",
+      "sources": [],
+      "paragraphs": [
+        "Havainnollistava esimerkki: tiiminvetäjä kokoaa viikoittain palvelutiimin tilannekuvan, tunnistaa jonon pullonkaulat, keskustelee työntekijöiden kanssa ja sopii toimenpiteet. AI:n tuottama yhteenveto auttaa vain valmistelua. Jos tiedot ovat väärin, toimenpiteet jäävät ilman omistajaa tai päätöksiä ei seurata, koko prosessin hyöty voi jäädä pieneksi. Tämä on esimerkki, ei kuvaus minkään työnantajan toteutuksesta.",
+        "Käyttökelpoinen kokeilu rajaisi koko ketjun: tiedon kokoaminen, ihmisen tekemä tarkistus, tiimin keskustelu, vastuutetut päätökset ja vaikutusten seuranta. Agentti voi myöhemmin auttaa sovittujen tehtävien koordinoinnissa. Ensin on kuitenkin määriteltävä, mitä se saa tehdä, milloin ihmisen pitää hyväksyä toimi ja miten poikkeustilanne palautuu vastuuhenkilölle.",
+        "Prosessinomistajan tehtävä on katsoa tiimirajojen yli. Yhden henkilön säästämä aika ei auta, jos seuraavan vaiheen tarkistusjono kasvaa tai asiakkaalta kysytään samoja tietoja uudelleen. Siksi kokeiluun kannattaa ottaa mukaan myös työn vastaanottaja. Näin arvioidaan valmiin asian läpimenoa, ei vain nopeasti tuotetun tekstin määrää. Kyse on ehdotetusta arviointitavasta, ei lähteestä poimitusta vaikuttavuustuloksesta."
+      ],
+      "kind": "analysis"
+    },
+    {
+      "heading": "Mittaa lopputulosta ja ihmisten työtä rinnakkain",
+      "sources": [],
+      "paragraphs": [
+        "Ehdotettu mittausmalli erottaa kolme asiaa. Ensiksi seurataan valmisteluun kuluvaa aikaa ja korjaustyötä. Toiseksi tarkistetaan, toteutuuko vapautuneelle ajalle sovittu käyttötarkoitus: esimerkiksi perehdytys tai työn esteiden poistaminen. Kolmanneksi arvioidaan prosessin tulosta, kuten ratkaistujen asioiden laatua, uusintatyötä ja työntekijöiden kokemaa kuormitusta.",
+        "Kokonaiskustannukseen kuuluvat lisenssin lisäksi käyttöönotto, integraatiot, opettelu ja ihmisen tarkistukset. Vapautunut tunti on kapasiteettia, ei automaattisesti rahasäästöä. Rahallista hyötyä voidaan perustella vasta, kun tiedetään, miten kapasiteetti käytettiin ja muuttuiko kustannus tai tulos. Lyhyt kokeilu voi antaa suuntaa, mutta se ei yksin todista kestävää vuosihyötyä.",
+        "Verratkaa riittävän samanlaisia tehtäviä ja kirjatkaa myös olosuhteiden muutokset. Kiireinen viikko, uusi työntekijä tai poikkeuksellisen vaikeat asiakastapaukset voivat muuttaa tuloksia ilman AI-vaikutusta. Työntekijöiden havaintojen rinnalle tarvitaan prosessin tietoa, mutta mittaamista ei pidä muuttaa yksittäisten ihmisten automaattiseksi pisteyttämiseksi. Arvioinnin kohde on toimintatavan hyödyllisyys, ei nopeuskilpailu työntekijöiden välillä."
+      ],
+      "kind": "analysis"
+    },
+    {
+      "heading": "Seuraava askel: sopikaa ajan käyttötarkoitus ennen pilotin alkua",
+      "sources": [
+        "1"
+      ],
+      "paragraphs": [
+        "Valitkaa yhdessä työntekijöiden kanssa yksi toistuva prosessi. Kirjatkaa nykyinen työmäärä, laatu ja kuormitus sekä tavoiteltu muutos. Nimetkää prosessiomistaja ja sopikaa, mihin mahdollisesti vapautuva aika käytetään. Määritelkää samalla, kuka tarkistaa AI:n ehdotukset ja miten ihmiset voivat vaikuttaa toimintatapaan.",
+        "Palatkaa sovittuun tavoitteeseen kokeilun jälkeen: helpottuiko työ oikeasti, paraniko lopputulos ja säilyikö vastuu ymmärrettävänä? Jos yhteenveto syntyi nopeammin mutta korjaustyö tai kiire lisääntyi, skaalaamisen peruste ei vielä täyty. AI:sta syntyy arvoa vasta, kun myös työn organisointi muuttuu tarkoituksenmukaisesti."
+      ]
+    }
+  ]
+}
