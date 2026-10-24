@@ -55,6 +55,23 @@ def archive(root):
     return result
 
 
+def issue_stem(data):
+    date.fromisoformat(data['date'])
+    edition = data.get('edition', '')
+    if edition and not re.fullmatch(r'[a-z]', edition):
+        raise ValueError('Edition must be one lowercase letter')
+    return data['date'] + ('_' + edition if edition else '')
+
+
+def history_entries(root):
+    entries = []
+    for path in sorted((root / 'editorial/issues').glob('*.json')):
+        issue = json.loads(path.read_text(encoding='utf-8'))
+        for story in issue.get('items', [issue]):
+            entries.append({**story, 'date': issue['date'], 'edition': issue.get('edition', '')})
+    return entries
+
+
 def validate(data, root):
     date.fromisoformat(data['date'])
     for key in ('title', 'topic_id', 'novelty', 'search_queries', 'facts', 'sources', 'sections'):
@@ -92,12 +109,10 @@ def validate(data, root):
             raise ValueError('Unknown citation')
         if not section.get('sources') and section.get('kind') != 'analysis':
             raise ValueError('Evidence sections require citations; mark own analysis explicitly')
-    history = []
-    for path in sorted((root / 'editorial/issues').glob('*.json')):
-        history.append(json.loads(path.read_text(encoding='utf-8')))
+    history = history_entries(root)
     repeated = [x for x in history if x['topic_id'] == data['topic_id'] or set(x['facts']) & set(data['facts'])]
     previously_new = {canonical(s['url']) for x in history for s in x['sources'] if s['role'] == 'new_evidence'}
-    prior_files = {f"ai_arvoa_{x['date']}.html" for x in repeated}
+    prior_files = {f"ai_arvoa_{issue_stem(x)}.html" for x in repeated}
     if repeated and (not data['novelty'].get('material_update') or not evidence - previously_new
                      or not prior_files.issubset(set(data['novelty'].get('previous', [])))):
         raise ValueError('Repeated topic/fact requires material update, all prior references and fresh evidence')
@@ -111,6 +126,61 @@ def validate(data, root):
     return overlaps
 
 
+def story_data(issue, item):
+    return {**item, 'date': issue['date'], 'search_queries': issue['search_queries'],
+            'sections': [{'heading': key, 'paragraphs': [item[key]],
+                          'sources': item.get('source_ids', [])} for key in
+                         ('new', 'impact', 'benefit', 'limits')]}
+
+
+def validate_digest(data, root):
+    issue_stem(data)
+    if data.get('format') != 'digest-v2' or not 3 <= len(data.get('items', [])) <= 5:
+        raise ValueError('Digest requires 3–5 distinct items (digest-v2)')
+    if not data.get('title') or not data.get('synthesis') or not data.get('search_queries'):
+        raise ValueError('Digest needs title, synthesis and search queries')
+    if not isinstance(data['synthesis'], list) or any(not isinstance(p, str) or not p.strip() for p in data['synthesis']):
+        raise ValueError('Synthesis must contain nonempty paragraphs')
+    topics, facts, fresh = set(), set(), set()
+    for item in data['items']:
+        for key in ('title', 'new', 'impact', 'benefit', 'limits'):
+            if not isinstance(item.get(key), str) or not item[key].strip():
+                raise ValueError('Each item needs ' + key)
+        if not item.get('source_ids'):
+            raise ValueError('Each item needs original-source citations')
+        if item['topic_id'] in topics or facts.intersection(item['facts']):
+            raise ValueError('Distinct news items required, not one story split into parts')
+        evidence = {canonical(s['url']) for s in item['sources'] if s['role'] == 'new_evidence'}
+        if not evidence - fresh:
+            raise ValueError('Each item needs distinct fresh evidence')
+        validate(story_data(data, item), root)
+        topics.add(item['topic_id'])
+        facts.update(item['facts'])
+        fresh.update(evidence)
+
+
+def render_digest(data):
+    sections, sources = [], []
+    labels = {'new': 'Mitä uutta?', 'impact': 'Vaikutus työhön ja johtamiseen',
+              'benefit': 'Liiketoimintahyöty', 'limits': 'Näytön rajat'}
+    for n, item in enumerate(data['items'], 1):
+        mapping = {s['id']: f'{n}-{s["id"]}' for s in item['sources']}
+        sources.extend({**s, 'id': mapping[s['id']]} for s in item['sources'])
+        sections.append({'heading': f'{n}. {item["title"]}',
+                         'paragraphs': [labels[k] + ' ' + item[k] for k in labels],
+                         'sources': [mapping[i] for i in item['source_ids']]})
+        previous = item['novelty'].get('previous', [])
+        if previous:
+            sections[-1]['paragraphs'].append('Uutta aiempaan verrattuna: ' + item['novelty']['rationale'])
+            # Prior filenames validated before any output is written.
+            sections[-1]['prior_links'] = previous
+    sections.append({'heading': 'Mitä tästä kannattaa viedä käytäntöön',
+                     'paragraphs': data['synthesis'], 'sources': []})
+    display = {**data, 'sections': sections, 'sources': sources,
+               'novelty': {'rationale': f'{len(data["items"])} erillistä nostoa: uudet havainnot, työn ja johtamisen vaikutukset sekä hyödyn näytön rajat. Aiempi arkisto tarkistettu jokaisen noston osalta.'}}
+    return render(display)
+
+
 def render(data):
     e = escape
     sources = {s['id']: s for s in data['sources']}
@@ -118,6 +188,10 @@ def render(data):
     for section in data['sections']:
         paragraphs = ''.join('<p>' + e(p) + '</p>' for p in section['paragraphs'])
         refs = ' '.join(f'<a href="#source-{e(i)}">[{e(i)}]</a>' for i in section.get('sources', []))
+        for name in section.get('prior_links', []):
+            if not re.fullmatch(r'[a-z0-9_\-]+\.html', name):
+                raise ValueError('Invalid prior coverage filename')
+            refs += f' <a href="{e(name)}">Aiempi käsittely</a>'
         blocks.append(f'<section><h2>{e(section["heading"])}</h2>{paragraphs}<p class="refs">{refs}</p></section>')
     refs = ''.join(f'<li id="source-{e(i)}"><a href="{e(s["url"], quote=True)}">{e(s["title"])}</a> — {e(s["published"])}. '
                    f'{"Uusi näyttö" if s["role"] == "new_evidence" else "Taustalähde"}. Tarkistettu {e(s["verified_on"])}.</li>'
@@ -148,16 +222,17 @@ def main():
     if a.input is None:
         p.error('--input or --inventory required')
     data = json.loads(a.input.read_text(encoding='utf-8'))
-    validate(data, a.root)
-    output = a.root / f"ai_arvoa_{data['date']}.html"
-    issue = a.root / 'editorial/issues' / f"{data['date']}.json"
+    validate_digest(data, a.root)
+    stem = issue_stem(data)
+    output = a.root / f"ai_arvoa_{stem}.html"
+    issue = a.root / 'editorial/issues' / f"{stem}.json"
     if output.exists() or issue.exists():
         raise ValueError('Issue already exists; no overwrite or duplicate publication')
-    html = render(data)
+    html = render_digest(data)
     issue.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(html, encoding='utf-8')
     issue.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(json.dumps({'file': output.name, 'topic': data['topic_id'], 'status': 'rendered_not_published'}))
+    print(json.dumps({'file': output.name, 'items': len(data['items']), 'status': 'rendered_not_published'}))
 
 
 if __name__ == '__main__':
