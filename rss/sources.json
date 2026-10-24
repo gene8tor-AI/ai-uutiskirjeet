@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "name": "AI tool OR generative AI tool",
+      "url": "https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Microsoft | LinkedIn",
+      "url": "https://news.microsoft.com/feed/"
+    },
+    {
+      "name": "TiVI",
+      "url": "https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&hl=fi&gl=FI&ceid=FI:fi"
+    },
+    {
+      "name": "Matthew Berman",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA"
+    },
+    {
+      "name": "AI Enterprise use cases",
+      "url": "https://news.google.com/rss/search?q=Generative%20AI%20Enterprise%20use%20cases&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "url": "https://news.google.com/rss/search?q=Artificial%20Intelligence&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "AI models",
+      "url": "https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Telco AI",
+      "url": "https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "TELCO News-WEB",
+      "url": "https://news.google.com/rss/search?q=TELCO&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Matt Wolfe",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g"
+    }
+  ]
+}

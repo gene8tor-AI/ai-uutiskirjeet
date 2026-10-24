@@ -1,0 +1,4 @@
+# Decisions
+## DEC-RSS-001 — Read-only static export, not public Notion/ingestion access
+2026-10-24, SPEC-3.6 / Anna topic35 msg3737.
+Cloud Run service loitsu-news-ingestion is IAM-invoker protected (observed revision00020-x54, scheduler service account only). Opening it publicly would expose authenticated ingestion operations. Instead publish public RSS snapshots via existing GitHub Pages and an isolated read-only GitHub Actions job using the same ten public feed URLs. No cloud IAM/Notion access is needed. Dashboard retention differs intentionally from bounded Notion ingestion; source registry parity is verified initially and is an explicit maintenance boundary, not a claimed live Notion projection. Source-provided Google News links remain redirects where those feeds do not provide publisher-direct URLs; do not fabricate URLs or thumbnails.
