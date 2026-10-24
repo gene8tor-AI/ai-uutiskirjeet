@@ -1,0 +1,60 @@
+name: Refresh original-news RSS
+on:
+  schedule:
+    - cron: '25 3,10,16 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['rss/**', '.github/workflows/refresh-original-rss.yml']
+  pull_request:
+    paths: ['rss/**', '.github/workflows/refresh-original-rss.yml']
+permissions:
+  contents: read
+concurrency:
+  group: original-news-rss-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'publish' }}
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - run: python3 -m unittest discover -s rss -p 'test_*.py' -v
+  refresh:
+    if: github.event_name != 'pull_request' && github.repository == 'gene8tor-AI/ai-uutiskirjeet'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Fetch original public source items (no Notion or cloud credentials)
+        id: export
+        continue-on-error: true
+        run: python3 rss/export_feed.py
+      - name: Commit only public feed snapshots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feeds/ai-news.xml feeds/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh original-source RSS snapshot'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Request legacy Pages build explicitly
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/gene8tor-AI/ai-uutiskirjeet/pages/builds --jq '.status'
+      - name: Verify published RSS bytes
+        run: python3 rss/verify_published.py
+      - name: Mark a failed fetch as failed after publishing outage status
+        if: steps.export.outcome == 'failure'
+        run: |
+          echo 'RSS refresh failed; last good XML retained and failure status published.'
+          exit 1
