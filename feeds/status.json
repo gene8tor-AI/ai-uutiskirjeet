@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-25T14:28:25.463964+00:00",
+  "updated": "2026-10-25T19:09:46.014097+00:00",
   "status": "ok",
   "items": 80,
   "sources": [
     {
       "name": "AI tool OR generative AI tool",
       "status": "ok",
-      "eligible": 78
+      "eligible": 74
     },
     {
       "name": "Microsoft | LinkedIn",
@@ -26,22 +26,22 @@
     {
       "name": "AI Enterprise use cases",
       "status": "ok",
-      "eligible": 0
+      "eligible": 1
     },
     {
       "name": "Artificial Intelligence",
       "status": "ok",
-      "eligible": 84
+      "eligible": 93
     },
     {
       "name": "AI models",
       "status": "ok",
-      "eligible": 13
+      "eligible": 15
     },
     {
       "name": "Telco AI",
       "status": "ok",
-      "eligible": 25
+      "eligible": 23
     },
     {
       "name": "TELCO News-WEB",
@@ -55,11 +55,11 @@
     }
   ],
   "images": {
-    "source": 37,
-    "reused": 18,
-    "article": 14,
-    "unavailable": 11,
+    "source": 35,
+    "reused": 19,
+    "article": 12,
+    "unavailable": 14,
     "budget": 0,
-    "withImage": 69
+    "withImage": 66
   }
 }
