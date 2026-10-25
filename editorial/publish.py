@@ -192,7 +192,7 @@ def render(data):
             if not re.fullmatch(r'[a-z0-9_\-]+\.html', name):
                 raise ValueError('Invalid prior coverage filename')
             refs += f' <a href="{e(name)}">Aiempi käsittely</a>'
-        blocks.append(f'<section><h2>{e(section["heading"])}</h2>{paragraphs}<p class="refs">{refs}</p></section>')
+        blocks.append(f'<section class="article" id="nosto-{len(blocks)+1}"><h2>{e(section["heading"])}</h2>{paragraphs}<p class="refs">{refs}</p></section>')
     refs = ''.join(f'<li id="source-{e(i)}"><a href="{e(s["url"], quote=True)}">{e(s["title"])}</a> — {e(s["published"])}. '
                    f'{"Uusi näyttö" if s["role"] == "new_evidence" else "Taustalähde"}. Tarkistettu {e(s["verified_on"])}.</li>'
                    for i, s in sources.items())
@@ -200,14 +200,24 @@ def render(data):
     if any(not re.fullmatch(r'[a-z0-9_\-]+\.html', name) for name in previous):
         raise ValueError('Invalid prior coverage filename')
     prior = '<p>Aiempi käsittely: ' + ' · '.join(f'<a href="{e(name)}">{e(name)}</a>' for name in previous) + '</p>' if previous else ''
+    css = Path(__file__).with_name('morning-brief.css').read_text(encoding='utf-8')
+    issue_date = date.fromisoformat(data['date'])
+    months = ('tammikuuta', 'helmikuuta', 'maaliskuuta', 'huhtikuuta', 'toukokuuta', 'kesäkuuta',
+              'heinäkuuta', 'elokuuta', 'syyskuuta', 'lokakuuta', 'marraskuuta', 'joulukuuta')
+    display_date = f'{issue_date.day}. {months[issue_date.month-1]} {issue_date.year}'
+    toc = ''.join(f'<a href="#nosto-{n}">{e(section["heading"])}</a> '
+                  for n, section in enumerate(data['sections'], 1))
     return f'''<!doctype html>
 <html lang="fi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(SERIES)} — {e(data['title'])}</title>
-<style>body{{margin:0;background:#f2f4f8;color:#182235;font:18px/1.75 system-ui,sans-serif}}main{{max-width:800px;margin:36px auto;padding:32px;background:white;border-top:6px solid #5733a3;border-radius:12px}}h1{{font-size:2.1em;line-height:1.2}}h2{{line-height:1.3;margin-top:2em}}a{{color:#493087}}.series{{color:#5733a3;font-weight:700}}.meta,.refs{{font-size:.85em;color:#586174}}aside{{padding:18px;background:#f1edf9;border-left:4px solid #5733a3}}li{{margin:12px 0}}@media(max-width:600px){{main{{margin:0;padding:22px;border-radius:0}}h1{{font-size:1.65em}}}}</style></head>
-<body><main><header><p class="series">{SERIES}</p><p>{TAGLINE}</p><p class="meta"><time datetime="{e(data['date'])}">{e(data['date'])}</time> · Lähteistetty katsaus</p><h1>{e(data['title'])}</h1></header>
-<aside><strong>Mikä on uutta?</strong><p>{e(data['novelty']['rationale'])}</p>{prior}</aside>
-{''.join(blocks)}<section><h2>Lähteet ja rajaus</h2><ol>{refs}</ol><p class="meta">Toimituksellinen synteesi julkisista lähteistä. Esimerkit ja suositukset eivät kuvaa minkään yksittäisen työnantajan sisäisiä toteutuksia. Tutkimuksen havainto, asiantuntijan suositus ja oma esimerkki erotetaan tekstissä.</p></section>
-<footer><a href="index.html">Kaikki katsaukset</a></footer></main></body></html>'''
+<style>{css}</style></head>
+<body><main class="wrapper"><header class="header"><div class="label">Työ · johtaminen · liiketoimintahyöty</div><h1>{SERIES}</h1><p class="tagline">{TAGLINE}</p><div class="date"><time datetime="{e(data['date'])}">{display_date}</time> · Lähteistetty katsaus</div></header>
+<div class="intro"><h2 class="issue-title">{e(data['title'])}</h2><p>{e(data['novelty']['rationale'])}</p>{prior}</div>
+<nav class="toc" aria-label="Katsauksen osiot">{toc}<a href="#lahteet">Lähteet ja rajaus</a></nav>
+<div class="section-divider"></div><p class="section-label">Uudet havainnot ja käytännön vaikutukset</p>
+{''.join(blocks)}<div class="section-divider"></div><section class="article" id="lahteet"><h2>Lähteet ja rajaus</h2><ol>{refs}</ol><p class="meta">Toimituksellinen synteesi julkisista lähteistä. Esimerkit ja suositukset eivät kuvaa minkään yksittäisen työnantajan sisäisiä toteutuksia. Tutkimuksen havainto, asiantuntijan suositus ja oma esimerkki erotetaan tekstissä.</p></section>
+<footer class="footer"><p><strong>{SERIES} · {display_date}</strong><br>{TAGLINE}<br><a href="index.html">Kaikki katsaukset</a></p></footer></main></body></html>'''
+
 
 
 def main():

@@ -18,3 +18,6 @@ Evidence sections require source IDs; own analysis/recommendations without factu
 
 ## Cadence and boundaries
 Tue/Thu11Europe/Helsinki; agent scheduler is external to this repo and ID is held in private operational records. Existing MorningBrief and feed refresh unaffected. No email (MorningBrief owns the single daily email attempt). No changes to hosting, billing, permissions or credentials. Rollback: disable this series' job, then reviewed revert of bounded files; do not reactivate paused legacy jobs.
+
+## Presentation — SPEC-3.8.2
+Always use editorial/publish.py with its versioned editorial/morning-brief.css. This follows Morning Brief's navy gradient header/footer, Georgia text, warm background, 680px white wrapper, article spacing, source metadata, section navigation and responsive mobile layout. Preserve AI:sta arvoa title/tagline,3–5item editorial structure and all evidence limits. Do not invent a new design or copy Morning Brief content/categories. Styling revisions may re-render an existing issue from its unchanged JSON; this is not a new issue or new evidence and must not change publication/verification dates or novelty ledger. Normal publishing retains no-overwrite guard.
