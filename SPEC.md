@@ -131,3 +131,6 @@ Last reviewed: 2026-10-05
 
 #### SPEC-3.8.2 Morning Brief visual format — approved Anna topic35 msg3927
 AI:sta arvoa uses Morning Brief's visual language: 680px white newsletter, warm background, Georgia body, navy gradient header/footer, blue accents, compact source metadata, distinct article blocks and mobile layout. Preserve own series title/tagline, 3–5 items, all text/citations and practical synthesis. Apply to current multi-item trial and future renderer output; do not alter Morning Brief or legacy single-topic trial. No content research, duplicate issue, email or cadence change. Acceptance: visual desktop/mobile comparison, unchanged digest JSON and article/source text, existing guards/tests PASS, reviewed pushed PR and live exact bytes.
+
+### SPEC-3.5.1 Explicit skill invocation / manual delivery
+Anna topic35 msg4105 explicitly invokes Hot topic skill for named URL; treat as one-off Hot News authorization without requiring magic words. Existing skill hot-news governs format/Pages/plaintext email/Notes & ToDo. Requested Hot News delivery uses issue-specific claim separate from scheduled-news daily allowance; preserve scheduled cap and no retry on uncertain send. No recurring job change.
