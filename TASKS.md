@@ -374,3 +374,15 @@ PrepublicationPASS: fullofficialsource read; allprices/modelID/planavailability 
 
 ### TASK-HOT-20261026-4182 delivery — PARTIAL
 PublicationPASS: revieweddd4fe69/PR15 mergef87c9bbabe8733d375e94151270cdd131333c804; Pages40387387598success/publicHTTP200 exactHTML SHA256fe93782290b3621bd498c4bc68e0df5b7d3258bf822659f00ee505a2090c668d. One requestedHotNews sender invocation failed before Gmailmessage send: OAuth invalid_grant expired/revoked. No messageID, NOT SENT, perURLattempt retained/no retry or alternative. AutomaticMorningBrief ledger untouched. Notion independently completed despiteemailblock: existingNotesToDo page405c533e-271b-81ea-a11b-d29f58952157 originalURL/summaryreadbackPASS, no duplicate. Email requires ownerGmailreauthorization; no automaticresume/retry or authchange. Sourcebranch cleanpushed0:0; primaryWIPuntouched. ThisTASKS-only evidence exactdiffreviewPASS; overalltaskPARTIALonlyemail.
+
+
+## TASK-MB-20261027 — AI Morning Brief 27.10.2026
+- Status: IN PROGRESS. Implements SPEC-3.1, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1 and NEWS-2.1.
+- Authority: cron eafe083d-2415-4764-946e-e7cadcfff1ac, 27.10.2026; full categories and one link-email attempt only after public HTTP 200. No Notion writes.
+- External preflight: owner Anna Korpi / gene8tor-AI; resource gene8tor-AI/ai-uutiskirjeet, main, GitHub Pages production https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-27.html; billing unchanged/no new resource. Public Finnish summaries and source URLs only; no credentials/private intake. Existing work recipient via send_news_link_once.py only.
+- Scope: new daily HTML, build_index.py outputs and this evidence record in isolated checkout. Original local-only work untouched.
+- Acceptance: full categories, source/date/claim checks, archive novelty screening, HTML parse, source HTTP 200, index build/diff check, bounded commit/push, public HTTP 200/content match, one sender result SENT/SKIPPED/error.
+- Rollback: revert publication commit; email cannot be recalled. No Pages/access/billing changes.
+- Impact: implementation of existing requirements; no enduring boundary change.
+
+- Pre-publication evidence: 20 unique cards (10 news including four Telco AI, 10 tools), seven new metadata-verified YouTube videos, explicit X API 403 credit/spending-limit note. All categories retained. Full 292-page archive screened; excluded already-covered subagent migration kit; Terra item explicitly distinguishes new Copilot availability from prior model coverage. HTML stack/count checks and 35 unique source/video/thumbnail URLs PASS. Five Python requests 403 responses independently superseded by observed web_fetch HTTP 200 plus content; both observations retained in local run receipt. Local HTTP preview returned 200 with exact bytes before publication. build_index.py changed only the new four-line index entry. No Notion writes; Matt Wolfe weekly video summarized successfully.
