@@ -377,7 +377,7 @@ PublicationPASS: revieweddd4fe69/PR15 mergef87c9bbabe8733d375e94151270cdd131333c
 
 
 ## TASK-MB-20261027 — AI Morning Brief 27.10.2026
-- Status: IN PROGRESS. Implements SPEC-3.1, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1 and NEWS-2.1.
+- Status: PARTIAL — publication PASS; email delivery FAIL. Implements SPEC-3.1, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1 and NEWS-2.1.
 - Authority: cron eafe083d-2415-4764-946e-e7cadcfff1ac, 27.10.2026; full categories and one link-email attempt only after public HTTP 200. No Notion writes.
 - External preflight: owner Anna Korpi / gene8tor-AI; resource gene8tor-AI/ai-uutiskirjeet, main, GitHub Pages production https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-27.html; billing unchanged/no new resource. Public Finnish summaries and source URLs only; no credentials/private intake. Existing work recipient via send_news_link_once.py only.
 - Scope: new daily HTML, build_index.py outputs and this evidence record in isolated checkout. Original local-only work untouched.
@@ -386,3 +386,7 @@ PublicationPASS: revieweddd4fe69/PR15 mergef87c9bbabe8733d375e94151270cdd131333c
 - Impact: implementation of existing requirements; no enduring boundary change.
 
 - Pre-publication evidence: 20 unique cards (10 news including four Telco AI, 10 tools), seven new metadata-verified YouTube videos, explicit X API 403 credit/spending-limit note. All categories retained. Full 292-page archive screened; excluded already-covered subagent migration kit; Terra item explicitly distinguishes new Copilot availability from prior model coverage. HTML stack/count checks and 35 unique source/video/thumbnail URLs PASS. Five Python requests 403 responses independently superseded by observed web_fetch HTTP 200 plus content; both observations retained in local run receipt. Local HTTP preview returned 200 with exact bytes before publication. build_index.py changed only the new four-line index entry. No Notion writes; Matt Wolfe weekly video summarized successfully.
+
+- Publication evidence: commit `f14def4c5688dc0797e5eae9c5e1b626a695f22d` pushed to remote main; public `https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-10-27.html` returned HTTP 200 with exact local HTML bytes after two initial deployment 404s. Isolated publication checkout was clean and remote HEAD matched. Original workspace pre-existing SPEC/TASKS changes and dated untracked publications were not changed; the exact new HTML was copied to the required workspace and newsletters paths.
+- Email evidence: only the authorized send_news_link_once.py invocation ran, after HTTP 200, to the existing work recipient. Exit 1: `invalid_grant: Token has been expired or revoked.` Daily claim is retained by the sender; no retry or alternate route. Publication is valid but work-email delivery remains failed; scheduler/operator owns any follow-up.
+- Constraints: X API HTTP 403 (credits/monthly spending cap), intermittent search HTTP 429, five direct HTTP readers blocked with 403 despite independent web_fetch 200/content verification. GitHub Actions diagnostic CLI hit a local TLS trust error; release evidence instead uses successful git push/remote readback plus exact public HTTP 200 content. No Notion write.
