@@ -5,157 +5,393 @@
     <link>https://gene8tor-ai.github.io/ai-uutiskirjeet/feeds/ai-news.xml</link>
     <description>Alkuperäisten julkisten RSS- ja Atom-lähteiden uutiset.</description>
     <language>fi</language>
-    <lastBuildDate>Wed, 28 Oct 2026 16:45:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:17:03 GMT</lastBuildDate>
     <atom:link href="https://gene8tor-ai.github.io/ai-uutiskirjeet/feeds/ai-news.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NASA, Google test AI-powered medical robot for deep space missions - Nextgov/FCW</title>
-      <link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX095UzFmRjJyZExjenFsd25Eb0RWS1l2SnBMSVBkOWMwOHNqSWFqSEh4NHBqbW5rdXZiUExZS0NWdW9MeGQ3MkVxYWZnRWhPZVE3ZmxIQXZXMXoxZ2tPQzNhQ1l0TUJzWVM3SVB3VE5ydWtIMWxkOGx4d0x5bFpQWDNNX2NDVzk4NE1pMVpJZDVsMnBLa1lYdmJtTlpaVVNaRnNQb2hBdjBRSmE3ZVhMUGkyREt6U3l2SnZPakxVTjFFdjJuZ2M3OUpsVXZueU5vOGFpUg?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:16:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:f25ab8a73fb7a40fbe01cf5652c872bc0c8681e99374ebf4c84a3c2527d7c1ba</guid>
-      <media:thumbnail url="https://cdn.nextgov.com/media/img/cd/2026/10/28/102826NASANG/open-graph.jpg" />
-      <description>&lt;img src="https://cdn.nextgov.com/media/img/cd/2026/10/28/102826NASANG/open-graph.jpg" alt="" /&gt; NASA, Google test AI-powered medical robot for deep space missions Nextgov/FCW</description>
-    </item>
-    <item>
-      <title>How to Teach Humanoid Robots to Move Properly, and Autonomously, in Challenging Environments - Industrial Equipment News</title>
-      <link>https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeER1dm9WeWhLRFh2Vm5TNUxuakp3VFZhcHdyQjB4Z0gxY3hlS1N2eDRsVmR4c05JcEF5NFZLY0dfZUpiNXMwTUJXZ2EzcklBMEsxeGNRMGNpTUFsT2p6Q2ppRVFVLTBfcjE5YWhfaDlFRDFFYUhxbjVtRXBRbWpLVzMxTW80cUxzUUlHZHBRbnNldWJQUVJSTFZ3anZKZXBWd0ZpaGtCYUw2b2V2c2J6aFRqT2NlQU5nQUJhbU1NYzVjbnV2YjlPMldSSG44dVNrZTFUeW1uN0E0MEtScGZ5V0gzVQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:14:49 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:872400a43e56d312e99aea36740617f5f841168b86c5624eb85778955b847b82</guid>
-      <description>How to Teach Humanoid Robots to Move Properly, and Autonomously, in Challenging Environments Industrial Equipment News</description>
-    </item>
-    <item>
-      <title>Why (and How to) Do Science in an Age of AI - AMS Headlines</title>
-      <link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZlZ0RXNKeHM2ZzNteWM1MzM4Z3JqWFQxZUpGQU9YX2dxeDEtVFJaUXpDREdXdjZVNE5ETG9pT0FUMzNma1Q4QjdUbmEteGdKOGhQNnczZDNfb3dvS25vMUxXRkh5SUl1ODBxZ2VtQ1lybDFESUgyYUVucDkzTTdkRVptWFQwLTRta2JZ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:13:18 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:26b25f80e539e1d69dd811b70d0ea59c4bedc451000a1e6dc4b0aed18f752a47</guid>
-      <media:thumbnail url="https://headlines.ametsoc.org/wp-content/uploads/2026/10/hooke_john_henry_crop.jpg" />
-      <description>&lt;img src="https://headlines.ametsoc.org/wp-content/uploads/2026/10/hooke_john_henry_crop.jpg" alt="" /&gt; Why (and How to) Do Science in an Age of AI AMS Headlines</description>
-    </item>
-    <item>
-      <title>SB 53 and the TDTA: How California is regulating AI transparency - IAPP</title>
-      <link>https://news.google.com/rss/articles/CBMikAFBVV95cUxOMklkd2dUbjRGUHNMSTFucTBsNE80aGpfOUhFS2RKRmZSZ0RVTl9uZU5XSkNqeHBNbV9taU1RZVRUU3pSWmxzbFJELWtpOEVHbTVyOFlBWjgyMENodFhyNTZDeTlRdVBXLWhTak16YldnNWp3a1haZGtCYUgxeHB1ZzlxVWhUXzNYbkJ4WE05RDY?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:11:59 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:e5e9753b0fb82fb1d51ce6d509dc4174740a3ad05f0ff08083092f54717292fd</guid>
-      <media:thumbnail url="https://images.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt9462360da510286d/6ad8d883e0c9dc05bffd208b/california-dome-ceiling-capitol-us-103024.jpg" />
-      <description>&lt;img src="https://images.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt9462360da510286d/6ad8d883e0c9dc05bffd208b/california-dome-ceiling-capitol-us-103024.jpg" alt="" /&gt; SB 53 and the TDTA: How California is regulating AI transparency IAPP</description>
-    </item>
-    <item>
-      <title>Gov. Hochul signs bill to shield children from unsafe AI chatbots, baby monitors - WRGB</title>
-      <link>https://news.google.com/rss/articles/CBMilgNBVV95cUxNTWk0TldyZDkyNFozU0M4MzRFZ2JtTVFrTmFwb3Bnb1hJYXdncXZxemlQQy1QQmFQYkl2S05ha3htTmY1d3RiT295RFJiRXlXTUhQNlVrN2R6c3RnSEg2cDl2MjBTUDE5SnNydk9RRnM4b3ZTQjFZb1RoV1lBNWlJdmVtZi1xZWc1M1dGN0pfY1Z5WGt4MHAwbjFncDRseWd0RDdKYVREVWotRURXUGxIaUZmanpWU3BNOFJqQ1ZvdUFrUjZZV204Rk9zU2lmRmRfWXBqZTdSaEFNcnJEb2FUV1dISkp6a0I0RElFUFo4bklEekVOTWRhWWF3WllwSmJDYVRzWnAzN1p0dW1UTjJINHdVYzNwQXljQnpNOW9IWGpiYklnRDc3aWZyODkydlFCWmtBMXRIQnZ0ZGp0RU5oa3FSN3c0VVdPaEVGVDVOWmNwS3doRzllcHhJSUs4dXZqSGhvQUJDS0t5dVlGYVpPNkQ4dDJBZ1ZsLWRJbnRQWVhBYjBVZG1fa205ZnlLTnBUZkFlLW9n?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:09:41 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:fa22f34fff9fd6e202c176de28000a8a3734ee442de444a0bed06dc3c7e94b75</guid>
-      <media:thumbnail url="https://cbs6albany.com/resources/media2/16x9/1136/1320/92x0/90/905fefd5-1f44-4901-95a2-4461b0915052-Screenshot20261023110405.png" />
-      <description>&lt;img src="https://cbs6albany.com/resources/media2/16x9/1136/1320/92x0/90/905fefd5-1f44-4901-95a2-4461b0915052-Screenshot20261023110405.png" alt="" /&gt; Gov. Hochul signs bill to shield children from unsafe AI chatbots, baby monitors WRGB</description>
-    </item>
-    <item>
-      <title>How Waters wants AI to take the grunt work out of drug testing - Fortune</title>
-      <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxQTEg2UHJ1RkJkT2ZMSWM4VThzNm1pLUowRU42SkNjUmQzX29nNmpqYUtCLXkwLXVZMXN1enBVMU5mbm5kWWtNZGtnc2ZYamF6WDV4T2RwM2Y1UjY0SWMyeGN3NVpzT3BOVVp1ZnA2TE5idTFaUTZ5NFhYTDRGazh2bm1WanBwX0JZZzFZZXdGYzZZUlJqTVBFMlNQWTN4TFR3LWRIdTVxMm9paTBLMnJzUm5Ccw?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:05:00 GMT</pubDate>
+      <title>WWD Launches AskTailor, an AI Research Tool Powered by 50-Plus Years of Fashion Insight - WWD</title>
+      <link>https://news.google.com/rss/articles/CBMikAFBVV95cUxNdXgtODMwcjdqNG9kMWFETlA4LTBzVDQxMFhlQWROa3VCYVQtZ01RWlY5TEl4TWQ3RGNuYmhmVHNyLVpJMHFRXzVYWjAySVpGd3RuS2dONW5fbjBiUUJ3SU12dzZnRjQwZTdJLUhZUVR4WVJqdGRHSXdFS0cxeTFyc3g0NlMtSG9nbkxSTXdJdmQ?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:56:15 GMT</pubDate>
       <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:ff2bac23ce6aa50c759df84cea7acc7e3d2b73b117f6c2c345f6db986c8fd5fd</guid>
-      <media:thumbnail url="https://fortune.com/img-assets/wp-content/uploads/2026/10/BrookColangelo_Website-image-1.jpg?resize=1200,600" />
-      <description>&lt;img src="https://fortune.com/img-assets/wp-content/uploads/2026/10/BrookColangelo_Website-image-1.jpg?resize=1200,600" alt="" /&gt; How Waters wants AI to take the grunt work out of drug testing Fortune</description>
+      <guid isPermaLink="false">urn:sha256:acde597d720adeb8dd697889767829a72fb96cc7c26a743e329008793dc70252</guid>
+      <media:thumbnail url="https://wwd.com/wp-content/uploads/2026/10/WWD_AskTailor_Search_46c936.png?w=1000&amp;h=563&amp;crop=1" />
+      <description>&lt;img src="https://wwd.com/wp-content/uploads/2026/10/WWD_AskTailor_Search_46c936.png?w=1000&amp;amp;h=563&amp;amp;crop=1" alt="" /&gt; WWD Launches AskTailor, an AI Research Tool Powered by 50-Plus Years of Fashion Insight WWD</description>
     </item>
     <item>
-      <title>Alfieholdingslimited Launches AI-Powered Market Intelligence and Financial Analytics Platform - Yahoo Finance</title>
-      <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxNTC02cldnTWZHN2FrbGpRUDMwSEUxbzRrLXl4VHJoNmNlWU8xMDEwc0k3bkNzZzNxbDlHZXp1SjJ2Wjdad2wyZXdTRFJES1FDM2xXMllIWXFTbEFSako4YzF2NGcxNjlWWWphNi1uNDlnQkVrejVpT25YMlRrYmFpQk5MYXd0VWVwZ0pqZnc4VGtWRmVlcXhLcjJyeThQRHdFVDc0S3d5QzdLY3NSNHpJcA?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:02:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:90cbdf0a07516d64971bfe942c03282aa34a6507a4b7e2cda1dc17222f729c30</guid>
-      <media:thumbnail url="https://s.yimg.com/lo/mysterio/api/83d47ecc44edbe949aed1b59ccd6ac4ade4e47c0ffe7a204e9cf437da0239e73/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F440e47f486f13144b1cb4baff4e56094.jpg" />
-      <description>&lt;img src="https://s.yimg.com/lo/mysterio/api/83d47ecc44edbe949aed1b59ccd6ac4ade4e47c0ffe7a204e9cf437da0239e73/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F440e47f486f13144b1cb4baff4e56094.jpg" alt="" /&gt; Alfieholdingslimited Launches AI-Powered Market Intelligence and Financial Analytics Platform Yahoo Finance</description>
-    </item>
-    <item>
-      <title>Pennsylvania Enacts an AI Ad Disclosure Law: What Companies Need to Know Before December 21 - Kelley Drye &amp; Warren LLP</title>
-      <link>https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSWtoYXhKQldDTzhqOGdhNjJtMmN2ckNYNTBjclpjS0htd29FRklFTHI0aXRCeHN5U1VfdzA5M3JYTGNQM0JaLThVelZzVGYwV3hPYk5wZEUwY19JRzhqQUswRXRMXzBEcFNqZWx0dmxnS0Y3Rm5yeTljcVhocFYyd2Utanp3X2lBdGVSYVA4LUthak9PNWZ3MDhGbGpJcHlvNnd5YkR6eUJNWmtJNkZxR1BCWE91MUlHbFBZRm9vdjVIRkJPbmtmLWN4bmZUdWtudUx4YVBpMzBvcU12UHA2WTR3?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 16:00:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:fce1b701aca2f8347ab50eb9f62e362dac195622a82cc93273d45d4b8ddba031</guid>
-      <media:thumbnail url="https://s3.amazonaws.com/cdn.kelleydrye.com/content/uploads/SEO-images/blog-defaults/adlawaccess.jpg" />
-      <description>&lt;img src="https://s3.amazonaws.com/cdn.kelleydrye.com/content/uploads/SEO-images/blog-defaults/adlawaccess.jpg" alt="" /&gt; Pennsylvania Enacts an AI Ad Disclosure Law: What Companies Need to Know Before December 21 Kelley Drye &amp;amp; Warren LLP</description>
-    </item>
-    <item>
-      <title>Stirling start-up launches privacy-first AI tool to protect businesses - Yahoo News UK</title>
-      <link>https://news.google.com/rss/articles/CBMihAFBVV95cUxQdDRwRkpNSi1DWHFSMm9HUjVzalQ4amVUOUtBNC1hX01QNzU1aGFickIwVm9NcWlsb3FzMV9jM2s2cmpabGg5cVhZWHNsQzcxX1FKTVJPd2ZGam13OC1YZmVPR2NGSDJRREllcWxFOC1GbWZrR0FDcW1zaFZtZnFQNTllS2Q?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:50:06 GMT</pubDate>
+      <title>Think before you prompt: AI, confidentiality and legal privilege, Avary Patutama, Pauline Lépissier - Devonshires Solicitors</title>
+      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxPWTNxNmc2X25iZ1VUekZaX0JvbzA0OG5FeWpIVkhzaG0wQm1ZemFVMm5LMFN3clR4Q0pmRDlsRmFDc3pZb0V0bkNCTEtuOEt1UDRUcFFRQTBBZ2FNbThtTmVfaEdrMks5VGdveEp0OWZoTVhvUC1zVGRkQ3BtckJJaDFVeTQ1Tlg1b21Nd2NFcFRvVFpZazNsc1VaVlVOSGhzMGw5QXB1TTZnanpl?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:48:41 GMT</pubDate>
       <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:f9808d3f727b747b257b4e779498236b58fcd48853e63cf0f8182409c155f92c</guid>
-      <media:thumbnail url="https://s.yimg.com/lo/mysterio/api/63f25c3695a353b1da26bb293dd9b9709009ea7d353ccd7c22ba4e5940df066a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fherald_scotland_359%2F2955bfe80f8827dd7b13d4ff841e1681.jpg" />
-      <description>&lt;img src="https://s.yimg.com/lo/mysterio/api/63f25c3695a353b1da26bb293dd9b9709009ea7d353ccd7c22ba4e5940df066a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fherald_scotland_359%2F2955bfe80f8827dd7b13d4ff841e1681.jpg" alt="" /&gt; Stirling start-up launches privacy-first AI tool to protect businesses Yahoo News UK</description>
+      <guid isPermaLink="false">urn:sha256:fb51409eb5e323595be421b1684994c4b296cd90c80da10675b6a547a8bece87</guid>
+      <media:thumbnail url="https://images.passle.net/fit-in/1200x630/Passle/6491ca5e863f054b458578e8/SearchServiceImages/2026-10-26-17-34-45-345-6adf8f354a729d7f9de32770.jpg" />
+      <description>&lt;img src="https://images.passle.net/fit-in/1200x630/Passle/6491ca5e863f054b458578e8/SearchServiceImages/2026-10-26-17-34-45-345-6adf8f354a729d7f9de32770.jpg" alt="" /&gt; Think before you prompt: AI, confidentiality and legal privilege, Avary Patutama, Pauline Lépissier Devonshires Solicitors</description>
     </item>
     <item>
-      <title>Idaho nurses, teachers help shape BSU AI study - KBOI</title>
-      <link>https://news.google.com/rss/articles/CBMihAFBVV95cUxPYTNGQjg4UmUxS1VJdWQ2ZGhZNnl2cHFBeHRzdkt2WFJ4TlhLTzdyWVBrSDB6cG5xMllvV2JST2RfZWN0ejRaRHJlWGhGOGJqR3NoYVVNODdxem9EaUl1MHRxakwyX2JMSnBhSjN3Q3o5NjgyZkQtQTktQTJVeEFGc0d6dlQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:48:14 GMT</pubDate>
+      <title>Army’s camouflage cat-and-mouse game enters age of AI - Stars and Stripes</title>
+      <link>https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNjlDMDluZEhUN2hoY1lCMkVYV21fdUZhb1B4VGo5Um5zaHBoVWFCc3NTMkdoWWRsR1g1dHRyNV9pZllvakRWN3pVN3RXcnp3ckVFYU81ZjduaF9vRHFBcDlVRDZ4dU9LdGFOVGx1MlJOVHhRdExDVUFsZnl5bGk5djIxN1cxMmJv?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:46:29 GMT</pubDate>
       <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:c705b80a79ba50a48e302851ae1cfd4406ffa92c3ac643bf399ed7fd2463e32b</guid>
-      <media:thumbnail url="https://idahonews.com/resources/media2/16x9/5472/1320/0x285/90/cff22fa3-a122-4b74-8c60-41dce77f53a3-7278d7adfef241c181c7e8e127d9a944159A9246.jfif" />
-      <description>&lt;img src="https://idahonews.com/resources/media2/16x9/5472/1320/0x285/90/cff22fa3-a122-4b74-8c60-41dce77f53a3-7278d7adfef241c181c7e8e127d9a944159A9246.jfif" alt="" /&gt; Idaho nurses, teachers help shape BSU AI study KBOI</description>
+      <guid isPermaLink="false">urn:sha256:4988eea1fc2e490ff6002d752ca7d43181d39c666aa4b14fb9392092ddab3ff2</guid>
+      <media:thumbnail url="https://www.stripes.com/incoming/415kgj-301026camox2/alternates/LANDSCAPE_480/301026CAMOx2" />
+      <description>&lt;img src="https://www.stripes.com/incoming/415kgj-301026camox2/alternates/LANDSCAPE_480/301026CAMOx2" alt="" /&gt; Army’s camouflage cat-and-mouse game enters age of AI Stars and Stripes</description>
     </item>
     <item>
-      <title>Who Pays for AI’s Inputs? - Worth</title>
-      <link>https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1a09Oc2h4WTVfa044bzNqX0xRZkR6TDNsYS1tdlB2eWpUY25Zbmh5VmIxdk43TTJ2ZzFCY0pWZHhPR0lfaTJ1d2ViN3F0djRBODl2Uw?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:45:00 GMT</pubDate>
+      <title>Global Fishing Watch and Ai2 announce another partnership to use AI in vessel tracking globally - SeafoodSource</title>
+      <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxPR2lIWnhYMzBBcDRJYXNETDRhUzJYVjVLX1Z6cURwVlhpZ0lhUmF2WmZfRU5LNUJSSm9MRzJ1OVNJdTlxQk1UQmNCbVVMZndDSmZ5VUpDcGtiRlplOWhSNXdVaDN1empQUkY5bENydGRVU1c5LVdubzFkVU15Y3UzRS1jZVFUa19ZVEd3QzJ0bzNnazZJcVZPV3EwVjVSWENVRFFSTnZOdm5EMkpPbGxhcXdQY0VZZS1kY0pyM3BGSnhGWjVFVUhwQmdn?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:45:00 GMT</pubDate>
       <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:6931ada077ff295c9720f61ed8131ecf72c9116a016e512a45c38c4b4cd6e312</guid>
-      <media:thumbnail url="https://worth.com/wp-content/uploads/2026/10/DSC05984-e1793194889431.jpeg" />
-      <description>&lt;img src="https://worth.com/wp-content/uploads/2026/10/DSC05984-e1793194889431.jpeg" alt="" /&gt; Who Pays for AI’s Inputs? Worth</description>
+      <guid isPermaLink="false">urn:sha256:b30e1503929a4adc9a0370ecd47916680cdf690f714615abf249483cb55bdc7e</guid>
+      <media:thumbnail url="https://s3.divcom.com/www.seafoodsource.com/images/62c7210505bb6a47b335b4231fa922e9.jpg" />
+      <description>&lt;img src="https://s3.divcom.com/www.seafoodsource.com/images/62c7210505bb6a47b335b4231fa922e9.jpg" alt="" /&gt; Global Fishing Watch and Ai2 announce another partnership to use AI in vessel tracking globally SeafoodSource</description>
     </item>
     <item>
-      <title>Climatiq’s ISO 14067 Engine Powers Sweep’s AI Tool for Supplier Product Footprints - ESG News</title>
-      <link>https://news.google.com/rss/articles/CBMibkFVX3lxTFBpUlJRSGdIMHdlVVAtTTNvZXdFRzM4MDZJRkE2SGRNQXREQVZFbk9XV0UzOWx2Tmt1ZzNoWUh3TU5heG1xM2VxQlRaNklCckkwNEdjcjBfWU14QXBlWnY2U0x0VThsLS16OGtKTVd3?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:33:45 GMT</pubDate>
+      <title>Broadband Expansion: Telco Appoints Bakare To Drive Growth - LEADERSHIP Newspapers</title>
+      <link>https://news.google.com/rss/articles/CBMihwFBVV95cUxQOGlPQ1RDNjVRWG9BMkNhcXRDZXQtb3FRTWJHTDlRV2xUdWljZEphYjQ5dnpUTGk3cHFKRzdpaUVSbU1mNV9wUzVhdTBhdmZpNFFodEhfRGxUVWxYcXRfaEkwTUYtN1ZIT2xCaE1tbllXMFJYampjMkhPZXBUMlE5QUJuTXBCbmM?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:43:54 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:8a532a87d7c645b84d9a20858af8e8ad348b8ab705f3800d235274ed701336f3</guid>
+      <media:thumbnail url="https://leadership.ng/wp-content/uploads/2026/10/image-2026-10-28T081223.812.webp" />
+      <description>&lt;img src="https://leadership.ng/wp-content/uploads/2026/10/image-2026-10-28T081223.812.webp" alt="" /&gt; Broadband Expansion: Telco Appoints Bakare To Drive Growth LEADERSHIP Newspapers</description>
+    </item>
+    <item>
+      <title>Claude's new smart reports tell bosses when workers are 'off-topic' - Mashable</title>
+      <link>https://news.google.com/rss/articles/CBMigAFBVV95cUxNSHNYSEJlZEQtclhFUk1CZjRKWkFhVk1SM1pmcEJkajl5LWgtSHVfaDNkWUtKazRRUUh2YjZ1UVB0M1owMEdOdnlLc0FOdmdDbWdQanZqUjdELS1lVHFHMktfcHVXbXRaZmUtcXdaTncyTlBrdU5MVEN3NURjR1c4Mg?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:22:30 GMT</pubDate>
       <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:47f56191dea583c3535aed0dfee57e6a6bcc22df5eeb19d90cb76d75d7722cf1</guid>
-      <media:thumbnail url="https://esgnews.com/wp-content/uploads/2026/10/Climatiqs-ISO-14067-Engine-Powers-Sweeps-AI-Tool-for-Supplier-Product-Footprints-1024x576.png" />
-      <description>&lt;img src="https://esgnews.com/wp-content/uploads/2026/10/Climatiqs-ISO-14067-Engine-Powers-Sweeps-AI-Tool-for-Supplier-Product-Footprints-1024x576.png" alt="" /&gt; Climatiq’s ISO 14067 Engine Powers Sweep’s AI Tool for Supplier Product Footprints ESG News</description>
+      <guid isPermaLink="false">urn:sha256:3edbcfd5a46d193ff3c93ce49bc2310e5906cda3f926920f4b77a071409d9336</guid>
+      <media:thumbnail url="https://helios-i.mashable.com/imagery/articles/06poZ7rqt1vP8DAUkHMj7xP/hero-image.fill.size_1200x675.v1793236774.png" />
+      <description>&lt;img src="https://helios-i.mashable.com/imagery/articles/06poZ7rqt1vP8DAUkHMj7xP/hero-image.fill.size_1200x675.v1793236774.png" alt="" /&gt; Claude&amp;#x27;s new smart reports tell bosses when workers are &amp;#x27;off-topic&amp;#x27; Mashable</description>
+    </item>
+    <item>
+      <title>Generative AI Reshapes Assignment Writing at Zimbabwe’s Open University, Study Finds - Bioengineer.org</title>
+      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOE5vcm9NdkNQbmR1NUhpSzBrX282b1JzU1k3bzRfQS1wWlR4dVFicFA3aTFjSGpvOWZ3NERmMHJNX05NWUFoQTUwVzhlZ3ZOT0pNYWJTRXVqVnZ4UnlQb1cxbWh6T092NlhLSUVlUFFKYzhhYUprNUt5X05WSXNXckZvTEhmNU5qMWpFWnk3QzYxM1JhNFBMYUhEWFpwY01QaGMtTzJydWdfZmc?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:07:55 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
+      <guid isPermaLink="false">urn:sha256:1e9f941e5745a5ae5606a62e46d24eb630d9009f1f13775d0c92aada3b55303f</guid>
+      <media:thumbnail url="https://bioengineer.org/wp-content/uploads/2026/10/stackrss-featured-21901.png" />
+      <description>&lt;img src="https://bioengineer.org/wp-content/uploads/2026/10/stackrss-featured-21901.png" alt="" /&gt; Generative AI Reshapes Assignment Writing at Zimbabwe’s Open University, Study Finds Bioengineer.org</description>
+    </item>
+    <item>
+      <title>Candidate Websites Are Filled With A.I.-Written Text, Analysis Shows - The New York Times</title>
+      <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxNZTh5M1l5TGRCZC1DeFhuNWZqNzZzZ0dEeVE4Ul9RMW9RNWZ6V3AtV2VHaDFsVDJzd1lTQThveDRtdC1CZDZsYXc5UVgzQ205TmZLZ2xzb0dkd0lBMWh6Q2hzd1NnZjJDd2NReWlDRXVNRHBkZThpQ0dNd1pBMXpBb2M4TGpFZDVJQnJIeTRLN0VoRVNJMkd4cw?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:02:23 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:e97f4902e33f0c1255de5eafb7e1645913bdb8cf543505a6386173e4191b2e47</guid>
+      <description>Candidate Websites Are Filled With A.I.-Written Text, Analysis Shows The New York Times</description>
+    </item>
+    <item>
+      <title>How AI drones are influencing the course of the Ukraine war - NPR</title>
+      <link>https://news.google.com/rss/articles/CBMie0FVX3lxTE1qdXhNZHo1TFh4QmdLbVVmc3dZdlZRVEUwak9VT3lSUVBPNndwMUQ2c1BGcVJJd2N2TUs3OW1wTWNiTVM5TGc4aU01eEFDMTNXY2FrMVIzMTNOS2pic3dXQjdKWnFJYWV2alEyM3UyV1NWaVg5Z3l2d09zTQ?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 09:02:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:5cc12056add6baec14ea8dfb255013737fd37a0c87f21048f2040264f7796aa1</guid>
+      <media:thumbnail url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7405x4165+0+387/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2F48%2F5d01825b44dab72b81f4d1cdcad4%2Fnpr-droneukraine001.jpg" />
+      <description>&lt;img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7405x4165+0+387/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2F48%2F5d01825b44dab72b81f4d1cdcad4%2Fnpr-droneukraine001.jpg" alt="" /&gt; How AI drones are influencing the course of the Ukraine war NPR</description>
+    </item>
+    <item>
+      <title>Latham teams up with Harvey to build new AI tool - Legal Cheek</title>
+      <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxPRVdRM1hUTGN0U2RkazNCU1pOdkF5bVZqN1NrZ1huQnV1RlNNQVRBMmdDdVVnbl9vcE5SLXRyaXFhNlM1akhEaG56Y2V5SmxQTnQ0NE9Oa3o1ZzlOQnR2VEQ1Qnk4Q0tTWWk3TTZwYi1KSHBsN2tpeWRUaVpOaUpBYVBxWnAydWtkM2MwWQ?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 08:58:08 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
+      <guid isPermaLink="false">urn:sha256:5d584f21663b4fc36acb8ee666200e3f9827ffb8ad7c946a2ee46973161c9f33</guid>
+      <media:thumbnail url="https://www.legalcheek.com/wp-content/uploads/2025/06/ULaw-Legal-Tech-Thematic-Event-Image-1.jpg" />
+      <description>&lt;img src="https://www.legalcheek.com/wp-content/uploads/2025/06/ULaw-Legal-Tech-Thematic-Event-Image-1.jpg" alt="" /&gt; Latham teams up with Harvey to build new AI tool Legal Cheek</description>
+    </item>
+    <item>
+      <title>Half of Taiwanese adults use generative AI: Survey - Focus Taiwan</title>
+      <link>https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1VzBDNDVRdnMtby1SZS1jb2VvTEZEeUtSYy1jRXhHMFM5cVBsaE5GX3lVdnVKZFdDLUx3aDFORnZmcEc5VmwzT3hadEhJc0FTRXhwSzZXMA?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 07:55:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
+      <guid isPermaLink="false">urn:sha256:81b364b0dc2efe326de2f07d810ddd6b6e7ecbb87f2ebffc60f864598acc8f18</guid>
+      <media:thumbnail url="https://imgcdn.cna.com.tw/Eng/WebEngPhotos/WebOg/600/2026/20261029/1920x1008_982028575030.jpg" />
+      <description>&lt;img src="https://imgcdn.cna.com.tw/Eng/WebEngPhotos/WebOg/600/2026/20261029/1920x1008_982028575030.jpg" alt="" /&gt; Half of Taiwanese adults use generative AI: Survey Focus Taiwan</description>
+    </item>
+    <item>
+      <title>Charity launches AI tool to combat ChatGPT cancer advice errors - Home | Digital Health</title>
+      <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxOWlVqUHNmMWl2LVdNV29sNV9kYzJtd0I4b3VFSS1IMGREbHduLUhIbkFxYV9BN21hX2RjQUtZeEhiWWx2UkJoU0VxSDhodGZyZGxiYmsxdmNEMk5mUTNxNi1rVEw0RG1XMk1UYmNWeEJmS3VMeHEydG5uRW9SU19zYl96ZHJqb29ZUVlZeEs1RWhhS2RRRjNLMHZBdmlOalE?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 07:32:58 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
+      <guid isPermaLink="false">urn:sha256:8d11a11b8a233f228a03ce15d5fcddcf9c3a3ab3c8cfc255c73ac26029d65bb4</guid>
+      <description>Charity launches AI tool to combat ChatGPT cancer advice errors Home | Digital Health</description>
+    </item>
+    <item>
+      <title>Not Nvidia. Not AMD. This Is the Best Artificial Intelligence (AI) Stock to Buy in November - The Motley Fool</title>
+      <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFA0U1BjY3NHdmlXUDRNam5YMGs4WHRObklJaEJnQWgyV2NfWmtJRHk2WklqSUVjVUMtV3ZITExJMTFhalNSRHc2WENTSG5hOTVMWjExdjhRNm8zNV9EZUhpQ1oxQTRMdWxnNkJsTUtzSUdUTVlnZWRtRkh1YVdaYWgzY3VYdU9ueFlLTEFRU3JXZEQ2Smw4X3RDTnl3cVREN3NhUjJPamliUlgzcXVqbDgxWUEySG1RaEhhVldZVTRSSVBOU25ZZnVn?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 07:15:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:1d041d41cea75c3df078e13a955cda33c66db2de1c8ccb49cb89f2dee01d1a14</guid>
+      <media:thumbnail url="https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fa84f0ac2e3283dd050e03bb09ed66bcd951600db-1200x801.jpg&amp;w=1200&amp;op=resize" />
+      <description>&lt;img src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fcdn.content.foolcdn.com%2Fimages%2F1umn9qeh%2Fproduction%2Fa84f0ac2e3283dd050e03bb09ed66bcd951600db-1200x801.jpg&amp;amp;w=1200&amp;amp;op=resize" alt="" /&gt; Not Nvidia. Not AMD. This Is the Best Artificial Intelligence (AI) Stock to Buy in November The Motley Fool</description>
+    </item>
+    <item>
+      <title>Microsoft’s AI Agent Gatekeeper Draws OpenAI, Anthropic and Meta - Microsoft (NASDAQ:MSFT) - Benzinga</title>
+      <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0t1WGo1ZEJfVnRkMUUzbzJUdVdJRG5BYVVRdDRBa2xNbFpIand2MGt1Qng1VHBLbGlfMEVxLXhlN2F5dG5FVWpfdFRvVFh2NE0wLThDQVFtV3ZyODJ6Ui00end4TWVTdmdJcFNKYUJWbGlEZ2dVMGdPanotM2lwUU1XamsteTdLbFFObFlrZHRqaTA1a1lVSVM1Vy1SZ3o0eHZOYUxLQVp2RTNZU3hrbGJCYw?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 07:13:07 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
+      <guid isPermaLink="false">urn:sha256:3ec30035855a2364fe51c59ca202340dd8f0a379373a68fd475daf607b0a2ac0</guid>
+      <description>Microsoft’s AI Agent Gatekeeper Draws OpenAI, Anthropic and Meta - Microsoft (NASDAQ:MSFT) Benzinga</description>
+    </item>
+    <item>
+      <title>At least S$1.3 million lost in October to scammers impersonating Simba staff members, government officials - CNA</title>
+      <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxNaDYwZXBaN0F0ckJfY2lHMmhjYW83N3Q4VVUtdmlRRUlJSDRlTFZwYkx6VHBDMUxMOFg3UFJkVkxtdnJIYkxLcXN1eUh6djZZODc5TmZIM1AyUzZSTFFSQ25INWFzaXVLZHZ2cVptXzBta0M3TV9xdmZncV91bzhrM09GSWpEVWViMEtQN0x6TWxJWDk0R1hXYXIwdjhUOEdfemcycnRaY0dwTEVXX0I2TA?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 07:01:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:af8a31e16fefbe1d118401fc01b220b98f4ef50710f022972fb82ef6e61d704a</guid>
+      <media:thumbnail url="https://dam.mediacorp.sg/image/upload/s--oFjWmSEL--/c_crop,h_704,w_1253,x_1,y_0/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/cna/image/2026/09/21/istock-2221352760.jpg?itok=ARGiuLjg" />
+      <description>&lt;img src="https://dam.mediacorp.sg/image/upload/s--oFjWmSEL--/c_crop,h_704,w_1253,x_1,y_0/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/cna/image/2026/09/21/istock-2221352760.jpg?itok=ARGiuLjg" alt="" /&gt; At least S$1.3 million lost in October to scammers impersonating Simba staff members, government officials CNA</description>
+    </item>
+    <item>
+      <title>My therapist is AI - Artificial intelligence and psychotherapy - DW.com</title>
+      <link>https://news.google.com/rss/articles/CBMingFBVV95cUxNWTZ4bDFBcU91OU5tcDh2V1IwOWUtc1dOXzlLenVqcUR4cTQtd05DVVFIWEtIS3FMd0hSMXVBaHhQdHdYemZGdFpKb3BXZmNhcDhPUWhPTXhJX1RhU3F6MmZIWkdrN0ZISXhxMktzUUV4bWRyVUFZNUtsVzZEZlFZZGNXSld1UGpUSFp0N2cwSmlDSzBFb3VjZnR1bmlRQQ?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 06:51:43 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:fb88eedfaef0ab8ff7f4627b3857d32705db3925c625cec6fca33653333e8429</guid>
+      <media:thumbnail url="https://static.dw.com/image/79725968_6.jpg" />
+      <description>&lt;img src="https://static.dw.com/image/79725968_6.jpg" alt="" /&gt; My therapist is AI - Artificial intelligence and psychotherapy DW.com</description>
+    </item>
+    <item>
+      <title>New AI tool annotates single-cell data with far fewer labels - Bioengineer.org</title>
+      <link>https://news.google.com/rss/articles/CBMijgFBVV95cUxNMjlNR3g4cHk5U2tpaWdFdDNncHdPU2NUTGxsQlNmb3VuS21vZURQT053UkFtOVJLcUpIVjZ2eFpUNkpldUplVW05eERyZnN1UjJmRG9YOHB0dlRjV0pvN3hycndhc3hwSlVnNUZKZm5UZGhEMnhqUHJrVDlGOWY3dk9BNU84WEZKUmVoZkxR?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 06:37:48 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
+      <guid isPermaLink="false">urn:sha256:bceefeaed433d234f960de7f23c71f273429329468fca58a9678dc69e0412cf0</guid>
+      <media:thumbnail url="https://bioengineer.org/wp-content/uploads/2026/10/stackrss-featured-21557.png" />
+      <description>&lt;img src="https://bioengineer.org/wp-content/uploads/2026/10/stackrss-featured-21557.png" alt="" /&gt; New AI tool annotates single-cell data with far fewer labels Bioengineer.org</description>
+    </item>
+    <item>
+      <title>At 12, he built an AI tool to forecast earthquake aftershocks and won a national award - India Today</title>
+      <link>https://news.google.com/rss/articles/CBMi-wFBVV95cUxNcGVibG15SV9tZWtRVE9PR0d0T0xtNlV6VlAtei05UXZJSy03RjFNcDBCWktRY2k1REJaUEZjNndFNkg2Mm02RTFYaUFmUDY1TXN1NkVZVWlkYzJwX0x1TEpkdlVlT3ZmRy1VS0N3Y1QxSm9NN1hDSHU2TmtHdEtUcmk0aDI3NGhRcjcySUZQaGRHUFVzenZ1U0FpeDZTd2VXUW1TaHVxWWd0d3NDZTBBMWFLYl9nRnZRdmFOb1kzOGRPX2doY3J5Q0dhOEduQmh0c0I3aEFDcHhiSzM4RVgxSDBkSTlYR1pSbGRVVEVRX212a2I0TXpQcGdoSdIBgAJBVV95cUxPWGN5bUNuZEpHZGt1WTRfbHNnZlhEaHRwaTc2eUZsZWxnUmIyaFdkcUdIYnZzVE4tLXc5U0g3REhKYmR2ZUxLeVdkWllkRFNHcHJkY3piWGMxbFY1ekFTLWY2eXMwX2tOYU84QUZpYURKb2t5YTk4TURXU2FrSjNhUGFCamNxSHBpcjF1MFdEUjN0eXhMb2Rha3dsZDhQVDlUNE9nODN4cE9UVy0td1RCUU1vb25YdVVTelJNSmdjRUN5ckRWcVJSMEVVcVJQRlphTFBuRVBTVVNiZDdhNWtwUk9YS2pwRjBEclZxdkRGOUZJMmQ4TVBqQnZmYXJHOGxY?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 06:25:16 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
+      <guid isPermaLink="false">urn:sha256:6bbb3664424ba01929bdcd1400e1d816031dba49a847ca2fc73e23eb3d8a0c37</guid>
+      <media:thumbnail url="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/california-seventh-grader-bowen-wang-has-built-an-ai-tool-to-forecast-earthquake-aftershocks-and-won-292140729-16x9_0.png?VersionId=I096VuFsBUczIRB1MPE6U4ncbNePsCi9" />
+      <description>&lt;img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/california-seventh-grader-bowen-wang-has-built-an-ai-tool-to-forecast-earthquake-aftershocks-and-won-292140729-16x9_0.png?VersionId=I096VuFsBUczIRB1MPE6U4ncbNePsCi9" alt="" /&gt; At 12, he built an AI tool to forecast earthquake aftershocks and won a national award India Today</description>
+    </item>
+    <item>
+      <title>Spacetalk Reports 20% Mobile Subscriber Growth to 61.4k, TPG Telecom Deals and UK Telco MOU in September Quarter - Kalkine</title>
+      <link>https://news.google.com/rss/articles/CBMi5gFBVV95cUxQc1E5ajJtMl9MSDJSdFU2QnpFMEZ1ajFhVUtDVTFnVXFzb1paMlE4R3J0VzdndjJmY1pmai1GVUFuRkplbFNkM28zRzlkdTl6c000X09oSU1oOHN0SERudjZwdHN2UDFXT3g0YVVBLS1tbER4X0pmSl9KOEpIdWtVbUk3SnBhOWlEajAybXlVb3FBRXE3SGc4UUJjbEZyRTlZZVhqU1BCQUxZc0RhdTJjOEgtZXUzZFNzMU9qTE82TW1uTk5xbGxibTl0MzNCbnhvdmI4M09lcDhHdzNNOUlya25WdmR6dw?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 06:16:16 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:990836708338eb694fa3fb0ff58c050f92ba291ca3439a1cab0fa66b36bc3d42</guid>
+      <description>Spacetalk Reports 20% Mobile Subscriber Growth to 61.4k, TPG Telecom Deals and UK Telco MOU in September Quarter Kalkine</description>
+    </item>
+    <item>
+      <title>Yritysten tulee monistaa jo todistetusti toimivat tekoälyideat - Tivi</title>
+      <link>https://news.google.com/rss/articles/CBMic0FVX3lxTE9fUGVRTk1SMk9abTFIOUd3UGM1dG1Cd0k5VHNNSXdzOGNLaEJGRXlPRGNzc3V3U0lxTzkwb0RGcEphTDd5ZWVvOG81V0gzRDcxcUszZGpIT3AwSHZER3FTVEdVY1hBNkF6QlVBdFVMdGpZSHM?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 05:44:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
+      <guid isPermaLink="false">urn:sha256:01cff347ae9b9f80edfe85bbccdab16488035d447f237627eb5953b03f6ead79</guid>
+      <media:thumbnail url="https://images.almatalent.fi/cx0,cy195,cw3000,ch1687,1200x/https://assets.almatalent.fi/image/86a15433-7dc4-51a7-a0e4-cf9d1cdc041d" />
+      <description>&lt;img src="https://images.almatalent.fi/cx0,cy195,cw3000,ch1687,1200x/https://assets.almatalent.fi/image/86a15433-7dc4-51a7-a0e4-cf9d1cdc041d" alt="" /&gt; Yritysten tulee monistaa jo todistetusti toimivat tekoälyideat Tivi</description>
+    </item>
+    <item>
+      <title>Morning Bid: In the AI alphabet, cash is king - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMif0FVX3lxTE1aU3ptejJzYnZUak01eEhoclJrM1FJUUVIUjJUb0FyTGJZTGhjR0pkb1VuYlB3eXhnN2tBUXFNbmp3S2xtRUN1Mmtpd19NdDU5WkRlWUJ4bkRGdlp3aUNfNGxRNTZENW5VQUQxQTMtRENoXzE1MG13eXNPaVo3cXc?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 05:32:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:db13733a71455a0e9fa220b8fde99eefb2d95a068a0d3ee0e7f7f421e80120df</guid>
+      <description>Morning Bid: In the AI alphabet, cash is king Reuters</description>
+    </item>
+    <item>
+      <title>Auckland residents unable to stop telco towers being built near their properties - RNZ</title>
+      <link>https://news.google.com/rss/articles/CBMizAFBVV95cUxQUk1MbjlEcTVKcmtuU2JubEdSdEZTdVJHZUg2b2JNWWVwOF9DbVJHelVjdTJnZDc1RDRWSjhYUTh2ZFVqb0VWazgxZk5sZjBxNTU1Y2I4M3BDWFViaEhLbWlHVDJ4dXFCcUVuSVBKaHRTYnlkUV9sd0tfWGo4VWZDeVptd21nbkdDZTB5eWF5ZEw1UFhYdmJQWlluLTgxa0FMOVRreFV5eHN5ZHJyUHBfQjlUcmNpbmI1bW5ObTAteXEtY1lEdlpRUnB0cjY?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 05:30:46 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:419b570cd4e358c05eb6e96cbf49ea04e1b8211db95df668277008ed1fecf5fa</guid>
+      <media:thumbnail url="https://media.rnztools.nz/rnz/image/upload/s--IqOh0PZj--/t_tohu-badge-facebook/f_auto/q_auto/4JG1Z7P_20261028_121923_jpg" />
+      <description>&lt;img src="https://media.rnztools.nz/rnz/image/upload/s--IqOh0PZj--/t_tohu-badge-facebook/f_auto/q_auto/4JG1Z7P_20261028_121923_jpg" alt="" /&gt; Auckland residents unable to stop telco towers being built near their properties RNZ</description>
+    </item>
+    <item>
+      <title>ASX 200 Telco Spark New Zealand (ASX:SPK): What to Watch Before Its AGM - Kalkine Media</title>
+      <link>https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjdmaVpQM28wMU55MS04OVZxNEdFcExNOTN2REFaNFYtZC1Mdmx5Rk9aaS1aa1hoM1dBQnFOb0RpOS03WnJVSzBUbm1ieFZ3V2E1UEVRdnVtR01rZl9qU0p2RlFBVTZwNGFYbDNUTUhQZ21KeVFhby1BVDJ3T1ZKaEFQNDFEYWg2ODJtbnVQc3pYWVBaUkNKWHpURUNCczBZVHRfM0dfbnRMRzNKSlRRaHR0TjZHM1U?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 05:10:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:245fda1fe7dabd4827d3740e501cfc97c5ff499cb91b6d4e8146a0276118776b</guid>
+      <media:thumbnail url="https://kalkinemedia.com/storage/uploads/original/Telecomm,_10_29_2026_05_10_24_427254.jpg" />
+      <description>&lt;img src="https://kalkinemedia.com/storage/uploads/original/Telecomm,_10_29_2026_05_10_24_427254.jpg" alt="" /&gt; ASX 200 Telco Spark New Zealand (ASX:SPK): What to Watch Before Its AGM Kalkine Media</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence at Work - Vantage Data Centers</title>
+      <link>https://news.google.com/rss/articles/CBMimAJBVV95cUxOb3F0NmxzZnd1NDFlc1FxUF8tTDlEYjNGMVp0YTlVVi1uVHFtTDFoSF9WSUdzb0JPOEJTV0RKSTdiTWtFVktYNVU2azEzalh0ZGQ5R0xGMUgwZldTeEMwM0RYN205a3BqeEtHYlNKdEZyV3FSU3B5ZGVJVEF2Tk5hWk1acDZDdEpCYmdCd3NKM20yLXJKODRsY0c0cjZ2YXhZZUNQZE8zUTVSdW96Y2lQbWxzNE50LTBGRjZ5SG55T0ktNkItX0c4Q0NzUWZRLVpDXzFYeFJMUjVuUFNWUHBLdDh0VXV5anZGUXZpLWZqeURxUzlwTGpOWjBLbUVVaG94V2JiSjIyODU3bzZOMndyMlUtUXJfdUo1?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 04:58:59 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:39825e0ae42f26c5728eb997ac18a3f7a412816c5153bbe505c71789df7cb685</guid>
+      <description>Artificial Intelligence at Work Vantage Data Centers</description>
+    </item>
+    <item>
+      <title>Jio at 5th Place on World Telco Leaderboard - TradingView</title>
+      <link>https://news.google.com/rss/articles/CBMiogFBVV95cUxPWXlfem5FYVVxRGZicjlkZEUzMGxkLVpsal9fVGExSm9kYzdSUVNua1RMZ3RpSy1LcGF4NjZDOF9SNWxzelNuN3lQY0o5MHlVcEVSMTRaemhQMXdTeGQ5VG1GRkdxVEx6d3JjUENESDFJVVN6SVBqUUNoa0M5bTJvOU1pcVg5bVhTRHIwWUxqbnhTMDUzcjhvaThjZXRDTUNBWGc?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 04:13:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:9542a1ea96accbb3a511f936c7721341a622342898c9381b7bf92bc99708be14</guid>
+      <media:thumbnail url="https://static.tradingview.com/static/images/logo-preview.png" />
+      <description>&lt;img src="https://static.tradingview.com/static/images/logo-preview.png" alt="" /&gt; Jio at 5th Place on World Telco Leaderboard TradingView</description>
+    </item>
+    <item>
+      <title>Telco towers could be built near residents without consent - RNZ</title>
+      <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxQWjhNSk1WekRtTDZWdWhTbHlUWndsS3RveHVvR1dqQ1ZRMFZtMXJGVmM2WndSOTFzX2Y2SHNuaDN6N1B6ZFVKZmRHTUxDTE1RN19FMnkyM2piT0FocHlpWHprZVJWbTQxNWZFa1BENHRUdkFMa1c1eDZLbFZldm9xUE41VmtkTVVZWG9fQkxaSk50bUF5YjNDeHRUX1hLb3Qxem9XR1QzMmRuaGw3TUxjMW9GYnZGVW5zbXhGYzJPWHJPN1haVk8w?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 04:11:36 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:8f95686b7e2e86f920a7bfe68a2b61ac573aa561a9a3b59b6b54705102b46860</guid>
+      <media:thumbnail url="https://media.rnztools.nz/rnz/image/upload/s--Di2MK9xE--/c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1792701996/4JGBFMO_checkpoint_external_cover_jun_2026_png?_a=BACCd2AD" />
+      <description>&lt;img src="https://media.rnztools.nz/rnz/image/upload/s--Di2MK9xE--/c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1792701996/4JGBFMO_checkpoint_external_cover_jun_2026_png?_a=BACCd2AD" alt="" /&gt; Telco towers could be built near residents without consent RNZ</description>
+    </item>
+    <item>
+      <title>"Työntekijöille pitää antaa aikaa tekoälykokeiluihin" – Pilotit on syytä pitää nopeina, Tiedolla ajatellaan - Tivi</title>
+      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTE42RnFEVENxV1JCbnRlSmFUdFRXUG1yMlY3VWZwOEE1OTJFb0Rld21DM0lkZ2RJTW1sLW5HaF9FQjBuMnFYczktR2pER2NKVUVZZ0VlWF9HaHNVV3dsMUZIby14SnYyY2c4cUcySmRXdGM2YUg2?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 04:00:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
+      <guid isPermaLink="false">urn:sha256:9229d7c8689dd2dac7e80eb1459ce5b970425b78d44c7988ddbf0dbf878962b2</guid>
+      <media:thumbnail url="https://images.almatalent.fi/cx0,cy157,cw3000,ch1686,1200x/https://assets.almatalent.fi/image/7977fb80-f5ce-5d5e-937c-e51eefbc44ff" />
+      <description>&lt;img src="https://images.almatalent.fi/cx0,cy157,cw3000,ch1686,1200x/https://assets.almatalent.fi/image/7977fb80-f5ce-5d5e-937c-e51eefbc44ff" alt="" /&gt; &amp;quot;Työntekijöille pitää antaa aikaa tekoälykokeiluihin&amp;quot; – Pilotit on syytä pitää nopeina, Tiedolla ajatellaan Tivi</description>
+    </item>
+    <item>
+      <title>CelcomDigi AiX: Enabling Industry Transformation With AI And 5G - BusinessToday Malaysia</title>
+      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMFZEdEJFR2Q3aW5WbU9MLWh1c0d0c1hGQkNzVFY2Z0ZiTDhLSkw1Qkh5dlFxRmZGRnNqdGpfSWVYZGZFeXRPRHd6TENfQVJoVlk0YWJ3anFWSDFjczgxckxCNnhsSlk5M2ZlS01sMW0xbWFtdHRiMkwwWEhvUGpjSWFWamFYQzBqYlo0ZGVjYVJmcGsyV21SSW9iMy1BZ2kxdmVxNGF3N2N6NGs?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 03:30:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
+      <guid isPermaLink="false">urn:sha256:84dfce10ab6e5c29bbbc23e3ac68c192b9626f4f22f63690e88330c903e816d3</guid>
+      <description>CelcomDigi AiX: Enabling Industry Transformation With AI And 5G BusinessToday Malaysia</description>
+    </item>
+    <item>
+      <title>Chinese AI model carries out complex cyberattacks in controlled tests, researchers say - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMixAFBVV95cUxQVE5MN2Rib1hrX3Z1VDhFWlZiSTUyc0oydVhxNW5OZ1RBOElfamxQWUVBcTFyd3NVbmxBNjd3QW9sYll4U1lfUDE5bGJMVXZXZW1CVS1NV3FHaTFSQ3VCanUtYXZRcm1ZWnJCazBzUWVCakZLaUVoTV9MV1BCblBzeWlIX3A2OWNiNXdYRG5JSlYwakpZdDdRUjdYajQtcXBERVdJSHYyRVIyT0lLOEIxVGg2WnFmREM2LWp5ajA3aVIxTUVx?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 03:28:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:dbc659959c59b339e5c69bf4f9c4ed4b1c1e0acdd7ac1c68ba083c40388bf22e</guid>
+      <description>Chinese AI model carries out complex cyberattacks in controlled tests, researchers say Reuters</description>
+    </item>
+    <item>
+      <title>FILE PHOTO: FILE PHOTO: An AI (Artificial Intelligence) sign is seen at the World Artificial Intelligence Conference (WAIC) in Shanghai - The Daily News | Texas' Oldest Newspaper</title>
+      <link>https://news.google.com/rss/articles/CBMikAJBVV95cUxNdTVwTHhOT1hYcGRDeDV5TXdLMVg3VDRnQjRXZWk2ZXNiVUZVQlVGTnNhRUcyRVBqXzJEVXk1WGFhTmJrUEoyNjQ4dktZZkp4dlZiaE9tLUhsTUd3Q0NWSkZVZGltQ09NZzUzcDhrWFQwMktqM2NmaTdpMzlpMm9vd0w5ekgzM2hscGt3YmNjRTdGR3NyUlRLRlRyX1U0VnJOODJaN0tGNWhiTlVaSllhYTI2ZzIyd3JFWmxtQkhJUnVLYTJtaFlQOXdmR2VNM1pHSDN6eXRaWDBRcTlOVlI4T1RiTUFGcmVEYkYtWUpNWkVCRUdmSDNGc19GYW1UOEpKM25vQUxsWGoxTTg5XzF1TA?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 02:55:32 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
+      <guid isPermaLink="false">urn:sha256:c728e4980e5a5a1e4e80a930948baaa3710aa84629e8149fadafa5f86000c588</guid>
+      <media:thumbnail url="https://bloximages.newyork1.vip.townnews.com/galvnews.com/content/tncms/assets/v3/editorial/8/3c/83c196c2-4aca-5013-93fe-e1cff7b25db1/6ae2b3eae7047.image.jpg?crop=800%2C420%2C0%2C56" />
+      <description>&lt;img src="https://bloximages.newyork1.vip.townnews.com/galvnews.com/content/tncms/assets/v3/editorial/8/3c/83c196c2-4aca-5013-93fe-e1cff7b25db1/6ae2b3eae7047.image.jpg?crop=800%2C420%2C0%2C56" alt="" /&gt; FILE PHOTO: FILE PHOTO: An AI (Artificial Intelligence) sign is seen at the World Artificial Intelligence Conference (WAIC) in Shanghai The Daily News | Texas&amp;#x27; Oldest Newspaper</description>
+    </item>
+    <item>
+      <title>Can ASX 300 Telco oOh!media (ASX:OML) Close Its Takeover After the GPT Win? - Kalkine Media</title>
+      <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdTZ2ZWo4SXhocUR2Q290MXN1TUo1ZlY1Q2F6TjFPV0o1cXNvWmxnbXRDckN0SWRjd2RaZ3VMS3FmUjJBdC12dE5tdndxYnpTWGJETjZvbGxNc2M5ZUZtekIybGtDckNYOXJuXzhfTUh5cXJnYVFfd21lYmtpTEcza3B5ZmlveHFXYWZKRVNWMzRqODl0VkotUEdqbnRCRmJTeWwtMnZ3LXFMSEJTeUMxeTRNTk9sZzRuZjl3?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 02:00:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:ced0517545952e1bf2ccdf43f3fda67fb88ea1b0db2f7209fb9adae909fe5a96</guid>
+      <media:thumbnail url="https://kalkinemedia.com/storage/uploads/original/Telecommm_10_29_2026_02_00_18_625706.jpg" />
+      <description>&lt;img src="https://kalkinemedia.com/storage/uploads/original/Telecommm_10_29_2026_02_00_18_625706.jpg" alt="" /&gt; Can ASX 300 Telco oOh!media (ASX:OML) Close Its Takeover After the GPT Win? Kalkine Media</description>
+    </item>
+    <item>
+      <title>Is All Ordinaries Telco Southern Cross Media (ASX:SXL) Facing a Longer Ad Slump? - Kalkine Media</title>
+      <link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR0lzcVFtd2RSM0RoUG5RT0J0ZU5rNlRDVVROS29YWG96cEh5TWFxTm9BdlBSTWt4cmJzQUxuN0xBZXRtSUYwZWZUWkxiWDJvbzQyN0NLd1JQUk5DdGd0YlFMY1ZXZEpldnRKcURyUGVOWVpUQjd4T3dHcWZKQ2pHcnAycTkzam0wWWFMTVJjcHRYNk1PZkZWTnBVVGI0NUhTYUVqNWh6QTM0amZyQmpGVzA1MFpmaFZrdE9MOVY5UTdwQTQ?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 02:00:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:64bbfd04119309a8bd531207b5251ce48e2b6881dc1ae1761f2158c1cb414468</guid>
+      <media:thumbnail url="https://kalkinemedia.com/storage/uploads/original/shutterstock_2457077847_10_29_2026_02_00_11_716030.jpg" />
+      <description>&lt;img src="https://kalkinemedia.com/storage/uploads/original/shutterstock_2457077847_10_29_2026_02_00_11_716030.jpg" alt="" /&gt; Is All Ordinaries Telco Southern Cross Media (ASX:SXL) Facing a Longer Ad Slump? Kalkine Media</description>
+    </item>
+    <item>
+      <title>Why Did ASX 200 Telco TPG Telecom (ASX:TPG) Slide on the SpaceX Spectrum Deal? - Kalkine Media</title>
+      <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT3JWVDFnSmpNM0xtVXplVXhWU0N5WDVUQWhQNjhrcE9ub09wTGhFTjhja1BXWVZGSFBMRGFIWG1jaGFwTUpuRXR2VHlSSFByTVlnSkctUEJPSWU3bnYzX2JvQTFfbTRfSC03cjVOTDFCeVVGdVZZX1U2ZHdpMHlpVy1FREpIblg0RkNwQjA5V2tMZnA2c1dpNnc1LTF4Y2pQOV8yWWpBNDBsb3NwZ3lxZ3ZYQW4wT05GNUY4Mmd4UEQ?oc=5</link>
+      <pubDate>Thu, 29 Oct 2026 01:59:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
+      <guid isPermaLink="false">urn:sha256:f5f0e797d7aca0cd32a4c801ff2a46e1126fe82beddd1d6e292c303839ec7a12</guid>
+      <media:thumbnail url="https://kalkinemedia.com/storage/uploads/original/5G_10_29_2026_02_00_02_147881.jpg" />
+      <description>&lt;img src="https://kalkinemedia.com/storage/uploads/original/5G_10_29_2026_02_00_02_147881.jpg" alt="" /&gt; Why Did ASX 200 Telco TPG Telecom (ASX:TPG) Slide on the SpaceX Spectrum Deal? Kalkine Media</description>
+    </item>
+    <item>
+      <title>Google "Carbon" just won everything...</title>
+      <link>https://www.youtube.com/watch?v=zhnJo7s91ls</link>
+      <pubDate>Thu, 29 Oct 2026 00:29:20 GMT</pubDate>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA">Matthew Berman</source>
+      <guid isPermaLink="false">urn:sha256:d3ada85a0e6db2a72306bae3c31187ea3da25ed73f9b9e76f8c7ed8f9bcbc214</guid>
+      <media:thumbnail url="https://i3.ytimg.com/vi/zhnJo7s91ls/hqdefault.jpg" />
+      <description>&lt;img src="https://i3.ytimg.com/vi/zhnJo7s91ls/hqdefault.jpg" alt="" /&gt; </description>
+    </item>
+    <item>
+      <title>OpenAI, Oracle, hand AI keys to the business - Gadget</title>
+      <link>https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TNWtmakZnSUt3Nnk4TEJlelZldGlWaklMWUwzc2k5SHpYS3cwTnBwcjJjalRYZmpxTFJkd3R2emNDU2xXSjV5OFJibjBGUdIBVkFVX3lxTFBsOG9HNDh2ZTMyT2hjVW5GZEw5SUJ2NnZIQmJHRjFNNC0zcXFLZmgyeWxVTnZNOVZ0NnY1M2pObUlGSU1YUnl0Q0hUdHZkdnpmUkdxUDFR?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 23:00:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
+      <guid isPermaLink="false">urn:sha256:29ba2108cf5cdbf2bf67500b4c87a7e2250127853af0f7038b43b716e75589d5</guid>
+      <media:thumbnail url="https://i0.wp.com/gadget.co.za/wp-content/uploads/2026/10/OracleClaySam1-1.webp?resize=1000%2C600&amp;ssl=1" />
+      <description>&lt;img src="https://i0.wp.com/gadget.co.za/wp-content/uploads/2026/10/OracleClaySam1-1.webp?resize=1000%2C600&amp;amp;ssl=1" alt="" /&gt; OpenAI, Oracle, hand AI keys to the business Gadget</description>
+    </item>
+    <item>
+      <title>Google announces Gemini 4 Carbon</title>
+      <link>https://www.youtube.com/shorts/3yZb9rGt-rk</link>
+      <pubDate>Wed, 28 Oct 2026 22:20:44 GMT</pubDate>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA">Matthew Berman</source>
+      <guid isPermaLink="false">urn:sha256:4886be1957ed09d79b340297f87f9e62c05cbdfbff2832985a83af5ed200c6ee</guid>
+      <media:thumbnail url="https://i4.ytimg.com/vi/3yZb9rGt-rk/hqdefault.jpg" />
+      <description>&lt;img src="https://i4.ytimg.com/vi/3yZb9rGt-rk/hqdefault.jpg" alt="" /&gt; </description>
+    </item>
+    <item>
+      <title>ServiceNow (NOW) Deepens Enterprise AI Workflow Push - Simply Wall St</title>
+      <link>https://news.google.com/rss/articles/CBMitwFBVV95cUxQVWxnem9PdkJMZUY0N2tWWUd1UFpVTGFzRDBib05acWpDS3RYN0tuRnJKVmY0Z1kxR3Z2OXk1MFJKY2hzdkxIdjVleGdWTVNiSm5LMTBSd3gyV0NfNF9sNVVoZE9WbmpmWlZzblktVWNaaFg4eG9nTVNxR3NwSEM4WGJHMXBrZWJCekN5QW9Ub2tyWW40bnlvMkNDV0hHWVg2R3huT2N3LVM2VDFTdk1aZWVGR2Rib0HSAbwBQVVfeXFMUEstTWFtdFlVTXJ5T0dZWVY2ZktSVU9ZX083c2FoeU93cmoyVWdWWWI1bkRIR0FXeF9uSUpLWkp2R1RoNUxqVVJ3cnhhMEkxZnZVbkdaRjVMTVAyYURpQ3liUk10dzVteDVTZ0ltd1U2dDVTNmdDcFlWa3p0eFlKRFhHa2I5RDRUS0xVcHRhVjRobU4wWFNfYkVCN0EzeE1sNktvRTEzMDBSUUlzcXVDX29NLUNmT05GWmNQOVY?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 19:30:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
+      <guid isPermaLink="false">urn:sha256:1f3de974304e6bc4c5e0a6df808e07139a2bec71e9e6393d2ce0f438e1fe4732</guid>
+      <media:thumbnail url="https://images.simplywall.st/asset/company-cover/22967487-card/1788945660330?w=1600&amp;h=900&amp;fit=cover" />
+      <description>&lt;img src="https://images.simplywall.st/asset/company-cover/22967487-card/1788945660330?w=1600&amp;amp;h=900&amp;amp;fit=cover" alt="" /&gt; ServiceNow (NOW) Deepens Enterprise AI Workflow Push Simply Wall St</description>
+    </item>
+    <item>
+      <title>His AI Made 20 Reels Before Breakfast</title>
+      <link>https://www.youtube.com/watch?v=AtjFk9f44HE</link>
+      <pubDate>Wed, 28 Oct 2026 19:25:38 GMT</pubDate>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g">Matt Wolfe</source>
+      <guid isPermaLink="false">urn:sha256:4b07ab318cd9d651d08ce367d9ae9504d262090fc3f0ecef3ea9a7454af82324</guid>
+      <media:thumbnail url="https://i2.ytimg.com/vi/AtjFk9f44HE/hqdefault.jpg" />
+      <description>&lt;img src="https://i2.ytimg.com/vi/AtjFk9f44HE/hqdefault.jpg" alt="" /&gt; </description>
+    </item>
+    <item>
+      <title>Anthropic just launched tools to show companies what their AI spending is buying - TechCrunch</title>
+      <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxORDlBbXhmcEdpSXhaQ1YyY0llV1JaU29fZzFvZ2xBdDZzdlEyVWhuR3k4QWpSQ196MXI1SUVVVlBzMER5ZUZHOUF6bVJYZVg5cXh1TTlOdWJWc2I4N0laSmpRNGg1Um1qQ05obkVPRDJiUm9lQks1WFdQdUp1SldtVV9PMnVicVRJcTlUMWQzZDFjbXZqS2lVU3hNeVBCb2FKdXV5YWNjZGdpUmY2TWs0ckxXdHgzZw?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 19:19:58 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
+      <guid isPermaLink="false">urn:sha256:8ddc3eea5fadd9dce6421623ea94a5d043f5daf6ebd7d28bbc284f2423f3dbf1</guid>
+      <media:thumbnail url="https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1080" />
+      <description>&lt;img src="https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1080" alt="" /&gt; Anthropic just launched tools to show companies what their AI spending is buying TechCrunch</description>
+    </item>
+    <item>
+      <title>Insane Interactive World Creator (Genie 4)</title>
+      <link>https://www.youtube.com/shorts/DZbCL56oz3M</link>
+      <pubDate>Wed, 28 Oct 2026 18:25:36 GMT</pubDate>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g">Matt Wolfe</source>
+      <guid isPermaLink="false">urn:sha256:91c28f597e53e45f5dcf59479641d51f5316d1b7d199aee302cda04569843552</guid>
+      <media:thumbnail url="https://i1.ytimg.com/vi/DZbCL56oz3M/hqdefault.jpg" />
+      <description>&lt;img src="https://i1.ytimg.com/vi/DZbCL56oz3M/hqdefault.jpg" alt="" /&gt; </description>
+    </item>
+    <item>
+      <title>The euro-sovereignty playbook: How telcos are transforming into trusted AI factories - CIO</title>
+      <link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZkNBa2M3WHFSdEx3VHdQQmtBZ1YtSkJGaS0yQmFUa0diMXhCdGlPWG91MlJJN25VdHpESjJQal9qTHBQMUtJVXdnTUlqUDJGZGdCUk40emdwTWpfUGxmeXU5a183aUxwUFBYSnZrUHB3U2VuYVFYRzI2MzduT0lJTzZRZHk4UUQyNUo0c04wcGRnSXFUT1dTdkdFaFZEZmZERTZjVmQzclN4YmNlSE45ODFNcXB2dThVdGx1TDU0cElXdw?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 17:37:16 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
+      <guid isPermaLink="false">urn:sha256:7fc99b8ea95ff143ac8756ce943d9b5a2af85c1c10564e8feda735bc0b3ebbcd</guid>
+      <media:thumbnail url="https://www.cio.com/wp-content/uploads/2026/10/4241805-0-18219100-1793208816-shutterstock_2723721871.jpg?quality=50&amp;strip=all&amp;w=1024" />
+      <description>&lt;img src="https://www.cio.com/wp-content/uploads/2026/10/4241805-0-18219100-1793208816-shutterstock_2723721871.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" alt="" /&gt; The euro-sovereignty playbook: How telcos are transforming into trusted AI factories CIO</description>
+    </item>
+    <item>
+      <title>Trumpin erikoiset nimeämiset jatkuvat: Haluaa kieltää sanan tekoäly - Tivi</title>
+      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTE5LR3VMLXJ0RjBXTlI0akUzbmMwSEZFY09yd1EtYWQ4QkROdDE1cktqSDdVYTN5NGJtZExzMmRMUVU1UzUyT3ktYlRfTl9DOWc2VWQ4N1ExanRodFJQLVQwY2c4SU10ZGs2N2o1YS1FQWdwZlVD?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 17:33:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
+      <guid isPermaLink="false">urn:sha256:e7647ae795aaf9af61ff1829d7ad05f3b78845fc6ab8576b8d9f4bbb63d5f139</guid>
+      <media:thumbnail url="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/4b34b4e1-49e5-529e-b66f-0713005f96f9" />
+      <description>&lt;img src="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/4b34b4e1-49e5-529e-b66f-0713005f96f9" alt="" /&gt; Trumpin erikoiset nimeämiset jatkuvat: Haluaa kieltää sanan tekoäly Tivi</description>
+    </item>
+    <item>
+      <title>OpenAI and ServiceNow expand partnership across enterprise workflows - OpenAI</title>
+      <link>https://news.google.com/rss/articles/CBMic0FVX3lxTFBXdEZ3OGhkclFyelppYjhRXzd3dW1mY05Va3hJQWZqWDBXeEJlOURCM2llMG5wV240bEo2bzJPdnNKbDh0a2dBQkRsU2ZCdG9MWHF0dC1YblduV0RKN1ZzY2pEQzdZZFhJdU91R0JUUXFKOUE?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 17:18:00 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
+      <guid isPermaLink="false">urn:sha256:699f973c2c7905c90bda4534eb232a71ecbeffa214b459a3d8a3eb49df1e8524</guid>
+      <description>OpenAI and ServiceNow expand partnership across enterprise workflows OpenAI</description>
     </item>
     <item>
       <title>How Telcos Can Monetize AI Using Three Strategic Advantages No Other Provider Has - Telecoms</title>
       <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxQWlBJOURBVGlOQVdWYzd5S3ZUVEVNbnViSVkzMmt1RTNFQjRMWUxKTjJ0ZlgyeWxWdmR6SExUWVVxLVlIVWttcnpuRnlYNG9XQmxvUURrYnQwMWxkbVM4enlBTkY5QllSVzVnUVpYQ1hWbFAtM2cxZGU0MHNNX1VaclhKMW9TMVB0VDVFYTY1bEEtSmtfZlFkVUtMMzRNRTlPTVAyc0YzZmtBSDNZTGc?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:24:41 GMT</pubDate>
+      <pubDate>Wed, 28 Oct 2026 15:25:06 GMT</pubDate>
       <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
       <guid isPermaLink="false">urn:sha256:235e401298c3117d485828106ec36a791b0f804dc261b549632e8629a8f5a704</guid>
       <description>How Telcos Can Monetize AI Using Three Strategic Advantages No Other Provider Has Telecoms</description>
-    </item>
-    <item>
-      <title>The Next Major M&amp;A Opportunity in Central America: Energy, Artificial Intelligence and Digital Infrastructure - Dentons</title>
-      <link>https://news.google.com/rss/articles/CBMitAFBVV95cUxOS1NiUXdzb0Yyek5Gemp6UG5xbUE5X2lnanFKOHVYSmxheEowZnViUTJTaFhPYXdHcG1PM0l3TS1BdjI0d0FPc0w5STJOTlBmcHJZVDdmTGxUVG9nWlc3cnNfVGxVY05QV2VDeG1teEc5RUl2MHI0UGY5ZkFuc1ZUa1RmMVpSeGp6enZFTjhHWURKSnNuNWhhZHBkN3BiNGVGdDJULWNYTHZ6dUZMS1dsWEh3OUE?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:23:52 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Artificial%20Intelligence&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Artificial Intelligence</source>
-      <guid isPermaLink="false">urn:sha256:e5ea63d00052ecedfbcdba808eee65b2b21b82a0c03898d941bc6ef6c351a675</guid>
-      <description>The Next Major M&amp;amp;A Opportunity in Central America: Energy, Artificial Intelligence and Digital Infrastructure Dentons</description>
-    </item>
-    <item>
-      <title>Red Eye Launches AI Tool to Help Missouri Voters Understand Ballot Measures - The Missouri Times -</title>
-      <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ1BGMWh3cGFjNUtpRXBNUTUwUHFNRmpTU01FaWo2T1dCdkh5eF84U25pYjZpb0VOYVlSZHA3dFZlWjI3TTM0eUJKTnpJUUlNWFpUMjZMRS1URU1lSVdob2w5WEM4QnA3SlFKRVJncF90Zng3WUNydFlqamxkZGR1TmpTM0lMSng5WFNTdkJNWkVnZm1PdVVDaWJkTk41YWFMQUtZY2gyVHg?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:21:03 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:e8066aa0d653c7bdd3d3c247f0cb36957d4595cf8c9416168c4acc43b717cb21</guid>
-      <media:thumbnail url="https://themissouritimes.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-10.19.10-AM.png" />
-      <description>&lt;img src="https://themissouritimes.com/wp-content/uploads/2026/10/Screenshot-2026-10-28-at-10.19.10-AM.png" alt="" /&gt; Red Eye Launches AI Tool to Help Missouri Voters Understand Ballot Measures The Missouri Times -</description>
-    </item>
-    <item>
-      <title>New £9.50 AI tool helps divorcing couples understand what they could be entitled to - EIN Presswire</title>
-      <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTGZjLWxxS1lSaVhWX2p4YmxMRFZ3Uk9lVGExdFVmdVAxT1QyVjFJUFlHeU5yODdkSE54cjhXQUZDLUVnU1dMZUNwcGxhTTg1VG5VZk1jVU1kblVocHNuazE2SnRxSXg2Nm9hVncxX29ZYUN4ZW1PMHpVRXh4T185d0tNNzRZTTJvZXdxV1lLdzlaQ2p1YkdJY3A4VVhxeW9yTU9tWkJNU3lVVjdXUll3aWtrLVV1STdTZ0hBRlQ4Q2VNd25wRmM5OQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:19:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:a3e0bde8b514b6808eda4e2bd69a77cc0777a0ca77d3bf8041ce7f3a50c0d658</guid>
-      <media:thumbnail url="https://img.einnews.com/facebook/1234737/ai-barrister-review-lady-using.png" />
-      <description>&lt;img src="https://img.einnews.com/facebook/1234737/ai-barrister-review-lady-using.png" alt="" /&gt; New £9.50 AI tool helps divorcing couples understand what they could be entitled to EIN Presswire</description>
-    </item>
-    <item>
-      <title>Artificial intelligence use doubles in rural Nebraska, poll shows - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE</title>
-      <link>https://news.google.com/rss/articles/CBMingFBVV95cUxQVDBlMmlsNGdXeUlYYXFpR3N1TW92S1lTamtLUnZmYVRWN21HdXF3OUVnRG1DWGNCcWlrcVBJZjR4RlpYVUR1cEtyRElndTJSVEdLTWxoSWR0UHNoVlFTZ0JoRVV5S3REYkNBSENLLUlZUE5RNmxvMnJDNnlYNi1FQnNuTHJsdGt0Y0VZNkVvYm41NXk0MDBEV1FXX0VPUdIBsgFBVV95cUxPSmZzaEdNQmowanVvV2ZWQWg4Z3drQ19xWmZJUzM3T3FZZzM4dkNXbkVPaHZOTGY0ckljdWNENFY1QURycWNRTFhHMFpGWWRIU2lNeFNMRTZsRG13MzIyMjZQNDhQdlIzcy0ySnc5MXFLbm1iTTlXN05pWEJwWUpJZGhmZzVQaXZmR0FtTnJ4dnBuNmFpeFpBQ2FCUXpiTk8zVEhERi1xZko0blJ3cnNjQm93?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:17:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:8c4d8417b593533545ff3cb962a6030a9862dc1ec8a719198cebfb72c189dbf1</guid>
-      <media:thumbnail url="https://gray-koln-prod.gtv-cdn.com/resizer/v2/MRT77S7TKNCOLGWF6JP7KQN67Y.jpg?auth=da1039e22a81f0e5328dd76d26046de80a5d2f2559c464525a691efff8a43284&amp;width=1200&amp;height=600&amp;smart=true" />
-      <description>&lt;img src="https://gray-koln-prod.gtv-cdn.com/resizer/v2/MRT77S7TKNCOLGWF6JP7KQN67Y.jpg?auth=da1039e22a81f0e5328dd76d26046de80a5d2f2559c464525a691efff8a43284&amp;amp;width=1200&amp;amp;height=600&amp;amp;smart=true" alt="" /&gt; Artificial intelligence use doubles in rural Nebraska, poll shows KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE</description>
     </item>
     <item>
       <title>Oracle Advances Enterprise Security for the AI Era - HPCwire</title>
@@ -167,83 +403,12 @@
       <description>&lt;img src="https://www.hpcwire.com/aiwire/wp-content/uploads/sites/3/2019/07/Oracle-hq-building-shutterstock-1425817064.jpg" alt="" /&gt; Oracle Advances Enterprise Security for the AI Era HPCwire</description>
     </item>
     <item>
-      <title>AI Retinal Image Analysis Offers New Tool for Diabetic Nephropathy - Mirage News</title>
-      <link>https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaWNJaHI4YjVwWUROREtDNmZPOUZJeUhwQ0tKZUFXRzRFX1B6RUZPU09lZmtJRF9yOTlEVWl2WG5XOHUxYmRRRWstaVhZS3k3MmZNMlg1LTdseGE3QXVjWXRENUdKY0lJei0tZ3VCZ01HWTJzQTJ5SU01NExxOW5YLWVYc1BDYmJj?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:06:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:18bd790e4bc870a31832925beaeb9756ace661bf7de8f5ae04bd87834670700c</guid>
-      <media:thumbnail url="https://cdn1.miragenews.com/tmp_cache?cdn=images.unsplash.com%2Fphoto-1588600878108-578307a3cc9d%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26amp%3Bixlib%3Drb-1.2.1%26amp%3Bauto%3Dformat%26amp%3Bfit%3Dcrop%26amp%3Bw%3D755%26amp%3Bq%3D80" />
-      <description>&lt;img src="https://cdn1.miragenews.com/tmp_cache?cdn=images.unsplash.com%2Fphoto-1588600878108-578307a3cc9d%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26amp%3Bixlib%3Drb-1.2.1%26amp%3Bauto%3Dformat%26amp%3Bfit%3Dcrop%26amp%3Bw%3D755%26amp%3Bq%3D80" alt="" /&gt; AI Retinal Image Analysis Offers New Tool for Diabetic Nephropathy Mirage News</description>
-    </item>
-    <item>
-      <title>Why legal teams need an AI classification matrix - Lexology</title>
-      <link>https://news.google.com/rss/articles/CBMiigFBVV95cUxQT1BCWVJCanBtN3JBLVc5a0tXX1JZVFhCVWwxLTRUVVQ3d283NUFiandaWW13TnpIZFBpTm5CY013dm9UeGZ5eU5mS09wRzVOOFgwQXUyYVpRWWV5ZklCdERGT2tRZ1V3d0FvaUZyT3NqQmhEd0RGUE9YRkdTc0ZfOFZlUDFDaE85bXc?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 15:04:35 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:fb6d86158e51b9528ed753fe4c19a8e66bfcda9e7c2a048c22a55b1bd3c36879</guid>
-      <media:thumbnail url="https://www.lexology.com/images/share/lexology-social-media.png" />
-      <description>&lt;img src="https://www.lexology.com/images/share/lexology-social-media.png" alt="" /&gt; Why legal teams need an AI classification matrix Lexology</description>
-    </item>
-    <item>
-      <title>Travelers launches AI quoting tool for workers comp - Business Insurance</title>
-      <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxNV2g5QTZyTEJpaEZNZmMwQVhiNmtUU0FxdVd0d2hVMktuNzdGcm5PS0tDQl92N0lfc3ZBM0diSXk3WW5Wem5pandkX2NubFF4Sm8yTnJMZjRiRXJ1aFd2c1p1OHRHZ05nLXBucXFqQnV2NEVJVEUweEc3dXp0aFNaQzRLWWlNRmlOZldnOTdLSQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 14:38:05 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:58af0e34d5f9548f55827624ab015d9ea7c3c1c9851d7eeb9897927330c81588</guid>
-      <media:thumbnail url="https://www.businessinsurance.com/wp-content/uploads/2026/10/AI-files.jpeg" />
-      <description>&lt;img src="https://www.businessinsurance.com/wp-content/uploads/2026/10/AI-files.jpeg" alt="" /&gt; Travelers launches AI quoting tool for workers comp Business Insurance</description>
-    </item>
-    <item>
-      <title>Cybersecurity for Telcos: AI Scams, Old Threats and the Router Opportunity - Telecoms</title>
-      <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSGpRV3FYTWJ0Ym1GRVp1aWlFVl9hVVUtVmlfVFJMNGRXZUYwb3hrQm1rVzA0MFA3SkZUam1HYmQxRkJfUC1TcG1sLTRTd1A3MmFDckgwRm5mTjNMd1dUd0R3c0RtNmVkei1WWl9ob1g4enRQcGZvY3JtcDdSVzNZc0VwZVhCdHZjVTVMZ1NWMWc1b3lPTXJSM3JBcTdEdVNqeHZQSGJhQ2JiZw?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 14:27:13 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:dcb66ce7dd7268904cda2bb766580fb1a5566301d64d240a3024d8247ec443ca</guid>
-      <description>Cybersecurity for Telcos: AI Scams, Old Threats and the Router Opportunity Telecoms</description>
-    </item>
-    <item>
-      <title>Orange tests D2D appetite as Europe eyes satellite sovereignty - Telco Titans</title>
-      <link>https://news.google.com/rss/articles/CBMitwFBVV95cUxNaVNCZXVJSEJBaC1DdEgteDRWdnVVeW5HRUowTDg2aVpVaW1NWTROMVlhd19DWHlaakE1VXBmaUhrdWlGcFpNdlpkSVd3bENHWk5hMVU0UnN2dC02Mlp1V3FfN1BKcXl0dEk5d2h1NlFSZEtNdXhjQmZ5Vk5pVmEzcFV1c2pyemxKZi15U1JuRUVVUHVfZnV0TUlTTUFSYTRycXdMWUVVOERiZWdBUXFCTTdiYWkyLWM?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 14:14:47 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:45ba3aa6865e88c6d4c6724a6f04eb1166974b7e6ac21dcd5777f0e020847281</guid>
-      <media:thumbnail url="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/1/6/2/19162_orw.2026.10.28d2d_774988_crop.jpg" />
-      <description>&lt;img src="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/1/6/2/19162_orw.2026.10.28d2d_774988_crop.jpg" alt="" /&gt; Orange tests D2D appetite as Europe eyes satellite sovereignty Telco Titans</description>
-    </item>
-    <item>
-      <title>Journalists in Ohio withhold bylines over journalistic integrity concerns with USA TODAY Co. AI tool - The NewsGuild - CWA</title>
-      <link>https://news.google.com/rss/articles/CBMivwFBVV95cUxPS3BzRllneEVIRFpCdVBLQ0xtZjFvS0ZldlJpQVBMVTVldDZLUVFUc2ROaDJ3OHFUYkJpOXY4LS1YU19uOFRVVWNIaWt0RXNMME9nYTQ1R25ySjhXUUdscmx0WXdwb2Z6VHd5QmFxdmljbkhDdXBHU0dGaHNQMjFhbEJGckJ0MWpCc0NjUzd2b0JuaTc1U0FBNjZCTXFLVGlvOWVoMFRtZHRTeUdzQzdfSDBuM29EOUhQcDlLVFZXTQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 14:09:24 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=AI%20tool%20OR%20generative%20AI%20tool&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI tool OR generative AI tool</source>
-      <guid isPermaLink="false">urn:sha256:a742b489a29aed37b35ead4db8ddca9dedf8d6ea4568383a1a072b0fe8902984</guid>
-      <media:thumbnail url="https://newsguild.org/wp-content/uploads/2026/10/USAT-byline-web.png" />
-      <description>&lt;img src="https://newsguild.org/wp-content/uploads/2026/10/USAT-byline-web.png" alt="" /&gt; Journalists in Ohio withhold bylines over journalistic integrity concerns with USA TODAY Co. AI tool The NewsGuild - CWA</description>
-    </item>
-    <item>
       <title>AI Is Finding a Flood of Bugs, and Silicon Valley Is Rushing to Fix Them - The New York Times</title>
       <link>https://news.google.com/rss/articles/CBMifkFVX3lxTE1YaHMzZ0xHaXZJclUyQTNaV21kT28yQVNMWk1oaTNENVZQUkFzSjJWTllSMVdKM1dKZU1kUGpHTnBRTUp5czRSS2h5ZUg2ZlJ2cE9adDhOaWRhN1MyaENXazlvWm8zMnhuOFZzQ0F1SkVLMnIwb0hKTzNmY1VSUQ?oc=5</link>
       <pubDate>Wed, 28 Oct 2026 13:40:03 GMT</pubDate>
       <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
       <guid isPermaLink="false">urn:sha256:2e12a5c3f2149072a8dab238fa1da91a142312f5f69a92dc3ea846de12f4c029</guid>
       <description>AI Is Finding a Flood of Bugs, and Silicon Valley Is Rushing to Fix Them The New York Times</description>
-    </item>
-    <item>
-      <title>EY-Parthenon: in face of disruption, telcos must think differently about differentiation - Telco Titans</title>
-      <link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQnRIMmZaeTNNVXI1ZGNXQUZlWlctTkpUVlNCRDdNa2VaQlp2eGFHREY4N2dVOGRvQnpxeDBpd0ZvaGZod0NBSmhpdGRPU2F0d2tQMWZsajE4OEJxQ3REYlBoS2dtcFZSR1pGR2lmeWdPS2ZnanZBTjZNeURGdDNxY3FSRnFrVE9SOFBmSjhiQXVWY3lLVGhzTi0zNXB5OWc1SW9acTJzWlNSVTNLMFVxTTJDM1VlSjFLRG92MzkxcVdzYjAtQmhZbUVhU2JYbnVGZ0RwZQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 12:34:22 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:38425105a56c481030aebcc6c22cab2eecb39469f98b19da72bc51dd4965def5</guid>
-      <media:thumbnail url="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/8/7/3/18873_tt2026.09eyparthenon_340213.jpg" />
-      <description>&lt;img src="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/8/7/3/18873_tt2026.09eyparthenon_340213.jpg" alt="" /&gt; EY-Parthenon: in face of disruption, telcos must think differently about differentiation Telco Titans</description>
-    </item>
-    <item>
-      <title>BCE Sells 49.9% Stake in Bell’s Tower Assets to La Caisse - Telco Magazine</title>
-      <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxQcjJSbmFHMzh2VzhuVVpMVE9wWFdVWDFaOUV6SDdzU3VyYzI1LVd3bHE0TE96VFdRWTcyQ1o2dVFDY0VfWmh2WThWRGc2YW81NzhmRXFES3F6Vkh6a2ZKRm9YQkZ5LW5iRkNhNDJQeFZEd2hXeS1TakVhOFdTOXRYcXFJeFZfcjBjTWdVcWtRRQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 12:25:20 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:de8829e567ff50ed5916180c6c1a13f3b48722a444891d720e1fbec8fa051987</guid>
-      <media:thumbnail url="https://assets.bizclikmedia.net/1200/d25f0b8e6cd3bcb898f60a072769867b:61a4360b0cedb944273160ed7cdf3d1a/1739202189280.jpg.jpg" />
-      <description>&lt;img src="https://assets.bizclikmedia.net/1200/d25f0b8e6cd3bcb898f60a072769867b:61a4360b0cedb944273160ed7cdf3d1a/1739202189280.jpg.jpg" alt="" /&gt; BCE Sells 49.9% Stake in Bell’s Tower Assets to La Caisse Telco Magazine</description>
     </item>
     <item>
       <title>Siilin kannattavuus koheni – Tekoälyprojektien kysyntä vahvistui - Tivi</title>
@@ -264,22 +429,31 @@
       <description>&lt;img src="https://images.almatalent.fi/cx0,cy158,cw3000,ch1689,1200x/https://assets.almatalent.fi/image/8f2f4049-4bef-5213-ac81-efaa4cc3c787" alt="" /&gt; Tecnotree paransi tulostaan: Tekoäly laskee kustannuksia Tivi</description>
     </item>
     <item>
-      <title>Rethinking telco cloud concerns in the AI era - TelecomTV</title>
-      <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxPYWFpWGNIT3NHWkthNXdVRDVyM05acV80V01vOHRTNVExeHZyNXVLWXZTLUpNN1lvczNWR3RwclhxeFpLRGRJUnhDa0NhNTRxRWpIOV8xYUVleXlxNU9RcmdISG1zenk4NFdyTW16Um45dW1Ea0FUemxKN1FVOW1Wa0xuci1qbkJuRlE0M3p0a1VOa01sTnBkajMxdWkwTm5OUUJyTmln0gGmAUFVX3lxTE9hYWlYY0hPc0daS2E1d1VENXIzTlpxXzRXTW84dFM1UTF4dnI1dUtZdlMtSk03WW9zM1ZHdHByWHF4WktEZElSeENrQ2E1NHFFakg5XzFhRWV5eXE1T1FyZ0hIbXN6eTg0V3JNbXpSbjl1bURrQVR6bEo3UVU5bVZrTG5yLWpuQm5GUTQzenRrVU5rTWxOcGRqMzF1aTBObk5RQnJOaWc?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 10:19:17 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:fcd2a52318e67a285733112daf17fcafeaee90942da113c3e2f1e9d10b5a5699</guid>
-      <media:thumbnail url="https://assets.telecomtv.com/assets/telecomtv/26271-cnt-ribbon-sponsor-int-23406.jpg?w=1200" />
-      <description>&lt;img src="https://assets.telecomtv.com/assets/telecomtv/26271-cnt-ribbon-sponsor-int-23406.jpg?w=1200" alt="" /&gt; Rethinking telco cloud concerns in the AI era TelecomTV</description>
+      <title>Kun tekoälyn kulut uhkaavat karata, kieltäminen on väärä vastaus – keskitetty hallinta tuo kustannukset näkyviin ja pitää datan turvassa - www.tivi.fi</title>
+      <link>https://news.google.com/rss/articles/CBMilgJBVV95cUxNLWJISFVacm82Ym52RmE1TUJVT0d1YUNiMmJaUnBtLV95OHVnUGZuZWhPTGZaZWZuUE81Yk45MkY3cGxFVXcxMTc1SjdFZkM3T0NBakdUYy0zRFJrS0UtQTkzelhfQURJMWlxdXR3Wk51ZUEzVGlwX1NBMENjR0Nadi10MHBINmV6R1o0SkNXaGxCbmU2U1lGOHplMVRCTVZYMjlCeXN0UHRhMFhmMkc5dVFhbzJJNmVYWk51ZmtUTXVYRzVPSFl1YWFoSmFGZGxZaTRSU3RWaC1Mb2NPRTdNajBESWVKd2ZKeUREVXhvQzJ4bnpYaXU5R19FOUZDYWJvSmFNdjhmTFZNMFdvQVBHMTBIeUZqQQ?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 11:08:46 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
+      <guid isPermaLink="false">urn:sha256:597c7f73280a4ee6b786e8f326784b9073cc4a3023c8c20f93c06cfc191879e8</guid>
+      <media:thumbnail url="https://www.tivi.fi/kumppanisisallot/wp-content/uploads/sites/11/2026/10/Ahonen_Janne_Advania.jpg" />
+      <description>&lt;img src="https://www.tivi.fi/kumppanisisallot/wp-content/uploads/sites/11/2026/10/Ahonen_Janne_Advania.jpg" alt="" /&gt; Kun tekoälyn kulut uhkaavat karata, kieltäminen on väärä vastaus – keskitetty hallinta tuo kustannukset näkyviin ja pitää datan turvassa www.tivi.fi</description>
     </item>
     <item>
-      <title>Vodafone Peoplewatch: strengthening the political and regulatory bench - Telco Titans</title>
-      <link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQkZfUGZlOHdVM194TURzd0NKSXA2YXJZQVNmbGNxTU9CMjdOLTVXbHItWlF2V1dkUXhpS3NwZ1hWLTgwQWpBRWNkbkd6emRqOGNOeEFhaVhUaDhqWlpyMUczUzB4cXVDMzYwdVl1S2pJaUVLZUNEd282blN0MElKdTdiR2lwcjk3WnJYcnFHemR4eEdCZ21helI3bmdneVB6RGZ1bzdhSHZjRHRSM0lhZEtIZllPVDZsUUlYczhmVl9mOXM?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 09:39:43 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:158348abbfb7e19ab7c1ef527bab1620ce3a03797dd095024af2f87282f60908</guid>
-      <media:thumbnail url="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/1/5/2/19152_vfw252peoplewatch_935496.jpg" />
-      <description>&lt;img src="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/1/5/2/19152_vfw252peoplewatch_935496.jpg" alt="" /&gt; Vodafone Peoplewatch: strengthening the political and regulatory bench Telco Titans</description>
+      <title>Teknologinen riippumattomuus korostuu tekoälyn aikakaudella – Hybridiratkaisut vahvistavat toimintavarmuutta - www.tivi.fi</title>
+      <link>https://news.google.com/rss/articles/CBMihgJBVV95cUxQWUtiWXlsTzJPdFdka0JTa2ZRMEVkZG5zN21mVEM1bXo1eHduQmlHdUw5Z0ZpdURMSmhOdFEwUkppSm9HSEozRGxBYUoxQy13VnNJQ0I0d1QzRENvcEZHMHJYc3A2ZDdWX0dNMFpCSEdWUUYxYVdLRWNYYjQwQ3lIdkNSbWFKZkpTR0RNYXZZU3ZTN3p6NHNVTFZCNU5rZ0FfSzdNSGEzVDEtUXZfSUxEMS1LaVFreEdmaEJTZFR6S2ZLRi02RGdvR3JWbXVXWHhXS25XU1hRS29DLU1jTnA4TXFfNzd0MDBlVGpLV3FneUY3a0Y3c1V1YldIdXhncjktQ25YbF93?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 11:08:46 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
+      <guid isPermaLink="false">urn:sha256:090bb2ffcd61023a91623e55e4f65d07b072c0b16df9715d4ca429e0b1e9340e</guid>
+      <media:thumbnail url="https://www.tivi.fi/kumppanisisallot/wp-content/uploads/sites/11/2026/10/ai-innovation-cloud-technology__G2157473917-scaled.jpg" />
+      <description>&lt;img src="https://www.tivi.fi/kumppanisisallot/wp-content/uploads/sites/11/2026/10/ai-innovation-cloud-technology__G2157473917-scaled.jpg" alt="" /&gt; Teknologinen riippumattomuus korostuu tekoälyn aikakaudella – Hybridiratkaisut vahvistavat toimintavarmuutta www.tivi.fi</description>
+    </item>
+    <item>
+      <title>Indosat CTO Desmond Cheung on Building the Next Era of AI-Powered Telecom - Telecom Review Asia</title>
+      <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxNeVcyQVRYdWJZY2VWZ2VFWXNXSlZjSUNJNUdMOGM1MUpxbmtKZ05VRWxuSW5GVHEyOG16bk5GbERQc0xMS3VyRlgzMDcyck1jMUhOOXBYN0NQR2RyYV83VGRsWWV0bmQ0SFVxNVVPcXVnc2JzZklJOE5OTmk1RDVod3R4dXMta3ZWQkVnS2lRNnB1NHB6cUdlUDM5WkxXRGNGdy03UGVWSW1FUHJrZ2lKVWppaGdfZXdlODhrZUpSVGdZaEh0blVVM1B3?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 11:03:53 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
+      <guid isPermaLink="false">urn:sha256:61f362420d4611d1f2f55ed2f03fb32e338b498e7979cda9bfde18b7bcd0adff</guid>
+      <media:thumbnail url="https://www.telecomreviewasia.com/wp-content/uploads/2026/10/INTERVIEW-Indosat-CTO-Desmond-Cheung-on-Building-the-Next-Era-of-AI-Powered-Telecom-2.jpg" />
+      <description>&lt;img src="https://www.telecomreviewasia.com/wp-content/uploads/2026/10/INTERVIEW-Indosat-CTO-Desmond-Cheung-on-Building-the-Next-Era-of-AI-Powered-Telecom-2.jpg" alt="" /&gt; Indosat CTO Desmond Cheung on Building the Next Era of AI-Powered Telecom Telecom Review Asia</description>
     </item>
     <item>
       <title>Israelilainen yhtiö vakoili Starlinkin käyttäjiä mainoshuutokaupan kautta yli sadassa maassa - Tivi</title>
@@ -309,46 +483,13 @@
       <description>&lt;img src="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/8f791ff3-5ee1-5909-95ac-50f1ed61682f" alt="" /&gt; Anthropicin tietoturva petti testissä – Taustalla DOGE:n työntekijät Tivi</description>
     </item>
     <item>
-      <title>Rwanda files $386 million counterclaim against South Korea’s telco - Techpoint Africa</title>
-      <link>https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzN2Z1cUhLOUZSbWlHT25OLVg4RXNPenRWSE04RGIwb3BlMDZidl93TGl0aFIzM0g1YVJMdzNjYnJwYWVpOGFadkU4bE80ZlVaYndva29VTTFfRVd1a3U0cWR1anB0UQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 07:00:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:9ef4cd1a64a3182433fdc6b9308ab29b0a294ad0eb1c2e3e7e76d3b28b51d0fc</guid>
-      <description>Rwanda files $386 million counterclaim against South Korea’s telco Techpoint Africa</description>
-    </item>
-    <item>
-      <title>GTA 6:n valtava koko paljastui – Vaatii pelaajilta uhrauksia - Tivi</title>
-      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTE9sZm5RcnFlUnBXN0QwQ3lPMzVMS0hNQjNkOWxGcjRNd3ZseU1iTUIzS0k2bTg5WW02ZlVoU050dG1LaUF5NnNyWTUzdUprTzdYTUlDbUdMeEpBRkd2Qy03TnI2bjI4OFMwVWw4Y2tuX1h5Uldj?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 06:33:12 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
-      <guid isPermaLink="false">urn:sha256:3652b88208efbb0bfbd8153845c57d82fa671d8d76df1e628943488c18926281</guid>
-      <media:thumbnail url="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/551b300d-5050-58a0-bcfc-cfc177f6511b" />
-      <description>&lt;img src="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/551b300d-5050-58a0-bcfc-cfc177f6511b" alt="" /&gt; GTA 6:n valtava koko paljastui – Vaatii pelaajilta uhrauksia Tivi</description>
-    </item>
-    <item>
-      <title>Video | Jio Listing: Telco's Stellar Debut Knocks TCS Out Of India's Top Five, SBI Piles On - NDTV Profit</title>
-      <link>https://news.google.com/rss/articles/CBMizAFBVV95cUxOOTV6cmNMOW5qZkRDeXdDUU5oOWlKNDBhTGU1eGdxZnZRaHF3Q1pZaHNldTBxdWppcTFBTnQyMkFjUnE0MTlpYzMtNUJRNUx5QmFkTllyVXZWVmw4bnF4NUR1ZFNpVW00MG1PSFRxQ1liTEkxTVlfZVQ1Y0lrZ2w1UUNCWGlyZVlDdDNwRDNVMGs2VU51aVZSOG5kTUFqVmNfc1V2T1FPUG9iUTFPSkxpM0RaS0ZXeFJHaHoyRlhMTTd5VEJ3emVCLU0tdUc?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 06:31:33 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:1434d68637720377e55ab69d88a7713675c7d7dde14550f626f6f59ba54f98ec</guid>
-      <description>Video | Jio Listing: Telco&amp;#x27;s Stellar Debut Knocks TCS Out Of India&amp;#x27;s Top Five, SBI Piles On NDTV Profit</description>
-    </item>
-    <item>
-      <title>Jio Listing: Telco's Stellar Debut Knocks TCS Out Of India's Top Five, SBI Climbs - NDTV Profit</title>
-      <link>https://news.google.com/rss/articles/CBMivgFBVV95cUxQMG9JbkkxQVk1U2V6OHVoS1o4cHpyQkFhcks1WHZQMmllLUV4QVFGUVIxWWxOSS13REhCZnMxUk8wWDFaU0RHaWk1cHVmQVlJTXpmRzRxQVBLLVJqc2xVUmwwVTkycWpKb1Z0UVVmN2hVY3J2NXE3WUZvN1VLelM4MkE3bVhFZk5kdjRnQ0tPdjk5WGRHLTNLanFfT2c5SkxZOG9tM1ctOXVlamluMi04dGxQOTZrWDVEWEdiamNR0gHGAUFVX3lxTE9tRlJpZkdDeVFadVY2RmlLUjktV2dDdnA3REs1SUE4dFhrbWFVMXNPX1EtdkR4aUpna2hUc3lCV2xvaTN6WnBiZ3lfXzdDQzB2NjIwbzdpai1ITTJrR0lQQlR2Wll4WHNBWUhtdGszUzVtTGVQMERWbjNDZXdSV091cEV2T3ZqX2RzSlplMjViaG5ZZ2NheGV4M2ZHWldYWnpHdEFNWUZLcWJuc2ZIMVh6T2NnanFhM216S2xnWDJXQUMwWVc3dw?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 06:11:22 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:32428baa30d0f761197536e82d397459717ffb713e57b83e99d82c5172391014</guid>
-      <description>Jio Listing: Telco&amp;#x27;s Stellar Debut Knocks TCS Out Of India&amp;#x27;s Top Five, SBI Climbs NDTV Profit</description>
-    </item>
-    <item>
-      <title>Suomen it-alan suuryritys teki tekoälystään avoimen: ”Ei kukaan halua toimittajaloukkuun” - Tivi</title>
-      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTFBQMkFUSUE4QUM5a0YzUW9XOTlLLWhUVzdrc3NVdTN6ZV9RdXBhYVJHS2FycmhlNzh3WXFLVzd4V0JUc1ByMS1PZWtuWWdnRW5pWmZGS25mRnM4eGV2Q3Z6OEEtSEJOTE03OHZLN1oyRDFKNDgy?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 05:00:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
-      <guid isPermaLink="false">urn:sha256:b5db59960f93bb8654ced57371c61860fd3300f8f86dcd34605b8199015d36b1</guid>
-      <media:thumbnail url="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/8c424898-91c0-560c-957e-68675ecbb09a" />
-      <description>&lt;img src="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/8c424898-91c0-560c-957e-68675ecbb09a" alt="" /&gt; Suomen it-alan suuryritys teki tekoälystään avoimen: ”Ei kukaan halua toimittajaloukkuun” Tivi</description>
+      <title>VMO2 judges Ericsson vs. Nokia on AI-RAN - Light Reading</title>
+      <link>https://news.google.com/rss/articles/CBMie0FVX3lxTE5KZVI4Q0NkVFVvbWtzWVd4NnRWTFF3elMxa1J4VzdlUlhyRjZsNjgtb3RGVGVjamZVWkhKNHZaNHQ1Y3ljYllCWWVPUmN2QTFPY3lva1FSY2M2NDdTLXRYUkJ6YnY0TFczUGF5RlBrcTMxX2xHdVRKZXk4QQ?oc=5</link>
+      <pubDate>Wed, 28 Oct 2026 05:43:21 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
+      <guid isPermaLink="false">urn:sha256:2334dad6fa6bb63922d8720eb4bc1494cd6aa17cd43dfdcce4eb543560138874</guid>
+      <media:thumbnail url="https://eu-images.contentstack.com/v3/assets/blt23eb5bbc4124baa6/blt377a4b341431c415/67f7d70639bc7583d329fcc2/O2_Telefonica_logo_on_smartphone_screen_hold_in_hand_and_Virgin_Media_logo_on_blurred_background.jpeg?disable=upscale&amp;width=1200&amp;height=630&amp;fit=crop" />
+      <description>&lt;img src="https://eu-images.contentstack.com/v3/assets/blt23eb5bbc4124baa6/blt377a4b341431c415/67f7d70639bc7583d329fcc2/O2_Telefonica_logo_on_smartphone_screen_hold_in_hand_and_Virgin_Media_logo_on_blurred_background.jpeg?disable=upscale&amp;amp;width=1200&amp;amp;height=630&amp;amp;fit=crop" alt="" /&gt; VMO2 judges Ericsson vs. Nokia on AI-RAN Light Reading</description>
     </item>
     <item>
       <title>NVIDIA to Invest $3B in Meta, Optimize Muse Training and Inference - HPCwire</title>
@@ -369,15 +510,6 @@
       <description>&lt;img src="https://i.nextmedia.com.au/News/telstra_sign.jpg" alt="" /&gt; Telstra deploys billing reconciliation AI agent iTnews</description>
     </item>
     <item>
-      <title>Hakkerina vastuuton tekoäly – Tämä on vasta alkua - Tivi</title>
-      <link>https://news.google.com/rss/articles/CBMic0FVX3lxTE5NQnpYVUpIaGFCRHFaT0g5NTRLS2tRWmhyRTFuZ0NFT2Y1MTAyU0psaTlXQlRRVXRRMl9BVzNFWEpiZ0JpZzhISnM5UWZGWlJ6MDhBUFBTU3ItOGdZUUlWRVQ3am12TFhSR21ZNElWdEtMbzQ?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 04:00:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
-      <guid isPermaLink="false">urn:sha256:dfa4d1c090a6cb89f8a7d99bac2d9a228a332c83bdd54399bb005b2460ce3466</guid>
-      <media:thumbnail url="https://images.almatalent.fi/cx0,cy112,cw1200,ch675,1200x/https://assets.almatalent.fi/image/a87b8ca2-bba9-58db-963c-c13897a79b81" />
-      <description>&lt;img src="https://images.almatalent.fi/cx0,cy112,cw1200,ch675,1200x/https://assets.almatalent.fi/image/a87b8ca2-bba9-58db-963c-c13897a79b81" alt="" /&gt; Hakkerina vastuuton tekoäly – Tämä on vasta alkua Tivi</description>
-    </item>
-    <item>
       <title>Deepseek crushed everyone</title>
       <link>https://www.youtube.com/watch?v=DDZ-a6bAn3Y</link>
       <pubDate>Wed, 28 Oct 2026 03:47:38 GMT</pubDate>
@@ -385,15 +517,6 @@
       <guid isPermaLink="false">urn:sha256:1e3158996eaa9cb3a693a26a98f533c84b8b067830d329eea41f54394ee51cf9</guid>
       <media:thumbnail url="https://i1.ytimg.com/vi/DDZ-a6bAn3Y/hqdefault.jpg" />
       <description>&lt;img src="https://i1.ytimg.com/vi/DDZ-a6bAn3Y/hqdefault.jpg" alt="" /&gt; </description>
-    </item>
-    <item>
-      <title>Nazara Technologies’ Mobile Gaming Portfolio Strategy: From Telco Subscriptions to an IP-Led Global Gaming Platform - MarkHub24</title>
-      <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxPMkl3djY4MXJvY2VrOFdsZ2dCaGN6S0FaTmd6c0s0enYxeWR2cDVyN1ZCVUZDQ1NfZUxtZzBzdDloRmRhTFFEVUVSdzNQaU1CellzU3QwMzBpR2duVnQxZ0VRY0xWeFBRMG9uNXpwUHRYcTRGTjNPV3lhU1l2em5FY01qVGRGZ1hRTTNSUnNnSS1FMF9SLVdLb3RydXVHUXl0NlNQYmhCNDBSWGpTc3lUb2JyclNUcmNIRHZLcFRodFVjc2RrS0Jr?oc=5</link>
-      <pubDate>Wed, 28 Oct 2026 03:31:35 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=TELCO&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">TELCO News-WEB</source>
-      <guid isPermaLink="false">urn:sha256:d24278784e789494ed01876d6424f20acfcfda529230f7226bf10e44f7d604d5</guid>
-      <media:thumbnail url="https://static.wixstatic.com/media/8a841b_358ee847fd5e46a0a1e2e24492354adf~mv2.jpg/v1/fill/w_985,h_537,al_c/8a841b_358ee847fd5e46a0a1e2e24492354adf~mv2.jpg" />
-      <description>&lt;img src="https://static.wixstatic.com/media/8a841b_358ee847fd5e46a0a1e2e24492354adf~mv2.jpg/v1/fill/w_985,h_537,al_c/8a841b_358ee847fd5e46a0a1e2e24492354adf~mv2.jpg" alt="" /&gt; Nazara Technologies’ Mobile Gaming Portfolio Strategy: From Telco Subscriptions to an IP-Led Global Gaming Platform MarkHub24</description>
     </item>
     <item>
       <title>AMD Details Meta AI Infrastructure Collaboration, Plans $1B Investment - HPCwire</title>
@@ -422,41 +545,6 @@
       <description>Agentic AI Travel Tools From Google, Meta and Expedia Signal a Shift Worth Watching Kansas City Star</description>
     </item>
     <item>
-      <title>AI Platforms and Data Firms Emerge as Key Investment Targets Post-SaaS-Pocalypse - 조선일보</title>
-      <link>https://news.google.com/rss/articles/CBMijgFBVV95cUxQVkVtTUJZemNOOXE2QUtaU2drQ0Y5djEtaHR2V2tCQmhDbHJmeHRBM3J2NTZXZEhiT1BXeEp5SS1RbGh4VTdua1d1dVdOSW9YaF9mN1NScmFZV0VwU0daZXkwU3d3YkZYSlgwOFZLX3BFOXFraER6bFNtYUw3SlVma1RleGI5Q0YxNXVRbVVn?oc=5</link>
-      <pubDate>Tue, 27 Oct 2026 23:29:41 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
-      <guid isPermaLink="false">urn:sha256:18aaf8067add0ec5feea3a2ae6f17d3d9a73960cf160644710774982b1133a3b</guid>
-      <media:thumbnail url="https://www.chosun.com/resizer/v2/I2IHTB7IYJDX3GGTTD4H7MLOFU.jpg?auth=8f823b4a89258ed079bee72550a5a02f51d6d36c86aa27df2fe6ca329d0bb9fc&amp;width=1200&amp;height=630&amp;smart=true" />
-      <description>&lt;img src="https://www.chosun.com/resizer/v2/I2IHTB7IYJDX3GGTTD4H7MLOFU.jpg?auth=8f823b4a89258ed079bee72550a5a02f51d6d36c86aa27df2fe6ca329d0bb9fc&amp;amp;width=1200&amp;amp;height=630&amp;amp;smart=true" alt="" /&gt; AI Platforms and Data Firms Emerge as Key Investment Targets Post-SaaS-Pocalypse 조선일보</description>
-    </item>
-    <item>
-      <title>Agentic AI Is Quietly Reshaping How We Book Travel as Google, Meta and Expedia Race Ahead - Raleigh News &amp; Observer</title>
-      <link>https://news.google.com/rss/articles/CBMiaEFVX3lxTE1id3V6NDZXRDBPTllKVEo4cl8tdFpJWHNHM2Y1UVhRUnJpaGRYczh3aXVIcVlMVXAtV1FGQU1uWVc1TW1ScGFucmNTNE5xbl9kSFFxRHlyUFkxRlBpV0tBUXU0X0twTzVl0gFoQVVfeXFMTjYtTUpVVHRXMEVkclNWTEdjTHVhNm01RVFtcm42TmJ0UjI2SUlYZzc2VzYzWFk1dl9UQXdNRHZoR2xmRG1nc3dPMWVGZ0UtV1hnX3lqbjBfNE9jMTRlY3FFdWhjaU53RDE?oc=5</link>
-      <pubDate>Tue, 27 Oct 2026 23:00:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
-      <guid isPermaLink="false">urn:sha256:fd7c4203be72678454a78b087d30e0f0cef49d44ad7658d2d6a11c4520ecb16c</guid>
-      <description>Agentic AI Is Quietly Reshaping How We Book Travel as Google, Meta and Expedia Race Ahead Raleigh News &amp;amp; Observer</description>
-    </item>
-    <item>
-      <title>The era of the Renaissance Developer is here, thanks to AI. Amazon wants software engineers to adapt. - Business Insider</title>
-      <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxQTEtTazhhZEFiRC1ta0ZTWW5VUjBhdHc2QkFYLVk5UjZWeXFxbTRzcE0tYzVvZ2NULTJZTk44amphaW5mNHd1anRBQmxlVUwzdGNYQy1STDEtZUYtdXZNWlY1ckdLN2lOUXIwRkhkb3BucXNmSWh4R3pfa2xlTUxMM0NVejdlamJRRGZzdE10QzNJT2lYWlk1T2dNOFB3SVE?oc=5</link>
-      <pubDate>Tue, 27 Oct 2026 21:19:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
-      <guid isPermaLink="false">urn:sha256:9a18dbfc0ca5f0901542741548fb3b395227ae7ee7d0daeb598ff99106dac2e7</guid>
-      <media:thumbnail url="https://i.insider.com/6ae0ff58e793e12971426000?width=1200&amp;format=jpeg" />
-      <description>&lt;img src="https://i.insider.com/6ae0ff58e793e12971426000?width=1200&amp;amp;format=jpeg" alt="" /&gt; The era of the Renaissance Developer is here, thanks to AI. Amazon wants software engineers to adapt. Business Insider</description>
-    </item>
-    <item>
-      <title>The Big Technology Guide To: Enterprise AI - Big Technology | Alex Kantrowitz</title>
-      <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE1WemxCTjZWeFQ1a0hIRTRoV1E4VkZWc29DTzRfVUV6cVZGX0tlUC05WEZqNUtlX3d1ZWt2cDFtZW1XQzBQZXA2TDBteFFqcEdsM1BnbFJGd19jSmtkY2w5Mk5vMlFsX0QwSzQzVi1qVWVvaGxwdG5tVXNn?oc=5</link>
-      <pubDate>Tue, 27 Oct 2026 19:31:28 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=ChatGPT%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20Claude%20OR%20LLM%20OR%20Perplexity%20OR%20Meta%20AI%20OR%20AI%20Tools%20OR%20Enterprise%20AI%20OR%20AI%20in%20Software&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI models</source>
-      <guid isPermaLink="false">urn:sha256:1cc66aaf1293a17d628f0c76a2862ca7651cc3c1f7fa86afea596eac6df571b5</guid>
-      <media:thumbnail url="https://substackcdn.com/image/fetch/$s_!IsbX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd5d164a-d05b-479a-8a4f-172d23f49a88_1683x935.png" />
-      <description>&lt;img src="https://substackcdn.com/image/fetch/$s_!IsbX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd5d164a-d05b-479a-8a4f-172d23f49a88_1683x935.png" alt="" /&gt; The Big Technology Guide To: Enterprise AI Big Technology | Alex Kantrowitz</description>
-    </item>
-    <item>
       <title>I Ranked 5 Ways to Wake Up</title>
       <link>https://www.youtube.com/shorts/mMzaL15KFVY</link>
       <pubDate>Tue, 27 Oct 2026 18:47:13 GMT</pubDate>
@@ -475,15 +563,6 @@
       <description>&lt;img src="https://imgproxy.divecdn.com/c8WsfT4WZlHJ5K0mLVafYUchO9a9CHD_23cy82xss7o/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UZWNoVGFyZ2V0X2Jsb2ctaGVhZGVyMnguanBn.webp" alt="" /&gt; 12 top machine learning use cases and business applications TechTarget</description>
     </item>
     <item>
-      <title>Suomen menestyneimmän e-urheiluseuran tarina päättyi konkurssiin: ”GG” - Tivi</title>
-      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTE1nZzREX2pKdVozQjFMcEs4aFFvZnBfb0U0Z1pqc21DbGdMdjV4TlhpT25JMmVzMmlVNjFnYXpST0RmTWxVWFF4M2xYTnJ1OEZXQ2tNbDQ5QXNZVnJ4ZW9aNzBhOFFWN21pejFjLXJHd3I2MUJ1?oc=5</link>
-      <pubDate>Tue, 27 Oct 2026 17:30:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
-      <guid isPermaLink="false">urn:sha256:8a0bfcc2ba64265eb503d99df31cd63a10f71797d8b5e7d09b1247c1dc8ed699</guid>
-      <media:thumbnail url="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/f97416fd-5e07-53d9-b05f-f9918bcdfd7f" />
-      <description>&lt;img src="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/f97416fd-5e07-53d9-b05f-f9918bcdfd7f" alt="" /&gt; Suomen menestyneimmän e-urheiluseuran tarina päättyi konkurssiin: ”GG” Tivi</description>
-    </item>
-    <item>
       <title>Crazy Spy Tech You Can Use For Free!</title>
       <link>https://www.youtube.com/shorts/EUjd_UBApoA</link>
       <pubDate>Tue, 27 Oct 2026 16:43:52 GMT</pubDate>
@@ -491,15 +570,6 @@
       <guid isPermaLink="false">urn:sha256:87281edc5d65cf0d1af67e297611f0498469d7839dea7b169261c60886dcf483</guid>
       <media:thumbnail url="https://i2.ytimg.com/vi/EUjd_UBApoA/hqdefault.jpg" />
       <description>&lt;img src="https://i2.ytimg.com/vi/EUjd_UBApoA/hqdefault.jpg" alt="" /&gt; </description>
-    </item>
-    <item>
-      <title>Tanska yritti korvata Microsoft Officen – Huonosti kävi - Tivi</title>
-      <link>https://news.google.com/rss/articles/CBMidEFVX3lxTFBxSXcxM1NmN2xYelRpM3k0MHlITjRSNHlyR25GUEJzT1hxaEhYZUkySHVFaFZJdGFyM0ZFczN0a3h6VGxLbHlMeXVRaUZla3pPX3MwRDBmdlZ5UEpKM3dCNi1UNVpVb0pDRzFKWnFCZVEwTVVH?oc=5</link>
-      <pubDate>Tue, 27 Oct 2026 16:02:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=site%3Ativi.fi%20%28AI%20OR%20teko%C3%A4ly%29&amp;hl=fi&amp;gl=FI&amp;ceid=FI:fi">TiVI</source>
-      <guid isPermaLink="false">urn:sha256:70b94f45793ae294ceb0b6b05fcfce962d0a36aa242ed79f0c708f87f2d6cf96</guid>
-      <media:thumbnail url="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/4c5a2629-3d86-53ca-a80a-8885736207f5" />
-      <description>&lt;img src="https://images.almatalent.fi/1200x/https://assets.almatalent.fi/image/4c5a2629-3d86-53ca-a80a-8885736207f5" alt="" /&gt; Tanska yritti korvata Microsoft Officen – Huonosti kävi Tivi</description>
     </item>
     <item>
       <title>Anthropic’s IPO: Who Gets the Voting Power?</title>
@@ -546,15 +616,6 @@
       <description>PNCC deploys AI-powered fraud prevention technology to protect Palau’s telecoms networks Intelligent CISO</description>
     </item>
     <item>
-      <title>Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA - Cyprus Shipping News</title>
-      <link>https://news.google.com/rss/articles/CBMiiwJBVV95cUxOOEQyaHRRa0NUQVZDLVJQZXVJUkVjTmJDaFhnR2QzQ2x2TXJfR3E3bk1QUnp5cFNGLUhRSUt2M2ZySVQwc01GTkwxckFsNzJNZ3V0X25BTzlZcHJiRVJxODU1ZWxqbE4zMUx3U3lOR3pHcmdMRzYzVDZBM3JXa0ZCbDhoY21lSUJ0ZkdMVl95ajJXaE1nWnRfUVZobG9aOUtqYmZTcTBhSzQ4Q2NyUzFHQmpBV00yV253NTNXZzZ4Ukg1aG45ck1RSnY1MWNPSFVPR2VGMW9jZWE5UFNBejhwMU1xOVE0UDZvZXAzbW9EcVJvZTBfalpNTVYtd3FYakV1MUNOTjVCeXJXTE0?oc=5</link>
-      <pubDate>Tue, 27 Oct 2026 03:18:32 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
-      <guid isPermaLink="false">urn:sha256:3c9e2fcf424b4584ff1bb70e869065762487fa63170cf5045b431e19edd35b0e</guid>
-      <media:thumbnail url="https://cyprusshippingnews.com/wp-content/uploads/2026/10/Nokia-advances-AI-RAN-toward-commercial-deployment-and-physical-AI-launches-sovereign-agentic-AI-platform-for-telco-autonomy-with-NVIDIA.jpg" />
-      <description>&lt;img src="https://cyprusshippingnews.com/wp-content/uploads/2026/10/Nokia-advances-AI-RAN-toward-commercial-deployment-and-physical-AI-launches-sovereign-agentic-AI-platform-for-telco-autonomy-with-NVIDIA.jpg" alt="" /&gt; Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA Cyprus Shipping News</description>
-    </item>
-    <item>
       <title>This is much more concerning than you think...</title>
       <link>https://www.youtube.com/watch?v=JI3bbZNdyeA</link>
       <pubDate>Tue, 27 Oct 2026 01:58:24 GMT</pubDate>
@@ -562,15 +623,6 @@
       <guid isPermaLink="false">urn:sha256:42e7b58ae01f01450b72f1c07c7a36474d76a00ccb39bcbe8bacd272dac5cf96</guid>
       <media:thumbnail url="https://i3.ytimg.com/vi/JI3bbZNdyeA/hqdefault.jpg" />
       <description>&lt;img src="https://i3.ytimg.com/vi/JI3bbZNdyeA/hqdefault.jpg" alt="" /&gt; </description>
-    </item>
-    <item>
-      <title>Singtel reins in AI sprawl with sovereign inferencing platform - Computer Weekly</title>
-      <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxNRFhmM1ZuNEI1YXZNbmdEdTk4T2lJbzFxLWx2UXpGMUdpdjEzMmNwenpYU1VxSHF5Z21feHpxX3RwRHZUc2JaWmhodnNTT2ZXMFR5aGZ2eWU4TUxyRkcyenNZVzhZekxGY0tQb1lSVm9GQ2tVV3ltZHlGTkFuSVhtRk9Na1IxTkMwQllyQlU5REt5UjdrRGxxVDI4UWl2aG56QWFUQlJXN284amZu?oc=5</link>
-      <pubDate>Mon, 26 Oct 2026 23:55:42 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
-      <guid isPermaLink="false">urn:sha256:0a2daef8797c9154184c4804d3df40bf617a622a8178e88ec45c726961a9d225</guid>
-      <media:thumbnail url="https://www.computerweekly.com/rms/German/Hero-Mobile-phone-antenna-legan80-adobe.jpg" />
-      <description>&lt;img src="https://www.computerweekly.com/rms/German/Hero-Mobile-phone-antenna-legan80-adobe.jpg" alt="" /&gt; Singtel reins in AI sprawl with sovereign inferencing platform Computer Weekly</description>
     </item>
     <item>
       <title>ANOTHER Flying Car? (Not Tesla / Not AI)</title>
@@ -582,22 +634,13 @@
       <description>&lt;img src="https://i4.ytimg.com/vi/gC18kqOcCEI/hqdefault.jpg" alt="" /&gt; </description>
     </item>
     <item>
-      <title>Telefónica buys 10% of Seville-based AI specialist OGA - Telco Titans</title>
-      <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxQZENSZXBpbmxScndxdzBaZTNFLVh0dnpmR256VGMzWDFtbXM1bF9xZERNV3V5ejc4c2pmQXdhbHNxOE9aOVhULU5ud0JDdzFuUmFlbjl5UE9xNVlIT0xNSUlwTEhsYmJEcjBoTWkwcWhCZkRScXo1eVl1Ty1PLWtTMU0xVHI3c3E4dGVnbHB4dGhFWUVvXzM5U25kUGlMRjlCNUd5UWxhWG04MF9RRU1fMg?oc=5</link>
-      <pubDate>Mon, 26 Oct 2026 16:23:50 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
-      <guid isPermaLink="false">urn:sha256:f55263ae2f0ef80dc2f1d028399f1aeca82a395468a0e08e4260fe32cefbe873</guid>
-      <media:thumbnail url="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/1/4/0/19140_tfw208_oga_617045_crop.jpeg" />
-      <description>&lt;img src="https://db8n10t56pnoz.cloudfront.net/Pictures/1024x536/1/4/0/19140_tfw208_oga_617045_crop.jpeg" alt="" /&gt; Telefónica buys 10% of Seville-based AI specialist OGA Telco Titans</description>
-    </item>
-    <item>
-      <title>Why the network unleashes the value of AI - RCR Wireless News</title>
-      <link>https://news.google.com/rss/articles/CBMibkFVX3lxTE9fdmhhSGZNMnVkSkFyTC1za2o4Nlh6azM0VDlfcFpQTldFU2JhR29wbjhWSDZFTmF3V3o1UGI4RHY4QlpMcGN3ZFREM3NHc0hRaUIzbGJuaGRsQXhZYjQxbmhqWlYyVlVCQU0zaFpB?oc=5</link>
-      <pubDate>Mon, 26 Oct 2026 16:22:44 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Telco%20AI%20OR%20Generative%20AI%20Telco%20OR%20Operator%20AI%20OR%20Elisa%20AI%20OR%20DNA%20AI%20OR%20Vodafone%20AI%20OR%20T-Mobile%20AI%20OR%20Verizon%20AI&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">Telco AI</source>
-      <guid isPermaLink="false">urn:sha256:e18db1c4a94b9211c76e46ede89e5ac388da5b604e97a78e6b2e252a8bd05571</guid>
-      <media:thumbnail url="https://rcrwireless.com/wp-content/uploads/2026/10/Image-9.jpg" />
-      <description>&lt;img src="https://rcrwireless.com/wp-content/uploads/2026/10/Image-9.jpg" alt="" /&gt; Why the network unleashes the value of AI RCR Wireless News</description>
+      <title>The top 10 enterprise AI applications: What 1,533 real-world projects show - IoT Analytics</title>
+      <link>https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tWUNyY0V6T2s5NnZBbkFpMTlfblgybXFmdWMxY010Y3JVQmxxb3pBZHlSaVZhOVBZeE1CUERWTVNhR2daSVBlQ21RS0NIT0dYcWxzZXc4WEtKLUJxeWNKM2hpVW5IdFVT?oc=5</link>
+      <pubDate>Mon, 26 Oct 2026 19:46:57 GMT</pubDate>
+      <source url="https://news.google.com/rss/search?q=Generative%20AI%20Enterprise%20use%20cases&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI Enterprise use cases</source>
+      <guid isPermaLink="false">urn:sha256:689f719cac10c4983d9204e3c3bf3ab92054e031793962ce31f43e8b2791ca10</guid>
+      <media:thumbnail url="https://iot-analytics.com/wp-content/uploads/2026/10/the-top-10-enterprise-ai-applications-600.png" />
+      <description>&lt;img src="https://iot-analytics.com/wp-content/uploads/2026/10/the-top-10-enterprise-ai-applications-600.png" alt="" /&gt; The top 10 enterprise AI applications: What 1,533 real-world projects show IoT Analytics</description>
     </item>
     <item>
       <title>The Robot Butler Will Clean Up After You</title>
@@ -672,15 +715,6 @@
       <description>&lt;img src="https://i4.ytimg.com/vi/WSHEBdmahHY/hqdefault.jpg" alt="" /&gt; </description>
     </item>
     <item>
-      <title>Team AMA (and Kimi K3.1 Testing!!)</title>
-      <link>https://www.youtube.com/watch?v=7fZ1rFcm1nA</link>
-      <pubDate>Fri, 23 Oct 2026 18:07:47 GMT</pubDate>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA">Matthew Berman</source>
-      <guid isPermaLink="false">urn:sha256:3f98b1e5518bef8dca2ad3e10a4cef47e43e7290a591889f9250fdf88c845440</guid>
-      <media:thumbnail url="https://i4.ytimg.com/vi/7fZ1rFcm1nA/hqdefault.jpg" />
-      <description>&lt;img src="https://i4.ytimg.com/vi/7fZ1rFcm1nA/hqdefault.jpg" alt="" /&gt; </description>
-    </item>
-    <item>
       <title>AI News: 24 Things You Need To Know This Week</title>
       <link>https://www.youtube.com/watch?v=TVRCcMlvR10</link>
       <pubDate>Fri, 23 Oct 2026 17:40:19 GMT</pubDate>
@@ -688,42 +722,6 @@
       <guid isPermaLink="false">urn:sha256:f8aa6afe68bda35a3772e2b342186df098b263b2f96dd2d0e0340fbdd903730e</guid>
       <media:thumbnail url="https://i1.ytimg.com/vi/TVRCcMlvR10/hqdefault.jpg" />
       <description>&lt;img src="https://i1.ytimg.com/vi/TVRCcMlvR10/hqdefault.jpg" alt="" /&gt; </description>
-    </item>
-    <item>
-      <title>Sam Altman on Why Your Most Important Advice Should Come From People</title>
-      <link>https://www.youtube.com/shorts/f8uIINtoJCM</link>
-      <pubDate>Fri, 23 Oct 2026 17:03:19 GMT</pubDate>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA">Matthew Berman</source>
-      <guid isPermaLink="false">urn:sha256:63d58a2b48320461b3950dfa167d76378fb70f7e7b19b0cdc4ad927a8bff82cd</guid>
-      <media:thumbnail url="https://i3.ytimg.com/vi/f8uIINtoJCM/hqdefault.jpg" />
-      <description>&lt;img src="https://i3.ytimg.com/vi/f8uIINtoJCM/hqdefault.jpg" alt="" /&gt; </description>
-    </item>
-    <item>
-      <title>Generative AI Use Cases in Australia for Enterprises - Appinventiv</title>
-      <link>https://news.google.com/rss/articles/CBMicEFVX3lxTE1DemI4S1U0Ny0yUVYyT2VPRHdObGtHOHRSV1dzZ2x3ZjZ4T2ZtN1dZVm1NbmdFNHB6QnY5VkhIMDFUWW1EYjBRX1lTOWtUNzQ3N1M5NV9MTURnSGZ6WDhLSVJxWXhiV1RZanNFUjNJUUo?oc=5</link>
-      <pubDate>Thu, 22 Oct 2026 07:00:00 GMT</pubDate>
-      <source url="https://news.google.com/rss/search?q=Generative%20AI%20Enterprise%20use%20cases&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">AI Enterprise use cases</source>
-      <guid isPermaLink="false">urn:sha256:b4ae8da82eb7f56b511a8132cd81a4addce1278eec8cc0f0e5bae58e2c9eaef2</guid>
-      <media:thumbnail url="https://appinventiv.com/wp-content/uploads/2026/02/banner-13-1.webp" />
-      <description>&lt;img src="https://appinventiv.com/wp-content/uploads/2026/02/banner-13-1.webp" alt="" /&gt; Generative AI Use Cases in Australia for Enterprises Appinventiv</description>
-    </item>
-    <item>
-      <title>Personal Body Guard Robot - What could go wrong?</title>
-      <link>https://www.youtube.com/shorts/dyrNQV0F3Zs</link>
-      <pubDate>Thu, 22 Oct 2026 03:06:41 GMT</pubDate>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g">Matt Wolfe</source>
-      <guid isPermaLink="false">urn:sha256:297440e5d77a9f2186a7c1311ca789d6c5439c6a44c38a1236e451673087c5c9</guid>
-      <media:thumbnail url="https://i1.ytimg.com/vi/dyrNQV0F3Zs/hqdefault.jpg" />
-      <description>&lt;img src="https://i1.ytimg.com/vi/dyrNQV0F3Zs/hqdefault.jpg" alt="" /&gt; </description>
-    </item>
-    <item>
-      <title>11 AI Breakthroughs You Didn’t Know Existed</title>
-      <link>https://www.youtube.com/watch?v=umGZrkyTRtw</link>
-      <pubDate>Wed, 21 Oct 2026 17:45:26 GMT</pubDate>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g">Matt Wolfe</source>
-      <guid isPermaLink="false">urn:sha256:6276988f9ad8b1c747af956d94a433c44fd2bc3e4be46f2e09fe98f6457456f1</guid>
-      <media:thumbnail url="https://i2.ytimg.com/vi/umGZrkyTRtw/hqdefault.jpg" />
-      <description>&lt;img src="https://i2.ytimg.com/vi/umGZrkyTRtw/hqdefault.jpg" alt="" /&gt; </description>
     </item>
   </channel>
 </rss>
