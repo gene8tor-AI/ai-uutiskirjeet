@@ -1,5 +1,17 @@
 # TASKS — AI-uutiskirjeet GitHub Pages
 
+## TASK-20261101-MORNING — AI Morning Brief 1.11.2026
+- Status: IN PROGRESS — preflight before publication.
+- Implements: SPEC-3.1, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1; existing approved behavior, no product/settings change.
+- Authority: cron eafe083d-2415-4764-946e-e7cadcfff1ac, this run authorizes combined Finnish HTML publication and only one send_news_link_once.py invocation after verified public HTTP 200. No Notion writes, SMTP or delivery retries.
+- External preflight: exact repository gene8tor-AI/ai-uutiskirjeet, owner Anna Korpi / gene8tor-AI, production branch main; existing Pages https://gene8tor-ai.github.io/ai-uutiskirjeet/; exact page paivan_ai_uutiset_2026-11-01.html. Billing account none/no changes. Public boundary only Finnish editorial summaries and public source URLs; no raw emails/RSS, account metadata or credentials. Existing worktree divergence and uncommitted files excluded via isolated news/morning-20261101 based on origin/main. Rollback: revert bounded publication commit/index; email cannot be recalled.
+- Delivery: existing agreed work recipient via guarded script only; one Europe/Helsinki daily attempt, SENT/SKIPPED/error recorded, never retry or change routes. Exact HTML intro reused.
+- Scope/impact: new daily HTML, generated index entry and this task; read-only source collections. No ARCHITECTURE/DECISIONS change or Notion map applies. ASSUMPTION: AI-focused YouTube selection uses last seven days, matching weekly tool context, because cron supplies no separate age limit.
+- Acceptance: full combined coverage, at least ten news/Telco and ten qualifying tools when sources permit, all requested categories incl. Europe/USA/Asia and X status, target seven verified videos; Finnish 2–4-sentence summaries, dated original links, no invented signals. Local HTTP 200/source checks before publication; valid HTML, index build/diff-check, reviewed focused commit; public HTTP 200 and matching bytes before guarded sender; recorded final commit/remote status and limitations.
+- Pre-publication verification: PASS — three newsletters read; 38 date-filtered RSS candidates; 11 news/Telco + 10 tool + 7 video cards; all requested categories, max two stories per vendor. Original public source pages retrieved HTTP 200, source/claim/date review, seven video metadata/thumbnail checks, exact intro reuse, structural HTML/links, canonical-copy equality and local byte-identical HTTP 200 preview PASS. build_index.py and git diff --check PASS; index narrowed to the single new entry, unrelated ordering preserved. Mistral/Cohere 29.10. items explicitly labelled background; tools 27.–30.10. X API returned 403 credit/spending-limit exhaustion; visible no-result note. Some Brave HTTP 429 and blocked Reuters/market/SCMP fetches: unverified content excluded. No quota/settings change.
+- Validation corrections: fixed local harness handling of self-closing HTML void tags and removed one inherited CSS trailing-whitespace line from all identical HTML copies; all checks rerun before publication.
+- Publication/delivery verification: pending exact public HTTP 200/content check and one guarded sender invocation.
+
 ## TASK-20261028-MORNING — AI Morning Brief 28.10.2026
 - Status: IN PROGRESS — preflight corrected after an initial remote-revision push rejection; no public content has been published from this run.
 - Implements: SPEC-3.1, SPEC-7.1, SPEC-7.2, SPEC-9.1, SPEC-10.1. Existing approved publication behavior; no product, access, billing or Pages-configuration change.
