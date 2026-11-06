@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-06T11:15:35.818171+00:00",
+  "updated": "2026-11-06T21:41:08.141746+00:00",
   "status": "ok",
-  "items": 76,
+  "items": 75,
   "sources": [
     {
       "name": "AI tool OR generative AI tool",
       "status": "ok",
-      "eligible": 93
+      "eligible": 95
     },
     {
       "name": "Microsoft | LinkedIn",
@@ -16,7 +16,7 @@
     {
       "name": "TiVI",
       "status": "ok",
-      "eligible": 32
+      "eligible": 28
     },
     {
       "name": "Matthew Berman",
@@ -41,25 +41,25 @@
     {
       "name": "Telco AI",
       "status": "ok",
-      "eligible": 40
+      "eligible": 34
     },
     {
       "name": "TELCO News-WEB",
       "status": "ok",
-      "eligible": 62
+      "eligible": 70
     },
     {
       "name": "Matt Wolfe",
       "status": "ok",
-      "eligible": 8
+      "eligible": 7
     }
   ],
   "images": {
-    "source": 15,
-    "reused": 8,
-    "article": 36,
-    "unavailable": 17,
+    "source": 18,
+    "reused": 17,
+    "article": 29,
+    "unavailable": 11,
     "budget": 0,
-    "withImage": 59
+    "withImage": 64
   }
 }
