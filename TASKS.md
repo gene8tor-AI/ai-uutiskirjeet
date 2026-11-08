@@ -476,3 +476,12 @@ PublicationPASS: revieweddd4fe69/PR15 mergef87c9bbabe8733d375e94151270cdd131333c
 - Acceptance: original source read HTTP200; four Finnish sentences, attributed metrics and restricted availability; generated index and diff review; committed public page HTTP200/content match before single guarded email attempt, Gmail message ID, Notion page ID. No new infrastructure/access/billing or unrelated edits.
 - Source review: OpenAI original fetched 2026-11-06T13:31Z; ExploitGym48.5% vs32.1%; scope99.93%/100%; Firefox81 and Linux948 are manufacturer reports. No exploit instructions included.
 - Delivery evidence: PASS — content5354dcd641131b47e5e719551d0da6773b4d8a08; Pages run42226306625 success; exact public URL HTTP200 and byte equality. Gmail SENT message1a1b114bb9117089, single attempt. Notion page410c533e-271b-8109-82d9-e5e620d13961 created with original URL/summary. Default Node failed before execution due missing dylib; explicit nvm Node22.22.0 succeeded. Index rebuilt then narrowed to one new entry to preserve unrelated ordering. Source/availability/metric review and git diff --check PASS. No recipient-inbox arrival claim.
+
+
+## TASK-MB-20261108 — AI Morning Brief 8.11.2026
+- Status: IN PROGRESS. NEWS-2.1; SPEC-3.1/7.1/7.2/9.1/10.1. Existing authorized daily content, no behavior change.
+- Authority: cron eafe083d-2415-4764-946e-e7cadcfff1ac, Anna topic35 msg3808. Owner Anna/main.
+- External preflight: gene8tor-AI/ai-uutiskirjeet main, existing production Pages https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-11-08.html. Owner Anna Korpi/gene8tor-AI; existing billing unchanged; no new resources/settings/access. Public source URLs and Finnish summaries only; private intake and credentials excluded.
+- Acceptance: all categories, source/date checks, archive deduplication, YouTube metadata/thumbnails, local HTTP200 before publication, index/diff review; committed public HTTP200/exact bytes before one send_news_link_once.py attempt to configured work recipient; no retry/alternative route/Notion writes.
+- Rollback: revert bounded page/index commit; email cannot be recalled. Evidence /tmp/brief-20261108 and projects/news-production-review/evidence/morning-brief-20261108.
+- Prepublication PASS: 18 distinct source cards (10 news including 2 Telco, 8 tools), 7 verified videos; 2839 words. All categories retained. Local HTTP200/exact bytes, existing Pages200, all7thumbnails200, index narrowed to new entry, diff/editorial review PASS. X403 quota; USA no new verifiable item; older week items explicitly dated.
