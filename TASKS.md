@@ -479,9 +479,10 @@ PublicationPASS: revieweddd4fe69/PR15 mergef87c9bbabe8733d375e94151270cdd131333c
 
 
 ## TASK-MB-20261108 — AI Morning Brief 8.11.2026
-- Status: IN PROGRESS. NEWS-2.1; SPEC-3.1/7.1/7.2/9.1/10.1. Existing authorized daily content, no behavior change.
+- Status: DONE/PASS. NEWS-2.1; SPEC-3.1/7.1/7.2/9.1/10.1. Existing authorized daily content, no behavior change.
 - Authority: cron eafe083d-2415-4764-946e-e7cadcfff1ac, Anna topic35 msg3808. Owner Anna/main.
 - External preflight: gene8tor-AI/ai-uutiskirjeet main, existing production Pages https://gene8tor-ai.github.io/ai-uutiskirjeet/paivan_ai_uutiset_2026-11-08.html. Owner Anna Korpi/gene8tor-AI; existing billing unchanged; no new resources/settings/access. Public source URLs and Finnish summaries only; private intake and credentials excluded.
 - Acceptance: all categories, source/date checks, archive deduplication, YouTube metadata/thumbnails, local HTTP200 before publication, index/diff review; committed public HTTP200/exact bytes before one send_news_link_once.py attempt to configured work recipient; no retry/alternative route/Notion writes.
 - Rollback: revert bounded page/index commit; email cannot be recalled. Evidence /tmp/brief-20261108 and projects/news-production-review/evidence/morning-brief-20261108.
 - Prepublication PASS: 18 distinct source cards (10 news including 2 Telco, 8 tools), 7 verified videos; 2839 words. All categories retained. Local HTTP200/exact bytes, existing Pages200, all7thumbnails200, index narrowed to new entry, diff/editorial review PASS. X403 quota; USA no new verifiable item; older week items explicitly dated.
+- Delivery PASS: content commit c05822de1eba87c85169e620e2ecf26d3c8a7cf2, Pages42445504048 success; public URL HTTP200/exact bytes SHA256 00bdeb42904fc406d2492245db3433640b33983c6320a2f070b83eeeba91e437. After public verification only the mandated sender command ran once: SENT Gmail API message1a1b957d2f6a12d3 to existing configured work recipient. No retry, alternative sender, SMTP, HTML email or Notion write. Remote main/content branch matched and working tree clean before this evidence-only closure.
