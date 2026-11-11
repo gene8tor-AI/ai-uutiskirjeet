@@ -29,10 +29,12 @@ for f in main_files:
     if f.startswith("ai_morning_brief_"):
         with open(f, encoding="utf-8") as issue_file:
             issue_html = issue_file.read()
-        if "What's cooking" in issue_html:
+        if "Tekoälyä ajatuksella" in issue_html:
+            title = "Tekoälyä ajatuksella"
+        elif "What's cooking" in issue_html:
             title = "What's cooking in AI?"
-            if "PILOTTINUMERO" in issue_html:
-                title += " — pilottinumero"
+        if ("Tekoälyä ajatuksella" in issue_html or "What's cooking" in issue_html) and "PILOTTINUMERO" in issue_html:
+            title += " — pilottinumero"
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
         main_items.append({"file": f, "date": dt, "title": title, "date_str": date_str, "suffix": suffix})
