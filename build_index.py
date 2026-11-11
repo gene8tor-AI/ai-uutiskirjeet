@@ -25,6 +25,14 @@ for f in main_files:
     date_str = parts[-2] if suffix else parts[-1]
     title_parts = parts[:-2] if suffix else parts[:-1]
     title = "AI:sta arvoa" if f.startswith("ai_arvoa_") else " ".join(title_parts).capitalize().replace("-", " ")
+    # Preserve the new magazine identity without renaming existing archive URLs.
+    if f.startswith("ai_morning_brief_"):
+        with open(f, encoding="utf-8") as issue_file:
+            issue_html = issue_file.read()
+        if "What's cooking" in issue_html:
+            title = "What's cooking in AI?"
+            if "PILOTTINUMERO" in issue_html:
+                title += " — pilottinumero"
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
         main_items.append({"file": f, "date": dt, "title": title, "date_str": date_str, "suffix": suffix})
@@ -32,6 +40,13 @@ for f in main_files:
         pass
 
 main_items.sort(key=lambda x: x["date"], reverse=True)
+
+# Preserve already curated labels when legacy Hot News markup has no matched headline.
+existing_index = ""
+if os.path.exists("index.html"):
+    with open("index.html", encoding="utf-8") as index_file:
+        existing_index = index_file.read()
+existing_hot_titles = dict(re.findall(r'<a href="(hot_news_[^"]+)">([^<]+)</a>', existing_index))
 
 # Get Hot News alerts (expecting format hot_news_YYYY-MM-DD_HHMMSS.html or hot_news_YYYY-MM-DD.html)
 hot_files = glob.glob("hot_news_*.html")
@@ -48,7 +63,7 @@ for f in hot_files:
         dt = datetime.strptime(date_part, "%Y-%m-%d")
         
         # Read the file to extract the actual headline for the link text
-        headline = "Hot News -nosto"
+        headline = existing_hot_titles.get(f, "Hot News -nosto")
         try:
             with open(f, "r", encoding="utf-8") as html_file:
                 content = html_file.read()
