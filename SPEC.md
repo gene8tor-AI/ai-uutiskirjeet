@@ -134,3 +134,7 @@ AI:sta arvoa uses Morning Brief's visual language: 680px white newsletter, warm 
 
 ### SPEC-3.5.1 Explicit skill invocation / manual delivery
 Anna topic35 msg4105 explicitly invokes Hot topic skill for named URL; treat as one-off Hot News authorization without requiring magic words. Existing skill hot-news governs format/Pages/plaintext email/Notes & ToDo. Requested Hot News delivery uses issue-specific claim separate from scheduled-news daily allowance; preserve scheduled cap and no retry on uncertain send. No recurring job change.
+
+
+### SPEC-3.9 Tekoälyä ajatuksella — selkeä yleiskieli
+2026-11-20 topic35 msg6064/6068: kirjoita ei-tekniselle lukijalle, selitä termit, käytä suoria otsikoita ja arkiesimerkkejä. Päivitä 20.11. numero samaan osoitteeseen ja merkitse alkuun päivitetty versio, toivottavasti helpompi ymmärtää. Säilytä aiheet, lähteet, epävarmuudet ja lähdeikkuna; ei uutta sähköpostia tai ajastusmuutosta.
