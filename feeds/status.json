@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-25T00:57:43.400627+00:00",
+  "updated": "2026-11-25T13:17:19.621715+00:00",
   "status": "ok",
-  "items": 77,
+  "items": 76,
   "sources": [
     {
       "name": "AI tool OR generative AI tool",
       "status": "ok",
-      "eligible": 80
+      "eligible": 97
     },
     {
       "name": "Microsoft | LinkedIn",
@@ -31,35 +31,35 @@
     {
       "name": "Artificial Intelligence",
       "status": "ok",
-      "eligible": 101
+      "eligible": 98
     },
     {
       "name": "AI models",
       "status": "ok",
-      "eligible": 11
+      "eligible": 12
     },
     {
       "name": "Telco AI",
       "status": "ok",
-      "eligible": 13
+      "eligible": 17
     },
     {
       "name": "TELCO News-WEB",
       "status": "ok",
-      "eligible": 29
+      "eligible": 43
     },
     {
       "name": "Matt Wolfe",
       "status": "ok",
-      "eligible": 10
+      "eligible": 9
     }
   ],
   "images": {
-    "source": 19,
-    "reused": 21,
-    "article": 26,
-    "unavailable": 11,
+    "source": 23,
+    "reused": 12,
+    "article": 32,
+    "unavailable": 9,
     "budget": 0,
-    "withImage": 66
+    "withImage": 67
   }
 }
